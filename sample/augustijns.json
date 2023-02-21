@@ -1,0 +1,254 @@
+{
+    "enterprise_number": "0416.822.559",
+    "status": {
+        "category": "Status",
+        "code": "AC",
+        "descriptions": {
+            "FR": "Actif",
+            "NL": "Actief"
+        }
+    },
+    "juridical_situation": {
+        "category": "JuridicalSituation",
+        "code": "000",
+        "descriptions": {
+            "DE": "gew\u00f6hnlicher Zustand",
+            "FR": "Situation normale",
+            "NL": "Normale toestand"
+        }
+    },
+    "type_of_enterprise": {
+        "category": "TypeOfEnterprise",
+        "code": 2,
+        "descriptions": {
+            "FR": "Personne morale",
+            "NL": "Rechtspersoon"
+        }
+    },
+    "juridical_form": {
+        "category": "JuridicalForm",
+        "code": "015",
+        "descriptions": {
+            "DE": "Privatgesellschaft mit beschr\u00e4nkter Haftung",
+            "FR": "Soci\u00e9t\u00e9 priv\u00e9e \u00e0 responsabilit\u00e9 limit\u00e9e",
+            "NL": "Besloten vennootschap met beperkte aansprakelijkheid"
+        }
+    },
+    "start_date": "06-01-1977",
+    "addresses": [
+        {
+            "type_of_address": {
+                "category": "TypeOfAddress",
+                "code": "REGO",
+                "descriptions": {
+                    "FR": "Si\u00e8ge",
+                    "NL": "Zetel"
+                }
+            },
+            "zip_code": "2990",
+            "municipality": "Wuustwezel",
+            "street": "Kalmthoutse Steenweg",
+            "house_number": "193",
+            "box": null,
+            "extra_info": null,
+            "date_striking_off": null
+        }
+    ],
+    "establishments": [
+        {
+            "estblishment_number": "2.013.485.121",
+            "start_date": "06-01-1977",
+            "enterprise_number": "0416.822.559",
+            "contacts": [],
+            "addresses": [
+                {
+                    "type_of_address": {
+                        "category": "TypeOfAddress",
+                        "code": "BAET",
+                        "descriptions": {
+                            "FR": "Unit\u00e9 d'\u00e9tablissement",
+                            "NL": "Vestigingseenheid"
+                        }
+                    },
+                    "zip_code": "2990",
+                    "municipality": "Wuustwezel",
+                    "street": "Kalmthoutse Steenweg",
+                    "house_number": "193",
+                    "box": null,
+                    "extra_info": null,
+                    "date_striking_off": null
+                }
+            ]
+        },
+        {
+            "estblishment_number": "2.166.412.549",
+            "start_date": "02-01-2008",
+            "enterprise_number": "0416.822.559",
+            "contacts": [],
+            "addresses": [
+                {
+                    "type_of_address": {
+                        "category": "TypeOfAddress",
+                        "code": "BAET",
+                        "descriptions": {
+                            "FR": "Unit\u00e9 d'\u00e9tablissement",
+                            "NL": "Vestigingseenheid"
+                        }
+                    },
+                    "zip_code": "2630",
+                    "municipality": "Aartselaar",
+                    "street": "Kontichsesteenweg",
+                    "house_number": "35",
+                    "box": null,
+                    "extra_info": null,
+                    "date_striking_off": null
+                }
+            ]
+        },
+        {
+            "estblishment_number": "2.259.372.302",
+            "start_date": "30-11-2016",
+            "enterprise_number": "0416.822.559",
+            "contacts": [],
+            "addresses": [
+                {
+                    "type_of_address": {
+                        "category": "TypeOfAddress",
+                        "code": "BAET",
+                        "descriptions": {
+                            "FR": "Unit\u00e9 d'\u00e9tablissement",
+                            "NL": "Vestigingseenheid"
+                        }
+                    },
+                    "zip_code": "9080",
+                    "municipality": "Lochristi",
+                    "street": "Antwerpse Steenweg",
+                    "house_number": "84",
+                    "box": null,
+                    "extra_info": null,
+                    "date_striking_off": null
+                }
+            ]
+        }
+    ],
+    "denominations": [
+        {
+            "language": {
+                "category": "Language",
+                "code": 2,
+                "descriptions": {
+                    "FR": "n\u00e9erlandais",
+                    "NL": "Nederlands"
+                }
+            },
+            "type_of_denomination": {
+                "category": "TypeOfDenomination",
+                "code": "001",
+                "descriptions": {
+                    "FR": "D\u00e9nomination",
+                    "NL": "Naam"
+                }
+            },
+            "denomination": "AUGUSTYNS"
+        }
+    ],
+    "contacts": [],
+    "activities": [
+        {
+            "activity_group": {
+                "category": "ActivityGroup",
+                "code": 6,
+                "descriptions": {}
+            },
+            "nace_version": 2008,
+            "nace_code": {
+                "category": "Nace2008",
+                "code": 43320,
+                "descriptions": {
+                    "FR": "Travaux de menuiserie",
+                    "NL": "Schrijnwerk"
+                }
+            },
+            "classification": {
+                "category": "Classification",
+                "code": "MAIN",
+                "descriptions": {
+                    "FR": "Activit\u00e9 principale",
+                    "NL": "Hoofdactiviteit"
+                }
+            }
+        },
+        {
+            "activity_group": {
+                "category": "ActivityGroup",
+                "code": 1,
+                "descriptions": {}
+            },
+            "nace_version": 2008,
+            "nace_code": {
+                "category": "Nace2008",
+                "code": 31020,
+                "descriptions": {
+                    "FR": "Fabrication de meubles de cuisine",
+                    "NL": "Vervaardiging van keukenmeubelen"
+                }
+            },
+            "classification": {
+                "category": "Classification",
+                "code": "MAIN",
+                "descriptions": {
+                    "FR": "Activit\u00e9 principale",
+                    "NL": "Hoofdactiviteit"
+                }
+            }
+        },
+        {
+            "activity_group": {
+                "category": "ActivityGroup",
+                "code": 1,
+                "descriptions": {}
+            },
+            "nace_version": 2003,
+            "nace_code": {
+                "category": "Nace2003",
+                "code": 36130,
+                "descriptions": {
+                    "FR": "Fabrication d'autres meubles de cuisine",
+                    "NL": "Vervaardiging van overige keukenmeubelen"
+                }
+            },
+            "classification": {
+                "category": "Classification",
+                "code": "MAIN",
+                "descriptions": {
+                    "FR": "Activit\u00e9 principale",
+                    "NL": "Hoofdactiviteit"
+                }
+            }
+        },
+        {
+            "activity_group": {
+                "category": "ActivityGroup",
+                "code": 6,
+                "descriptions": {}
+            },
+            "nace_version": 2003,
+            "nace_code": {
+                "category": "Nace2003",
+                "code": 45421,
+                "descriptions": {
+                    "FR": "Menuiserie en bois ou en mati\u00e8res plastiques",
+                    "NL": "Schrijnwerk van hout of van kunststof"
+                }
+            },
+            "classification": {
+                "category": "Classification",
+                "code": "MAIN",
+                "descriptions": {
+                    "FR": "Activit\u00e9 principale",
+                    "NL": "Hoofdactiviteit"
+                }
+            }
+        }
+    ]
+}

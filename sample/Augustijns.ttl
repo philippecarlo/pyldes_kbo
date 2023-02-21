@@ -1,0 +1,125 @@
+@prefix kbo: <https://kbopub.economie.fgov.be/kbo#> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix vcard: <http://www.w3.org/2006/vcard/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+kbo:0416822559 a org:Organization,
+        kbo:Enterprise ;
+    skos:prefLabel "AUGUSTYNS" ;
+    kbo:activity kbo:2003_36130,
+        kbo:2003_45421,
+        kbo:2008_31020,
+        kbo:2008_43320 ;
+    kbo:address kbo:4c56f76bfadf63bc94fe ;
+    kbo:establishment kbo:2013485121,
+        kbo:2166412549,
+        kbo:2259372302 ;
+    kbo:juridicalForm kbo:JuridicalForm_015 ;
+    kbo:juridicalSituation kbo:JuridicalSituation_000 ;
+    kbo:status kbo:Status_AC .
+
+kbo:063453edfdb487735ebc a vcard:Address ;
+    vcard:locality "Lochristi" ;
+    vcard:post-office-box "None" ;
+    vcard:postal-code "9080" ;
+    vcard:street-address "Antwerpse Steenweg 84" ;
+    kbo:addressType kbo:TypeOfAddress_BAET .
+
+kbo:2003_36130 a kbo:Activity ;
+    kbo:classification kbo:Classification_MAIN ;
+    kbo:naceCode kbo:Nace2003_36130 .
+
+kbo:2003_45421 a kbo:Activity ;
+    kbo:classification kbo:Classification_MAIN ;
+    kbo:naceCode kbo:Nace2003_45421 .
+
+kbo:2008_31020 a kbo:Activity ;
+    kbo:classification kbo:Classification_MAIN ;
+    kbo:naceCode kbo:Nace2008_31020 .
+
+kbo:2008_43320 a kbo:Activity ;
+    kbo:classification kbo:Classification_MAIN ;
+    kbo:naceCode kbo:Nace2008_43320 .
+
+kbo:2013485121 a org:Site,
+        kbo:Establishment ;
+    kbo:address kbo:4c56f76bfadf63bc94fe ;
+    kbo:startDate "06-01-1977" .
+
+kbo:2166412549 a org:Site,
+        kbo:Establishment ;
+    kbo:address kbo:fb1d74c5e0a275a36aa4 ;
+    kbo:startDate "02-01-2008" .
+
+kbo:2259372302 a org:Site,
+        kbo:Establishment ;
+    kbo:address kbo:063453edfdb487735ebc ;
+    kbo:startDate "30-11-2016" .
+
+kbo:JuridicalForm_015 a kbo:Code ;
+    kbo:codeDescription "Privatgesellschaft mit beschränkter Haftung"@DE,
+        "Société privée à responsabilité limitée"@FR,
+        "Besloten vennootschap met beperkte aansprakelijkheid"@NL ;
+    kbo:codeValue "015" .
+
+kbo:JuridicalSituation_000 a kbo:Code ;
+    kbo:codeDescription "gewöhnlicher Zustand"@DE,
+        "Situation normale"@FR,
+        "Normale toestand"@NL ;
+    kbo:codeValue "000" .
+
+kbo:Nace2003_36130 a kbo:Code ;
+    kbo:codeDescription "Fabrication d'autres meubles de cuisine"@FR,
+        "Vervaardiging van overige keukenmeubelen"@NL ;
+    kbo:codeValue 36130 .
+
+kbo:Nace2003_45421 a kbo:Code ;
+    kbo:codeDescription "Menuiserie en bois ou en matières plastiques"@FR,
+        "Schrijnwerk van hout of van kunststof"@NL ;
+    kbo:codeValue 45421 .
+
+kbo:Nace2008_31020 a kbo:Code ;
+    kbo:codeDescription "Fabrication de meubles de cuisine"@FR,
+        "Vervaardiging van keukenmeubelen"@NL ;
+    kbo:codeValue 31020 .
+
+kbo:Nace2008_43320 a kbo:Code ;
+    kbo:codeDescription "Travaux de menuiserie"@FR,
+        "Schrijnwerk"@NL ;
+    kbo:codeValue 43320 .
+
+kbo:Status_AC a kbo:Code ;
+    kbo:codeDescription "Actif"@FR,
+        "Actief"@NL ;
+    kbo:codeValue "AC" .
+
+kbo:TypeOfAddress_REGO a kbo:Code ;
+    kbo:codeDescription "Siège"@FR,
+        "Zetel"@NL ;
+    kbo:codeValue "REGO" .
+
+kbo:fb1d74c5e0a275a36aa4 a vcard:Address ;
+    vcard:locality "Aartselaar" ;
+    vcard:post-office-box "None" ;
+    vcard:postal-code "2630" ;
+    vcard:street-address "Kontichsesteenweg 35" ;
+    kbo:addressType kbo:TypeOfAddress_BAET .
+
+kbo:4c56f76bfadf63bc94fe a vcard:Address ;
+    vcard:locality "Wuustwezel" ;
+    vcard:post-office-box "None" ;
+    vcard:postal-code "2990" ;
+    vcard:street-address "Kalmthoutse Steenweg 193" ;
+    kbo:addressType kbo:TypeOfAddress_BAET,
+        kbo:TypeOfAddress_REGO .
+
+kbo:TypeOfAddress_BAET a kbo:Code ;
+    kbo:codeDescription "Unité d'établissement"@FR,
+        "Vestigingseenheid"@NL ;
+    kbo:codeValue "BAET" .
+
+kbo:Classification_MAIN a kbo:Code ;
+    kbo:codeDescription "Activité principale"@FR,
+        "Hoofdactiviteit"@NL ;
+    kbo:codeValue "MAIN" .

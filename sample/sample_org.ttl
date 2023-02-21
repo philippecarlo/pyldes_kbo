@@ -1,0 +1,45 @@
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix nace: <http://ec.europa.eu/eurostat/ramon/rdfdata/nace/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix locn: <http://www.w3.org/ns/locn#> .
+@prefix kbo: <http://pyldes.org/kbo/codes#> .
+
+<http://example.com/company/0200.065.765>
+    a org:Organization ;
+    org:status "AC" ;
+    org:juridicalSituation "000" ;
+    org:typeOfEnterprise "2" ;
+	org:hasPrimarySite <http://example.com/org/sites/1> ;
+	org:site <http://example.com/org/sites/2> ;
+	nace:code "C_2011" ;
+    nace:label "Manufacture of food products" ;
+    foaf:name "Intergemeentelijke Vereniging Veneco" .
+
+<http://example.com/org/sites/1> a org:Site ;
+    org:hasAddress <http://example.com/org/address/1> .
+
+<http://example.com/org/sites/2> a org:Site ;
+    org:subOrganizationOf <http://example.com/org/myOrganization> ;
+    org:hasAddress <http://example.com/org/address/2> .
+	
+<http://example.com/org/address/1> a vcard:Kind ;
+    vcard:street-address "123 Main St." ;
+    vcard:locality "City" ;
+    vcard:postal-code "12345" ;
+    vcard:country-name "Country" ;
+	locn:geometry [ 
+		a locn:Geometry ;
+		locn:asWKT "POINT(45.5231 122.6765)" 
+	] .
+	
+<http://example.com/org/address/2> a vcard:Kind ;
+    vcard:street-address "456 Park Ave." ;
+    vcard:locality "City" ;
+    vcard:postal-code "54321" ;
+    vcard:country-name "Country" ;
+	locn:geometry [ 
+		a locn:Geometry ;
+		locn:asWKT "POINT(45.5231 122.6765)" 
+	] .

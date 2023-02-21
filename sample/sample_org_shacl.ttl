@@ -1,0 +1,105 @@
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix nace: <http://ec.europa.eu/eurostat/ramon/rdfdata/nace/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix locn: <http://www.w3.org/ns/locn#> .
+@prefix kbo: <http://pyldes.org/kbo/codes#> .
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+
+<http://example.com/shapes/OrganizationShape>
+    a sh:NodeShape ;
+    sh:targetClass org:Organization ;
+    sh:property [
+        sh:path org:status ;
+        sh:datatype xsd:string ;
+        sh:maxCount 1
+    ] ;
+    sh:property [
+        sh:path org:juridicalSituation ;
+        sh:datatype xsd:string ;
+        sh:maxCount 1
+    ] ;
+    sh:property [
+        sh:path org:typeOfEnterprise ;
+        sh:datatype xsd:string ;
+        sh:maxCount 1
+    ] ;
+    sh:property [
+        sh:path org:hasPrimarySite ;
+        sh:nodeKind sh:IRI ;
+        sh:maxCount 1
+    ] ;
+    sh:property [
+        sh:path org:site ;
+        sh:nodeKind sh:IRI ;
+        sh:minCount 1
+    ] ;
+    sh:property [
+        sh:path nace:code ;
+        sh:datatype xsd:string ;
+        sh:maxCount 1
+    ] ;
+    sh:property [
+        sh:path nace:label ;
+        sh:datatype xsd:string ;
+        sh:maxCount 1
+    ] ;
+    sh:property [
+        sh:path foaf:name ;
+        sh:datatype xsd:string ;
+        sh:maxCount 1
+    ] .
+
+<http://example.com/shapes/SiteShape>
+    a sh:NodeShape ;
+    sh:targetClass org:Site ;
+    sh:property [
+        sh:path org:hasAddress ;
+        sh:nodeKind sh:IRI ;
+        sh:maxCount 1
+    ] ;
+    sh:property [
+        sh:path org:subOrganizationOf ;
+        sh:nodeKind sh:IRI ;
+        sh:maxCount 1
+    ] .
+
+<http://example.com/shapes/AddressShape>
+    a sh:NodeShape ;
+    sh:targetClass vcard:Kind ;
+    sh:property [
+        sh:path vcard:street-address ;
+        sh:datatype xsd:string ;
+        sh:maxCount 1
+    ] ;
+    sh:property [
+        sh:path vcard:locality ;
+        sh:datatype xsd:string ;
+        sh:maxCount 1
+    ] ;
+    sh:property [
+        sh:path vcard:postal-code ;
+        sh:datatype xsd:string ;
+        sh:maxCount 1
+    ] ;
+    sh:property [
+        sh:path vcard:country-name ;
+        sh:datatype xsd:string ;
+        sh:maxCount 1
+    ] ;
+    sh:property [
+        sh:path locn:geometry ;
+        sh:nodeKind sh:BlankNode ;
+        sh:class locn:Geometry ;
+        sh:maxCount 1
+    ] .
+
+<http://example.com/shapes/GeometryShape>
+    a sh:NodeShape ;
+    sh:targetClass locn:Geometry ;
+    sh:property [
+        sh:path locn:asWKT ;
+        sh:datatype xsd:string ;
+        sh:maxCount 1
+    ] .

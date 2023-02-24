@@ -28,30 +28,33 @@ class DataLoader():
         self.establishment=os.path.join(self.base_path, self.kbo_version, 'establishment.csv')
         self.meta=os.path.join(self.base_path, self.kbo_version, 'meta.csv')
 
+
     def load_data(self):
         """
         Load the different CSV files into the database
         """
-        self.load_csv(self.code, "code")
-        self.load_csv(self.activities, "activities", "EntityNumber")
-        self.load_csv(self.enterprise, "enterprise", "EnterpriseNumber")
-        self.load_csv(self.establishment, "establishment", "EnterpriseNumber")
-        self.load_csv(self.address, "address", "EntityNumber")
-        self.load_csv(self.contact, "contact", "EntityNumber")
-        self.load_csv(self.denomination, "denomination", "EntityNumber")
-    
-    def load_csv(self, filename: str, tablename: str, index_columns=List[str]):
+        self.load_csv(self.code, "Code",[])
+        self.load_csv(self.activities, "Activities", ["EntityNumber"])
+        self.load_csv(self.enterprise, "enterprise", ["EnterpriseNumber"])
+        self.load_csv(self.establishment, "establishment", ["EnterpriseNumber"])
+        self.load_csv(self.address, "address", ["EntityNumber"])
+        self.load_csv(self.contact, "contact", ["EntityNumber"])
+        self.load_csv(self.denomination, "denomination", ["EntityNumber"])
+
+    def load_csv(self, filename: str, tablename: str, index_columns:List[str]):
         """
         Loads a single CSV file into the database.
         Also creates any indexes required to speed up querying.
         """
         print(f"Loading file '{filename}' into table '{tablename}'.")
-        data = pandas.read_csv(filename)
+        data = pandas.read_csv(filename,low_memory=False)
         data.columns = data.columns.str.strip()
         conn = sqlite3.connect(self.db_location)
         data.to_sql(tablename, conn, if_exists='replace')
         if index_columns is not None:
-            cursor = conn.cursor()
-            for ix_column in index_columns:
-                cursor.execute(f"CREATE INDEX ix_{tablename}_{ix_column} ON {tablename} ({ix_column});")
+             cursor = conn.cursor()
+             for ix_column in index_columns:
+                 # print(ix_column)
+                 # print(index_columns)
+                 cursor.execute(f"CREATE INDEX ix_{tablename}_{ix_column} ON {tablename} ({ix_column});")
         conn.close()

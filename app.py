@@ -3,6 +3,9 @@ import argparse
 from rdflib import Graph, ORG, FOAF, SKOS
 from namespace.kbo import KBO
 from namespace.vcard import VCARD
+from namespace.locn import LOCN
+from namespace.legal import LEGAL
+from namespace.termname import TERMNAME
 from pyldes_kbo.services.data_loader import DataLoader
 from pyldes_kbo.services.kbo_generator import KboGenerator
 
@@ -10,10 +13,10 @@ from pyldes_kbo.services.kbo_generator import KboGenerator
 Free geocoding: https://geocode.maps.co/
 example: https://geocode.maps.co/search?q=Ter+Voortlaan+26+2650+edegem+belgium
 """
-
+#Uses relative path
 VERSION = "KboOpenData_2022_11"
-DB_LOCATION = "/mnt/c/dev/imec-ldes/pyldes_kbo/data/kbo.db" 
-BASE_PATH='/mnt/c/dev/imec-ldes/pyldes_kbo/data' 
+DB_LOCATION = "data/kbo.db"
+BASE_PATH='data'
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description='Run the KBO example.')
@@ -33,21 +36,29 @@ if __name__ == '__main__':
             graph.bind("org", ORG)
             graph.bind("foaf", FOAF)
             graph.bind("vcard", VCARD)
+            graph.bind("locn", LOCN)
+            graph.bind("legal", LEGAL)
+            graph.bind("terms", TERMNAME)
             enterprise.to_rdf(graph, with_blank_nodes=False)
             print(graph.serialize(format='turtle'))
             #print(f"Processing record {current_rec} of {total_records} [{current_rec/total_records*100:.2f}%]\r", end="")
             print(f"Processing record {current_rec} of {total_records} [{current_rec/total_records*100:.2f}%]")
     elif args.command == 'sample':
-        enterprise = KboGenerator(BASE_PATH, DB_LOCATION).one("0416.822.559")
+        enterprise = KboGenerator(BASE_PATH, DB_LOCATION).one("0414.881.767")
         graph = Graph()
-        
+
+        #bind kbo, org, foaf, vard prefix.
         graph.bind("kbo", KBO)
         graph.bind("org", ORG)
         graph.bind("foaf", FOAF)
         graph.bind("vcard", VCARD)
-        
+        graph.bind("locn",LOCN)
+        graph.bind("legal",LEGAL)
+        graph.bind("terms",TERMNAME)
+
         enterprise.to_rdf(graph, with_blank_nodes=False)
         ent_dict = enterprise.to_dict()
         #print(json.dumps(ent_dict, indent=4))
+        #print(ent_dict)
         print(graph.serialize(format='turtle'))
 

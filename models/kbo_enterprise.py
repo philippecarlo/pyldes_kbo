@@ -3,6 +3,9 @@ from typing import List
 from datetime import datetime
 from rdflib import Graph, URIRef, Literal, RDF, RDFS, ORG, SKOS
 from pyldes_kbo.namespace.kbo import KBO
+from pyldes_kbo.namespace.locn import LOCN
+from pyldes_kbo.namespace.legal import LEGAL
+from pyldes_kbo.namespace.termname import TERMNAME
 from pyldes_kbo.models.kbo_base import KboBase
 from pyldes_kbo.models.kbo_code import KboCode
 from pyldes_kbo.models.kbo_contact import KboContact
@@ -27,24 +30,25 @@ class KboEnterprise(KboBase):
         self.activities: List[KboActivity] = None
 
     def to_rdf(self, graph: Graph, version_object: bool = True, with_blank_nodes: bool = False) -> URIRef:
+
         enterprise_ref = URIRef(f"{KBO._NS}{self.enterprise_number.replace('.', '')}")
         status_ref = self.status.to_rdf(graph, as_blank_node=with_blank_nodes)
         juridical_situation_ref = self.juridical_situation.to_rdf(graph, as_blank_node=with_blank_nodes)
         juridical_form_ref = self.juridical_form.to_rdf(graph, as_blank_node=with_blank_nodes)
-        graph.add((enterprise_ref, RDF.type, ORG.Organization))
+        #graph.add((enterprise_ref, RDF.type, ORG.Organization))
         graph.add((enterprise_ref, RDF.type, KBO.Enterprise))
         graph.add((enterprise_ref, KBO.status, status_ref))
-        graph.add((enterprise_ref, KBO.juridicalForm, juridical_form_ref))
-        graph.add((enterprise_ref, KBO.juridicalSituation, juridical_situation_ref))
+        graph.add((enterprise_ref, LEGAL.companyType, juridical_form_ref))
+        graph.add((enterprise_ref, LEGAL.companyStatus, juridical_situation_ref))
         for denom in self.denominations:
             lang = denom.get_lang()
             if denom.type_of_denomination.code == "001":
-                graph.add((enterprise_ref, RDFS.label, Literal(denom.denomination, lang=lang)))
+                graph.add((enterprise_ref,LEGAL.legalName , Literal(denom.denomination, lang=lang)))
             if denom.type_of_denomination.code == "002":
-                graph.add((enterprise_ref, RDFS.label, Literal(denom.denomination, lang=lang)))
+                graph.add((enterprise_ref,LEGAL.legalName, Literal(denom.denomination, lang=lang)))
         for address in self.addresses:
             address_ref = address.to_rdf(graph, as_blank_node=with_blank_nodes)
-            graph.add((enterprise_ref, KBO.address, address_ref))
+            graph.add((enterprise_ref, LOCN.address, address_ref))
         for establishment in self.establishments:
             establishment_ref = establishment.to_rdf(graph, as_blank_node=with_blank_nodes)
             graph.add((enterprise_ref, KBO.establishment, establishment_ref))

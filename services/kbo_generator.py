@@ -20,6 +20,7 @@ class KboGenerator ():
         self.db_location = db_location
 
     def count(self) -> int:
+        print(self.db_location)
         conn = sqlite3.connect(self.db_location)
         cursor = conn.cursor()
         cursor.execute(f"SELECT COUNT(*) FROM enterprise")
@@ -45,6 +46,7 @@ class KboGenerator ():
         conn.close()
 
     def one(self, enterprise_nr:str) -> KboEnterprise:
+        # print(self.db_location)
         conn = sqlite3.connect(self.db_location)
         cursor = conn.cursor()
         cursor.execute(f"SELECT * FROM enterprise WHERE EnterpriseNumber=?", (enterprise_nr,))

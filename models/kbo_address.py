@@ -2,6 +2,7 @@ from hashlib import blake2s
 from datetime import datetime
 from rdflib import Graph, URIRef, Literal, BNode, RDF, ORG, FOAF, SKOS
 from pyldes_kbo.namespace.kbo import KBO
+from pyldes_kbo.namespace.locn import LOCN
 from pyldes_kbo.namespace.vcard import VCARD
 from pyldes_kbo.models.kbo_base import KboBase
 from pyldes_kbo.models.kbo_code import KboCode
@@ -27,11 +28,11 @@ class KboAddress(KboBase):
             h.update(addr.encode("utf-8"))
             key = h.hexdigest()
             address_ref = URIRef(f"{KBO._NS}{key}")
-        graph.add((address_ref, RDF.type, VCARD.Address))
-        graph.add((address_ref, VCARD.postalCode, Literal(self.zip_code)))
-        graph.add((address_ref, VCARD.locality, Literal(self.municipality)))
-        graph.add((address_ref, VCARD.streetAddress, Literal(f"{self.street} {self.house_number}")))
-        graph.add((address_ref, VCARD.postOfficeBox, Literal(self.box)))
+        graph.add((address_ref, RDF.type, LOCN.Address))
+        graph.add((address_ref, LOCN.postCode, Literal(self.zip_code)))
+        graph.add((address_ref, LOCN.addressArea, Literal(self.municipality)))
+        graph.add((address_ref, LOCN.fullAddress, Literal(f"{self.street} {self.house_number}")))
+        graph.add((address_ref, LOCN.poBox, Literal(self.box)))
         address_type_ref = self.type_of_address.to_rdf(graph, as_blank_node=as_blank_node)
         graph.add((address_ref, KBO.addressType, address_type_ref))
         if self.date_striking_off:

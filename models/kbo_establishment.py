@@ -1,6 +1,8 @@
 from typing import List
 from datetime import datetime
 from rdflib import Graph, URIRef, Literal, BNode, RDF, ORG, FOAF, SKOS
+from pyldes_kbo.namespace.termname import TERMNAME
+from pyldes_kbo.namespace.locn import LOCN
 from pyldes_kbo.models.kbo_base import KboBase
 from pyldes_kbo.models.kbo_address import KboAddress
 from pyldes_kbo.models.kbo_contact import KboContact
@@ -23,10 +25,10 @@ class KboEstablishment(KboBase):
             establihment_ref = URIRef(f"{KBO._NS}{self.estblishment_number.replace('.', '')}")
         graph.add((establihment_ref, RDF.type, ORG.Site))
         graph.add((establihment_ref, RDF.type, KBO.Establishment))
-        graph.add((establihment_ref, KBO.startDate, Literal(self.start_date)))
+        graph.add((establihment_ref, TERMNAME.issued, Literal(self.start_date)))
         for address in self.addresses:
             addr_ref = address.to_rdf(graph, as_blank_node=as_blank_node)
-            graph.add((establihment_ref, KBO.address, addr_ref))
+            graph.add((establihment_ref, LOCN.Address, addr_ref))
         for contact in self.contacts:
             contact.load_entity_contact(graph, establihment_ref)
         return establihment_ref

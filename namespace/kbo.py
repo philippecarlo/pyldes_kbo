@@ -13,7 +13,15 @@ class KBO(DefinedNamespace):
     # properties
     activity: URIRef
     classification: URIRef
-    address: URIRef 
+    address: URIRef
+
+    # TypeOfAddress indicates the address type:
+    # Code Description
+    # REGO Address of the main office
+    # NOAD No data available for reasons of privacy protection
+    # BAET Address of the establishment unit
+    # ABBR Address of the branch in Belgium
+
     addressType: URIRef
     codeDescription: URIRef
     codeValue: URIRef
@@ -27,5 +35,4 @@ class KBO(DefinedNamespace):
     naceVersion: URIRef
     startDate: URIRef
     status: URIRef
-
     _NS = Namespace("https://kbopub.economie.fgov.be/kbo#")

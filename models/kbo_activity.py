@@ -1,5 +1,6 @@
 from rdflib import Graph, URIRef, Literal, BNode, RDF, ORG, FOAF, SKOS
 from pyldes_kbo.namespace.kbo import KBO
+from pyldes_kbo.namespace.legal import LEGAL
 from pyldes_kbo.models.kbo_base import KboBase
 from pyldes_kbo.models.kbo_code import KboCode
 
@@ -17,7 +18,8 @@ class KboActivity(KboBase):
         else:
             activity_ref = URIRef(f"{KBO._NS}{self.nace_version}_{self.nace_code.code}")
         graph.add((activity_ref, RDF.type, KBO.Activity))
-        graph.add((activity_ref, KBO.naceCode, self.nace_code.to_rdf(graph, as_blank_node=as_blank_node)))
+        #add nace code
+        graph.add((activity_ref, LEGAL.companyActivity, self.nace_code.to_rdf(graph, as_blank_node=as_blank_node)))
         #graph.add((activity_ref, KBO.naceVersion, Literal(self.nace_version)))
         graph.add((activity_ref, KBO.classification, self.classification.to_rdf(graph, as_blank_node=as_blank_node)))
         return activity_ref

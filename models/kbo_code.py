@@ -21,3 +21,12 @@ class KboCode(KboBase):
             lang_literal = Literal(self.descriptions[lang], lang=lang)
             graph.add((code_ref, KBO.codeDescription, lang_literal))
         return code_ref
+
+    #Filter out the KBO code details
+    #Only keep the reference to the Code
+    def to_rdf_version(self, graph: Graph, as_blank_node: bool = False) -> URIRef:
+        if as_blank_node:
+            code_ref = BNode()
+        else:
+            code_ref = URIRef(f"{KBO._NS}{self.category}_{self.code}")
+        return code_ref

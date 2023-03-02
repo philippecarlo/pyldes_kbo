@@ -18,5 +18,7 @@ class TERMNAME(DefinedNamespace):
     identifier:URIRef
     # The date on which the Identifier was assigned.
     issued:URIRef
+    #ontology for version
+    isVersionOf:URIRef
 
     _NS = Namespace("http://purl.org/dc/terms/")

@@ -1,0 +1,53 @@
+@prefix kbo: <https://kbopub.economie.fgov.be/kbo#> .
+@prefix legal: <http://www.w3.org/ns/legal#> .
+@prefix locn: <https://www.w3.org/ns/locn#> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+kbo:0631959651 a kbo:Enterprise ;
+    legal:companyStatus [ a kbo:Code ;
+            kbo:codeDescription "gewöhnlicher Zustand"@DE,
+                "Situation normale"@FR,
+                "Normale toestand"@NL ;
+            kbo:codeValue "000" ] ;
+    legal:companyType [ a kbo:Code ;
+            kbo:codeDescription "Aktiengesellschaft"@DE,
+                "Société anonyme"@FR,
+                "Naamloze vennootschap"@NL ;
+            kbo:codeValue "014" ] ;
+    legal:legalName "ANTSER" ;
+    kbo:activity [ a kbo:Activity ;
+            legal:companyActivity [ a kbo:Code ;
+                    kbo:codeDescription "Conseil informatique"@FR,
+                        "Computerconsultancy-activiteiten"@NL ;
+                    kbo:codeValue 62020 ] ;
+            kbo:classification [ a kbo:Code ;
+                    kbo:codeDescription "Activité principale"@FR,
+                        "Hoofdactiviteit"@NL ;
+                    kbo:codeValue "MAIN" ] ] ;
+    kbo:establishment [ a org:Site,
+                kbo:Establishment ;
+            terms:issued "11-06-2015" ;
+            locn:Address [ a locn:Address ;
+                    kbo:addressType [ a kbo:Code ;
+                            kbo:codeDescription "Unité d'établissement"@FR,
+                                "Vestigingseenheid"@NL ;
+                            kbo:codeValue "BAET" ] ;
+                    locn:addressArea "Edegem" ;
+                    locn:fullAddress "Ter Voortlaan 26" ;
+                    locn:poBox "None" ;
+                    locn:postCode "2650" ] ] ;
+    kbo:status [ a kbo:Code ;
+            kbo:codeDescription "Actif"@FR,
+                "Actief"@NL ;
+            kbo:codeValue "AC" ] ;
+    locn:address [ a locn:Address ;
+            kbo:addressType [ a kbo:Code ;
+                    kbo:codeDescription "Siège"@FR,
+                        "Zetel"@NL ;
+                    kbo:codeValue "REGO" ] ;
+            locn:addressArea "Edegem" ;
+            locn:fullAddress "Vestinglaan 57" ;
+            locn:poBox "2" ;
+            locn:postCode "2650" ] .

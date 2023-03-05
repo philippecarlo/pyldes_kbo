@@ -1,67 +1,93 @@
 @prefix kbo: <https://kbopub.economie.fgov.be/kbo#> .
+@prefix legal: <http://www.w3.org/ns/legal#> .
+@prefix locn: <https://www.w3.org/ns/locn#> .
 @prefix org: <http://www.w3.org/ns/org#> .
-@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
-@prefix vcard: <http://www.w3.org/2006/vcard/> .
+@prefix terms: <http://purl.org/dc/terms/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-kbo:0416822559 a org:Organization,
-        kbo:Enterprise ;
-    skos:prefLabel "AUGUSTYNS" ;
+kbo:0416822559 a kbo:Enterprise ;
+    legal:companyStatus kbo:JuridicalSituation_000 ;
+    legal:companyType kbo:JuridicalForm_015 ;
+    legal:legalName "AUGUSTYNS" ;
     kbo:activity kbo:2003_36130,
         kbo:2003_45421,
         kbo:2008_31020,
         kbo:2008_43320 ;
-    kbo:address kbo:4c56f76bfadf63bc94fe ;
     kbo:establishment kbo:2013485121,
         kbo:2166412549,
         kbo:2259372302 ;
-    kbo:juridicalForm kbo:JuridicalForm_015 ;
-    kbo:juridicalSituation kbo:JuridicalSituation_000 ;
-    kbo:status kbo:Status_AC .
+    kbo:status kbo:Status_AC ;
+    locn:address kbo:4c56f76bfadf63bc94fe .
 
-kbo:063453edfdb487735ebc a vcard:Address ;
-    vcard:locality "Lochristi" ;
-    vcard:post-office-box "None" ;
-    vcard:postal-code "9080" ;
-    vcard:street-address "Antwerpse Steenweg 84" ;
-    kbo:addressType kbo:TypeOfAddress_BAET .
-
-kbo:2003_36130 a kbo:Activity ;
-    kbo:classification kbo:Classification_MAIN ;
-    kbo:naceCode kbo:Nace2003_36130 .
-
-kbo:2003_45421 a kbo:Activity ;
-    kbo:classification kbo:Classification_MAIN ;
-    kbo:naceCode kbo:Nace2003_45421 .
-
-kbo:2008_31020 a kbo:Activity ;
-    kbo:classification kbo:Classification_MAIN ;
-    kbo:naceCode kbo:Nace2008_31020 .
-
-kbo:2008_43320 a kbo:Activity ;
-    kbo:classification kbo:Classification_MAIN ;
-    kbo:naceCode kbo:Nace2008_43320 .
+kbo:063453edfdb487735ebc a locn:Address ;
+    kbo:addressType kbo:TypeOfAddress_BAET ;
+    locn:addressArea "Lochristi" ;
+    locn:fullAddress "Antwerpse Steenweg 84" ;
+    locn:poBox "None" ;
+    locn:postCode "9080" .
 
 kbo:2013485121 a org:Site,
         kbo:Establishment ;
-    kbo:address kbo:4c56f76bfadf63bc94fe ;
-    kbo:startDate "06-01-1977" .
+    terms:issued "06-01-1977" ;
+    locn:Address kbo:4c56f76bfadf63bc94fe .
 
 kbo:2166412549 a org:Site,
         kbo:Establishment ;
-    kbo:address kbo:fb1d74c5e0a275a36aa4 ;
-    kbo:startDate "02-01-2008" .
+    terms:issued "02-01-2008" ;
+    locn:Address kbo:fb1d74c5e0a275a36aa4 .
 
 kbo:2259372302 a org:Site,
         kbo:Establishment ;
-    kbo:address kbo:063453edfdb487735ebc ;
-    kbo:startDate "30-11-2016" .
+    terms:issued "30-11-2016" ;
+    locn:Address kbo:063453edfdb487735ebc .
 
 kbo:JuridicalForm_015 a kbo:Code ;
     kbo:codeDescription "Privatgesellschaft mit beschränkter Haftung"@DE,
         "Société privée à responsabilité limitée"@FR,
         "Besloten vennootschap met beperkte aansprakelijkheid"@NL ;
     kbo:codeValue "015" .
+
+
+kbo:fb1d74c5e0a275a36aa4 a locn:Address ;
+    kbo:addressType kbo:TypeOfAddress_BAET ;
+    locn:addressArea "Aartselaar" ;
+    locn:fullAddress "Kontichsesteenweg 35" ;
+    locn:poBox "None" ;
+    locn:postCode "2630" .
+
+kbo:4c56f76bfadf63bc94fe a locn:Address ;
+    kbo:addressType kbo:TypeOfAddress_BAET,
+        kbo:TypeOfAddress_REGO ;
+    locn:addressArea "Wuustwezel" ;
+    locn:fullAddress "Kalmthoutse Steenweg 193" ;
+    locn:poBox "None" ;
+    locn:postCode "2990" .
+
+kbo:2003_36130 a kbo:Activity ;
+    legal:companyActivity kbo:Nace2003_36130 ;
+    kbo:classification kbo:Classification_MAIN .
+
+kbo:2003_45421 a kbo:Activity ;
+    legal:companyActivity kbo:Nace2003_45421 ;
+    kbo:classification kbo:Classification_MAIN .
+
+kbo:2008_31020 a kbo:Activity ;
+    legal:companyActivity kbo:Nace2008_31020 ;
+    kbo:classification kbo:Classification_MAIN .
+
+kbo:2008_43320 a kbo:Activity ;
+    legal:companyActivity kbo:Nace2008_43320 ;
+    kbo:classification kbo:Classification_MAIN .
+
+kbo:TypeOfAddress_BAET a kbo:Code ;
+    kbo:codeDescription "Unité d'établissement"@FR,
+        "Vestigingseenheid"@NL ;
+    kbo:codeValue "BAET" .
+
+kbo:Classification_MAIN a kbo:Code ;
+    kbo:codeDescription "Activité principale"@FR,
+        "Hoofdactiviteit"@NL ;
+    kbo:codeValue "MAIN" .
 
 kbo:JuridicalSituation_000 a kbo:Code ;
     kbo:codeDescription "gewöhnlicher Zustand"@DE,
@@ -98,28 +124,3 @@ kbo:TypeOfAddress_REGO a kbo:Code ;
     kbo:codeDescription "Siège"@FR,
         "Zetel"@NL ;
     kbo:codeValue "REGO" .
-
-kbo:fb1d74c5e0a275a36aa4 a vcard:Address ;
-    vcard:locality "Aartselaar" ;
-    vcard:post-office-box "None" ;
-    vcard:postal-code "2630" ;
-    vcard:street-address "Kontichsesteenweg 35" ;
-    kbo:addressType kbo:TypeOfAddress_BAET .
-
-kbo:4c56f76bfadf63bc94fe a vcard:Address ;
-    vcard:locality "Wuustwezel" ;
-    vcard:post-office-box "None" ;
-    vcard:postal-code "2990" ;
-    vcard:street-address "Kalmthoutse Steenweg 193" ;
-    kbo:addressType kbo:TypeOfAddress_BAET,
-        kbo:TypeOfAddress_REGO .
-
-kbo:TypeOfAddress_BAET a kbo:Code ;
-    kbo:codeDescription "Unité d'établissement"@FR,
-        "Vestigingseenheid"@NL ;
-    kbo:codeValue "BAET" .
-
-kbo:Classification_MAIN a kbo:Code ;
-    kbo:codeDescription "Activité principale"@FR,
-        "Hoofdactiviteit"@NL ;
-    kbo:codeValue "MAIN" .

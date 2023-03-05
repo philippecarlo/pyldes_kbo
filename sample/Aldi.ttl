@@ -1,15 +1,16 @@
 @prefix kbo: <https://kbopub.economie.fgov.be/kbo#> .
+@prefix legal: <http://www.w3.org/ns/legal#> .
+@prefix locn: <https://www.w3.org/ns/locn#> .
 @prefix org: <http://www.w3.org/ns/org#> .
-@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
-@prefix vcard: <http://www.w3.org/2006/vcard/> .
+@prefix terms: <http://purl.org/dc/terms/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-kbo:0414881767 a org:Organization,
-        kbo:Enterprise ;
-    skos:prefLabel "ALDI" ;
+kbo:0414881767 a kbo:Enterprise ;
+    legal:companyStatus kbo:JuridicalSituation_000 ;
+    legal:companyType kbo:JuridicalForm_014 ;
+    legal:legalName "ALDI" ;
     kbo:activity kbo:2003_52114,
         kbo:2008_47114 ;
-    kbo:address kbo:1edf266a39a4e3d96abe ;
     kbo:establishment kbo:2029918802,
         kbo:2029919097,
         kbo:2029919196,
@@ -81,687 +82,686 @@ kbo:0414881767 a org:Organization,
         kbo:2192789423,
         kbo:2219364948,
         kbo:2306637630 ;
-    kbo:juridicalForm kbo:JuridicalForm_014 ;
-    kbo:juridicalSituation kbo:JuridicalSituation_000 ;
-    kbo:status kbo:Status_AC .
+    kbo:status kbo:Status_AC ;
+    locn:address kbo:1edf266a39a4e3d96abe .
 
-kbo:01e931ad5c9e15709c7b a vcard:Address ;
-    vcard:locality "Kortemark" ;
-    vcard:post-office-box "A" ;
-    vcard:postal-code "8610" ;
-    vcard:street-address "Staatsbaan 80" ;
-    kbo:addressType kbo:TypeOfAddress_BAET .
+kbo:01e931ad5c9e15709c7b a locn:Address ;
+    kbo:addressType kbo:TypeOfAddress_BAET ;
+    locn:addressArea "Kortemark" ;
+    locn:fullAddress "Staatsbaan 80" ;
+    locn:poBox "A" ;
+    locn:postCode "8610" .
 
-kbo:05b4c734a4e96fefe305 a vcard:Address ;
-    vcard:locality "Kuurne" ;
-    vcard:post-office-box "None" ;
-    vcard:postal-code "8520" ;
-    vcard:street-address "Ringlaan 18" ;
-    kbo:addressType kbo:TypeOfAddress_BAET .
+kbo:05b4c734a4e96fefe305 a locn:Address ;
+    kbo:addressType kbo:TypeOfAddress_BAET ;
+    locn:addressArea "Kuurne" ;
+    locn:fullAddress "Ringlaan 18" ;
+    locn:poBox "None" ;
+    locn:postCode "8520" .
 
-kbo:0b1252b5d39710c0dda2 a vcard:Address ;
-    vcard:locality "Wervik" ;
-    vcard:post-office-box "None" ;
-    vcard:postal-code "8940" ;
-    vcard:street-address "Komenstraat 36 B" ;
-    kbo:addressType kbo:TypeOfAddress_BAET .
+kbo:0b1252b5d39710c0dda2 a locn:Address ;
+    kbo:addressType kbo:TypeOfAddress_BAET ;
+    locn:addressArea "Wervik" ;
+    locn:fullAddress "Komenstraat 36 B" ;
+    locn:poBox "None" ;
+    locn:postCode "8940" .
 
-kbo:0d38b57f3b69d4a30f89 a vcard:Address ;
-    vcard:locality "Staden" ;
-    vcard:post-office-box "None" ;
-    vcard:postal-code "8840" ;
-    vcard:street-address "Sint Jansstraat(STA) 114-116" ;
-    kbo:addressType kbo:TypeOfAddress_BAET .
+kbo:0d38b57f3b69d4a30f89 a locn:Address ;
+    kbo:addressType kbo:TypeOfAddress_BAET ;
+    locn:addressArea "Staden" ;
+    locn:fullAddress "Sint Jansstraat(STA) 114-116" ;
+    locn:poBox "None" ;
+    locn:postCode "8840" .
 
-kbo:0dafc1fcc84c5edd943c a vcard:Address ;
-    vcard:locality "Oostkamp" ;
-    vcard:post-office-box "None" ;
-    vcard:postal-code "8020" ;
-    vcard:street-address "Brugsestraat 105" ;
-    kbo:addressType kbo:TypeOfAddress_BAET .
+kbo:0dafc1fcc84c5edd943c a locn:Address ;
+    kbo:addressType kbo:TypeOfAddress_BAET ;
+    locn:addressArea "Oostkamp" ;
+    locn:fullAddress "Brugsestraat 105" ;
+    locn:poBox "None" ;
+    locn:postCode "8020" .
 
-kbo:0fe08220d279cdf1ec20 a vcard:Address ;
-    vcard:locality "Mouscron" ;
-    vcard:post-office-box "None" ;
-    vcard:postal-code "7700" ;
-    vcard:street-address "Liessestraat 123" ;
-    kbo:addressType kbo:TypeOfAddress_BAET .
+kbo:0fe08220d279cdf1ec20 a locn:Address ;
+    kbo:addressType kbo:TypeOfAddress_BAET ;
+    locn:addressArea "Mouscron" ;
+    locn:fullAddress "Liessestraat 123" ;
+    locn:poBox "None" ;
+    locn:postCode "7700" .
 
-kbo:123a7d0cbe94a1743dbb a vcard:Address ;
-    vcard:locality "Zulte" ;
-    vcard:post-office-box "None" ;
-    vcard:postal-code "9870" ;
-    vcard:street-address "Staatsbaan 28" ;
-    kbo:addressType kbo:TypeOfAddress_BAET .
+kbo:123a7d0cbe94a1743dbb a locn:Address ;
+    kbo:addressType kbo:TypeOfAddress_BAET ;
+    locn:addressArea "Zulte" ;
+    locn:fullAddress "Staatsbaan 28" ;
+    locn:poBox "None" ;
+    locn:postCode "9870" .
 
 kbo:2003_52114 a kbo:Activity ;
-    kbo:classification kbo:Classification_MAIN ;
-    kbo:naceCode kbo:Nace2003_52114 .
+    legal:companyActivity kbo:Nace2003_52114 ;
+    kbo:classification kbo:Classification_MAIN .
 
 kbo:2008_47114 a kbo:Activity ;
-    kbo:classification kbo:Classification_MAIN ;
-    kbo:naceCode kbo:Nace2008_47114 .
+    legal:companyActivity kbo:Nace2008_47114 ;
+    kbo:classification kbo:Classification_MAIN .
 
 kbo:2029918802 a org:Site,
         kbo:Establishment ;
-    kbo:address kbo:2ec9291bdf5cc738831d ;
-    kbo:startDate "20-07-1988" .
+    terms:issued "20-07-1988" ;
+    locn:Address kbo:2ec9291bdf5cc738831d .
 
 kbo:2029919097 a org:Site,
         kbo:Establishment ;
-    kbo:address kbo:3759489d87db34df0780 ;
-    kbo:startDate "20-07-1988" .
+    terms:issued "20-07-1988" ;
+    locn:Address kbo:3759489d87db34df0780 .
 
 kbo:2029919196 a org:Site,
         kbo:Establishment ;
-    kbo:address kbo:df1b7d18e6d8e620ba15 ;
-    kbo:startDate "20-07-1988" .
+    terms:issued "20-07-1988" ;
+    locn:Address kbo:df1b7d18e6d8e620ba15 .
 
 kbo:2029919394 a org:Site,
         kbo:Establishment ;
-    kbo:address kbo:6cdecf689d169dcc284b ;
-    kbo:startDate "20-07-1988" .
+    terms:issued "20-07-1988" ;
+    locn:Address kbo:6cdecf689d169dcc284b .
 
 kbo:2029919592 a org:Site,
         kbo:Establishment ;
-    kbo:address kbo:8aaf8dbe42518f420e2d ;
-    kbo:startDate "20-07-1988" .
+    terms:issued "20-07-1988" ;
+    locn:Address kbo:8aaf8dbe42518f420e2d .
 
 kbo:2029919691 a org:Site,
         kbo:Establishment ;
-    kbo:address kbo:f8bfecd893cc8139c266 ;
-    kbo:startDate "20-07-1988" .
+    terms:issued "20-07-1988" ;
+    locn:Address kbo:f8bfecd893cc8139c266 .
 
 kbo:2029919790 a org:Site,
         kbo:Establishment ;
-    kbo:address kbo:5665cde587be9f3c500c ;
-    kbo:startDate "20-07-1988" .
+    terms:issued "20-07-1988" ;
+    locn:Address kbo:5665cde587be9f3c500c .
 
 kbo:2029919889 a org:Site,
         kbo:Establishment ;
-    kbo:address kbo:7d7f249bb02308163834 ;
-    kbo:startDate "20-07-1988" .
+    terms:issued "20-07-1988" ;
+    locn:Address kbo:7d7f249bb02308163834 .
 
 kbo:2029919988 a org:Site,
         kbo:Establishment ;
-    kbo:address kbo:83b8ba9037e3f5f5d2da ;
-    kbo:startDate "11-08-2000" .
+    terms:issued "11-08-2000" ;
+    locn:Address kbo:83b8ba9037e3f5f5d2da .
 
 kbo:2029920186 a org:Site,
         kbo:Establishment ;
-    kbo:address kbo:55a8398947ca7b245c22 ;
-    kbo:startDate "01-06-1989" .
+    terms:issued "01-06-1989" ;
+    locn:Address kbo:55a8398947ca7b245c22 .
 
 kbo:2029920483 a org:Site,
         kbo:Establishment ;
-    kbo:address kbo:a1d35cd8fdb11998d346 ;
-    kbo:startDate "01-06-1989" .
+    terms:issued "01-06-1989" ;
+    locn:Address kbo:a1d35cd8fdb11998d346 .
 
 kbo:2029920879 a org:Site,
         kbo:Establishment ;
-    kbo:address kbo:123a7d0cbe94a1743dbb ;
-    kbo:startDate "01-06-1995" .
+    terms:issued "01-06-1995" ;
+    locn:Address kbo:123a7d0cbe94a1743dbb .
 
 kbo:2029921077 a org:Site,
         kbo:Establishment ;
-    kbo:address kbo:4fed465ab3092fa9a700 ;
-    kbo:startDate "24-08-1988" .
+    terms:issued "24-08-1988" ;
+    locn:Address kbo:4fed465ab3092fa9a700 .
 
 kbo:2029921176 a org:Site,
         kbo:Establishment ;
-    kbo:address kbo:bea05d0a427538a75ff6 ;
-    kbo:startDate "24-08-1988" .
+    terms:issued "24-08-1988" ;
+    locn:Address kbo:bea05d0a427538a75ff6 .
 
 kbo:2029921275 a org:Site,
         kbo:Establishment ;
-    kbo:address kbo:0b1252b5d39710c0dda2 ;
-    kbo:startDate "24-08-1988" .
+    terms:issued "24-08-1988" ;
+    locn:Address kbo:0b1252b5d39710c0dda2 .
 
 kbo:2029921374 a org:Site,
         kbo:Establishment ;
-    kbo:address kbo:3e0ce16a5e857997de99 ;
-    kbo:startDate "24-08-1988" .
+    terms:issued "24-08-1988" ;
+    locn:Address kbo:3e0ce16a5e857997de99 .
 
 kbo:2029921572 a org:Site,
         kbo:Establishment ;
-    kbo:address kbo:1edf266a39a4e3d96abe ;
-    kbo:startDate "17-08-1987" .
+    terms:issued "17-08-1987" ;
+    locn:Address kbo:1edf266a39a4e3d96abe .
 
 kbo:2029921671 a org:Site,
         kbo:Establishment ;
-    kbo:address kbo:abd9766da53dbe1b1f77 ;
-    kbo:startDate "17-08-1987" .
+    terms:issued "17-08-1987" ;
+    locn:Address kbo:abd9766da53dbe1b1f77 .
 
 kbo:2029921968 a org:Site,
         kbo:Establishment ;
-    kbo:address kbo:c0ffc23b5591853214fd ;
-    kbo:startDate "17-08-1987" .
+    terms:issued "17-08-1987" ;
+    locn:Address kbo:c0ffc23b5591853214fd .
 
 kbo:2029922265 a org:Site,
         kbo:Establishment ;
-    kbo:address kbo:81bae1d5c2e74aaf4ed0 ;
-    kbo:startDate "17-08-1987" .
+    terms:issued "17-08-1987" ;
+    locn:Address kbo:81bae1d5c2e74aaf4ed0 .
 
 kbo:2029922562 a org:Site,
         kbo:Establishment ;
-    kbo:address kbo:30039592960e8a40ac4d ;
-    kbo:startDate "17-08-1987" .
+    terms:issued "17-08-1987" ;
+    locn:Address kbo:30039592960e8a40ac4d .
 
 kbo:2029922859 a org:Site,
         kbo:Establishment ;
-    kbo:address kbo:ed3790cf92c2a5770880 ;
-    kbo:startDate "17-08-1987" .
+    terms:issued "17-08-1987" ;
+    locn:Address kbo:ed3790cf92c2a5770880 .
 
 kbo:2029922958 a org:Site,
         kbo:Establishment ;
-    kbo:address kbo:3436b629c14e0ce0e0dc ;
-    kbo:startDate "17-08-1987" .
+    terms:issued "17-08-1987" ;
+    locn:Address kbo:3436b629c14e0ce0e0dc .
 
 kbo:2029923057 a org:Site,
         kbo:Establishment ;
-    kbo:address kbo:739438d03437fb349baa ;
-    kbo:startDate "17-08-1987" .
+    terms:issued "17-08-1987" ;
+    locn:Address kbo:739438d03437fb349baa .
 
 kbo:2029923156 a org:Site,
         kbo:Establishment ;
-    kbo:address kbo:05b4c734a4e96fefe305 ;
-    kbo:startDate "17-08-1987" .
+    terms:issued "17-08-1987" ;
+    locn:Address kbo:05b4c734a4e96fefe305 .
 
 kbo:2029923255 a org:Site,
         kbo:Establishment ;
-    kbo:address kbo:8fb5a592e929980e6d69 ;
-    kbo:startDate "17-08-1987" .
+    terms:issued "17-08-1987" ;
+    locn:Address kbo:8fb5a592e929980e6d69 .
 
 kbo:2029923354 a org:Site,
         kbo:Establishment ;
-    kbo:address kbo:23cad9b1eb13d18824a0 ;
-    kbo:startDate "01-07-1992" .
+    terms:issued "01-07-1992" ;
+    locn:Address kbo:23cad9b1eb13d18824a0 .
 
 kbo:2029923552 a org:Site,
         kbo:Establishment ;
-    kbo:address kbo:6ee44fb988a2701d7410 ;
-    kbo:startDate "01-08-1997" .
+    terms:issued "01-08-1997" ;
+    locn:Address kbo:6ee44fb988a2701d7410 .
 
 kbo:2029923651 a org:Site,
         kbo:Establishment ;
-    kbo:address kbo:b8c850c194f5871ed902 ;
-    kbo:startDate "01-11-1997" .
+    terms:issued "01-11-1997" ;
+    locn:Address kbo:b8c850c194f5871ed902 .
 
 kbo:2029923750 a org:Site,
         kbo:Establishment ;
-    kbo:address kbo:f47c159833c43f61c946 ;
-    kbo:startDate "13-11-1990" .
+    terms:issued "13-11-1990" ;
+    locn:Address kbo:f47c159833c43f61c946 .
 
 kbo:2029923849 a org:Site,
         kbo:Establishment ;
-    kbo:address kbo:33efeb06b74fea1c87d9 ;
-    kbo:startDate "13-11-1990" .
+    terms:issued "13-11-1990" ;
+    locn:Address kbo:33efeb06b74fea1c87d9 .
 
 kbo:2029923948 a org:Site,
         kbo:Establishment ;
-    kbo:address kbo:3e44aa70fb6cdb7ae3f6 ;
-    kbo:startDate "25-06-1998" .
+    terms:issued "25-06-1998" ;
+    locn:Address kbo:3e44aa70fb6cdb7ae3f6 .
 
 kbo:2029924047 a org:Site,
         kbo:Establishment ;
-    kbo:address kbo:e12da39f18ae97cf3315 ;
-    kbo:startDate "17-08-1987" .
+    terms:issued "17-08-1987" ;
+    locn:Address kbo:e12da39f18ae97cf3315 .
 
 kbo:2029924641 a org:Site,
         kbo:Establishment ;
-    kbo:address kbo:6d79d602db6bb2e3431d ;
-    kbo:startDate "02-08-1988" .
+    terms:issued "02-08-1988" ;
+    locn:Address kbo:6d79d602db6bb2e3431d .
 
 kbo:2029924839 a org:Site,
         kbo:Establishment ;
-    kbo:address kbo:d5febce20f2af0ce15b3 ;
-    kbo:startDate "30-05-1991" .
+    terms:issued "30-05-1991" ;
+    locn:Address kbo:d5febce20f2af0ce15b3 .
 
 kbo:2029925334 a org:Site,
         kbo:Establishment ;
-    kbo:address kbo:b30488dcae345dee1ac7 ;
-    kbo:startDate "24-08-1988" .
+    terms:issued "24-08-1988" ;
+    locn:Address kbo:b30488dcae345dee1ac7 .
 
 kbo:2029925433 a org:Site,
         kbo:Establishment ;
-    kbo:address kbo:0fe08220d279cdf1ec20 ;
-    kbo:startDate "05-03-1990" .
+    terms:issued "05-03-1990" ;
+    locn:Address kbo:0fe08220d279cdf1ec20 .
 
 kbo:2029925730 a org:Site,
         kbo:Establishment ;
-    kbo:address kbo:d11349e804369edfe722 ;
-    kbo:startDate "05-03-1990" .
+    terms:issued "05-03-1990" ;
+    locn:Address kbo:d11349e804369edfe722 .
 
 kbo:2029925829 a org:Site,
         kbo:Establishment ;
-    kbo:address kbo:4a631af5685c181b36c5 ;
-    kbo:startDate "05-03-1990" .
+    terms:issued "05-03-1990" ;
+    locn:Address kbo:4a631af5685c181b36c5 .
 
 kbo:2029925928 a org:Site,
         kbo:Establishment ;
-    kbo:address kbo:a463873af5d58089c79d ;
-    kbo:startDate "05-03-1990" .
+    terms:issued "05-03-1990" ;
+    locn:Address kbo:a463873af5d58089c79d .
 
 kbo:2029926126 a org:Site,
         kbo:Establishment ;
-    kbo:address kbo:56f3a27e280f9ca8ed23 ;
-    kbo:startDate "05-03-1990" .
+    terms:issued "05-03-1990" ;
+    locn:Address kbo:56f3a27e280f9ca8ed23 .
 
 kbo:2029926324 a org:Site,
         kbo:Establishment ;
-    kbo:address kbo:25d93d818f0acec9ac95 ;
-    kbo:startDate "01-06-1995" .
+    terms:issued "01-06-1995" ;
+    locn:Address kbo:25d93d818f0acec9ac95 .
 
 kbo:2029926423 a org:Site,
         kbo:Establishment ;
-    kbo:address kbo:d7407d22117ce5e825a2 ;
-    kbo:startDate "01-08-1997" .
+    terms:issued "01-08-1997" ;
+    locn:Address kbo:d7407d22117ce5e825a2 .
 
 kbo:2029926522 a org:Site,
         kbo:Establishment ;
-    kbo:address kbo:c6d11050179e471c2063 ;
-    kbo:startDate "01-08-1997" .
+    terms:issued "01-08-1997" ;
+    locn:Address kbo:c6d11050179e471c2063 .
 
 kbo:2029926621 a org:Site,
         kbo:Establishment ;
-    kbo:address kbo:d619074f251049a9ed9f ;
-    kbo:startDate "25-07-1991" .
+    terms:issued "25-07-1991" ;
+    locn:Address kbo:d619074f251049a9ed9f .
 
 kbo:2029926819 a org:Site,
         kbo:Establishment ;
-    kbo:address kbo:38f586fb29f8ab3a4469 ;
-    kbo:startDate "08-08-1988" .
+    terms:issued "08-08-1988" ;
+    locn:Address kbo:38f586fb29f8ab3a4469 .
 
 kbo:2029926918 a org:Site,
         kbo:Establishment ;
-    kbo:address kbo:a1a2c2f808917e97b554 ;
-    kbo:startDate "08-08-1988" .
+    terms:issued "08-08-1988" ;
+    locn:Address kbo:a1a2c2f808917e97b554 .
 
 kbo:2029927017 a org:Site,
         kbo:Establishment ;
-    kbo:address kbo:908b95212e51326f6e69 ;
-    kbo:startDate "22-04-1991" .
+    terms:issued "22-04-1991" ;
+    locn:Address kbo:908b95212e51326f6e69 .
 
 kbo:2133110766 a org:Site,
         kbo:Establishment ;
-    kbo:address kbo:3c8ba31fbc6d23792a44 ;
-    kbo:startDate "15-10-2003" .
+    terms:issued "15-10-2003" ;
+    locn:Address kbo:3c8ba31fbc6d23792a44 .
 
 kbo:2133111855 a org:Site,
         kbo:Establishment ;
-    kbo:address kbo:0dafc1fcc84c5edd943c ;
-    kbo:startDate "19-11-2003" .
+    terms:issued "19-11-2003" ;
+    locn:Address kbo:0dafc1fcc84c5edd943c .
 
 kbo:2133121852 a org:Site,
         kbo:Establishment ;
-    kbo:address kbo:0d38b57f3b69d4a30f89 ;
-    kbo:startDate "24-09-2003" .
+    terms:issued "24-09-2003" ;
+    locn:Address kbo:0d38b57f3b69d4a30f89 .
 
 kbo:2133126010 a org:Site,
         kbo:Establishment ;
-    kbo:address kbo:b81b639a6bea40732916 ;
-    kbo:startDate "08-10-2003" .
+    terms:issued "08-10-2003" ;
+    locn:Address kbo:b81b639a6bea40732916 .
 
 kbo:2136064813 a org:Site,
         kbo:Establishment ;
-    kbo:address kbo:ebfcc6a3d5cf433e29ad ;
-    kbo:startDate "22-03-2004" .
+    terms:issued "22-03-2004" ;
+    locn:Address kbo:ebfcc6a3d5cf433e29ad .
 
 kbo:2136721047 a org:Site,
         kbo:Establishment ;
-    kbo:address kbo:57cb81d2fac40aa7485d ;
-    kbo:startDate "12-09-2001" .
+    terms:issued "12-09-2001" ;
+    locn:Address kbo:57cb81d2fac40aa7485d .
 
 kbo:2136721146 a org:Site,
         kbo:Establishment ;
-    kbo:address kbo:305bfdc15e0d89605e3f ;
-    kbo:startDate "19-12-2001" .
+    terms:issued "19-12-2001" ;
+    locn:Address kbo:305bfdc15e0d89605e3f .
 
 kbo:2136721344 a org:Site,
         kbo:Establishment ;
-    kbo:address kbo:a3451e15b99f767e7c24 ;
-    kbo:startDate "04-12-2002" .
+    terms:issued "04-12-2002" ;
+    locn:Address kbo:a3451e15b99f767e7c24 .
 
 kbo:2136721443 a org:Site,
         kbo:Establishment ;
-    kbo:address kbo:5a239d0086aeb0227cc7 ;
-    kbo:startDate "19-02-2003" .
+    terms:issued "19-02-2003" ;
+    locn:Address kbo:5a239d0086aeb0227cc7 .
 
 kbo:2136721641 a org:Site,
         kbo:Establishment ;
-    kbo:address kbo:6a50aa987c1834ffdd50 ;
-    kbo:startDate "10-10-2001" .
+    terms:issued "10-10-2001" ;
+    locn:Address kbo:6a50aa987c1834ffdd50 .
 
 kbo:2136721740 a org:Site,
         kbo:Establishment ;
-    kbo:address kbo:2ff0981e8270fb45977a ;
-    kbo:startDate "08-07-1998" .
+    terms:issued "08-07-1998" ;
+    locn:Address kbo:2ff0981e8270fb45977a .
 
 kbo:2136721839 a org:Site,
         kbo:Establishment ;
-    kbo:address kbo:7e347d807f487666362c ;
-    kbo:startDate "23-06-1988" .
+    terms:issued "23-06-1988" ;
+    locn:Address kbo:7e347d807f487666362c .
 
 kbo:2136877435 a org:Site,
         kbo:Establishment ;
-    kbo:address kbo:60522c24aea807e6d86a ;
-    kbo:startDate "08-12-1999" .
+    terms:issued "08-12-1999" ;
+    locn:Address kbo:60522c24aea807e6d86a .
 
 kbo:2137781812 a org:Site,
         kbo:Establishment ;
-    kbo:address kbo:ed4c35e8f1a50bd12f9e ;
-    kbo:startDate "23-06-2004" .
+    terms:issued "23-06-2004" ;
+    locn:Address kbo:ed4c35e8f1a50bd12f9e .
 
 kbo:2144315751 a org:Site,
         kbo:Establishment ;
-    kbo:address kbo:8c55fed47e12ac83a2ea ;
-    kbo:startDate "08-12-2004" .
+    terms:issued "08-12-2004" ;
+    locn:Address kbo:8c55fed47e12ac83a2ea .
 
 kbo:2147454195 a org:Site,
         kbo:Establishment ;
-    kbo:address kbo:5bad4c3aa29c4a52cde1 ;
-    kbo:startDate "19-06-2005" .
+    terms:issued "19-06-2005" ;
+    locn:Address kbo:5bad4c3aa29c4a52cde1 .
 
 kbo:2154711775 a org:Site,
         kbo:Establishment ;
-    kbo:address kbo:4233967579c7d38033f9 ;
-    kbo:startDate "12-07-2006" .
+    terms:issued "12-07-2006" ;
+    locn:Address kbo:4233967579c7d38033f9 .
 
 kbo:2156305644 a org:Site,
         kbo:Establishment ;
-    kbo:address kbo:885874f26379eb67e3f6 ;
-    kbo:startDate "18-10-2006" .
+    terms:issued "18-10-2006" ;
+    locn:Address kbo:885874f26379eb67e3f6 .
 
 kbo:2156306040 a org:Site,
         kbo:Establishment ;
-    kbo:address kbo:ace2b3a346e905a4a44c ;
-    kbo:startDate "29-11-2006" .
+    terms:issued "29-11-2006" ;
+    locn:Address kbo:ace2b3a346e905a4a44c .
 
 kbo:2161770011 a org:Site,
         kbo:Establishment ;
-    kbo:address kbo:01e931ad5c9e15709c7b ;
-    kbo:startDate "13-06-2007" .
+    terms:issued "13-06-2007" ;
+    locn:Address kbo:01e931ad5c9e15709c7b .
 
 kbo:2192789423 a org:Site,
         kbo:Establishment ;
-    kbo:address kbo:f5800259440271b62645 ;
-    kbo:startDate "24-11-2010" .
+    terms:issued "24-11-2010" ;
+    locn:Address kbo:f5800259440271b62645 .
 
 kbo:2219364948 a org:Site,
         kbo:Establishment ;
-    kbo:address kbo:a6db175919bca6135424 ;
-    kbo:startDate "01-10-2013" .
+    terms:issued "01-10-2013" ;
+    locn:Address kbo:a6db175919bca6135424 .
 
 kbo:2306637630 a org:Site,
         kbo:Establishment ;
-    kbo:address kbo:2dd6fb72ca7fe249021f ;
-    kbo:startDate "14-10-2020" .
+    terms:issued "14-10-2020" ;
+    locn:Address kbo:2dd6fb72ca7fe249021f .
 
-kbo:23cad9b1eb13d18824a0 a vcard:Address ;
-    vcard:locality "Ingelmunster" ;
-    vcard:post-office-box "None" ;
-    vcard:postal-code "8770" ;
-    vcard:street-address "Kortrijkstraat 127" ;
-    kbo:addressType kbo:TypeOfAddress_BAET .
+kbo:23cad9b1eb13d18824a0 a locn:Address ;
+    kbo:addressType kbo:TypeOfAddress_BAET ;
+    locn:addressArea "Ingelmunster" ;
+    locn:fullAddress "Kortrijkstraat 127" ;
+    locn:poBox "None" ;
+    locn:postCode "8770" .
 
-kbo:25d93d818f0acec9ac95 a vcard:Address ;
-    vcard:locality "Lessines" ;
-    vcard:post-office-box "None" ;
-    vcard:postal-code "7860" ;
-    vcard:street-address "Chaussée de Grammont(L) 120" ;
-    kbo:addressType kbo:TypeOfAddress_BAET .
+kbo:25d93d818f0acec9ac95 a locn:Address ;
+    kbo:addressType kbo:TypeOfAddress_BAET ;
+    locn:addressArea "Lessines" ;
+    locn:fullAddress "Chaussée de Grammont(L) 120" ;
+    locn:poBox "None" ;
+    locn:postCode "7860" .
 
-kbo:2dd6fb72ca7fe249021f a vcard:Address ;
-    vcard:locality "Knokke-Heist" ;
-    vcard:post-office-box "None" ;
-    vcard:postal-code "8300" ;
-    vcard:street-address "Duinenwater 32" ;
-    kbo:addressType kbo:TypeOfAddress_BAET .
+kbo:2dd6fb72ca7fe249021f a locn:Address ;
+    kbo:addressType kbo:TypeOfAddress_BAET ;
+    locn:addressArea "Knokke-Heist" ;
+    locn:fullAddress "Duinenwater 32" ;
+    locn:poBox "None" ;
+    locn:postCode "8300" .
 
-kbo:2ec9291bdf5cc738831d a vcard:Address ;
-    vcard:locality "Brugge" ;
-    vcard:post-office-box "None" ;
-    vcard:postal-code "8000" ;
-    vcard:street-address "Sint-Pieterskaai 25" ;
-    kbo:addressType kbo:TypeOfAddress_BAET .
+kbo:2ec9291bdf5cc738831d a locn:Address ;
+    kbo:addressType kbo:TypeOfAddress_BAET ;
+    locn:addressArea "Brugge" ;
+    locn:fullAddress "Sint-Pieterskaai 25" ;
+    locn:poBox "None" ;
+    locn:postCode "8000" .
 
-kbo:2ff0981e8270fb45977a a vcard:Address ;
-    vcard:locality "Koekelare" ;
-    vcard:post-office-box "None" ;
-    vcard:postal-code "8680" ;
-    vcard:street-address "Ringlaan 84" ;
-    kbo:addressType kbo:TypeOfAddress_BAET .
+kbo:2ff0981e8270fb45977a a locn:Address ;
+    kbo:addressType kbo:TypeOfAddress_BAET ;
+    locn:addressArea "Koekelare" ;
+    locn:fullAddress "Ringlaan 84" ;
+    locn:poBox "None" ;
+    locn:postCode "8680" .
 
-kbo:30039592960e8a40ac4d a vcard:Address ;
-    vcard:locality "Roeselare" ;
-    vcard:post-office-box "None" ;
-    vcard:postal-code "8800" ;
-    vcard:street-address "Koning Leopold III-laan 85" ;
-    kbo:addressType kbo:TypeOfAddress_BAET .
+kbo:30039592960e8a40ac4d a locn:Address ;
+    kbo:addressType kbo:TypeOfAddress_BAET ;
+    locn:addressArea "Roeselare" ;
+    locn:fullAddress "Koning Leopold III-laan 85" ;
+    locn:poBox "None" ;
+    locn:postCode "8800" .
 
-kbo:305bfdc15e0d89605e3f a vcard:Address ;
-    vcard:locality "Mouscron" ;
-    vcard:post-office-box "None" ;
-    vcard:postal-code "7711" ;
-    vcard:street-address "Kanadezenlaan(D) 6" ;
-    kbo:addressType kbo:TypeOfAddress_BAET .
+kbo:305bfdc15e0d89605e3f a locn:Address ;
+    kbo:addressType kbo:TypeOfAddress_BAET ;
+    locn:addressArea "Mouscron" ;
+    locn:fullAddress "Kanadezenlaan(D) 6" ;
+    locn:poBox "None" ;
+    locn:postCode "7711" .
 
-kbo:33efeb06b74fea1c87d9 a vcard:Address ;
-    vcard:locality "Harelbeke" ;
-    vcard:post-office-box "None" ;
-    vcard:postal-code "8530" ;
-    vcard:street-address "Gentsesteenweg 98" ;
-    kbo:addressType kbo:TypeOfAddress_BAET .
+kbo:33efeb06b74fea1c87d9 a locn:Address ;
+    kbo:addressType kbo:TypeOfAddress_BAET ;
+    locn:addressArea "Harelbeke" ;
+    locn:fullAddress "Gentsesteenweg 98" ;
+    locn:poBox "None" ;
+    locn:postCode "8530" .
 
-kbo:3436b629c14e0ce0e0dc a vcard:Address ;
-    vcard:locality "Roeselare" ;
-    vcard:post-office-box "None" ;
-    vcard:postal-code "8800" ;
-    vcard:street-address "Sint-Sebastiaansstraat 79" ;
-    kbo:addressType kbo:TypeOfAddress_BAET .
+kbo:3436b629c14e0ce0e0dc a locn:Address ;
+    kbo:addressType kbo:TypeOfAddress_BAET ;
+    locn:addressArea "Roeselare" ;
+    locn:fullAddress "Sint-Sebastiaansstraat 79" ;
+    locn:poBox "None" ;
+    locn:postCode "8800" .
 
-kbo:3759489d87db34df0780 a vcard:Address ;
-    vcard:locality "Brugge" ;
-    vcard:post-office-box "None" ;
-    vcard:postal-code "8200" ;
-    vcard:street-address "Zandstraat 140" ;
-    kbo:addressType kbo:TypeOfAddress_BAET .
+kbo:3759489d87db34df0780 a locn:Address ;
+    kbo:addressType kbo:TypeOfAddress_BAET ;
+    locn:addressArea "Brugge" ;
+    locn:fullAddress "Zandstraat 140" ;
+    locn:poBox "None" ;
+    locn:postCode "8200" .
 
-kbo:38f586fb29f8ab3a4469 a vcard:Address ;
-    vcard:locality "Diksmuide" ;
-    vcard:post-office-box "None" ;
-    vcard:postal-code "8600" ;
-    vcard:street-address "Esenweg 30-32" ;
-    kbo:addressType kbo:TypeOfAddress_BAET .
+kbo:38f586fb29f8ab3a4469 a locn:Address ;
+    kbo:addressType kbo:TypeOfAddress_BAET ;
+    locn:addressArea "Diksmuide" ;
+    locn:fullAddress "Esenweg 30-32" ;
+    locn:poBox "None" ;
+    locn:postCode "8600" .
 
-kbo:3c8ba31fbc6d23792a44 a vcard:Address ;
-    vcard:locality "Bredene" ;
-    vcard:post-office-box "None" ;
-    vcard:postal-code "8450" ;
-    vcard:street-address "Vloedstraat 6" ;
-    kbo:addressType kbo:TypeOfAddress_BAET .
+kbo:3c8ba31fbc6d23792a44 a locn:Address ;
+    kbo:addressType kbo:TypeOfAddress_BAET ;
+    locn:addressArea "Bredene" ;
+    locn:fullAddress "Vloedstraat 6" ;
+    locn:poBox "None" ;
+    locn:postCode "8450" .
 
-kbo:3e0ce16a5e857997de99 a vcard:Address ;
-    vcard:locality "Ieper" ;
-    vcard:post-office-box "None" ;
-    vcard:postal-code "8900" ;
-    vcard:street-address "Steverlyncklaan 1" ;
-    kbo:addressType kbo:TypeOfAddress_BAET .
+kbo:3e0ce16a5e857997de99 a locn:Address ;
+    kbo:addressType kbo:TypeOfAddress_BAET ;
+    locn:addressArea "Ieper" ;
+    locn:fullAddress "Steverlyncklaan 1" ;
+    locn:poBox "None" ;
+    locn:postCode "8900" .
 
-kbo:3e44aa70fb6cdb7ae3f6 a vcard:Address ;
-    vcard:locality "Deerlijk" ;
-    vcard:post-office-box "None" ;
-    vcard:postal-code "8540" ;
-    vcard:street-address "Breestraat 77" ;
-    kbo:addressType kbo:TypeOfAddress_BAET .
+kbo:3e44aa70fb6cdb7ae3f6 a locn:Address ;
+    kbo:addressType kbo:TypeOfAddress_BAET ;
+    locn:addressArea "Deerlijk" ;
+    locn:fullAddress "Breestraat 77" ;
+    locn:poBox "None" ;
+    locn:postCode "8540" .
 
-kbo:4233967579c7d38033f9 a vcard:Address ;
-    vcard:locality "Beernem" ;
-    vcard:post-office-box "None" ;
-    vcard:postal-code "8730" ;
-    vcard:street-address "Hubert d'Ydewallestraat 50" ;
-    kbo:addressType kbo:TypeOfAddress_BAET .
+kbo:4233967579c7d38033f9 a locn:Address ;
+    kbo:addressType kbo:TypeOfAddress_BAET ;
+    locn:addressArea "Beernem" ;
+    locn:fullAddress "Hubert d'Ydewallestraat 50" ;
+    locn:poBox "None" ;
+    locn:postCode "8730" .
 
-kbo:4a631af5685c181b36c5 a vcard:Address ;
-    vcard:locality "Tournai" ;
-    vcard:post-office-box "None" ;
-    vcard:postal-code "7500" ;
-    vcard:street-address "Rue de la Lys(TOU) 18" ;
-    kbo:addressType kbo:TypeOfAddress_BAET .
+kbo:4a631af5685c181b36c5 a locn:Address ;
+    kbo:addressType kbo:TypeOfAddress_BAET ;
+    locn:addressArea "Tournai" ;
+    locn:fullAddress "Rue de la Lys(TOU) 18" ;
+    locn:poBox "None" ;
+    locn:postCode "7500" .
 
-kbo:4fed465ab3092fa9a700 a vcard:Address ;
-    vcard:locality "Poperinge" ;
-    vcard:post-office-box "None" ;
-    vcard:postal-code "8970" ;
-    vcard:street-address "Casselstraat 267" ;
-    kbo:addressType kbo:TypeOfAddress_BAET .
+kbo:4fed465ab3092fa9a700 a locn:Address ;
+    kbo:addressType kbo:TypeOfAddress_BAET ;
+    locn:addressArea "Poperinge" ;
+    locn:fullAddress "Casselstraat 267" ;
+    locn:poBox "None" ;
+    locn:postCode "8970" .
 
-kbo:55a8398947ca7b245c22 a vcard:Address ;
-    vcard:locality "Maldegem" ;
-    vcard:post-office-box "None" ;
-    vcard:postal-code "9990" ;
-    vcard:street-address "Stationsstraat 100" ;
-    kbo:addressType kbo:TypeOfAddress_BAET .
+kbo:55a8398947ca7b245c22 a locn:Address ;
+    kbo:addressType kbo:TypeOfAddress_BAET ;
+    locn:addressArea "Maldegem" ;
+    locn:fullAddress "Stationsstraat 100" ;
+    locn:poBox "None" ;
+    locn:postCode "9990" .
 
-kbo:5665cde587be9f3c500c a vcard:Address ;
-    vcard:locality "Brugge" ;
-    vcard:post-office-box "None" ;
-    vcard:postal-code "8310" ;
-    vcard:street-address "Baron Ruzettelaan 86" ;
-    kbo:addressType kbo:TypeOfAddress_BAET .
+kbo:5665cde587be9f3c500c a locn:Address ;
+    kbo:addressType kbo:TypeOfAddress_BAET ;
+    locn:addressArea "Brugge" ;
+    locn:fullAddress "Baron Ruzettelaan 86" ;
+    locn:poBox "None" ;
+    locn:postCode "8310" .
 
-kbo:56f3a27e280f9ca8ed23 a vcard:Address ;
-    vcard:locality "Ath" ;
-    vcard:post-office-box "None" ;
-    vcard:postal-code "7800" ;
-    vcard:street-address "Rue de Soignies 22" ;
-    kbo:addressType kbo:TypeOfAddress_BAET .
+kbo:56f3a27e280f9ca8ed23 a locn:Address ;
+    kbo:addressType kbo:TypeOfAddress_BAET ;
+    locn:addressArea "Ath" ;
+    locn:fullAddress "Rue de Soignies 22" ;
+    locn:poBox "None" ;
+    locn:postCode "7800" .
 
-kbo:57cb81d2fac40aa7485d a vcard:Address ;
-    vcard:locality "Bernissart" ;
-    vcard:post-office-box "None" ;
-    vcard:postal-code "7321" ;
-    vcard:street-address "Avenue de l'Europe(BLA) 54" ;
-    kbo:addressType kbo:TypeOfAddress_BAET .
+kbo:57cb81d2fac40aa7485d a locn:Address ;
+    kbo:addressType kbo:TypeOfAddress_BAET ;
+    locn:addressArea "Bernissart" ;
+    locn:fullAddress "Avenue de l'Europe(BLA) 54" ;
+    locn:poBox "None" ;
+    locn:postCode "7321" .
 
-kbo:5a239d0086aeb0227cc7 a vcard:Address ;
-    vcard:locality "Wervik" ;
-    vcard:post-office-box "None" ;
-    vcard:postal-code "8940" ;
-    vcard:street-address "Menenstraat 27" ;
-    kbo:addressType kbo:TypeOfAddress_BAET .
+kbo:5a239d0086aeb0227cc7 a locn:Address ;
+    kbo:addressType kbo:TypeOfAddress_BAET ;
+    locn:addressArea "Wervik" ;
+    locn:fullAddress "Menenstraat 27" ;
+    locn:poBox "None" ;
+    locn:postCode "8940" .
 
-kbo:5bad4c3aa29c4a52cde1 a vcard:Address ;
-    vcard:locality "Leuze-en-Hainaut" ;
-    vcard:post-office-box "None" ;
-    vcard:postal-code "7900" ;
-    vcard:street-address "Rue du Bois Blanc(L) 30" ;
-    kbo:addressType kbo:TypeOfAddress_BAET .
+kbo:5bad4c3aa29c4a52cde1 a locn:Address ;
+    kbo:addressType kbo:TypeOfAddress_BAET ;
+    locn:addressArea "Leuze-en-Hainaut" ;
+    locn:fullAddress "Rue du Bois Blanc(L) 30" ;
+    locn:poBox "None" ;
+    locn:postCode "7900" .
 
-kbo:60522c24aea807e6d86a a vcard:Address ;
-    vcard:locality "Tournai" ;
-    vcard:post-office-box "None" ;
-    vcard:postal-code "7520" ;
-    vcard:street-address "Rue de Roubaix(TEM) 71 BIS" ;
-    kbo:addressType kbo:TypeOfAddress_BAET .
+kbo:60522c24aea807e6d86a a locn:Address ;
+    kbo:addressType kbo:TypeOfAddress_BAET ;
+    locn:addressArea "Tournai" ;
+    locn:fullAddress "Rue de Roubaix(TEM) 71 BIS" ;
+    locn:poBox "None" ;
+    locn:postCode "7520" .
 
-kbo:6a50aa987c1834ffdd50 a vcard:Address ;
-    vcard:locality "Torhout" ;
-    vcard:post-office-box "None" ;
-    vcard:postal-code "8820" ;
-    vcard:street-address "Zwevezelestraat 16" ;
-    kbo:addressType kbo:TypeOfAddress_BAET .
+kbo:6a50aa987c1834ffdd50 a locn:Address ;
+    kbo:addressType kbo:TypeOfAddress_BAET ;
+    locn:addressArea "Torhout" ;
+    locn:fullAddress "Zwevezelestraat 16" ;
+    locn:poBox "None" ;
+    locn:postCode "8820" .
 
-kbo:6cdecf689d169dcc284b a vcard:Address ;
-    vcard:locality "Brugge" ;
-    vcard:post-office-box "None" ;
-    vcard:postal-code "8310" ;
-    vcard:street-address "Maalse Steenweg 204" ;
-    kbo:addressType kbo:TypeOfAddress_BAET .
+kbo:6cdecf689d169dcc284b a locn:Address ;
+    kbo:addressType kbo:TypeOfAddress_BAET ;
+    locn:addressArea "Brugge" ;
+    locn:fullAddress "Maalse Steenweg 204" ;
+    locn:poBox "None" ;
+    locn:postCode "8310" .
 
-kbo:6d79d602db6bb2e3431d a vcard:Address ;
-    vcard:locality "Middelkerke" ;
-    vcard:post-office-box "None" ;
-    vcard:postal-code "8430" ;
-    vcard:street-address "Oostendelaan 312" ;
-    kbo:addressType kbo:TypeOfAddress_BAET .
+kbo:6d79d602db6bb2e3431d a locn:Address ;
+    kbo:addressType kbo:TypeOfAddress_BAET ;
+    locn:addressArea "Middelkerke" ;
+    locn:fullAddress "Oostendelaan 312" ;
+    locn:poBox "None" ;
+    locn:postCode "8430" .
 
-kbo:6ee44fb988a2701d7410 a vcard:Address ;
-    vcard:locality "Roeselare" ;
-    vcard:post-office-box "None" ;
-    vcard:postal-code "8800" ;
-    vcard:street-address "Rumbeeksesteenweg 389" ;
-    kbo:addressType kbo:TypeOfAddress_BAET .
+kbo:6ee44fb988a2701d7410 a locn:Address ;
+    kbo:addressType kbo:TypeOfAddress_BAET ;
+    locn:addressArea "Roeselare" ;
+    locn:fullAddress "Rumbeeksesteenweg 389" ;
+    locn:poBox "None" ;
+    locn:postCode "8800" .
 
-kbo:739438d03437fb349baa a vcard:Address ;
-    vcard:locality "Menen" ;
-    vcard:post-office-box "None" ;
-    vcard:postal-code "8930" ;
-    vcard:street-address "Noordstraat 10" ;
-    kbo:addressType kbo:TypeOfAddress_BAET .
+kbo:739438d03437fb349baa a locn:Address ;
+    kbo:addressType kbo:TypeOfAddress_BAET ;
+    locn:addressArea "Menen" ;
+    locn:fullAddress "Noordstraat 10" ;
+    locn:poBox "None" ;
+    locn:postCode "8930" .
 
-kbo:7d7f249bb02308163834 a vcard:Address ;
-    vcard:locality "Knokke-Heist" ;
-    vcard:post-office-box "None" ;
-    vcard:postal-code "8301" ;
-    vcard:street-address "Pannenstraat 202" ;
-    kbo:addressType kbo:TypeOfAddress_BAET .
+kbo:7d7f249bb02308163834 a locn:Address ;
+    kbo:addressType kbo:TypeOfAddress_BAET ;
+    locn:addressArea "Knokke-Heist" ;
+    locn:fullAddress "Pannenstraat 202" ;
+    locn:poBox "None" ;
+    locn:postCode "8301" .
 
-kbo:7e347d807f487666362c a vcard:Address ;
-    vcard:locality "Oostende" ;
-    vcard:post-office-box "None" ;
-    vcard:postal-code "8400" ;
-    vcard:street-address "Alfons Pieterslaan 26" ;
-    kbo:addressType kbo:TypeOfAddress_BAET .
+kbo:7e347d807f487666362c a locn:Address ;
+    kbo:addressType kbo:TypeOfAddress_BAET ;
+    locn:addressArea "Oostende" ;
+    locn:fullAddress "Alfons Pieterslaan 26" ;
+    locn:poBox "None" ;
+    locn:postCode "8400" .
 
-kbo:81bae1d5c2e74aaf4ed0 a vcard:Address ;
-    vcard:locality "Oostrozebeke" ;
-    vcard:post-office-box "None" ;
-    vcard:postal-code "8780" ;
-    vcard:street-address "Ingelmunstersteenweg 153" ;
-    kbo:addressType kbo:TypeOfAddress_BAET .
+kbo:81bae1d5c2e74aaf4ed0 a locn:Address ;
+    kbo:addressType kbo:TypeOfAddress_BAET ;
+    locn:addressArea "Oostrozebeke" ;
+    locn:fullAddress "Ingelmunstersteenweg 153" ;
+    locn:poBox "None" ;
+    locn:postCode "8780" .
 
-kbo:83b8ba9037e3f5f5d2da a vcard:Address ;
-    vcard:locality "De Haan" ;
-    vcard:post-office-box "None" ;
-    vcard:postal-code "8420" ;
-    vcard:street-address "Grotestraat 147" ;
-    kbo:addressType kbo:TypeOfAddress_BAET .
+kbo:83b8ba9037e3f5f5d2da a locn:Address ;
+    kbo:addressType kbo:TypeOfAddress_BAET ;
+    locn:addressArea "De Haan" ;
+    locn:fullAddress "Grotestraat 147" ;
+    locn:poBox "None" ;
+    locn:postCode "8420" .
 
-kbo:885874f26379eb67e3f6 a vcard:Address ;
-    vcard:locality "Moorslede" ;
-    vcard:post-office-box "None" ;
-    vcard:postal-code "8890" ;
-    vcard:street-address "Stationstraat 196" ;
-    kbo:addressType kbo:TypeOfAddress_BAET .
+kbo:885874f26379eb67e3f6 a locn:Address ;
+    kbo:addressType kbo:TypeOfAddress_BAET ;
+    locn:addressArea "Moorslede" ;
+    locn:fullAddress "Stationstraat 196" ;
+    locn:poBox "None" ;
+    locn:postCode "8890" .
 
-kbo:8aaf8dbe42518f420e2d a vcard:Address ;
-    vcard:locality "Blankenberge" ;
-    vcard:post-office-box "None" ;
-    vcard:postal-code "8370" ;
-    vcard:street-address "Grote-Edestraat 66" ;
-    kbo:addressType kbo:TypeOfAddress_BAET .
+kbo:8aaf8dbe42518f420e2d a locn:Address ;
+    kbo:addressType kbo:TypeOfAddress_BAET ;
+    locn:addressArea "Blankenberge" ;
+    locn:fullAddress "Grote-Edestraat 66" ;
+    locn:poBox "None" ;
+    locn:postCode "8370" .
 
-kbo:8c55fed47e12ac83a2ea a vcard:Address ;
-    vcard:locality "Langemark-Poelkapelle" ;
-    vcard:post-office-box "None" ;
-    vcard:postal-code "8920" ;
-    vcard:street-address "Boezingestraat 23" ;
-    kbo:addressType kbo:TypeOfAddress_BAET .
+kbo:8c55fed47e12ac83a2ea a locn:Address ;
+    kbo:addressType kbo:TypeOfAddress_BAET ;
+    locn:addressArea "Langemark-Poelkapelle" ;
+    locn:fullAddress "Boezingestraat 23" ;
+    locn:poBox "None" ;
+    locn:postCode "8920" .
 
-kbo:8fb5a592e929980e6d69 a vcard:Address ;
-    vcard:locality "Kortrijk" ;
-    vcard:post-office-box "None" ;
-    vcard:postal-code "8500" ;
-    vcard:street-address "Sint-Denijsestraat(Kor) 103" ;
-    kbo:addressType kbo:TypeOfAddress_BAET .
+kbo:8fb5a592e929980e6d69 a locn:Address ;
+    kbo:addressType kbo:TypeOfAddress_BAET ;
+    locn:addressArea "Kortrijk" ;
+    locn:fullAddress "Sint-Denijsestraat(Kor) 103" ;
+    locn:poBox "None" ;
+    locn:postCode "8500" .
 
-kbo:908b95212e51326f6e69 a vcard:Address ;
-    vcard:locality "Veurne" ;
-    vcard:post-office-box "None" ;
-    vcard:postal-code "8630" ;
-    vcard:street-address "Nieuwpoortkeiweg 10" ;
-    kbo:addressType kbo:TypeOfAddress_BAET .
+kbo:908b95212e51326f6e69 a locn:Address ;
+    kbo:addressType kbo:TypeOfAddress_BAET ;
+    locn:addressArea "Veurne" ;
+    locn:fullAddress "Nieuwpoortkeiweg 10" ;
+    locn:poBox "None" ;
+    locn:postCode "8630" .
 
 kbo:JuridicalForm_014 a kbo:Code ;
     kbo:codeDescription "Aktiengesellschaft"@DE,
@@ -795,188 +795,188 @@ kbo:TypeOfAddress_REGO a kbo:Code ;
         "Zetel"@NL ;
     kbo:codeValue "REGO" .
 
-kbo:a1a2c2f808917e97b554 a vcard:Address ;
-    vcard:locality "Nieuwpoort" ;
-    vcard:post-office-box "None" ;
-    vcard:postal-code "8620" ;
-    vcard:street-address "Albert I laan 13" ;
-    kbo:addressType kbo:TypeOfAddress_BAET .
+kbo:a1a2c2f808917e97b554 a locn:Address ;
+    kbo:addressType kbo:TypeOfAddress_BAET ;
+    locn:addressArea "Nieuwpoort" ;
+    locn:fullAddress "Albert I laan 13" ;
+    locn:poBox "None" ;
+    locn:postCode "8620" .
 
-kbo:a1d35cd8fdb11998d346 a vcard:Address ;
-    vcard:locality "Aalter" ;
-    vcard:post-office-box "None" ;
-    vcard:postal-code "9880" ;
-    vcard:street-address "Lostraat 81" ;
-    kbo:addressType kbo:TypeOfAddress_BAET .
+kbo:a1d35cd8fdb11998d346 a locn:Address ;
+    kbo:addressType kbo:TypeOfAddress_BAET ;
+    locn:addressArea "Aalter" ;
+    locn:fullAddress "Lostraat 81" ;
+    locn:poBox "None" ;
+    locn:postCode "9880" .
 
-kbo:a3451e15b99f767e7c24 a vcard:Address ;
-    vcard:locality "Wingene" ;
-    vcard:post-office-box "None" ;
-    vcard:postal-code "8750" ;
-    vcard:street-address "Egemsestraat 1" ;
-    kbo:addressType kbo:TypeOfAddress_BAET .
+kbo:a3451e15b99f767e7c24 a locn:Address ;
+    kbo:addressType kbo:TypeOfAddress_BAET ;
+    locn:addressArea "Wingene" ;
+    locn:fullAddress "Egemsestraat 1" ;
+    locn:poBox "None" ;
+    locn:postCode "8750" .
 
-kbo:a463873af5d58089c79d a vcard:Address ;
-    vcard:locality "Comines-Warneton" ;
-    vcard:post-office-box "None" ;
-    vcard:postal-code "7782" ;
-    vcard:street-address "Witteweg(PL) 90" ;
-    kbo:addressType kbo:TypeOfAddress_BAET .
+kbo:a463873af5d58089c79d a locn:Address ;
+    kbo:addressType kbo:TypeOfAddress_BAET ;
+    locn:addressArea "Comines-Warneton" ;
+    locn:fullAddress "Witteweg(PL) 90" ;
+    locn:poBox "None" ;
+    locn:postCode "7782" .
 
-kbo:a6db175919bca6135424 a vcard:Address ;
-    vcard:locality "Jabbeke" ;
-    vcard:post-office-box "None" ;
-    vcard:postal-code "8490" ;
-    vcard:street-address "Gistelsteenweg 308" ;
-    kbo:addressType kbo:TypeOfAddress_BAET .
+kbo:a6db175919bca6135424 a locn:Address ;
+    kbo:addressType kbo:TypeOfAddress_BAET ;
+    locn:addressArea "Jabbeke" ;
+    locn:fullAddress "Gistelsteenweg 308" ;
+    locn:poBox "None" ;
+    locn:postCode "8490" .
 
-kbo:abd9766da53dbe1b1f77 a vcard:Address ;
-    vcard:locality "Waregem" ;
-    vcard:post-office-box "None" ;
-    vcard:postal-code "8790" ;
-    vcard:street-address "Noorderlaan 56" ;
-    kbo:addressType kbo:TypeOfAddress_BAET .
+kbo:abd9766da53dbe1b1f77 a locn:Address ;
+    kbo:addressType kbo:TypeOfAddress_BAET ;
+    locn:addressArea "Waregem" ;
+    locn:fullAddress "Noorderlaan 56" ;
+    locn:poBox "None" ;
+    locn:postCode "8790" .
 
-kbo:ace2b3a346e905a4a44c a vcard:Address ;
-    vcard:locality "Ardooie" ;
-    vcard:post-office-box "None" ;
-    vcard:postal-code "8850" ;
-    vcard:street-address "Wezestraat 9" ;
-    kbo:addressType kbo:TypeOfAddress_BAET .
+kbo:ace2b3a346e905a4a44c a locn:Address ;
+    kbo:addressType kbo:TypeOfAddress_BAET ;
+    locn:addressArea "Ardooie" ;
+    locn:fullAddress "Wezestraat 9" ;
+    locn:poBox "None" ;
+    locn:postCode "8850" .
 
-kbo:b30488dcae345dee1ac7 a vcard:Address ;
-    vcard:locality "Ronse" ;
-    vcard:post-office-box "None" ;
-    vcard:postal-code "9600" ;
-    vcard:street-address "Engelsenlaan 35" ;
-    kbo:addressType kbo:TypeOfAddress_BAET .
+kbo:b30488dcae345dee1ac7 a locn:Address ;
+    kbo:addressType kbo:TypeOfAddress_BAET ;
+    locn:addressArea "Ronse" ;
+    locn:fullAddress "Engelsenlaan 35" ;
+    locn:poBox "None" ;
+    locn:postCode "9600" .
 
-kbo:b81b639a6bea40732916 a vcard:Address ;
-    vcard:locality "Koksijde" ;
-    vcard:post-office-box "None" ;
-    vcard:postal-code "8670" ;
-    vcard:street-address "Robert Vandammestraat(Kok) 41" ;
-    kbo:addressType kbo:TypeOfAddress_BAET .
+kbo:b81b639a6bea40732916 a locn:Address ;
+    kbo:addressType kbo:TypeOfAddress_BAET ;
+    locn:addressArea "Koksijde" ;
+    locn:fullAddress "Robert Vandammestraat(Kok) 41" ;
+    locn:poBox "None" ;
+    locn:postCode "8670" .
 
-kbo:b8c850c194f5871ed902 a vcard:Address ;
-    vcard:locality "Zwevegem" ;
-    vcard:post-office-box "None" ;
-    vcard:postal-code "8550" ;
-    vcard:street-address "Avelgemstraat(Z) 107E" ;
-    kbo:addressType kbo:TypeOfAddress_BAET .
+kbo:b8c850c194f5871ed902 a locn:Address ;
+    kbo:addressType kbo:TypeOfAddress_BAET ;
+    locn:addressArea "Zwevegem" ;
+    locn:fullAddress "Avelgemstraat(Z) 107E" ;
+    locn:poBox "None" ;
+    locn:postCode "8550" .
 
-kbo:bea05d0a427538a75ff6 a vcard:Address ;
-    vcard:locality "Ieper" ;
-    vcard:post-office-box "None" ;
-    vcard:postal-code "8900" ;
-    vcard:street-address "Haiglaan 31 C" ;
-    kbo:addressType kbo:TypeOfAddress_BAET .
+kbo:bea05d0a427538a75ff6 a locn:Address ;
+    kbo:addressType kbo:TypeOfAddress_BAET ;
+    locn:addressArea "Ieper" ;
+    locn:fullAddress "Haiglaan 31 C" ;
+    locn:poBox "None" ;
+    locn:postCode "8900" .
 
-kbo:c0ffc23b5591853214fd a vcard:Address ;
-    vcard:locality "Kortrijk" ;
-    vcard:post-office-box "None" ;
-    vcard:postal-code "8501" ;
-    vcard:street-address "Gullegemsestraat(Heu) 20" ;
-    kbo:addressType kbo:TypeOfAddress_BAET .
+kbo:c0ffc23b5591853214fd a locn:Address ;
+    kbo:addressType kbo:TypeOfAddress_BAET ;
+    locn:addressArea "Kortrijk" ;
+    locn:fullAddress "Gullegemsestraat(Heu) 20" ;
+    locn:poBox "None" ;
+    locn:postCode "8501" .
 
-kbo:c6d11050179e471c2063 a vcard:Address ;
-    vcard:locality "Antoing" ;
-    vcard:post-office-box "None" ;
-    vcard:postal-code "7640" ;
-    vcard:street-address "Rue Louvieaux 5" ;
-    kbo:addressType kbo:TypeOfAddress_BAET .
+kbo:c6d11050179e471c2063 a locn:Address ;
+    kbo:addressType kbo:TypeOfAddress_BAET ;
+    locn:addressArea "Antoing" ;
+    locn:fullAddress "Rue Louvieaux 5" ;
+    locn:poBox "None" ;
+    locn:postCode "7640" .
 
-kbo:d11349e804369edfe722 a vcard:Address ;
-    vcard:locality "Mouscron" ;
-    vcard:post-office-box "None" ;
-    vcard:postal-code "7700" ;
-    vcard:street-address "Menenstraat 460" ;
-    kbo:addressType kbo:TypeOfAddress_BAET .
+kbo:d11349e804369edfe722 a locn:Address ;
+    kbo:addressType kbo:TypeOfAddress_BAET ;
+    locn:addressArea "Mouscron" ;
+    locn:fullAddress "Menenstraat 460" ;
+    locn:poBox "None" ;
+    locn:postCode "7700" .
 
-kbo:d5febce20f2af0ce15b3 a vcard:Address ;
-    vcard:locality "Oostende" ;
-    vcard:post-office-box "None" ;
-    vcard:postal-code "8400" ;
-    vcard:street-address "Torhoutsesteenweg 610" ;
-    kbo:addressType kbo:TypeOfAddress_BAET .
+kbo:d5febce20f2af0ce15b3 a locn:Address ;
+    kbo:addressType kbo:TypeOfAddress_BAET ;
+    locn:addressArea "Oostende" ;
+    locn:fullAddress "Torhoutsesteenweg 610" ;
+    locn:poBox "None" ;
+    locn:postCode "8400" .
 
-kbo:d619074f251049a9ed9f a vcard:Address ;
-    vcard:locality "Tournai" ;
-    vcard:post-office-box "None" ;
-    vcard:postal-code "7503" ;
-    vcard:street-address "Rue de Maire(FRY) 3" ;
-    kbo:addressType kbo:TypeOfAddress_BAET .
+kbo:d619074f251049a9ed9f a locn:Address ;
+    kbo:addressType kbo:TypeOfAddress_BAET ;
+    locn:addressArea "Tournai" ;
+    locn:fullAddress "Rue de Maire(FRY) 3" ;
+    locn:poBox "None" ;
+    locn:postCode "7503" .
 
-kbo:d7407d22117ce5e825a2 a vcard:Address ;
-    vcard:locality "Péruwelz" ;
-    vcard:post-office-box "None" ;
-    vcard:postal-code "7600" ;
-    vcard:street-address "Rue Neuve Chaussée(PER) 159" ;
-    kbo:addressType kbo:TypeOfAddress_BAET .
+kbo:d7407d22117ce5e825a2 a locn:Address ;
+    kbo:addressType kbo:TypeOfAddress_BAET ;
+    locn:addressArea "Péruwelz" ;
+    locn:fullAddress "Rue Neuve Chaussée(PER) 159" ;
+    locn:poBox "None" ;
+    locn:postCode "7600" .
 
-kbo:df1b7d18e6d8e620ba15 a vcard:Address ;
-    vcard:locality "Zedelgem" ;
-    vcard:post-office-box "D" ;
-    vcard:postal-code "8210" ;
-    vcard:street-address "Groenestraat 112" ;
-    kbo:addressType kbo:TypeOfAddress_BAET .
+kbo:df1b7d18e6d8e620ba15 a locn:Address ;
+    kbo:addressType kbo:TypeOfAddress_BAET ;
+    locn:addressArea "Zedelgem" ;
+    locn:fullAddress "Groenestraat 112" ;
+    locn:poBox "D" ;
+    locn:postCode "8210" .
 
-kbo:e12da39f18ae97cf3315 a vcard:Address ;
-    vcard:locality "Izegem" ;
-    vcard:post-office-box "None" ;
-    vcard:postal-code "8870" ;
-    vcard:street-address "Krekelmotestraat 77" ;
-    kbo:addressType kbo:TypeOfAddress_BAET .
+kbo:e12da39f18ae97cf3315 a locn:Address ;
+    kbo:addressType kbo:TypeOfAddress_BAET ;
+    locn:addressArea "Izegem" ;
+    locn:fullAddress "Krekelmotestraat 77" ;
+    locn:poBox "None" ;
+    locn:postCode "8870" .
 
-kbo:ebfcc6a3d5cf433e29ad a vcard:Address ;
-    vcard:locality "Wevelgem" ;
-    vcard:post-office-box "None" ;
-    vcard:postal-code "8560" ;
-    vcard:street-address "Bissegemstraat 212" ;
-    kbo:addressType kbo:TypeOfAddress_BAET .
+kbo:ebfcc6a3d5cf433e29ad a locn:Address ;
+    kbo:addressType kbo:TypeOfAddress_BAET ;
+    locn:addressArea "Wevelgem" ;
+    locn:fullAddress "Bissegemstraat 212" ;
+    locn:poBox "None" ;
+    locn:postCode "8560" .
 
-kbo:ed3790cf92c2a5770880 a vcard:Address ;
-    vcard:locality "Avelgem" ;
-    vcard:post-office-box "None" ;
-    vcard:postal-code "8580" ;
-    vcard:street-address "Doorniksesteenweg 165" ;
-    kbo:addressType kbo:TypeOfAddress_BAET .
+kbo:ed3790cf92c2a5770880 a locn:Address ;
+    kbo:addressType kbo:TypeOfAddress_BAET ;
+    locn:addressArea "Avelgem" ;
+    locn:fullAddress "Doorniksesteenweg 165" ;
+    locn:poBox "None" ;
+    locn:postCode "8580" .
 
-kbo:ed4c35e8f1a50bd12f9e a vcard:Address ;
-    vcard:locality "Ichtegem" ;
-    vcard:post-office-box "None" ;
-    vcard:postal-code "8480" ;
-    vcard:street-address "Aartrijkestraat(EER) 111" ;
-    kbo:addressType kbo:TypeOfAddress_BAET .
+kbo:ed4c35e8f1a50bd12f9e a locn:Address ;
+    kbo:addressType kbo:TypeOfAddress_BAET ;
+    locn:addressArea "Ichtegem" ;
+    locn:fullAddress "Aartrijkestraat(EER) 111" ;
+    locn:poBox "None" ;
+    locn:postCode "8480" .
 
-kbo:f47c159833c43f61c946 a vcard:Address ;
-    vcard:locality "Wevelgem" ;
-    vcard:post-office-box "None" ;
-    vcard:postal-code "8560" ;
-    vcard:street-address "Kortrijkstraat 345B" ;
-    kbo:addressType kbo:TypeOfAddress_BAET .
+kbo:f47c159833c43f61c946 a locn:Address ;
+    kbo:addressType kbo:TypeOfAddress_BAET ;
+    locn:addressArea "Wevelgem" ;
+    locn:fullAddress "Kortrijkstraat 345B" ;
+    locn:poBox "None" ;
+    locn:postCode "8560" .
 
-kbo:f5800259440271b62645 a vcard:Address ;
-    vcard:locality "Kortrijk" ;
-    vcard:post-office-box "None" ;
-    vcard:postal-code "8500" ;
-    vcard:street-address "Engelse Wandeling(Kor) 2L2" ;
-    kbo:addressType kbo:TypeOfAddress_BAET .
+kbo:f5800259440271b62645 a locn:Address ;
+    kbo:addressType kbo:TypeOfAddress_BAET ;
+    locn:addressArea "Kortrijk" ;
+    locn:fullAddress "Engelse Wandeling(Kor) 2L2" ;
+    locn:poBox "None" ;
+    locn:postCode "8500" .
 
-kbo:f8bfecd893cc8139c266 a vcard:Address ;
-    vcard:locality "Tielt" ;
-    vcard:post-office-box "None" ;
-    vcard:postal-code "8700" ;
-    vcard:street-address "Stationstraat 91" ;
-    kbo:addressType kbo:TypeOfAddress_BAET .
+kbo:f8bfecd893cc8139c266 a locn:Address ;
+    kbo:addressType kbo:TypeOfAddress_BAET ;
+    locn:addressArea "Tielt" ;
+    locn:fullAddress "Stationstraat 91" ;
+    locn:poBox "None" ;
+    locn:postCode "8700" .
 
-kbo:1edf266a39a4e3d96abe a vcard:Address ;
-    vcard:locality "Roeselare" ;
-    vcard:post-office-box "None" ;
-    vcard:postal-code "8800" ;
-    vcard:street-address "Kachtemsestraat 200" ;
+kbo:1edf266a39a4e3d96abe a locn:Address ;
     kbo:addressType kbo:TypeOfAddress_BAET,
-        kbo:TypeOfAddress_REGO .
+        kbo:TypeOfAddress_REGO ;
+    locn:addressArea "Roeselare" ;
+    locn:fullAddress "Kachtemsestraat 200" ;
+    locn:poBox "None" ;
+    locn:postCode "8800" .
 
 kbo:Classification_MAIN a kbo:Code ;
     kbo:codeDescription "Activité principale"@FR,

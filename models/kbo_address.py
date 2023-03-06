@@ -18,12 +18,10 @@ class KboAddress(KboBase):
         self.zip_code: str = None
         self.municipality: str = None
         self.street: str = None
-        #self.street_no_parenthese:str = self.street.partition('(')[1]
         self.house_number: str = None
         self.box: str = None
         self.extra_info: str = None
         self.date_striking_off: datetime = None
-        #self.full_address:str =
         self.full_address:str = None
         self.full_address_no_bracket:str =None
 
@@ -62,7 +60,6 @@ class KboAddress(KboBase):
         graph.add((address_ref, LOCN.postCode, Literal(self.zip_code)))
         graph.add((address_ref, LOCN.postName, Literal(self.municipality)))
         graph.add((address_ref, LOCN.fullAddress, Literal(self.full_address)))
-        #print(self.full_address)
         graph.add((address_ref, GEO.asWKT,Literal(self.address_to_wkt(self.full_address_no_bracket))))
         graph.add((address_ref, LOCN.poBox, Literal(self.box)))
         address_type_ref = self.type_of_address.to_rdf_version(graph, as_blank_node=as_blank_node)
@@ -71,15 +68,16 @@ class KboAddress(KboBase):
             graph.add((address_type_ref, KBO.dateStrikingOff, Literal(self.date_striking_off)))
         return address_ref
 
+    #Address to wkt string
     def address_to_wkt(self, full_address_no_bracket:str)-> str:
         locator = Nominatim(user_agent="myGeocode")
-        #full_address = "Maurice De Moorplein 7, 1020 Brussel, Belgium".replace("Bld d", "Boulevard d" )
+        #full_address_no_bracket = "Rue d'Hoves 122, 7850 Enghien"
+        #print(full_address_no_bracket)
         location = locator.geocode(full_address_no_bracket)
         if location is None:
             print("Bad quality address: " + full_address_no_bracket)
-            point = Point(0,0)
+            return None
         else:
-            # print("Latitude = {}, Longitude = {}".format(location.latitude, location.longitude))
             point = Point(location.longitude, location.latitude)
             return point.wkt
 

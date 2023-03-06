@@ -67,7 +67,7 @@ if __name__ == '__main__':
             print(f"Processing record {current_rec} of {total_records} [{current_rec/total_records*100:.2f}%]")
 
     elif args.command == 'sample':
-        enterprise = KboGenerator(BASE_PATH, DB_LOCATION).one("0414.881.767")
+        enterprise = KboGenerator(BASE_PATH, DB_LOCATION).one("0416.822.559")
         graph = Graph()
 
         # locator = Nominatim(user_agent="myGeocode")
@@ -76,6 +76,7 @@ if __name__ == '__main__':
         # point = Point(location.longitude, location.latitude)
         # print(point.wkt)
         #bind kbo, org, foaf, vard prefix.
+
         graph.bind("kbo", KBO)
         graph.bind("org", ORG)
         graph.bind("foaf", FOAF)
@@ -90,6 +91,7 @@ if __name__ == '__main__':
         #print(json.dumps(ent_dict, indent=4))
         #print(ent_dict)
         print(graph.serialize(format='turtle'))
+
     # Get one versioned KBO Enterprise Entity
     elif args.command == 'version_sample':
         enterprise = KboGenerator(BASE_PATH, DB_LOCATION).one("0416.822.559")
@@ -133,6 +135,8 @@ if __name__ == '__main__':
             # print(f"Processing record {current_rec} of {total_records} [{current_rec/total_records*100:.2f}%]\r", end="")
             print(f"Processing record {current_rec} of {total_records} [{current_rec / total_records * 100:.2f}%]")
 
+
+    #Bel20 companies, data sample
     elif args.command == 'version_bel20':
 
         total_records = len(BEL_20)

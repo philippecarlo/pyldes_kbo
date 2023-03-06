@@ -116,12 +116,9 @@ class KboGenerator ():
             address.zip_code = address_row[5]
             address.municipality = address_row[6]
             address.street = address_row[8]
-            # address.street_no_parentheses = address_row[8].partition('(')[0]
-            # print(address_row[8].partition('(')[0])
             address.house_number = address_row[10]
             address.box = address_row[11]
             address.extra_info = address_row[12]
-            #Kachtemsestraat 200, 8800 Roeselare, Belgium"
             address.full_address = address_row[8]+" "+address_row[10]+", "+address_row[5]+" "+address_row[6]+", "+"Belgium"
             address.full_address_no_bracket = ((address_row[8].partition('(')[0]).replace("Bld ", "Boulevard " )).partition(',')[0]+" "+address_row[10]+", "+address_row[5]+" "+address_row[6].partition('(')[0]+", "+"Belgium"
             addresses.append(address)

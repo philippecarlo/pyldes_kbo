@@ -3,6 +3,7 @@ import argparse
 from rdflib import Graph, ORG, FOAF, SKOS
 from namespace.kbo import KBO
 from namespace.vcard import VCARD
+from namespace.geo import GEO
 from namespace.locn import LOCN
 from namespace.legal import LEGAL
 from namespace.termname import TERMNAME
@@ -69,6 +70,11 @@ if __name__ == '__main__':
         enterprise = KboGenerator(BASE_PATH, DB_LOCATION).one("0414.881.767")
         graph = Graph()
 
+        # locator = Nominatim(user_agent="myGeocode")
+        # location = locator.geocode("Champ de Mars, Paris, France")
+        # print("Latitude = {}, Longitude = {}".format(location.latitude, location.longitude))
+        # point = Point(location.longitude, location.latitude)
+        # print(point.wkt)
         #bind kbo, org, foaf, vard prefix.
         graph.bind("kbo", KBO)
         graph.bind("org", ORG)
@@ -77,6 +83,7 @@ if __name__ == '__main__':
         graph.bind("locn",LOCN)
         graph.bind("legal",LEGAL)
         graph.bind("terms",TERMNAME)
+        graph.bind("geo", GEO)
 
         enterprise.to_rdf(graph, with_blank_nodes=False)
         ent_dict = enterprise.to_dict()
@@ -96,6 +103,7 @@ if __name__ == '__main__':
         graph.bind("locn", LOCN)
         graph.bind("legal", LEGAL)
         graph.bind("terms", TERMNAME)
+        graph.bind("geo", GEO)
 
         enterprise.to_rdf_version(graph, with_blank_nodes=False)
         ent_dict = enterprise.to_dict()
@@ -118,6 +126,8 @@ if __name__ == '__main__':
             graph.bind("locn", LOCN)
             graph.bind("legal", LEGAL)
             graph.bind("terms", TERMNAME)
+            graph.bind("geo", GEO)
+
             enterprise.to_rdf_version(graph, with_blank_nodes=False)
             print(graph.serialize(format='turtle'))
             # print(f"Processing record {current_rec} of {total_records} [{current_rec/total_records*100:.2f}%]\r", end="")
@@ -140,6 +150,7 @@ if __name__ == '__main__':
              graph.bind("locn", LOCN)
              graph.bind("legal", LEGAL)
              graph.bind("terms", TERMNAME)
+             graph.bind("geo", GEO)
 
              enterprise.to_rdf_version(graph, with_blank_nodes=False)
              ent_dict = enterprise.to_dict()

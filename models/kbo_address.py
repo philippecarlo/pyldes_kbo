@@ -71,8 +71,6 @@ class KboAddress(KboBase):
     #Address to wkt string
     def address_to_wkt(self, full_address_no_bracket:str)-> str:
         locator = Nominatim(user_agent="myGeocode")
-        #full_address_no_bracket = "Rue d'Hoves 122, 7850 Enghien"
-        #print(full_address_no_bracket)
         location = locator.geocode(full_address_no_bracket)
         if location is None:
             print("Bad quality address: " + full_address_no_bracket)

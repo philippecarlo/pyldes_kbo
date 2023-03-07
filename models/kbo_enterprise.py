@@ -39,7 +39,7 @@ class KboEnterprise(KboBase):
         #graph.add((enterprise_ref, RDF.type, ORG.Organization))
         graph.add((enterprise_ref, RDF.type, KBO.Enterprise))
         graph.add((enterprise_ref, KBO.status, status_ref))
-        graph.add((enterprise_ref,RDF.type, LEGAL.legalEntity))
+        graph.add((enterprise_ref, RDF.type, LEGAL.legalEntity))
         graph.add((enterprise_ref, LEGAL.companyType, juridical_form_ref))
         graph.add((enterprise_ref, LEGAL.companyStatus, juridical_situation_ref))
         for denom in self.denominations:

@@ -70,11 +70,6 @@ if __name__ == '__main__':
         enterprise = KboGenerator(BASE_PATH, DB_LOCATION).one("0416.822.559")
         graph = Graph()
 
-        # locator = Nominatim(user_agent="myGeocode")
-        # location = locator.geocode("Champ de Mars, Paris, France")
-        # print("Latitude = {}, Longitude = {}".format(location.latitude, location.longitude))
-        # point = Point(location.longitude, location.latitude)
-        # print(point.wkt)
         #bind kbo, org, foaf, vard prefix.
 
         graph.bind("kbo", KBO)
@@ -160,5 +155,9 @@ if __name__ == '__main__':
              ent_dict = enterprise.to_dict()
              # print(json.dumps(ent_dict, indent=4))
              # print(ent_dict)
-             print(graph.serialize(format='turtle'))
+
+             f = open(f"data/Output/{enterprise.enterprise_number}.ttl", "w+")
+             f.write(graph.serialize(format='turtle'))
+             f.close()
+             #print(graph.serialize(format='turtle'))
              print(f"Processing record {current_rec} of {total_records} [{current_rec / total_records * 100:.2f}%]")

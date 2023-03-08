@@ -10,6 +10,7 @@ from pyldes_kbo.models.kbo_code import KboCode
 from geopy.geocoders import Nominatim
 from shapely import wkt
 from shapely.geometry import Point
+from googlemaps import client as GoogleMaps
 
 class KboAddress(KboBase):
 
@@ -70,6 +71,10 @@ class KboAddress(KboBase):
 
     #Address to wkt string
     def address_to_wkt(self, full_address_no_bracket:str)-> str:
+        #Google client also cannot reslove the bad quality addresses
+        #gmaps = GoogleMaps.Client(key='AIzaSyAXUMfY-B95u4ve5REelZM1eLVgbsDvDGc')
+        #localG #= gmaps.geocode(full_address_no_bracket)
+        #full_address_no_bracket = "Rakestraat 27, 8750 Wingene, Belgium"
         locator = Nominatim(user_agent="myGeocode")
         location = locator.geocode(full_address_no_bracket)
         if location is None:
@@ -77,6 +82,8 @@ class KboAddress(KboBase):
             return None
         else:
             point = Point(location.longitude, location.latitude)
+            #point = Point(localG[0]['geometry']['location']['lng'],localG[0]['geometry']['location']['lat'])
+            #print(localG[0]['geometry']['location'] ['lat'])
+            #print(point.wkt)
             return point.wkt
-
 

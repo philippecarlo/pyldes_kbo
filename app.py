@@ -78,6 +78,27 @@ def configure_arg_parser() -> Namespace:
     parser_dump_ldes.add_argument('--blank-nodes', default='no', type=str, help='use blank nodes in rdf.', choices=["yes", "no"])
     return parser
 
+
+def configure_arg_parser() -> Namespace:
+    parser = argparse.ArgumentParser(description='KBO Linked Data Event Stream tool')
+    subparsers = parser.add_subparsers(dest='command')
+    # loadfull command
+    parser_loadfull = subparsers.add_parser('loadfull', help='Loads KBO data into a local SQLite DB under the data folder.')
+    parser_loadfull.add_argument('date', help='The date of the dump to use.')
+    # loaddiff command
+    parser_load_diff = subparsers.add_parser('loaddiff', help='Loads KBO data into a local SQLite DB under the data folder.')
+    parser_load_diff.add_argument('date', help='The date of the diff dump to use.')
+    # dump_ldes command
+    parser_dump_ldes = subparsers.add_parser('dump_ldes', help='Dumps thefull KBO LDES collection.')
+    parser_dump_ldes.add_argument('--format', help='The format to dump the data in.', choices=['json', 'json-ld', 'turtle'], default='turtle')
+    parser_dump_ldes.add_argument('--blank-nodes', default='no', type=str, help='use blank nodes in rdf.', choices=["yes", "no"])
+    # sample command
+    parser_sample = subparsers.add_parser('sample', help='Stop synchronizing a previously onboarded LDES collection with given alias.')
+    parser_sample.add_argument('enterprise_nr', help='The enterprise number to use as a sample.')
+    parser_sample.add_argument('--format', help='The format to dump the data in.', choices=['json', 'json-ld', 'turtle'], default='turtle')
+    parser_sample.add_argument('--blank-nodes', default='no', type=str, help='use blank nodes in rdf.', choices=["yes", "no"])
+    return parser
+
 if __name__ == '__main__':
     parser = configure_arg_parser()
     args = parser.parse_args()

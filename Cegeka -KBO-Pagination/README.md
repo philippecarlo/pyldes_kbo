@@ -6,8 +6,10 @@ Two docker containers should start at this moment: Ldes server and mongo DB
 
 ## Post KBO data to the Ldes server
 
+Please run 
+
 ```for f in ../pyldes_kbo/sample/bel20/*; do curl -i -X POST "http://localhost:8080/kbo" -H "Content-Type: application/turtle" -d "@$f";done```
 
-Please modify the directory accordingly based on your setup.\
+Also modify the directory accordingly based on your setup.\
 
 The current test is only for pagination of the [LDES server](https://github.com/Informatievlaanderen/VSDS-LDESServer4J)

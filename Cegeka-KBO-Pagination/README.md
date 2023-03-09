@@ -13,3 +13,5 @@ Please run
 Also modify the directory accordingly based on your setup.\
 
 The current test is only for pagination of the [LDES server](https://github.com/Informatievlaanderen/VSDS-LDESServer4J)
+
+```http://localhost:8080/kbo``` root of the LDES collection

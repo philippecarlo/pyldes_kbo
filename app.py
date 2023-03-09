@@ -156,7 +156,7 @@ if __name__ == '__main__':
              # print(json.dumps(ent_dict, indent=4))
              # print(ent_dict)
 
-             f = open(f"data/Output/{enterprise.enterprise_number}.ttl", "w+")
+             f = open(f"sample/bel20/{enterprise.enterprise_number}.ttl", "w+")
              f.write(graph.serialize(format='turtle'))
              f.close()
              #print(graph.serialize(format='turtle'))

@@ -1,3 +1,4 @@
+import json
 import argparse
 from argparse import Namespace
 from rdflib import Graph, ORG, FOAF, SKOS
@@ -59,44 +60,22 @@ def configure_arg_parser() -> Namespace:
     parser_sample.add_argument('--blank-nodes', default='no', type=str, help='use blank nodes in rdf.', choices=["yes", "no"])
 
     # dump_ldes command (versioned)
-    parser_dump_ldes = subparsers.add_parser('version_dump_ldes', help='Dumps thefull KBO LDES collection.')
+    parser_dump_ldes = subparsers.add_parser('version_dump_ldes', help='Dumps the full versioned KBO LDES collection.')
     parser_dump_ldes.add_argument('--format', help='The format to dump the data in.',
                                   choices=['json', 'json-ld', 'turtle'], default='turtle')
-    parser_dump_ldes.add_argument('--blank-nodes', default='no', type=str, help='use blank nodes in rdf.',
-                                  choices=["yes", "no"])
+    parser_dump_ldes.add_argument('--blank-nodes', default='no', type=str, help='use blank nodes in rdf.', choices=["yes", "no"])
+
     # sample command (versioned)
     parser_sample = subparsers.add_parser('version_sample',  help='Stop synchronizing a previously onboarded LDES collection with given alias.')
     parser_sample.add_argument('enterprise_nr', help='The enterprise number to use as a sample.')
     parser_sample.add_argument('--format', help='The format to dump the data in.',
                                choices=['json', 'json-ld', 'turtle'], default='turtle')
-    parser_sample.add_argument('--blank-nodes', default='no', type=str, help='use blank nodes in rdf.',
-                               choices=["yes", "no"])
+    parser_sample.add_argument('--blank-nodes', default='no', type=str, help='use blank nodes in rdf.', choices=["yes", "no"])
 
     # dump_bel20 command
     parser_dump_ldes = subparsers.add_parser('version_bel20', help='Dumps the BEL 20 LDES collection.')
     parser_dump_ldes.add_argument('--format', help='The format to dump the data in.', choices=['json', 'json-ld', 'turtle'], default='turtle')
     parser_dump_ldes.add_argument('--blank-nodes', default='no', type=str, help='use blank nodes in rdf.', choices=["yes", "no"])
-    return parser
-
-
-def configure_arg_parser() -> Namespace:
-    parser = argparse.ArgumentParser(description='KBO Linked Data Event Stream tool')
-    subparsers = parser.add_subparsers(dest='command')
-    # loadfull command
-    parser_loadfull = subparsers.add_parser('loadfull', help='Loads KBO data into a local SQLite DB under the data folder.')
-    parser_loadfull.add_argument('date', help='The date of the dump to use.')
-    # loaddiff command
-    parser_load_diff = subparsers.add_parser('loaddiff', help='Loads KBO data into a local SQLite DB under the data folder.')
-    parser_load_diff.add_argument('date', help='The date of the diff dump to use.')
-    # dump_ldes command
-    parser_dump_ldes = subparsers.add_parser('dump_ldes', help='Dumps thefull KBO LDES collection.')
-    parser_dump_ldes.add_argument('--format', help='The format to dump the data in.', choices=['json', 'json-ld', 'turtle'], default='turtle')
-    parser_dump_ldes.add_argument('--blank-nodes', default='no', type=str, help='use blank nodes in rdf.', choices=["yes", "no"])
-    # sample command
-    parser_sample = subparsers.add_parser('sample', help='Stop synchronizing a previously onboarded LDES collection with given alias.')
-    parser_sample.add_argument('enterprise_nr', help='The enterprise number to use as a sample.')
-    parser_sample.add_argument('--format', help='The format to dump the data in.', choices=['json', 'json-ld', 'turtle'], default='turtle')
-    parser_sample.add_argument('--blank-nodes', default='no', type=str, help='use blank nodes in rdf.', choices=["yes", "no"])
     return parser
 
 if __name__ == '__main__':
@@ -131,6 +110,7 @@ if __name__ == '__main__':
             print(graph.serialize(format='turtle'))
             #print(f"Processing record {current_rec} of {total_records} [{current_rec/total_records*100:.2f}%]\r", end="")
             print(f"Processing record {current_rec} of {total_records} [{current_rec/total_records*100:.2f}%]")
+
     elif args.command == 'sample':
         enterprise_nr = args.enterprise_nr
         format = args.format
@@ -151,6 +131,7 @@ if __name__ == '__main__':
             enterprise.to_rdf(graph, with_blank_nodes=blank_nodes)
             print(graph.serialize(format=format))
             exit()
+
     # Get one versioned KBO Enterprise Entity
     elif args.command == 'version_sample':
         enterprise = KboGenerator(BASE_PATH, DB_LOCATION).one("0416.822.559")
@@ -173,7 +154,7 @@ if __name__ == '__main__':
         print(graph.serialize(format='turtle'))
 
     # Get versioned KBO Enterprise Entities
-    elif args.command == 'version_run':
+    elif args.command == 'version_dump_ldes':
         enterprises = KboGenerator(BASE_PATH, DB_LOCATION)
         total_records = enterprises.count()
         current_rec = 0
@@ -196,7 +177,6 @@ if __name__ == '__main__':
 
     #Bel20 companies, data sample
     elif args.command == 'version_bel20':
-
         total_records = len(BEL_20)
         current_rec = 0
         for enterprise in BEL_20:

@@ -3,9 +3,9 @@
 
 ##  The python project could be run with the following arguments:
 \
-    - ```load```: Which loads the CSV files from the given repository defined by ```VERSION``` to a DB file defined by ``DB_LOCATION``\
+    - ```loadfull```: Which loads the CSV files from the given repository defined by ---    ```VERSION``` to a DB file defined by ``DB_LOCATION``\
     - ```sample```: Which gives a nonversioned KBO Enterprise Entity\
-    - ```run```: Which gives all nonversioned KBO Enterprise Entities \
+    - ```dump_ldes```: Which gives all nonversioned KBO Enterprise Entities \
     - ```version_sample```: Which gives a versioned KBO Enterprise Entity\
-    - ```versionr_run```: Which gives all versioned KBO Enterprise Entities\
+    - ```version_dump_ldes```: Which gives all versioned KBO Enterprise Entities\
     - ```version_bel20```: Which gives versioned [Bel20](https://tradingeconomics.com/belgium/stock-market) companies

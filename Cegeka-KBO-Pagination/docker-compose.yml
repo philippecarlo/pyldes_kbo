@@ -1,8 +1,8 @@
 version: '3.3'
 services:
   ldes-server:
-    container_name: ${USECASE_NAME:-gipod-page-fragment-ldes}_ldes-server
-    image: ${DOCKER_REPO:-ghcr.io/informatievlaanderen}/ldes-server:${LDES_SERVER_TAG:-20230214t1234}
+    container_name: ${USECASE_NAME:-kbo_pagination}_ldes-server
+    image: ${DOCKER_REPO:-ghcr.io/informatievlaanderen}/ldes-server:${LDES_SERVER_TAG:-20230227T0812}
     environment:
       - SIS_DATA=/tmp
       - SPRING_DATA_MONGODB_DATABASE=${SPRING_DATA_MONGODB_DATABASE:-kbo}
@@ -24,7 +24,7 @@ services:
     depends_on:
       - ldes-mongodb
   ldes-mongodb:
-    container_name: ${USECASE_NAME:-gipod-page-fragment-ldes}_ldes-mongodb
+    container_name: ${USECASE_NAME:-kbo_pagination}_ldes-mongodb
     image: mongo:${MONGODB_TAG:-6.0.4}
     ports:
       - ${MONGODB_PORT:-27017}:27017

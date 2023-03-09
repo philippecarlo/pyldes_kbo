@@ -1,13 +1,13 @@
+## Start LDES server and mongo db
 
+Please run ```docker compose up``` under the directory: ```pyldes_kbo/Cegeka -KBO-Pagination```
 
-#Start LDES server and mongo db
+Two docker containers should start at this moment: Ldes server and mongo DB
 
-Please run docker compose up 
+## Post KBO data to the Ldes server
 
-#Post KBO data to the Ldes server
+```for f in ../pyldes_kbo/sample/bel20/*; do curl -i -X POST "http://localhost:8080/kbo" -H "Content-Type: application/turtle" -d "@$f";done```
 
-for f in ../pyldes_kbo/sample/bel20/*; do curl -i -X POST "http://localhost:8080/kbo" -H "Content-Type: application/turtle" -d "@$f";done
+Please modify the directory accordingly based on your setup.\
 
-Modify accordingly based your setup.
-
-Current the test is only for pagination of the lDES server
+The current test is only for pagination of the [LDES server](https://github.com/Informatievlaanderen/VSDS-LDESServer4J)

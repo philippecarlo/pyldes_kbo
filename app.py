@@ -134,7 +134,10 @@ if __name__ == '__main__':
 
     # Get one versioned KBO Enterprise Entity
     elif args.command == 'version_sample':
-        enterprise = KboGenerator(BASE_PATH, DB_LOCATION).one("0416.822.559")
+        enterprise_nr = args.enterprise_nr
+        format = args.format
+        blank_nodes = args.blank_nodes == "yes"
+        enterprise = KboGenerator(BASE_PATH, DB_LOCATION).one(enterprise_nr)
         graph = Graph()
 
         # bind kbo, org, foaf, vard prefix.

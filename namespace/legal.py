@@ -9,7 +9,7 @@ from rdflib.term import URIRef
 class LEGAL(DefinedNamespace):
 
     # classes
-
+    legalEntity:URIRef
     #property
     # The name under which the Legal Entity is legally registered
     legalName:URIRef

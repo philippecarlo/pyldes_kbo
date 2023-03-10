@@ -22,3 +22,16 @@ class KboActivity(KboBase):
         graph.add((activity_ref, LEGAL.companyActivity, self.nace_code.to_rdf(graph, as_blank_node=as_blank_node)))
         graph.add((activity_ref, KBO.classification, self.classification.to_rdf(graph, as_blank_node=as_blank_node)))
         return activity_ref
+
+    def to_rdf_version(self, graph: Graph, as_blank_node: bool = False) -> URIRef:
+        if as_blank_node:
+            activity_ref = BNode()
+        else:
+            activity_ref = URIRef(f"{KBO._NS}{self.nace_version}_{self.nace_code.code}")
+        graph.add((activity_ref, RDF.type, KBO.Activity))
+        #add nace code
+        graph.add((activity_ref, LEGAL.companyActivity, self.nace_code.to_rdf_version(graph, as_blank_node=as_blank_node)))
+        #graph.add((activity_ref, KBO.naceVersion, Literal(self.nace_version)))
+        graph.add((activity_ref, KBO.classification, self.classification.to_rdf_version(graph, as_blank_node=as_blank_node)))
+        return activity_ref
+

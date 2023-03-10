@@ -32,3 +32,19 @@ class KboEstablishment(KboBase):
         for contact in self.contacts:
             contact.load_entity_contact(graph, establihment_ref)
         return establihment_ref
+
+
+    def to_rdf_version(self, graph: Graph, as_blank_node: bool = False) -> URIRef:
+        if as_blank_node:
+            establihment_ref = BNode()
+        else:
+            establihment_ref = URIRef(f"{KBO._NS}{self.estblishment_number.replace('.', '')}")
+        graph.add((establihment_ref, RDF.type, ORG.Site))
+        graph.add((establihment_ref, RDF.type, KBO.Establishment))
+        graph.add((establihment_ref, TERMNAME.issued, Literal(self.start_date)))
+        for address in self.addresses:
+            addr_ref = address.to_rdf_version(graph, as_blank_node=as_blank_node)
+            graph.add((establihment_ref, LOCN.Address, addr_ref))
+        for contact in self.contacts:
+            contact.load_entity_contact(graph, establihment_ref)
+        return establihment_ref

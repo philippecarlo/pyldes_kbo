@@ -8,5 +8,5 @@
  -  ```dump_ldes```: Which gives all not- versioned KBO Enterprise Entities 
  -  ```version_sample```: Which gives a versioned KBOEnterprise Entity       
  -  ```version_dump_ldes```: Which gives all versioned KBO Enterprise Entities       
- -  ```version_bel20```: Which gives versioned [Bel20] https://tradingeconomics.com/belgium/stock-market) companies
+ -  ```version_bel20```: Which gives versioned [Bel20](https://tradingeconomics.com/belgium/stock-market) companies
 # Conformance Testing [# TREE hypermedia specification](https://treecg.github.io/specification/) 

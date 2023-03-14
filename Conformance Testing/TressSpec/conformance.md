@@ -1,39 +1,79 @@
 
 
+
 # Conformance Testing framework 
 *The current framework is make for conforming the test points regarding the[Tree Spec](https://treecg.github.io/specification/)*
 
 Which contains: 
 
- - [🟥 Must](#must-categor) 
+ - [🟥 Must](#must-category) 
+ - [🟨 Should](#)
  - [🟩 Optional](#optional-category)
 
-## 🟥 Must Category
 
-### **1. [Core Concepts](https://treecg.github.io/specification/#core-concepts)**
 
- ***1.1. When the current page is a `tree:Node`, there MUST be a property linking the current page URL to the URI of the `tree:Collection`.*** 
-  
-  ➔ 
- - [ ] for all the page with `tree:Node` tag, there is a property
-       linking to the URI of the `tree:Collection`
-  
-[1.2. Every entity linked from `tree:view` MUST be an entry point to retrieve **all** members of the collection. Multiple `tree:view` links MAY be provided, and a TREE client MUST traverse all relations from the `tree:Node`s linked to this particular collection. ](https://treecg.github.io/specification/#multiple-views)
+# The Tree Specification [Must] 🟥
+
+## Collections
+## Core Concept
+#### *When the current page is a tree:Node, there MUST be a property linking the current page URL to the URI of the tree:Collection.*
+		    
+
+ - [ ] LDES Server, a tree:Node has a link between current page to tree:Collection
+	 - [ ]  Geo-based fragment 
+	 - [ ]  Substring fragment
+	 - [ ]  Time-based fragment
+	 - [ ]  pagination fragment 
+
+####  *Every entity linked from tree:view MUST be an entry point to retrieve all members of the collection.*	
+
+ - [ ] LDES client retrieves the full collection from the link of  tree:view
+ - [ ] Check the integrity of the retrieved dataset
+ - [ ] All supporting fragments
+	 - [ ]  Geo-based fragment 
+	 - [ ]  Substring fragment
+	 - [ ]  Time-based fragment
+	 - [ ]  pagination fragment 
+
+####	*A TREE client MUST traverse all relations from the tree:Nodes linked to this particular collection.*
+
+ - [ ] Same as previous points
+ - [ ] Check the reaction of the LDES Client when the relation is more than one. [LDES Client Must Not crash]
  
- ➔ A LDES Collection Must be able to be replicated from LDES Server by the root link (identified by 
- `tree: view`). Also its integrity needs to be persisted. The test needs to be run on all the following fragments.   
+####	*A client MUST thus check for ViewDescriptions on both the current node without the tree:viewDescription qualification, as on the current node with the tree:viewDescription link.*
+	
+ - [ ] LDES client retrives all dataset if there is tree:viewDescription
+ - [ ] LDES client retrives all dataset if there NO tree:viewDescription
 
- - [ ] Time-based fragment view 
- - [ ] Geo-based fragment view 	
- - [ ] Pagination fragment view
- - [ ] Substring fragment view
+## Relations
+####	*A tree:Relation MUST have one tree:node object of the type tree:Node.*
 
-## 🟩 Optional Category
+####	*When no tree:path is defined, the tree:value MUST be compared to all members’ triples that can be compared to the tree:value as defined by the type of the relation (or when no members or collection are defined, on every triple in the page).* 
 
-### **1. [Core Concepts](https://treecg.github.io/specification/#core-concepts)**
 
-[***1.1. When multiple collections are found by a client, it can choose to prune the collections based on the `tree:shape` property. Therefore a data publisher SHOULD annotate a `tree:Collection` instance with a SHACL shape. The `tree:shape` points to a SHACL description of the shape (`sh:NodeShape`).***](https://treecg.github.io/specification/#multiple-collections) 
-  
-  ➔ 
- - [ ] The  `tree:Collection`  has a SHACL shape linked with
- - [ ] The SHACL shape could be used for pruning the multiple collections retrieved by a client
+# The Tree Specification [Should] 🟨
+##	Collections
+##	Core Concept
+#### *Therefore a data publisher SHOULD annotate a tree:Collection instance with a SHACL shape. The tree:shape points to a SHACL description of the shape (sh:NodeShape).*
+#### *A client picks the right view is use-case specific, and can be prioritized by studying the tree:ViewDescription’s properties. In order to fetch all members, one can be chosen at random if no specific tree:ViewDescription is given.*
+##	Relations
+#### *The tree:Relation’s tree:value SHOULD be set.*
+#### *The object of tree:value SHOULD be accompanied by a data type when it is a literal value.*
+#### *Every tree:Relation SHOULD have a tree:path, indicating the path from the member to the object on which the tree:Relation applies.*
+####	*A client SHOULD keep a list of already visited pages*
+
+ - [ ] LDES Client persistency
+
+# The Tree Specification [Optional] 🟩
+##	Collections
+##	Core Concept
+####	Multiple tree:view links MAY be provided
+##	Relations
+
+####  *A tree:Node element MAY have one or more tree:relation properties.*
+####	*A relation is an entity of the type tree:Relation, and MAY have a more specific type.*
+####	*Every tree:Relation MAY provide a tree:remainingItems.*
+####	*A client MAY use tree:remainingItems to estimate the completeness of the downloaded elements to the end-user.*
+####	*A tree:import MAY be defined in the tree:Relation instance.*
+
+

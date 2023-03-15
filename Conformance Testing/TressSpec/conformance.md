@@ -2,6 +2,7 @@
 
 
 
+
 # Conformance Testing framework 
 *The current framework is made for conforming the test points regarding the [Tree Spec](https://treecg.github.io/specification/)*
 
@@ -48,7 +49,11 @@ Which contains:
 ## [Relations](https://treecg.github.io/specification/#relations)
 ####	*A tree:Relation MUST have one tree:node object of the type tree:Node.*
 
-####	*When no tree:path is defined, the tree:value MUST be compared to all members’ triples that can be compared to the tree:value as defined by the type of the relation (or when no members or collection are defined, on every triple in the page).* 
+####	*When no tree:path is defined, the tree:value MUST be compared to all members’ triples that can be compared to the tree:value as defined by the type of the relation (or when no members or collection are defined, on every triple in the page).When due to rdfs:range incompatibility, the object cannot be compared, the object will not be considered for comparison.*
+
+## [Searching through the collection](https://treecg.github.io/specification/#searching)
+## [Imports](https://treecg.github.io/specification/#imports)
+####     *No hypermedia controls in the body MUST be interpreted in the imported resource and the object must be fully contained within that information resource.*
 
 
 # [The Tree Specification](https://treecg.github.io/specification/#introduction) [Should 🟨]
@@ -60,7 +65,8 @@ Which contains:
 #### *The tree:Relation’s tree:value SHOULD be set.*
 #### *The object of tree:value SHOULD be accompanied by a data type when it is a literal value.*
 #### *Every tree:Relation SHOULD have a tree:path, indicating the path from the member to the object on which the tree:Relation applies.*
-####	*A client SHOULD keep a list of already visited pages*
+#### *A client SHOULD keep a list of already visited pages*
+#### *When using relations such as tree:LessThanRelation or tree:GreaterThanRelation, the time literals need to be compared according to these 3 possible data types: xsd:date, xsd:dateTime or xsd:dateTimeStamp.*
 
  - [ ] LDES Client persistency
 

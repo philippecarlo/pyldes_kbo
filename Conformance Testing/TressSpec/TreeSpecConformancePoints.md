@@ -9,14 +9,6 @@ Which contains:
  - [🟨 Should](#the-tree-specification-should-)
  - [🟩 Optional](#the-tree-specification-optional-)
 
-The conformance test needs to be executed on the all supporting fragment methods:
-
- - [ ] Geo-based fragment 
- - [ ] Substring fragment 
- - [ ] Time-based fragment
- - [ ] Pagination fragment
- 
-
 # [1. The Tree Specification](https://treecg.github.io/specification/#introduction) [Must🟥]
 
 > When the MUST situation is applied, the system MUST follow the recommendations. Otherwise, the system fails the SPEC.

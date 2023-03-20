@@ -1,4 +1,5 @@
 
+
 ##  ❗️ ❗️ The following test plan can be considered as a test suit, which needs to be executed for each supporting fragment: ❗️ ❗
 
  - [ ] Geo-based fragment 
@@ -31,7 +32,7 @@ a.	[2.3.5](./TreeSpecConformancePoints.md#235-when-using-relations-such-as-treel
 
 ####  Test case 5:
 ##### 5.	Launch LDES Server with Single fragment configuration, with NO `tree:path` defined for the fragment. Some properties' `rdfs:range` is incompatible to be compared. Verify following points:
-a.	[1.3.3](./TreeSpecConformancePoints.md#133-when-no-treepath-is-defined-the-treevalue-must-be-compared-to-all-members-triples-that-can-be-compared-to-the-treevalue-as-defined-by-the-type-of-the-relation-or-when-no-members-or-collection-are-defined-on-every-triple-in-the-page-when-due-to-rdfsrange-incompatibility-the-object-can not-be-compared-the-object-will-not-be-considered-for-comparison)
+a.	[1.3.3](./TreeSpecConformancePoints.md#133-when-no-treepath-is-defined-the-treevalue-must-be-compared-to-all-members-triples-that-can-be-compared-to-the-treevalue-as-defined-by-the-type-of-the-relation-or-when-no-members-or-collection-are-defined-on-every-triple-in-the-page-when-due-to-rdfsrange-incompatibility-the-object-can%20not-be-compared-the-object-will-not-be-considered-for-comparison)
 ####  Test case 6: 
 #####  6.	Launch LDES Server with Single Fragment configuration, with `tree:path` configured. `SHACL` shape is properly configured (Not a Blank Node). Verify the following points:
 a.	[2.2.1](./TreeSpecConformancePoints.md#231-the-treerelations-treevalue-should-be-set)
@@ -70,7 +71,3 @@ a.	[3.3.5](./TreeSpecConformancePoints.md#335-a-client-may-use-treeremainingitem
 a.	[3.3.7](./TreeSpecConformancePoints.md#337-when-there-are-no-treemembers-andor-no-treecollection-defined-then-the-treepath-refers-to-a-pattern-that-can-start-from-every-triple-in-the-page)
 
 ## 🌈 LDES Client Test Plan (#TODO)
-
-
-
-

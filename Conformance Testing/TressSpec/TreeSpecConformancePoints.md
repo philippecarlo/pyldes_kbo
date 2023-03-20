@@ -8,7 +8,7 @@ Which contains:
  - [🟨 Should](#the-tree-specification-should-)
  - [🟩 Optional](#the-tree-specification-optional-)
 
-The conformance test needs to be executed on the all supporting fragment method:
+The conformance test needs to be executed on the all supporting fragment methods:
 
  - [ ] Geo-based fragment 
  - [ ] Substring fragment 

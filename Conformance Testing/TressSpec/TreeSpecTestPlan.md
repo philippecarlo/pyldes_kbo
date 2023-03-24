@@ -19,7 +19,7 @@ f.	[1.3.6](./TreeSpecConformancePoints.md#136-when-using-treegeospatiallycontain
 g.	[2.3.3](./TreeSpecConformancePoints.md#233-every-treerelation-should-have-a-treepath-indicating-the-path-from-the-member-to-the-object-on-which-the-treerelation-applies)
 
 #### Test case 2 : 
-##### 2.	Launch LDES Server with Single Fragment,  `tree:path` configured. Using relations such as `tree:LessThanRelation` or `tree:GreaterThanRelation`. The `tree:path's value set to `xsd:date` to Verify the following points:
+##### 2.	Launch LDES Server with Single Fragment,  `tree:path` configured. Using relations such as `tree:LessThanRelation` or `tree:GreaterThanRelation`. The `tree:path`'s value set to `xsd:date` to Verify the following points:
 a.	[2.3.5](./TreeSpecConformancePoints.md#235-when-using-relations-such-as-treelessthanrelation-or-treegreaterthanrelation-the-time-literals-need-to-be-compared-according-to-these-3-possible-data-types-xsddate-xsddatetime-or-xsddatetimestamp)
 
 ####  Test case 3 : 

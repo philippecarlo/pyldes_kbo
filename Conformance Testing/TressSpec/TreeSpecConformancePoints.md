@@ -49,9 +49,9 @@ Which contains:
 
 ####    *1.5.1 When defined as part of the `tree:Relation`, one MUST fetch the import when the relation needs to be correctly evaluated (e.g., the resulting page contains elements without materialized WKT strings, which however can be fetched from the import).*
 
-####     *1.5.2 No hypermedia controls in the body MUST be interpreted in the imported resource and the object must be fully contained within that information resource.*
-
-❓ https://treecg.github.io/specification/#ldp
+####    *1.5.2 No hypermedia controls in the body MUST be interpreted in the imported resource and the object must be fully contained within that information resource.*
+####    *1.5.3 LDP Containers: If this container is paged by the [[!ldp-paging]] (chapter 7) spec, then this MUST be ignored.*
+####    *1.5.4 LDP Containers: If there is an ordering, this MUST be ignored by TREE clients (the relations contain all necessary information for pruning).*
 
 # [2 The Tree Specification](https://treecg.github.io/specification/#introduction) [Should 🟨]
 

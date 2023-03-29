@@ -3,11 +3,10 @@
 
 # Conformance Testing framework 
 *The current framework is made for conforming the test points regarding the [Tree Spec](https://treecg.github.io/specification/)*
-
 Which contains:
  - [🟥 Must](#the-tree-specification-must-) 
  - [🟨 Should](#the-tree-specification-should-)
- - [🟩 Optional](#the-tree-specification-optional-)
+ - [🟦 Optional](#the-tree-specification-optional-)
 
 # [1. The Tree Specification](https://treecg.github.io/specification/#introduction) [Must🟥]
 
@@ -48,7 +47,6 @@ Which contains:
 ## [1.5 Imports](https://treecg.github.io/specification/#imports)
 
 ####    *1.5.1 When defined as part of the `tree:Relation`, one MUST fetch the import when the relation needs to be correctly evaluated (e.g., the resulting page contains elements without materialized WKT strings, which however can be fetched from the import).*
-
 ####    *1.5.2 No hypermedia controls in the body MUST be interpreted in the imported resource and the object must be fully contained within that information resource.*
 ####    *1.5.3 LDP Containers: If this container is paged by the [[!ldp-paging]] (chapter 7) spec, then this MUST be ignored.*
 ####    *1.5.4 LDP Containers: If there is an ordering, this MUST be ignored by TREE clients (the relations contain all necessary information for pruning).*
@@ -89,13 +87,13 @@ Which contains:
 
 ####	*2.5.3 Therefore, when using AS (Activity Streams 2.0) collections, a client implementation should gather the members from the `tree:Node` or `as:CollectionPage` instead.*
 
-# [3 The Tree Specification](https://treecg.github.io/specification/#introduction) [Optional 🟩]
+# [3 The Tree Specification](https://treecg.github.io/specification/#introduction) [Optional 🟦]
 
 
 > When the MAY situation applied, the system MUST NOT crash!
 ##	[3.1 Collections](https://treecg.github.io/specification/#introduction)
 ##	[3.2 Core Concept](https://treecg.github.io/specification/#core-concepts)
-#### *3.2.1 Three properties may thus be used:*
+#### *3.2.1 Three properties MAY thus be used:*
 	1.  `ex:C1 tree:view <> .`  
 	    May be used  _only_  in the case when the entire  `tree:Collection`  can be found starting from the current node.	    
 	2.  `ex:C1 void:subset <> .`  
@@ -131,7 +129,7 @@ Which contains:
 - [ ] Check when  `tree:import  ` is set. LDES Client doesn't crash for subscribed stream
 ####	*3.3.7 When there are no `tree:member`s and/or no `tree:Collection` defined, then the `tree:path` refers to a pattern that can start from every triple in the page.*
 - [ ] Check when  no `tree:member`s and/or no `tree:Collection` defined is set. LDES Server doesn't crash for ingesting stream.
-- [ ] Check when no `tree:member`s and/or no `tree:Collection` defined is set is set. LDES Client doesn't crash for subscribed stream
+- [ ] Check when no `tree:member`s and/or no `tree:Collection` defined is set. LDES Client doesn't crash for subscribed stream
 ####	*3.3.8 When a `tree:path` is defined, mind that you also may have to check the language of the element using the property `shacl:inLanguage` More languages MAY be set. When no language is set, all strings are compared.*
 
 - [ ] Check when  `tree:path` and  `shacl:inLanguage` is set. LDES Server doesn't crash for ingesting stream.
@@ -141,7 +139,7 @@ Which contains:
 
 ####	*3.3.8 A `tree:path` MAY refer to an implicit property*
 - [ ] Check when  `tree:path` refers to an implicit property. LDES Server doesn't crash for ingesting stream.
-- [ ] Check when  `tree:path` refers to an implicit propertyt. LDES Client doesn't crash for subscribed stream
+- [ ] Check when  `tree:path` refers to an implicit property. LDES Client doesn't crash for subscribed stream
 
 ## [3.4 Searching through the collection](https://treecg.github.io/specification/#searching)
 ## [3.5 Imports](https://treecg.github.io/specification/#imports)

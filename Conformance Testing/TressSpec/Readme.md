@@ -10,7 +10,7 @@
 		 - When the MUST situation is applied, the system MUST follow the recommendations. Otherwise, the system fails the SPEC.
 	 - [🟨 Should](./TreeSpecConformancePoints.md#the-tree-specification-should-)
 		 - When the SHOULD situation is applied, the system follows the recommendation. Otherwise, the choice needs to be re-evaluated.
-	 - [🟩 Optional](./TreeSpecConformancePoints.md#the-tree-specification-optional-)
+	 - [🟦 Optional](./TreeSpecConformancePoints.md#the-tree-specification-optional-)
 		 - When the MAY situation is applied, the system MUST NOT crash!
 Three different levels.
 

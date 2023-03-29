@@ -147,4 +147,4 @@ Which contains:
 ## [3.5 Imports](https://treecg.github.io/specification/#imports)
 ####	*3.5.1 On the resources to import, Memento [[RFC7089]](https://treecg.github.io/specification/#biblio-rfc7089) controls MAY be provided for historic versions.*
 
- ####	*A client MAY infer a tree:shape of the collection through the st:validatedBy property of the Shapes Tree.*
+####	*3.5.2 A client MAY infer a tree:shape of the collection through the st:validatedBy property of the Shapes Tree.*

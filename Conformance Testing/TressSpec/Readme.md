@@ -20,4 +20,7 @@ Three different levels.
 
     The test cases cover the test points documented in [Conformance Testing framework](./TreeSpecConformancePoints.md)
 
-	
+
+#### Potential reference:
+
+[Linked Data Platform 1.0 Test Cases](https://dvcs.w3.org/hg/ldpwg/raw-file/tip/tests/ldp-testsuite.html#test-case-description)

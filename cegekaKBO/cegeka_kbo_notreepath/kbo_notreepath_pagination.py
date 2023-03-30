@@ -1,6 +1,6 @@
 #!/usr/bin/python
 import unittest
-from pyldes_kbo.Automation.support import Support
+from pyldes_kbo.automation.support import Support
 from rdflib import Graph
 import time
 su = Support()

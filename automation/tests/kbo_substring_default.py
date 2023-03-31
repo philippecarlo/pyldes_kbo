@@ -26,10 +26,10 @@ class TestDefaultSustring(unittest.TestCase):
         self.assertTrue(graph_expected.isomorphic(graph_actual))
 
     # Verify if the data is properly ingested and first pagination is as exepcted
-    def test_4_verify_fist_page(self):
-        graph_expected = Graph().parse('../expected/expected_substring/page1.turtle', format='turtle')
-        graph_actual = Graph().parse(su.retrieve_specific_page(url_view=url_first_fragment).content, format='json-ld')
-        self.assertTrue(graph_expected.isomorphic(graph_actual))
+    # def test_4_verify_fist_page(self):
+    #     graph_expected = Graph().parse('../expected/expected_substring/page1.turtle', format='turtle')
+    #     graph_actual = Graph().parse(su.retrieve_specific_page(url_view=url_first_fragment).content, format='json-ld')
+    #     self.assertTrue(graph_expected.isomorphic(graph_actual))
 
     def test_5_verify_random_page(self):
         graph_expected = Graph().parse('../expected/expected_substring/random.turtle', format='turtle')

@@ -7,15 +7,17 @@ su = Support()
 url_view_by_page = "http://localhost:8080/kbo/by-page"
 url_first_fragment = "http://localhost:8080/kbo/by-page?pageNumber=1"
 url_random_page = "http://localhost:8080/kbo/by-page?pageNumber=5"
-docker_compose_file = "../../cegekaKBO/cegeka_kbo_substring/docker-compose.yml"
+docker_compose_file = "../../cegekaKBO/cegeka_kbo_notreepath/docker-compose.yml"
 data_location = "../../sample/bel20/*"
 class TestNoPathSubstring(unittest.TestCase):
     def test_1_start_services(self):
+        print("Service starting....")
         su.start_service(path_docker=docker_compose_file)
         time.sleep(60)
         self.assertEqual(su.server_ready().status_code, 200)
 
     def test_2_post_data(self):
+        print("Ingest data....")
         su.post_data(location=data_location)
         self.assertEqual(su.server_ready().status_code, 200)
 
@@ -41,3 +43,4 @@ class TestNoPathSubstring(unittest.TestCase):
 
     def test_6_tear_down(self):
         su.stop_server(path_docker=docker_compose_file)
+        #todo make sure the docker images are gone

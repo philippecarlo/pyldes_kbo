@@ -27,14 +27,14 @@ class Support():
     def server_ready(self)-> CompletedProcess:
         return requests.request("GET", url, headers={}, data=payload, files=files)
 
-    def post_data(self,location= "../sample/bel20/*") -> None:
-        print("I am here")
+    def post_data(self,location) -> None:
         for file in glob.glob(location):
             #reparse turtle file to make sure jena doesn't crash with dot.
             with open(file, 'r') as f:
                 data = f.read()
                 g = rdflib.Graph()
                 g.parse(data=data, format='turtle')
+            print(file)
             print(requests.request("POST", url, headers=headers_post, data=g.serialize(format='turtle')).status_code)
     def stop_server(self, path_docker) -> None:
         with open("server.log", "a") as output:

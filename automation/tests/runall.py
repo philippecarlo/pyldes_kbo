@@ -1,14 +1,14 @@
 import unittest
 
-from pyldes_kbo.automation.tests.kbo_pagination_default import TestDefaultPagination as TestExample1
-from pyldes_kbo.automation.tests.kbo_substring_default import TestDefaultSustring as TestExample2
-from pyldes_kbo.automation.tests.kbo_notreepath_pagination import TestNoPathSubstring as TestExample3
+from pyldes_kbo.automation.tests.kbo_pagination_default import TestDefaultPagination as DefaultPagination
+from pyldes_kbo.automation.tests.kbo_substring_default import TestDefaultSustring as DefaultSubstring
+from pyldes_kbo.automation.tests.kbo_notreepath_pagination import TestNoPathSubstring as NoPathSubstring
 
 if __name__ == '__main__':
     loader = unittest.TestLoader()
-    suite = loader.loadTestsFromTestCase(TestExample1)
-    suite = loader.loadTestsFromTestCase(TestExample2)
-    suite = loader.loadTestsFromTestCase(TestExample3)
+    suite = loader.loadTestsFromTestCase(DefaultPagination)
+    suite = loader.loadTestsFromTestCase(DefaultSubstring)
+    suite = loader.loadTestsFromTestCase(NoPathSubstring)
     runner = unittest.TextTestRunner()
     result = runner.run(suite)
 

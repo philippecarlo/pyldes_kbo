@@ -20,7 +20,7 @@ class TestDefaultPagination(unittest.TestCase):
         su.post_data(location= "../../sample/bel20/*")
         self.assertEqual(su.server_ready().status_code, 200)
 
-    #Verify if the data is properly ingested and the view page is as expected
+    #Verify if the data is properly ingested and the view page is as expected_pagination
     def test_3_verify_view(self):
         graph_expected = Graph().parse('expected/view.turtle', format='turtle')
         graph_actual = Graph().parse(su.retrieve_specific_page(url_view= url_view_by_page).content, format='json-ld')

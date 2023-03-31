@@ -6,6 +6,7 @@ import requests
 from rdflib import Graph, Literal, URIRef
 import rdflib
 url = "http://localhost:8080/kbo"
+# docker_compose_file = "../cegekaKBO/cegeka_kbo_pagination/docker-compose.yml"
 
 payload = {}
 files = {}
@@ -19,9 +20,9 @@ headers_get_json = {
 }
 
 class Support():
-    def start_service(self) -> CompletedProcess:
+    def start_service(self, path_docker) -> CompletedProcess:
         with open("server.log", "a") as output:
-            return subprocess.run("docker compose --env-file user.env up -d", shell=True, stdout=output, stderr=output)
+            return subprocess.run(f"docker compose --env-file user.env  -f {path_docker} up -d", shell=True, stdout=output, stderr=output)
 
     def server_ready(self)-> CompletedProcess:
         return requests.request("GET", url, headers={}, data=payload, files=files)
@@ -35,12 +36,12 @@ class Support():
                 g = rdflib.Graph()
                 g.parse(data=data, format='turtle')
             print(requests.request("POST", url, headers=headers_post, data=g.serialize(format='turtle')).status_code)
-    def stop_server(self) -> None:
+    def stop_server(self, path_docker) -> None:
         with open("server.log", "a") as output:
-            subprocess.run("docker compose down", shell=True, stdout=output, stderr=output)
+            subprocess.run(f"docker compose -f {path_docker} down", shell=True, stdout=output, stderr=output)
 
     def retrieve_specific_page(self, url_view) -> CompletedProcess:
         return requests.request("GET", url_view, headers=headers_get_json)
 
 if __name__ == '__main__':
-         Support().post_data()
+         Support().start_service()

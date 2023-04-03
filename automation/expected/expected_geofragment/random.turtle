@@ -1,0 +1,136 @@
+@prefix geosparql:     <http://www.opengis.net/ont/geosparql#> .
+@prefix kbo:           <https://kbopub.economie.fgov.be/kbo#> .
+@prefix kbo2105027979: <https://kbopub.economie.fgov.be/kbo#2105027979> .
+@prefix kbo2105028474: <https://kbopub.economie.fgov.be/kbo#2105028474> .
+@prefix kbo2105029959: <https://kbopub.economie.fgov.be/kbo#2105029959> .
+@prefix kbo2273298433: <https://kbopub.economie.fgov.be/kbo#2273298433> .
+@prefix kbo2319223676: <https://kbopub.economie.fgov.be/kbo#2319223676> .
+@prefix kbo38:         <https://kbopub.economie.fgov.be/kbo#38> .
+@prefix kbo96:         <https://kbopub.economie.fgov.be/kbo#96> .
+@prefix ldes:          <https://w3id.org/ldes#> .
+@prefix legal:         <http://www.w3.org/ns/legal#> .
+@prefix locn:          <https://www.w3.org/ns/locn#> .
+@prefix org:           <http://www.w3.org/ns/org#> .
+@prefix rdf:           <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix terms:         <http://purl.org/dc/terms/> .
+@prefix tree:          <https://w3id.org/tree#> .
+
+kbo:Status_AC  rdf:type      kbo:Code ;
+        kbo:codeDescription  "Actief"@NL , "Actif"@FR ;
+        kbo:codeValue        "AC" .
+
+kbo:2105027979  rdf:type  kbo:Establishment , org:Site ;
+        terms:issued  "0101-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        locn:Address  kbo:a38b155532fe3062214d .
+
+kbo:2008_20140  rdf:type       kbo:Activity ;
+        legal:companyActivity  kbo:Nace2008_20140 ;
+        kbo:classification     kbo:Classification_MAIN .
+
+kbo:96ac4a016d7c655f1ac5
+        rdf:type          locn:Address ;
+        geosparql:asWKT   "POINT (4.334850070864558 51.16773455)"^^geosparql:wktLiteral ;
+        kbo:addressType   kbo:TypeOfAddress_BAET ;
+        locn:fullAddress  "Adolf Greinerstraat 14, 2660 Antwerpen, Belgium" ;
+        locn:poBox        "None" ;
+        locn:postCode     "2660" ;
+        locn:postName     "Antwerpen" .
+
+kbo:2003_27432  rdf:type       kbo:Activity ;
+        legal:companyActivity  kbo:Nace2003_27432 ;
+        kbo:classification     kbo:Classification_SECO .
+
+kbo:2105028474  rdf:type  kbo:Establishment , org:Site ;
+        terms:issued  "2801-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        locn:Address  kbo:96ac4a016d7c655f1ac5 .
+
+kbo:2008_24450  rdf:type       kbo:Activity ;
+        legal:companyActivity  kbo:Nace2008_24450 ;
+        kbo:classification     kbo:Classification_SECO .
+
+kbo:2319223676  rdf:type  kbo:Establishment , org:Site ;
+        terms:issued  "0101-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        locn:Address  kbo:38b4ec8887b43213df3d .
+
+<http://localhost:8080/kbo>
+        rdf:type     ldes:EventStream ;
+        tree:member  kbo:0401574852.2022.11 .
+
+kbo:2003_27431  rdf:type       kbo:Activity ;
+        legal:companyActivity  kbo:Nace2003_27431 ;
+        kbo:classification     kbo:Classification_MAIN .
+
+kbo:0401574852.2022.11
+        rdf:type                 kbo:Enterprise , legal:legalEntity ;
+        terms:isVersionOf        kbo:0401574852 ;
+        legal:companyStatus      kbo:JuridicalSituation_000 ;
+        legal:companyType        kbo:JuridicalForm_014 ;
+        legal:legalName          "UMICORE" , "UM" ;
+        legal:registeredAddress  kbo:a38b155532fe3062214d ;
+        kbo:activity             kbo:2008_70100 , kbo:2008_24410 , kbo:2003_13200 , kbo:2008_20140 , kbo:2008_24450 , kbo:2008_24430 , kbo:2003_27431 , kbo:2003_27432 ;
+        kbo:establishment        kbo:2105028474 , kbo:2105029959 , kbo:2273298433 , kbo:2319223676 , kbo:2105027979 ;
+        kbo:status               kbo:Status_AC .
+
+kbo:ef3ab0a78635faf387a5
+        rdf:type          locn:Address ;
+        geosparql:asWKT   "POINT (4.893131165411165 51.18053655)"^^geosparql:wktLiteral ;
+        kbo:addressType   kbo:TypeOfAddress_BAET ;
+        locn:fullAddress  "Watertorenstraat 33, 2250 Olen, Belgium" ;
+        locn:poBox        "None" ;
+        locn:postCode     "2250" ;
+        locn:postName     "Olen" .
+
+kbo:2008_24430  rdf:type       kbo:Activity ;
+        legal:companyActivity  kbo:Nace2008_24430 ;
+        kbo:classification     kbo:Classification_MAIN .
+
+kbo:2273298433  rdf:type  kbo:Establishment , org:Site ;
+        terms:issued  "2001-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        locn:Address  kbo:a57c491e7b92f6e9be0b .
+
+kbo:a38b155532fe3062214d
+        rdf:type          locn:Address ;
+        geosparql:asWKT   "POINT (4.3583312 50.850838)"^^geosparql:wktLiteral ;
+        kbo:addressType   kbo:TypeOfAddress_REGO , kbo:TypeOfAddress_BAET ;
+        locn:fullAddress  "Broekstraat 31, 1000 Brussel, Belgium" ;
+        locn:poBox        "None" ;
+        locn:postCode     "1000" ;
+        locn:postName     "Brussel" .
+
+kbo:2105029959  rdf:type  kbo:Establishment , org:Site ;
+        terms:issued  "0101-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        locn:Address  kbo:ef3ab0a78635faf387a5 .
+
+kbo:2008_24410  rdf:type       kbo:Activity ;
+        legal:companyActivity  kbo:Nace2008_24410 ;
+        kbo:classification     kbo:Classification_SECO .
+
+kbo:a57c491e7b92f6e9be0b
+        rdf:type          locn:Address ;
+        geosparql:asWKT   "POINT (4.713745517254136 51.1819214)"^^geosparql:wktLiteral ;
+        kbo:addressType   kbo:TypeOfAddress_BAET ;
+        locn:fullAddress  "Industrieweg 34, 2280 Grobbendonk, Belgium" ;
+        locn:poBox        "3" ;
+        locn:postCode     "2280" ;
+        locn:postName     "Grobbendonk" .
+
+kbo:2003_13200  rdf:type       kbo:Activity ;
+        legal:companyActivity  kbo:Nace2003_13200 ;
+        kbo:classification     kbo:Classification_SECO .
+
+kbo:2008_70100  rdf:type       kbo:Activity ;
+        legal:companyActivity  kbo:Nace2008_70100 ;
+        kbo:classification     kbo:Classification_SECO .
+
+<http://localhost:8080/kbo/by-location?tile=15/16778/10945>
+        rdf:type        tree:Node ;
+        terms:isPartOf  <http://localhost:8080/kbo> .
+
+kbo:38b4ec8887b43213df3d
+        rdf:type          locn:Address ;
+        geosparql:asWKT   "POINT (4.875528 51.1769809)"^^geosparql:wktLiteral ;
+        kbo:addressType   kbo:TypeOfAddress_BAET ;
+        locn:fullAddress  "Watertorenstraat 37A, 2250 Olen, Belgium" ;
+        locn:poBox        "None" ;
+        locn:postCode     "2250" ;
+        locn:postName     "Olen" .

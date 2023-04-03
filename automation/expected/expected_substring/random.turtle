@@ -19,7 +19,7 @@
 
 kbo:6a4b10066ee5f892c094
         rdf:type          locn:Address ;
-        geosparql:asWKT   "POINT (4.275721857227438 50.8176796)" ;
+        geosparql:asWKT   "POINT (4.275721857227438 50.8176796)"^^geosparql:wktLiteral ;
         kbo:addressType   kbo:TypeOfAddress_REGO , kbo:TypeOfAddress_BAET ;
         locn:fullAddress  "Researchdreef 60, 1070 Anderlecht, Belgium" ;
         locn:poBox        "None" ;
@@ -28,7 +28,7 @@ kbo:6a4b10066ee5f892c094
 
 kbo:b63391125982112d94fa
         rdf:type          locn:Address ;
-        geosparql:asWKT   "POINT (5.5092156 50.9405572)" ;
+        geosparql:asWKT   "POINT (5.5092156 50.9405572)"^^geosparql:wktLiteral ;
         kbo:addressType   kbo:TypeOfAddress_REGO , kbo:TypeOfAddress_BAET ;
         locn:fullAddress  "Swinnenwijerweg 5, 3600 Genk, Belgium" ;
         locn:poBox        "None" ;
@@ -36,7 +36,7 @@ kbo:b63391125982112d94fa
         locn:postName     "Genk" .
 
 kbo:2142567276  rdf:type  kbo:Establishment , org:Site ;
-        terms:issued  "01-02-1998" ;
+        terms:issued  "0101-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
         locn:Address  kbo:6a4b10066ee5f892c094 .
 
 kbo:Status_AC  rdf:type      kbo:Code ;
@@ -78,7 +78,7 @@ kbo:2008_64200  rdf:type       kbo:Activity ;
                         ] .
 
 kbo:2005456093  rdf:type  kbo:Establishment , org:Site ;
-        terms:issued  "01-09-1970" ;
+        terms:issued  "0101-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
         vcard:email   "peter.vreven@aperam.com" ;
         vcard:tel     "089 302282" ;
         locn:Address  kbo:b63391125982112d94fa .
@@ -96,7 +96,7 @@ kbo:0403053608.2022.11
 
 kbo:8bd3bcc78c6789d2322d
         rdf:type          locn:Address ;
-        geosparql:asWKT   "POINT (5.477029544396573 50.94246365)" ;
+        geosparql:asWKT   "POINT (5.477029544396573 50.94246365)"^^geosparql:wktLiteral ;
         kbo:addressType   kbo:TypeOfAddress_BAET ;
         locn:fullAddress  "Bosdel 87, 3600 Genk, Belgium" ;
         locn:poBox        "None" ;
@@ -127,7 +127,7 @@ kbo:2008_21201  rdf:type       kbo:Activity ;
         kbo:classification     kbo:Classification_SECO .
 
 kbo:2169037883  rdf:type  kbo:Establishment , org:Site ;
-        terms:issued  "02-10-2006" ;
+        terms:issued  "0201-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
         vcard:email   "helga.baeten@arcelormittal.com" , "helga.baeten@aperam.com" ;
         vcard:tel     "089/365623" , "089 365600" ;
         locn:Address  kbo:8bd3bcc78c6789d2322d .
@@ -137,12 +137,12 @@ kbo:2003_27310  rdf:type       kbo:Activity ;
         kbo:classification     kbo:Classification_SECO .
 
 kbo:2155832423  rdf:type  kbo:Establishment , org:Site ;
-        terms:issued  "01-07-2006" ;
+        terms:issued  "0101-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
         locn:Address  kbo:9abaa753536e393cc6a2 .
 
 kbo:9abaa753536e393cc6a2
         rdf:type          locn:Address ;
-        geosparql:asWKT   "POINT (4.5223714 50.4099313)" ;
+        geosparql:asWKT   "POINT (4.5223714 50.4099313)"^^geosparql:wktLiteral ;
         kbo:addressType   kbo:TypeOfAddress_BAET ;
         locn:fullAddress  "Rue des Ateliers 14, 6200 Ch\uFFFDtelet, Belgium" ;
         locn:poBox        "None" ;

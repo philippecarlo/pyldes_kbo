@@ -46,7 +46,7 @@ kbo:2003_74879  rdf:type       kbo:Activity ;
         kbo:classification     kbo:Classification_MAIN .
 
 kbo:2142567276  rdf:type  kbo:Establishment , org:Site ;
-        terms:issued  "01-02-1998" ;
+        terms:issued  "0101-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
         locn:Address  kbo:6a4b10066ee5f892c094 .
 
 kbo:Status_AC  rdf:type      kbo:Code ;
@@ -55,7 +55,7 @@ kbo:Status_AC  rdf:type      kbo:Code ;
 
 kbo:6a4b10066ee5f892c094
         rdf:type          locn:Address ;
-        geosparql:asWKT   "POINT (4.275721857227438 50.8176796)" ;
+        geosparql:asWKT   "POINT (4.275721857227438 50.8176796)"^^geosparql:wktLiteral ;
         kbo:addressType   kbo:TypeOfAddress_REGO , kbo:TypeOfAddress_BAET ;
         locn:fullAddress  "Researchdreef 60, 1070 Anderlecht, Belgium" ;
         locn:poBox        "None" ;

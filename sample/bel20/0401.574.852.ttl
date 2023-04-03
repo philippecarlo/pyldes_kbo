@@ -4,6 +4,7 @@
 @prefix locn: <https://www.w3.org/ns/locn#> .
 @prefix org: <http://www.w3.org/ns/org#> .
 @prefix terms: <http://purl.org/dc/terms/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 kbo:0401574852.2022.11 a legal:legalEntity,
         kbo:Enterprise ;
@@ -62,31 +63,31 @@ kbo:2008_70100 a kbo:Activity ;
 
 kbo:2105027979 a org:Site,
         kbo:Establishment ;
-    terms:issued "01-12-1919" ;
+    terms:issued "0101-01-01"^^xsd:date ;
     locn:Address kbo:a38b155532fe3062214d .
 
 kbo:2105028474 a org:Site,
         kbo:Establishment ;
-    terms:issued "28-12-1989" ;
+    terms:issued "2801-01-01"^^xsd:date ;
     locn:Address kbo:96ac4a016d7c655f1ac5 .
 
 kbo:2105029959 a org:Site,
         kbo:Establishment ;
-    terms:issued "01-02-1990" ;
+    terms:issued "0101-01-01"^^xsd:date ;
     locn:Address kbo:ef3ab0a78635faf387a5 .
 
 kbo:2273298433 a org:Site,
         kbo:Establishment ;
-    terms:issued "20-02-2018" ;
+    terms:issued "2001-01-01"^^xsd:date ;
     locn:Address kbo:a57c491e7b92f6e9be0b .
 
 kbo:2319223676 a org:Site,
         kbo:Establishment ;
-    terms:issued "01-06-2021" ;
+    terms:issued "0101-01-01"^^xsd:date ;
     locn:Address kbo:38b4ec8887b43213df3d .
 
 kbo:38b4ec8887b43213df3d a locn:Address ;
-    geo:asWKT "POINT (4.875528 51.1769809)" ;
+    geo:asWKT "POINT (4.875528 51.1769809)"^^geo:wktLiteral ;
     kbo:addressType kbo:TypeOfAddress_BAET ;
     locn:fullAddress "Watertorenstraat 37A, 2250 Olen, Belgium" ;
     locn:poBox "None" ;
@@ -94,7 +95,7 @@ kbo:38b4ec8887b43213df3d a locn:Address ;
     locn:postName "Olen" .
 
 kbo:96ac4a016d7c655f1ac5 a locn:Address ;
-    geo:asWKT "POINT (4.334850070864558 51.16773455)" ;
+    geo:asWKT "POINT (4.334850070864558 51.16773455)"^^geo:wktLiteral ;
     kbo:addressType kbo:TypeOfAddress_BAET ;
     locn:fullAddress "Adolf Greinerstraat 14, 2660 Antwerpen, Belgium" ;
     locn:poBox "None" ;
@@ -107,7 +108,7 @@ kbo:Status_AC a kbo:Code ;
     kbo:codeValue "AC" .
 
 kbo:a57c491e7b92f6e9be0b a locn:Address ;
-    geo:asWKT "POINT (4.713745517254136 51.1819214)" ;
+    geo:asWKT "POINT (4.713745517254136 51.1819214)"^^geo:wktLiteral ;
     kbo:addressType kbo:TypeOfAddress_BAET ;
     locn:fullAddress "Industrieweg 34, 2280 Grobbendonk, Belgium" ;
     locn:poBox "3" ;
@@ -115,7 +116,7 @@ kbo:a57c491e7b92f6e9be0b a locn:Address ;
     locn:postName "Grobbendonk" .
 
 kbo:ef3ab0a78635faf387a5 a locn:Address ;
-    geo:asWKT "POINT (4.893131165411165 51.18053655)" ;
+    geo:asWKT "POINT (4.893131165411165 51.18053655)"^^geo:wktLiteral ;
     kbo:addressType kbo:TypeOfAddress_BAET ;
     locn:fullAddress "Watertorenstraat 33, 2250 Olen, Belgium" ;
     locn:poBox "None" ;
@@ -123,7 +124,7 @@ kbo:ef3ab0a78635faf387a5 a locn:Address ;
     locn:postName "Olen" .
 
 kbo:a38b155532fe3062214d a locn:Address ;
-    geo:asWKT "POINT (4.3583312 50.850838)" ;
+    geo:asWKT "POINT (4.3583312 50.850838)"^^geo:wktLiteral ;
     kbo:addressType kbo:TypeOfAddress_BAET,
         kbo:TypeOfAddress_REGO ;
     locn:fullAddress "Broekstraat 31, 1000 Brussel, Belgium" ;

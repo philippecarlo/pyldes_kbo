@@ -4,6 +4,7 @@
 @prefix locn: <https://www.w3.org/ns/locn#> .
 @prefix org: <http://www.w3.org/ns/org#> .
 @prefix terms: <http://purl.org/dc/terms/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 kbo:0403091220.2022.11 a legal:legalEntity,
         kbo:Enterprise ;
@@ -35,26 +36,26 @@ kbo:2008_70100 a kbo:Activity ;
 
 kbo:2102008707 a org:Site,
         kbo:Establishment ;
-    terms:issued "01-12-1963" ;
+    terms:issued "0101-01-01"^^xsd:date ;
     locn:Address kbo:ad6f7c6e1a796ad7697a .
 
 kbo:2102008905 a org:Site,
         kbo:Establishment ;
-    terms:issued "01-09-1969" ;
+    terms:issued "0101-01-01"^^xsd:date ;
     locn:Address kbo:b93ac46cd7d4f894eb96 .
 
 kbo:2102009301 a org:Site,
         kbo:Establishment ;
-    terms:issued "01-01-1900" ;
+    terms:issued "0101-01-01"^^xsd:date ;
     locn:Address kbo:62ea9686bb800a8adab1 .
 
 kbo:2102009497 a org:Site,
         kbo:Establishment ;
-    terms:issued "07-12-2000" ;
+    terms:issued "0701-01-01"^^xsd:date ;
     locn:Address kbo:c5a1618ae7e906c7c262 .
 
 kbo:62ea9686bb800a8adab1 a locn:Address ;
-    geo:asWKT "POINT (4.660150340071567 50.447114799999994)" ;
+    geo:asWKT "POINT (4.660150340071567 50.447114799999994)"^^geo:wktLiteral ;
     kbo:addressType kbo:TypeOfAddress_BAET ;
     locn:fullAddress "Rue Solvay 39, 5190 Jemeppe-sur-Sambre, Belgium" ;
     locn:poBox "None" ;
@@ -67,7 +68,7 @@ kbo:Status_AC a kbo:Code ;
     kbo:codeValue "AC" .
 
 kbo:b93ac46cd7d4f894eb96 a locn:Address ;
-    geo:asWKT "POINT (4.3118195 51.3702959)" ;
+    geo:asWKT "POINT (4.2858073 51.3233867)"^^geo:wktLiteral ;
     kbo:addressType kbo:TypeOfAddress_BAET ;
     locn:fullAddress "Scheldelaan 2, 2040 Antwerpen, Belgium" ;
     locn:poBox "None" ;
@@ -75,7 +76,7 @@ kbo:b93ac46cd7d4f894eb96 a locn:Address ;
     locn:postName "Antwerpen" .
 
 kbo:c5a1618ae7e906c7c262 a locn:Address ;
-    geo:asWKT "POINT (3.5962061 50.8633438)" ;
+    geo:asWKT "POINT (3.5962061 50.8633438)"^^geo:wktLiteral ;
     kbo:addressType kbo:TypeOfAddress_BAET ;
     locn:fullAddress "Industriepark \"De Bruwaan\" 9, 9700 Oudenaarde, Belgium" ;
     locn:poBox "None" ;
@@ -83,7 +84,7 @@ kbo:c5a1618ae7e906c7c262 a locn:Address ;
     locn:postName "Oudenaarde" .
 
 kbo:ad6f7c6e1a796ad7697a a locn:Address ;
-    geo:asWKT "POINT (4.400367848886249 50.901114199999995)" ;
+    geo:asWKT "POINT (4.400367848886249 50.901114199999995)"^^geo:wktLiteral ;
     kbo:addressType kbo:TypeOfAddress_BAET,
         kbo:TypeOfAddress_REGO ;
     locn:fullAddress "Ransbeekstraat 310, 1120 Brussel, Belgium" ;

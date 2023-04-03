@@ -4,6 +4,7 @@
 @prefix locn: <https://www.w3.org/ns/locn#> .
 @prefix org: <http://www.w3.org/ns/org#> .
 @prefix terms: <http://purl.org/dc/terms/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 kbo:0407040209.2022.11 a legal:legalEntity,
         kbo:Enterprise ;
@@ -21,7 +22,7 @@ kbo:0407040209.2022.11 a legal:legalEntity,
 
 kbo:2002957057 a org:Site,
         kbo:Establishment ;
-    terms:issued "01-01-1902" ;
+    terms:issued "0101-01-01"^^xsd:date ;
     locn:Address kbo:b938574ab6950ee31bb7 .
 
 kbo:2003_65234 a kbo:Activity ;
@@ -42,7 +43,7 @@ kbo:Status_AC a kbo:Code ;
     kbo:codeValue "AC" .
 
 kbo:b938574ab6950ee31bb7 a locn:Address ;
-    geo:asWKT "POINT (4.3655308 50.8397654)" ;
+    geo:asWKT "POINT (4.3655308 50.8397654)"^^geo:wktLiteral ;
     kbo:addressType kbo:TypeOfAddress_BAET,
         kbo:TypeOfAddress_REGO ;
     locn:fullAddress "Marnixlaan 24, 1000 Brussel, Belgium" ;

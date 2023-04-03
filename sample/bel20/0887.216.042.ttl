@@ -4,6 +4,7 @@
 @prefix locn: <https://www.w3.org/ns/locn#> .
 @prefix org: <http://www.w3.org/ns/org#> .
 @prefix terms: <http://purl.org/dc/terms/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 kbo:0887216042.2022.11 a legal:legalEntity,
         kbo:Enterprise ;
@@ -43,7 +44,7 @@ kbo:2008_64200 a kbo:Activity ;
 
 kbo:2160071917 a org:Site,
         kbo:Establishment ;
-    terms:issued "06-02-2007" ;
+    terms:issued "0601-01-01"^^xsd:date ;
     locn:Address kbo:2ad9324271a74bba3baf .
 
 kbo:Status_AC a kbo:Code ;
@@ -52,7 +53,7 @@ kbo:Status_AC a kbo:Code ;
     kbo:codeValue "AC" .
 
 kbo:2ad9324271a74bba3baf a locn:Address ;
-    geo:asWKT "POINT (4.411962 51.1937539)" ;
+    geo:asWKT "POINT (4.4104638 51.1975987)"^^geo:wktLiteral ;
     kbo:addressType kbo:TypeOfAddress_BAET,
         kbo:TypeOfAddress_REGO ;
     locn:fullAddress "Generaal Lemanstraat 55, 2018 Antwerpen, Belgium" ;

@@ -4,6 +4,7 @@
 @prefix locn: <https://www.w3.org/ns/locn#> .
 @prefix org: <http://www.w3.org/ns/org#> .
 @prefix terms: <http://purl.org/dc/terms/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 kbo:0403219397.2022.11 a legal:legalEntity,
         kbo:Enterprise ;
@@ -35,7 +36,7 @@ kbo:2003_74131 a kbo:Activity ;
 
 kbo:2004345741 a org:Site,
         kbo:Establishment ;
-    terms:issued "01-12-1956" ;
+    terms:issued "0101-01-01"^^xsd:date ;
     locn:Address kbo:d3b58e7b71c852385a38 .
 
 kbo:2008_64200 a kbo:Activity ;
@@ -48,7 +49,7 @@ kbo:2008_73200 a kbo:Activity ;
 
 kbo:2153392278 a org:Site,
         kbo:Establishment ;
-    terms:issued "28-12-1956" ;
+    terms:issued "2801-01-01"^^xsd:date ;
     locn:Address kbo:95c924ee623221ff9055 .
 
 kbo:Status_AC a kbo:Code ;
@@ -57,7 +58,7 @@ kbo:Status_AC a kbo:Code ;
     kbo:codeValue "AC" .
 
 kbo:d3b58e7b71c852385a38 a locn:Address ;
-    geo:asWKT "POINT (4.3656554 50.8382125)" ;
+    geo:asWKT "POINT (4.3656554 50.8382125)"^^geo:wktLiteral ;
     kbo:addressType kbo:TypeOfAddress_BAET ;
     locn:fullAddress "Napelsstraat 38, 1050 Elsene, Belgium" ;
     locn:poBox "None" ;
@@ -65,7 +66,7 @@ kbo:d3b58e7b71c852385a38 a locn:Address ;
     locn:postName "Elsene" .
 
 kbo:95c924ee623221ff9055 a locn:Address ;
-    geo:asWKT "POINT (4.37050275978261 50.8429799)" ;
+    geo:asWKT "POINT (4.3706622 50.8430215)"^^geo:wktLiteral ;
     kbo:addressType kbo:TypeOfAddress_BAET,
         kbo:TypeOfAddress_REGO ;
     locn:fullAddress "Nijverheidsstraat 31, 1040 Brussel, Belgium" ;

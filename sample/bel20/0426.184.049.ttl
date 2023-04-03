@@ -4,6 +4,7 @@
 @prefix locn: <https://www.w3.org/ns/locn#> .
 @prefix org: <http://www.w3.org/ns/org#> .
 @prefix terms: <http://purl.org/dc/terms/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 kbo:0426184049.2022.11 a legal:legalEntity,
         kbo:Enterprise ;
@@ -47,7 +48,7 @@ kbo:2008_70220 a kbo:Activity ;
 
 kbo:2037846769 a org:Site,
         kbo:Establishment ;
-    terms:issued "01-03-1984" ;
+    terms:issued "0101-01-01"^^xsd:date ;
     locn:Address kbo:c13abd7474627a0311ef .
 
 kbo:Status_AC a kbo:Code ;
@@ -56,7 +57,7 @@ kbo:Status_AC a kbo:Code ;
     kbo:codeValue "AC" .
 
 kbo:c13abd7474627a0311ef a locn:Address ;
-    geo:asWKT "POINT (4.436207409036037 50.84097985)" ;
+    geo:asWKT "POINT (4.4363198 50.841018)"^^geo:wktLiteral ;
     kbo:addressType kbo:TypeOfAddress_BAET,
         kbo:TypeOfAddress_REGO ;
     locn:fullAddress "Woluwedal 58, 1200 Sint-Lambrechts-Woluwe, Belgium" ;

@@ -4,6 +4,7 @@
 @prefix locn: <https://www.w3.org/ns/locn#> .
 @prefix org: <http://www.w3.org/ns/org#> .
 @prefix terms: <http://purl.org/dc/terms/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 kbo:0417497106.2022.11 a legal:legalEntity,
         kbo:Enterprise ;
@@ -26,7 +27,7 @@ kbo:0417497106.2022.11 a legal:legalEntity,
     kbo:status kbo:Status_AC .
 
 kbo:0f1f34cc28e060f22cfb a locn:Address ;
-    geo:asWKT "POINT (4.3121991 50.8269598)" ;
+    geo:asWKT "POINT (4.3121991 50.8269598)"^^geo:wktLiteral ;
     kbo:addressType kbo:TypeOfAddress_BAET ;
     locn:fullAddress "Industrielaan 21, 1070 Anderlecht, Belgium" ;
     locn:poBox "None" ;
@@ -43,41 +44,41 @@ kbo:2008_70100 a kbo:Activity ;
 
 kbo:2102217157 a org:Site,
         kbo:Establishment ;
-    terms:issued "28-02-1986" ;
+    terms:issued "2801-01-01"^^xsd:date ;
     locn:Address kbo:7ffeeda89bf05cf5d1bc .
 
 kbo:2102217256 a org:Site,
         kbo:Establishment ;
-    terms:issued "01-10-1976" ;
+    terms:issued "0101-01-01"^^xsd:date ;
     locn:Address kbo:efd0eb59b7075239577d .
 
 kbo:2143775125 a org:Site,
         kbo:Establishment ;
-    terms:issued "30-04-1988" ;
+    terms:issued "3001-01-01"^^xsd:date ;
     locn:Address kbo:988cdc80b564690633f7 .
 
 kbo:2143775323 a org:Site,
         kbo:Establishment ;
-    terms:issued "30-04-1988" ;
+    terms:issued "3001-01-01"^^xsd:date ;
     locn:Address kbo:224da66f0f40131b9df0 .
 
 kbo:2147197839 a org:Site,
         kbo:Establishment ;
-    terms:issued "01-11-2004" ;
+    terms:issued "0101-01-01"^^xsd:date ;
     locn:Address kbo:0f1f34cc28e060f22cfb .
 
 kbo:2147198037 a org:Site,
         kbo:Establishment ;
-    terms:issued "01-11-2004" ;
+    terms:issued "0101-01-01"^^xsd:date ;
     locn:Address kbo:2818fc37c2bd864a2e6d .
 
 kbo:2147842393 a org:Site,
         kbo:Establishment ;
-    terms:issued "01-01-2005" ;
+    terms:issued "0101-01-01"^^xsd:date ;
     locn:Address kbo:27f80d1d9d9c8c94b30b .
 
 kbo:224da66f0f40131b9df0 a locn:Address ;
-    geo:asWKT "POINT (4.7070489 50.8865919)" ;
+    geo:asWKT "POINT (4.7070489 50.8865919)"^^geo:wktLiteral ;
     kbo:addressType kbo:TypeOfAddress_BAET ;
     locn:fullAddress "Brouwerijplein 1, 3000 Leuven, Belgium" ;
     locn:poBox "None" ;
@@ -85,7 +86,7 @@ kbo:224da66f0f40131b9df0 a locn:Address ;
     locn:postName "Leuven" .
 
 kbo:27f80d1d9d9c8c94b30b a locn:Address ;
-    geo:asWKT "POINT (4.7098152 50.8863637)" ;
+    geo:asWKT "POINT (4.7098152 50.8863637)"^^geo:wktLiteral ;
     kbo:addressType kbo:TypeOfAddress_BAET ;
     locn:fullAddress "Vuurkruisenlaan 1, 3000 Leuven, Belgium" ;
     locn:poBox "None" ;
@@ -93,7 +94,7 @@ kbo:27f80d1d9d9c8c94b30b a locn:Address ;
     locn:postName "Leuven" .
 
 kbo:2818fc37c2bd864a2e6d a locn:Address ;
-    geo:asWKT "POINT (4.7057969 50.8878139)" ;
+    geo:asWKT "POINT (4.7057969 50.8878139)"^^geo:wktLiteral ;
     kbo:addressType kbo:TypeOfAddress_BAET ;
     locn:fullAddress "Vaartkom 31, 3000 Leuven, Belgium" ;
     locn:poBox "None" ;
@@ -101,7 +102,7 @@ kbo:2818fc37c2bd864a2e6d a locn:Address ;
     locn:postName "Leuven" .
 
 kbo:7ffeeda89bf05cf5d1bc a locn:Address ;
-    geo:asWKT "POINT (4.701203 50.8858391)" ;
+    geo:asWKT "POINT (4.7013166 50.8856981)"^^geo:wktLiteral ;
     kbo:addressType kbo:TypeOfAddress_BAET ;
     locn:fullAddress "Vaartstraat 94, 3000 Leuven, Belgium" ;
     locn:poBox "None" ;
@@ -114,7 +115,7 @@ kbo:Status_AC a kbo:Code ;
     kbo:codeValue "AC" .
 
 kbo:efd0eb59b7075239577d a locn:Address ;
-    geo:asWKT "POINT (5.6290807 50.6465522)" ;
+    geo:asWKT "POINT (5.6655704 50.6752898)"^^geo:wktLiteral ;
     kbo:addressType kbo:TypeOfAddress_BAET ;
     locn:fullAddress "Rue de Visé 243, 4020 Liège, Belgium" ;
     locn:poBox "None" ;
@@ -122,7 +123,7 @@ kbo:efd0eb59b7075239577d a locn:Address ;
     locn:postName "Liège" .
 
 kbo:988cdc80b564690633f7 a locn:Address ;
-    geo:asWKT "POINT (4.3520311556288025 50.84713485)" ;
+    geo:asWKT "POINT (4.3520311556288025 50.84713485)"^^geo:wktLiteral ;
     kbo:addressType kbo:TypeOfAddress_BAET,
         kbo:TypeOfAddress_REGO ;
     locn:fullAddress "Grote Markt 1, 1000 Brussel, Belgium" ;

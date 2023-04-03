@@ -4,6 +4,7 @@
 @prefix locn: <https://www.w3.org/ns/locn#> .
 @prefix org: <http://www.w3.org/ns/org#> .
 @prefix terms: <http://purl.org/dc/terms/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 kbo:0818292196.2022.11 a legal:legalEntity,
         kbo:Enterprise ;
@@ -22,7 +23,7 @@ kbo:2008_72110 a kbo:Activity ;
 
 kbo:2182789911 a org:Site,
         kbo:Establishment ;
-    terms:issued "28-09-2009" ;
+    terms:issued "2801-01-01"^^xsd:date ;
     locn:Address kbo:5ce2e40e4d5fceb92279 .
 
 kbo:Status_AC a kbo:Code ;
@@ -31,7 +32,7 @@ kbo:Status_AC a kbo:Code ;
     kbo:codeValue "AC" .
 
 kbo:5ce2e40e4d5fceb92279 a locn:Address ;
-    geo:asWKT "POINT (3.723707084315696 51.0093251)" ;
+    geo:asWKT "POINT (3.723707084315696 51.0093251)"^^geo:wktLiteral ;
     kbo:addressType kbo:TypeOfAddress_BAET,
         kbo:TypeOfAddress_REGO ;
     locn:fullAddress "Industriepark-Zwijnaarde 7, 9052 Gent, Belgium" ;

@@ -281,12 +281,12 @@
 @prefix tree:              <https://w3id.org/tree#> .
 
 kbo:2153249352  rdf:type  kbo:Establishment , org:Site ;
-        terms:issued  "28-04-2006" ;
+        terms:issued  "2801-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
         locn:Address  kbo:14f5c771709507c5faf3 .
 
 kbo:834426c3ac0d517a599a
         rdf:type          locn:Address ;
-        geosparql:asWKT   "POINT (5.5725376 50.641347)" ;
+        geosparql:asWKT   "POINT (5.5725376 50.641347)"^^geosparql:wktLiteral ;
         kbo:addressType   kbo:TypeOfAddress_BAET ;
         locn:fullAddress  "Rue de la Sir\uFFFDne 7, 4000 Li\uFFFDge, Belgium" ;
         locn:poBox        "None" ;
@@ -295,7 +295,7 @@ kbo:834426c3ac0d517a599a
 
 kbo:732b0c1a7c9239076e4a
         rdf:type          locn:Address ;
-        geosparql:asWKT   "POINT (4.6999812 50.8818656)" ;
+        geosparql:asWKT   "POINT (4.6999812 50.8818656)"^^geosparql:wktLiteral ;
         kbo:addressType   kbo:TypeOfAddress_BAET ;
         locn:fullAddress  "Vismarkt 17, 3000 Leuven, Belgium" ;
         locn:poBox        "None" ;
@@ -304,7 +304,7 @@ kbo:732b0c1a7c9239076e4a
 
 kbo:cb75e2fa9a49046396ce
         rdf:type          locn:Address ;
-        geosparql:asWKT   "POINT (4.412846291339214 51.21935035)" ;
+        geosparql:asWKT   "POINT (4.412846291339214 51.21935035)"^^geosparql:wktLiteral ;
         kbo:addressType   kbo:TypeOfAddress_BAET ;
         locn:fullAddress  "Lange Nieuwstraat 106, 2000 Antwerpen, Belgium" ;
         locn:poBox        "None" ;
@@ -312,20 +312,20 @@ kbo:cb75e2fa9a49046396ce
         locn:postName     "Antwerpen" .
 
 kbo:2134034246  rdf:type  kbo:Establishment , org:Site ;
-        terms:issued  "18-11-2003" ;
+        terms:issued  "1801-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
         locn:Address  kbo:8638f56c538bb2b582f1 .
 
 kbo:2102971183  rdf:type  kbo:Establishment , org:Site ;
-        terms:issued  "09-12-1997" ;
+        terms:issued  "0901-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
         locn:Address  kbo:59d6f1b4bcfa65c1390c .
 
 kbo:2102975242  rdf:type  kbo:Establishment , org:Site ;
-        terms:issued  "25-11-1997" ;
+        terms:issued  "2501-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
         locn:Address  kbo:39d60e34478e5c3b93e4 .
 
 kbo:0c4dbb37bd1830634953
         rdf:type          locn:Address ;
-        geosparql:asWKT   "POINT (4.8656044 50.4637222)" ;
+        geosparql:asWKT   "POINT (4.8656044 50.4637222)"^^geosparql:wktLiteral ;
         kbo:addressType   kbo:TypeOfAddress_BAET ;
         locn:fullAddress  "Rue de l'Ange 61-63, 5000 Namur, Belgium" ;
         locn:poBox        "None" ;
@@ -334,7 +334,7 @@ kbo:0c4dbb37bd1830634953
 
 kbo:c81845c95e00a1d8d6f9
         rdf:type          locn:Address ;
-        geosparql:asWKT   "POINT (3.531305363173913 50.9775957)" ;
+        geosparql:asWKT   "POINT (3.5314273850468654 50.97773585)"^^geosparql:wktLiteral ;
         kbo:addressType   kbo:TypeOfAddress_BAET ;
         locn:fullAddress  "Ommegangstraat 24, 9800 Deinze, Belgium" ;
         locn:poBox        "None" ;
@@ -343,7 +343,7 @@ kbo:c81845c95e00a1d8d6f9
 
 kbo:6590097a447c7640b8ce
         rdf:type          locn:Address ;
-        geosparql:asWKT   "POINT (5.281754154259266 50.173762350000004)" ;
+        geosparql:asWKT   "POINT (5.281754154259266 50.173762350000004)"^^geosparql:wktLiteral ;
         kbo:addressType   kbo:TypeOfAddress_BAET ;
         locn:fullAddress  "On, Rue Delvigne 102, 6900 Marche-en-Famenne, Belgium" ;
         locn:poBox        "None" ;
@@ -352,7 +352,7 @@ kbo:6590097a447c7640b8ce
 
 kbo:3aaa268254f2808f1b2c
         rdf:type          locn:Address ;
-        geosparql:asWKT   "None" ;
+        geosparql:asWKT   "None"^^geosparql:wktLiteral ;
         kbo:addressType   kbo:TypeOfAddress_BAET ;
         locn:fullAddress  "Rue de la Technique 11, 1400 Nivelles, Belgium" ;
         locn:poBox        "None" ;
@@ -361,7 +361,7 @@ kbo:3aaa268254f2808f1b2c
 
 kbo:441e3e676e5305210a35
         rdf:type          locn:Address ;
-        geosparql:asWKT   "POINT (3.1307150210327466 50.957836)" ;
+        geosparql:asWKT   "POINT (3.1307150210327466 50.957836)"^^geosparql:wktLiteral ;
         kbo:addressType   kbo:TypeOfAddress_BAET ;
         locn:fullAddress  "Beversesteenweg 189, 8800 Roeselare, Belgium" ;
         locn:poBox        "None" ;
@@ -369,12 +369,12 @@ kbo:441e3e676e5305210a35
         locn:postName     "Roeselare" .
 
 kbo:2102970490  rdf:type  kbo:Establishment , org:Site ;
-        terms:issued  "23-03-1999" ;
+        terms:issued  "2301-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
         locn:Address  kbo:31e4f783c1609d0e22ee .
 
 kbo:d45e27d446f7a7fb9f1a
         rdf:type          locn:Address ;
-        geosparql:asWKT   "POINT (5.719224961227612 50.003808250000006)" ;
+        geosparql:asWKT   "POINT (5.719224961227612 50.003808250000006)"^^geosparql:wktLiteral ;
         kbo:addressType   kbo:TypeOfAddress_BAET ;
         locn:fullAddress  "Rue du Sablon 155, 6600 Bastogne, Belgium" ;
         locn:poBox        "None" ;
@@ -383,7 +383,7 @@ kbo:d45e27d446f7a7fb9f1a
 
 kbo:d8139d47d26d78d184bc
         rdf:type          locn:Address ;
-        geosparql:asWKT   "POINT (3.326764 50.9989629)" ;
+        geosparql:asWKT   "POINT (3.326764 50.9989629)"^^geosparql:wktLiteral ;
         kbo:addressType   kbo:TypeOfAddress_BAET ;
         locn:fullAddress  "Kortrijkstraat 29, 8700 Tielt, Belgium" ;
         locn:poBox        "None" ;
@@ -391,12 +391,12 @@ kbo:d8139d47d26d78d184bc
         locn:postName     "Tielt" .
 
 kbo:2153240939  rdf:type  kbo:Establishment , org:Site ;
-        terms:issued  "28-04-2006" ;
+        terms:issued  "2801-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
         locn:Address  kbo:8eafed047a173411bd0d .
 
 kbo:114d7ac74743645e4080
         rdf:type          locn:Address ;
-        geosparql:asWKT   "POINT (4.4874226 51.2891252)" ;
+        geosparql:asWKT   "POINT (4.4874226 51.2891252)"^^geosparql:wktLiteral ;
         kbo:addressType   kbo:TypeOfAddress_BAET ;
         locn:fullAddress  "Leopoldslei 13, 2930 Brasschaat, Belgium" ;
         locn:poBox        "None" ;
@@ -404,16 +404,16 @@ kbo:114d7ac74743645e4080
         locn:postName     "Brasschaat" .
 
 kbo:2102966532  rdf:type  kbo:Establishment , org:Site ;
-        terms:issued  "25-11-1997" ;
+        terms:issued  "2501-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
         locn:Address  kbo:6dcb86d583fefb569747 .
 
 kbo:2133612196  rdf:type  kbo:Establishment , org:Site ;
-        terms:issued  "02-11-2000" ;
+        terms:issued  "0201-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
         locn:Address  kbo:83b86cd5bc317489e9a7 .
 
 kbo:80c5d3f53fd57a0fca66
         rdf:type          locn:Address ;
-        geosparql:asWKT   "POINT (2.661593027727891 51.0742321)" ;
+        geosparql:asWKT   "POINT (2.6538716 51.0765548)"^^geosparql:wktLiteral ;
         kbo:addressType   kbo:TypeOfAddress_BAET ;
         locn:fullAddress  "Pannestraat 1, 8630 Veurne, Belgium" ;
         locn:poBox        "None" ;
@@ -421,16 +421,16 @@ kbo:80c5d3f53fd57a0fca66
         locn:postName     "Veurne" .
 
 kbo:2102973559  rdf:type  kbo:Establishment , org:Site ;
-        terms:issued  "18-12-1997" ;
+        terms:issued  "1801-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
         locn:Address  kbo:4937c20c3f10caaa5c33 .
 
 kbo:2102967423  rdf:type  kbo:Establishment , org:Site ;
-        terms:issued  "27-01-1998" ;
+        terms:issued  "2701-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
         locn:Address  kbo:b5eff2a7f468e5e35033 .
 
 kbo:fd952ba9ad070dc3346c
         rdf:type          locn:Address ;
-        geosparql:asWKT   "POINT (3.681079 51.019668)" ;
+        geosparql:asWKT   "POINT (3.681079 51.019668)"^^geosparql:wktLiteral ;
         kbo:addressType   kbo:TypeOfAddress_BAET ;
         locn:fullAddress  "Kortrijksesteenweg 1098, 9051 Gent, Belgium" ;
         locn:poBox        "None" ;
@@ -439,7 +439,7 @@ kbo:fd952ba9ad070dc3346c
 
 kbo:478583ae1a4e9bcb679b
         rdf:type          locn:Address ;
-        geosparql:asWKT   "POINT (3.5696284 51.1771045)" ;
+        geosparql:asWKT   "POINT (3.5696284 51.1771045)"^^geosparql:wktLiteral ;
         kbo:addressType   kbo:TypeOfAddress_BAET ;
         locn:fullAddress  "Euerardstraat 39, 9900 Eeklo, Belgium" ;
         locn:poBox        "None" ;
@@ -448,7 +448,7 @@ kbo:478583ae1a4e9bcb679b
 
 kbo:6fc7e51d2b3a71833706
         rdf:type          locn:Address ;
-        geosparql:asWKT   "POINT (5.7697236 49.6875265)" ;
+        geosparql:asWKT   "POINT (5.7697236 49.6875265)"^^geosparql:wktLiteral ;
         kbo:addressType   kbo:TypeOfAddress_BAET ;
         locn:fullAddress  "Stockem, rue de l'Hydrion 131, 6700 Arlon, Belgium" ;
         locn:poBox        "None" ;
@@ -456,32 +456,32 @@ kbo:6fc7e51d2b3a71833706
         locn:postName     "Arlon" .
 
 kbo:2177924667  rdf:type  kbo:Establishment , org:Site ;
-        terms:issued  "01-05-2009" ;
+        terms:issued  "0101-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
         locn:Address  kbo:86287faaa71b020a4779 .
 
 kbo:2260504133  rdf:type  kbo:Establishment , org:Site ;
-        terms:issued  "01-10-2016" ;
+        terms:issued  "0101-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
         locn:Address  kbo:fce0562fb363fef569fc .
 
 kbo:2153248164  rdf:type  kbo:Establishment , org:Site ;
-        terms:issued  "28-04-2006" ;
+        terms:issued  "2801-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
         locn:Address  kbo:6a43b6aff7de46b8276d .
 
 kbo:2153241434  rdf:type  kbo:Establishment , org:Site ;
-        terms:issued  "28-04-2006" ;
+        terms:issued  "2801-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
         locn:Address  kbo:aaa7d08a28aff7b9f3d1 .
 
 kbo:2316676239  rdf:type  kbo:Establishment , org:Site ;
-        terms:issued  "01-05-2021" ;
+        terms:issued  "0101-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
         locn:Address  kbo:90125aadeb618654c69e .
 
 kbo:2102972866  rdf:type  kbo:Establishment , org:Site ;
-        terms:issued  "27-11-1997" ;
+        terms:issued  "2701-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
         locn:Address  kbo:7e2525def4cb3e7ef83d .
 
 kbo:ebab8e57d21b2dc9b03f
         rdf:type          locn:Address ;
-        geosparql:asWKT   "POINT (3.262529 50.845671)" ;
+        geosparql:asWKT   "POINT (3.262529 50.845671)"^^geosparql:wktLiteral ;
         kbo:addressType   kbo:TypeOfAddress_BAET ;
         locn:fullAddress  "Ringlaan(Kor) 34, 8500 Kortrijk, Belgium" ;
         locn:poBox        "None" ;
@@ -490,7 +490,7 @@ kbo:ebab8e57d21b2dc9b03f
 
 kbo:1c2b49ca54f8166d7da5
         rdf:type          locn:Address ;
-        geosparql:asWKT   "POINT (5.821082181780389 49.671536700000004)" ;
+        geosparql:asWKT   "POINT (5.821082181780389 49.671536700000004)"^^geosparql:wktLiteral ;
         kbo:addressType   kbo:TypeOfAddress_BAET ;
         locn:fullAddress  "Rue Pietro-Ferrero 1, 6700 Arlon, Belgium" ;
         locn:poBox        "None" ;
@@ -499,7 +499,7 @@ kbo:1c2b49ca54f8166d7da5
 
 kbo:21555b7e1302165e856a
         rdf:type          locn:Address ;
-        geosparql:asWKT   "POINT (3.2191918 51.1961408)" ;
+        geosparql:asWKT   "POINT (3.2191918 51.1961408)"^^geosparql:wktLiteral ;
         kbo:addressType   kbo:TypeOfAddress_BAET ;
         locn:fullAddress  "Frank Van Ackerpromenade 15, 8000 Brugge, Belgium" ;
         locn:poBox        "None" ;
@@ -507,16 +507,16 @@ kbo:21555b7e1302165e856a
         locn:postName     "Brugge" .
 
 kbo:2102966037  rdf:type  kbo:Establishment , org:Site ;
-        terms:issued  "25-11-1997" ;
+        terms:issued  "2501-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
         locn:Address  kbo:bc0c557a586754a2beb9 .
 
 kbo:2102976925  rdf:type  kbo:Establishment , org:Site ;
-        terms:issued  "18-12-1997" ;
+        terms:issued  "1801-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
         locn:Address  kbo:d441397f08a192c53fb9 .
 
 kbo:a146ded378bec9cad394
         rdf:type          locn:Address ;
-        geosparql:asWKT   "POINT (5.5021512 50.9659297)" ;
+        geosparql:asWKT   "POINT (5.5030296 50.9646256)"^^geosparql:wktLiteral ;
         kbo:addressType   kbo:TypeOfAddress_BAET ;
         locn:fullAddress  "Rootenstraat 1, 3600 Genk, Belgium" ;
         locn:poBox        "None" ;
@@ -524,20 +524,20 @@ kbo:a146ded378bec9cad394
         locn:postName     "Genk" .
 
 kbo:2153240741  rdf:type  kbo:Establishment , org:Site ;
-        terms:issued  "28-04-2006" ;
+        terms:issued  "2801-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
         locn:Address  kbo:fade8d83f22fefa3d641 .
 
 kbo:2133610020  rdf:type  kbo:Establishment , org:Site ;
-        terms:issued  "01-04-1998" ;
+        terms:issued  "0101-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
         locn:Address  kbo:7c85c210f87564cad0bf .
 
 kbo:2331252369  rdf:type  kbo:Establishment , org:Site ;
-        terms:issued  "01-06-2022" ;
+        terms:issued  "0101-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
         locn:Address  kbo:ae9e9b2d1f640ef3e60a .
 
 kbo:8e8f5087f89c2a0a5df6
         rdf:type          locn:Address ;
-        geosparql:asWKT   "POINT (5.5441201 50.6688486)" ;
+        geosparql:asWKT   "POINT (5.5441201 50.6688486)"^^geosparql:wktLiteral ;
         kbo:addressType   kbo:TypeOfAddress_BAET ;
         locn:fullAddress  "Chauss\uFFFDe de Tongres 269, 4000 Li\uFFFDge, Belgium" ;
         locn:poBox        "None" ;
@@ -545,16 +545,16 @@ kbo:8e8f5087f89c2a0a5df6
         locn:postName     "Li\uFFFDge" .
 
 kbo:2102973361  rdf:type  kbo:Establishment , org:Site ;
-        terms:issued  "13-01-1998" ;
+        terms:issued  "1301-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
         locn:Address  kbo:6957c84d2010fc5e27df .
 
 kbo:2102965344  rdf:type  kbo:Establishment , org:Site ;
-        terms:issued  "27-01-1998" ;
+        terms:issued  "2701-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
         locn:Address  kbo:0a2d4bc5d17d63311162 .
 
 kbo:e7d8b977f02fc0cb6fe0
         rdf:type          locn:Address ;
-        geosparql:asWKT   "POINT (3.7837074 50.6284121)" ;
+        geosparql:asWKT   "POINT (3.7837074 50.6284121)"^^geosparql:wktLiteral ;
         kbo:addressType   kbo:TypeOfAddress_BAET ;
         locn:fullAddress  "Rue Jean Jaur\uFFFDs 11, 7800 Ath, Belgium" ;
         locn:poBox        "None" ;
@@ -562,12 +562,12 @@ kbo:e7d8b977f02fc0cb6fe0
         locn:postName     "Ath" .
 
 kbo:2102964651  rdf:type  kbo:Establishment , org:Site ;
-        terms:issued  "27-01-1998" ;
+        terms:issued  "2701-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
         locn:Address  kbo:c7b9a79e99100703a214 .
 
 kbo:804a2276576c61678f1c
         rdf:type          locn:Address ;
-        geosparql:asWKT   "POINT (3.1251541 50.946002)" ;
+        geosparql:asWKT   "POINT (3.1251541 50.946002)"^^geosparql:wktLiteral ;
         kbo:addressType   kbo:TypeOfAddress_BAET ;
         locn:fullAddress  "Ooststraat 23, 8800 Roeselare, Belgium" ;
         locn:poBox        "None" ;
@@ -576,7 +576,7 @@ kbo:804a2276576c61678f1c
 
 kbo:d8be74225da944fcdfe1
         rdf:type          locn:Address ;
-        geosparql:asWKT   "POINT (3.7761528 50.6300355)" ;
+        geosparql:asWKT   "POINT (3.7761528 50.6300355)"^^geosparql:wktLiteral ;
         kbo:addressType   kbo:TypeOfAddress_BAET ;
         locn:fullAddress  "Rue aux G\uFFFDdes 10, 7800 Ath, Belgium" ;
         locn:poBox        "None" ;
@@ -584,20 +584,20 @@ kbo:d8be74225da944fcdfe1
         locn:postName     "Ath" .
 
 kbo:2153244305  rdf:type  kbo:Establishment , org:Site ;
-        terms:issued  "28-04-2006" ;
+        terms:issued  "2801-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
         locn:Address  kbo:404c084373f69e86503f .
 
 kbo:2260502252  rdf:type  kbo:Establishment , org:Site ;
-        terms:issued  "01-10-2016" ;
+        terms:issued  "0101-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
         locn:Address  kbo:256f93270d0ea84c286a .
 
 kbo:2153246283  rdf:type  kbo:Establishment , org:Site ;
-        terms:issued  "28-04-2006" ;
+        terms:issued  "2801-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
         locn:Address  kbo:18c924ecc8fdb154bbae .
 
 kbo:c80c99b75e45699501d2
         rdf:type          locn:Address ;
-        geosparql:asWKT   "POINT (4.8367438 50.984201)" ;
+        geosparql:asWKT   "POINT (4.8367438 50.984201)"^^geosparql:wktLiteral ;
         kbo:addressType   kbo:TypeOfAddress_BAET ;
         locn:fullAddress  "Grote Markt 23, 3200 Aarschot, Belgium" ;
         locn:poBox        "None" ;
@@ -606,7 +606,7 @@ kbo:c80c99b75e45699501d2
 
 kbo:aef00342ee98eb9b7143
         rdf:type          locn:Address ;
-        geosparql:asWKT   "POINT (5.3384284 50.932453)" ;
+        geosparql:asWKT   "POINT (5.3384284 50.932453)"^^geosparql:wktLiteral ;
         kbo:addressType   kbo:TypeOfAddress_BAET ;
         locn:fullAddress  "Demerstraat 65, 3500 Hasselt, Belgium" ;
         locn:poBox        "None" ;
@@ -615,7 +615,7 @@ kbo:aef00342ee98eb9b7143
 
 kbo:d1f39513a71f9016ca90
         rdf:type          locn:Address ;
-        geosparql:asWKT   "POINT (4.7301201 50.8810287)" ;
+        geosparql:asWKT   "POINT (4.7301201 50.8810287)"^^geosparql:wktLiteral ;
         kbo:addressType   kbo:TypeOfAddress_BAET ;
         locn:fullAddress  "Lolanden 1, 3010 Leuven, Belgium" ;
         locn:poBox        "None" ;
@@ -624,7 +624,7 @@ kbo:d1f39513a71f9016ca90
 
 kbo:b5eff2a7f468e5e35033
         rdf:type          locn:Address ;
-        geosparql:asWKT   "POINT (4.365701415398887 51.0865548)" ;
+        geosparql:asWKT   "POINT (4.365701415398887 51.0865548)"^^geosparql:wktLiteral ;
         kbo:addressType   kbo:TypeOfAddress_BAET ;
         locn:fullAddress  "Antwerpsestraat 11, 2850 Boom, Belgium" ;
         locn:poBox        "None" ;
@@ -633,7 +633,7 @@ kbo:b5eff2a7f468e5e35033
 
 kbo:6a43b6aff7de46b8276d
         rdf:type          locn:Address ;
-        geosparql:asWKT   "POINT (5.8634253 50.5952517)" ;
+        geosparql:asWKT   "POINT (5.8634253 50.5952517)"^^geosparql:wktLiteral ;
         kbo:addressType   kbo:TypeOfAddress_BAET ;
         locn:fullAddress  "Rue Thil Lorrain 6, 4800 Verviers, Belgium" ;
         locn:poBox        "None" ;
@@ -642,7 +642,7 @@ kbo:6a43b6aff7de46b8276d
 
 kbo:6dcb86d583fefb569747
         rdf:type          locn:Address ;
-        geosparql:asWKT   "POINT (4.467700236106182 51.2022526)" ;
+        geosparql:asWKT   "POINT (4.467700236106182 51.2022526)"^^geosparql:wktLiteral ;
         kbo:addressType   kbo:TypeOfAddress_BAET ;
         locn:fullAddress  "Van den Hautelei 171, 2100 Antwerpen, Belgium" ;
         locn:poBox        "None" ;
@@ -650,16 +650,16 @@ kbo:6dcb86d583fefb569747
         locn:postName     "Antwerpen" .
 
 kbo:2133611703  rdf:type  kbo:Establishment , org:Site ;
-        terms:issued  "07-09-2002" ;
+        terms:issued  "0701-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
         locn:Address  kbo:6e7ac6fba01c56737ab3 .
 
 kbo:2102970985  rdf:type  kbo:Establishment , org:Site ;
-        terms:issued  "09-12-1997" ;
+        terms:issued  "0901-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
         locn:Address  kbo:ebab8e57d21b2dc9b03f .
 
 kbo:d026387373ffe49192f1
         rdf:type          locn:Address ;
-        geosparql:asWKT   "POINT (3.6048724 50.8433204)" ;
+        geosparql:asWKT   "POINT (3.6048724 50.8433204)"^^geosparql:wktLiteral ;
         kbo:addressType   kbo:TypeOfAddress_BAET ;
         locn:fullAddress  "Markt 13, 9700 Oudenaarde, Belgium" ;
         locn:poBox        "None" ;
@@ -668,7 +668,7 @@ kbo:d026387373ffe49192f1
 
 kbo:661426774c0e10b98826
         rdf:type          locn:Address ;
-        geosparql:asWKT   "POINT (5.3841733000639405 49.91884695)" ;
+        geosparql:asWKT   "POINT (5.3841733000639405 49.91884695)"^^geosparql:wktLiteral ;
         kbo:addressType   kbo:TypeOfAddress_BAET ;
         locn:fullAddress  "Libramont,Avenue de Bouillon 5, 6800 Libramont-Chevigny, Belgium" ;
         locn:poBox        "None" ;
@@ -676,12 +676,12 @@ kbo:661426774c0e10b98826
         locn:postName     "Libramont-Chevigny" .
 
 kbo:2102972173  rdf:type  kbo:Establishment , org:Site ;
-        terms:issued  "28-11-1997" ;
+        terms:issued  "2801-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
         locn:Address  kbo:8e8f5087f89c2a0a5df6 .
 
 kbo:31e4f783c1609d0e22ee
         rdf:type          locn:Address ;
-        geosparql:asWKT   "POINT (5.2406563 50.5183088)" ;
+        geosparql:asWKT   "POINT (5.2406563 50.5183088)"^^geosparql:wktLiteral ;
         kbo:addressType   kbo:TypeOfAddress_BAET ;
         locn:fullAddress  "Grand'Place 26, 4500 Huy, Belgium" ;
         locn:poBox        "None" ;
@@ -690,7 +690,7 @@ kbo:31e4f783c1609d0e22ee
 
 kbo:4af6d24fb79f6d1dfdbd
         rdf:type          locn:Address ;
-        geosparql:asWKT   "POINT (5.319535540517181 50.94141465)" ;
+        geosparql:asWKT   "POINT (5.319535540517181 50.94141465)"^^geosparql:wktLiteral ;
         kbo:addressType   kbo:TypeOfAddress_BAET ;
         locn:fullAddress  "Herkenrodesingel 6/B, 3500 Hasselt, Belgium" ;
         locn:poBox        "None" ;
@@ -698,12 +698,12 @@ kbo:4af6d24fb79f6d1dfdbd
         locn:postName     "Hasselt" .
 
 kbo:2102976232  rdf:type  kbo:Establishment , org:Site ;
-        terms:issued  "26-11-1997" ;
+        terms:issued  "2601-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
         locn:Address  kbo:54b96717fa1681ae35f2 .
 
 kbo:eed71eb0f0f3d73490fa
         rdf:type          locn:Address ;
-        geosparql:asWKT   "None" ;
+        geosparql:asWKT   "None"^^geosparql:wktLiteral ;
         kbo:addressType   kbo:TypeOfAddress_BAET ;
         locn:fullAddress  "Pater Damiaanstraat 8, 7700 Mouscron, Belgium" ;
         locn:poBox        "3" ;
@@ -711,12 +711,12 @@ kbo:eed71eb0f0f3d73490fa
         locn:postName     "Mouscron" .
 
 kbo:2102969896  rdf:type  kbo:Establishment , org:Site ;
-        terms:issued  "17-12-1997" ;
+        terms:issued  "1701-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
         locn:Address  kbo:46bd2a2239c33c62044f .
 
 kbo:17695fd72d9bbf0aaf28
         rdf:type          locn:Address ;
-        geosparql:asWKT   "POINT (3.2886222 51.3474601)" ;
+        geosparql:asWKT   "POINT (3.2886222 51.3474601)"^^geosparql:wktLiteral ;
         kbo:addressType   kbo:TypeOfAddress_BAET ;
         locn:fullAddress  "Lippenslaan 176, 8300 Knokke-Heist, Belgium" ;
         locn:poBox        "None" ;
@@ -724,16 +724,16 @@ kbo:17695fd72d9bbf0aaf28
         locn:postName     "Knokke-Heist" .
 
 kbo:2102971480  rdf:type  kbo:Establishment , org:Site ;
-        terms:issued  "26-11-1997" ;
+        terms:issued  "2601-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
         locn:Address  kbo:163b33a3482179f96ada .
 
 kbo:2153248659  rdf:type  kbo:Establishment , org:Site ;
-        terms:issued  "28-04-2006" ;
+        terms:issued  "2801-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
         locn:Address  kbo:478583ae1a4e9bcb679b .
 
 kbo:fade8d83f22fefa3d641
         rdf:type          locn:Address ;
-        geosparql:asWKT   "POINT (4.2383349 50.7403139)" ;
+        geosparql:asWKT   "POINT (4.2383349 50.7403139)"^^geosparql:wktLiteral ;
         kbo:addressType   kbo:TypeOfAddress_BAET ;
         locn:fullAddress  "Jacminstraat (Jean) 14, 1500 Halle, Belgium" ;
         locn:poBox        "None" ;
@@ -742,7 +742,7 @@ kbo:fade8d83f22fefa3d641
 
 kbo:ddbfa1271ed17dd065b0
         rdf:type          locn:Address ;
-        geosparql:asWKT   "POINT (4.936807676439881 51.31187225)" ;
+        geosparql:asWKT   "POINT (4.936807676439881 51.31187225)"^^geosparql:wktLiteral ;
         kbo:addressType   kbo:TypeOfAddress_BAET ;
         locn:fullAddress  "Parklaan 34, 2300 Turnhout, Belgium" ;
         locn:poBox        "None" ;
@@ -751,7 +751,7 @@ kbo:ddbfa1271ed17dd065b0
 
 kbo:39d60e34478e5c3b93e4
         rdf:type          locn:Address ;
-        geosparql:asWKT   "POINT (4.1636695 51.1711979)" ;
+        geosparql:asWKT   "POINT (4.1636695 51.1711979)"^^geosparql:wktLiteral ;
         kbo:addressType   kbo:TypeOfAddress_BAET ;
         locn:fullAddress  "Passtraat 1C, 9100 Sint-Niklaas, Belgium" ;
         locn:poBox        "None" ;
@@ -759,16 +759,16 @@ kbo:39d60e34478e5c3b93e4
         locn:postName     "Sint-Niklaas" .
 
 kbo:2153241929  rdf:type  kbo:Establishment , org:Site ;
-        terms:issued  "28-04-2006" ;
+        terms:issued  "2801-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
         locn:Address  kbo:df8f7a12598f7f6db333 .
 
 kbo:2133611208  rdf:type  kbo:Establishment , org:Site ;
-        terms:issued  "29-05-2002" ;
+        terms:issued  "2901-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
         locn:Address  kbo:7918675c11a7ace68d18 .
 
 kbo:6e7ac6fba01c56737ab3
         rdf:type          locn:Address ;
-        geosparql:asWKT   "POINT (4.021229461901909 50.8347993)" ;
+        geosparql:asWKT   "POINT (4.021229461901909 50.8347993)"^^geosparql:wktLiteral ;
         kbo:addressType   kbo:TypeOfAddress_BAET ;
         locn:fullAddress  "Kaardeloodstraat 62, 9400 Ninove, Belgium" ;
         locn:poBox        "None" ;
@@ -777,7 +777,7 @@ kbo:6e7ac6fba01c56737ab3
 
 kbo:92f5075045799adf61ab
         rdf:type          locn:Address ;
-        geosparql:asWKT   "POINT (4.4243175 50.9268847)" ;
+        geosparql:asWKT   "POINT (4.4244135 50.9267206)"^^geosparql:wktLiteral ;
         kbo:addressType   kbo:TypeOfAddress_BAET ;
         locn:fullAddress  "Portaelsplein 68, 1800 Vilvoorde, Belgium" ;
         locn:poBox        "None" ;
@@ -785,28 +785,28 @@ kbo:92f5075045799adf61ab
         locn:postName     "Vilvoorde" .
 
 kbo:2250633095  rdf:type  kbo:Establishment , org:Site ;
-        terms:issued  "01-01-2016" ;
+        terms:issued  "0101-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
         locn:Address  kbo:2288aca3c1fda7ba6de8 .
 
 kbo:2153243117  rdf:type  kbo:Establishment , org:Site ;
-        terms:issued  "28-04-2006" ;
+        terms:issued  "2801-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
         locn:Address  kbo:0768710a3d42b1589157 .
 
 kbo:2102974549  rdf:type  kbo:Establishment , org:Site ;
-        terms:issued  "10-12-1997" ;
+        terms:issued  "1001-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
         locn:Address  kbo:b2b2a0f500b9b8cbe92b .
 
 kbo:2260503935  rdf:type  kbo:Establishment , org:Site ;
-        terms:issued  "01-10-2016" ;
+        terms:issued  "0101-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
         locn:Address  kbo:a2c9eea3f9510292c56a .
 
 kbo:2102968413  rdf:type  kbo:Establishment , org:Site ;
-        terms:issued  "03-12-1997" ;
+        terms:issued  "0301-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
         locn:Address  kbo:ff526f21cc84712c52ee .
 
 kbo:a52d869af25c0e272151
         rdf:type          locn:Address ;
-        geosparql:asWKT   "POINT (5.25214649333871 50.69569415)" ;
+        geosparql:asWKT   "POINT (5.25214649333871 50.69569415)"^^geosparql:wktLiteral ;
         kbo:addressType   kbo:TypeOfAddress_BAET ;
         locn:fullAddress  "Avenue Reine Astrid 10, 4300 Waremme, Belgium" ;
         locn:poBox        "None" ;
@@ -815,7 +815,7 @@ kbo:a52d869af25c0e272151
 
 kbo:5985726a2732fa6ab993
         rdf:type          locn:Address ;
-        geosparql:asWKT   "POINT (4.3379130783981665 50.80369605)" ;
+        geosparql:asWKT   "POINT (4.3379130783981665 50.80369605)"^^geosparql:wktLiteral ;
         kbo:addressType   kbo:TypeOfAddress_BAET ;
         locn:fullAddress  "Xavier De Buestraat 52, 1180 Ukkel, Belgium" ;
         locn:poBox        "None" ;
@@ -824,7 +824,7 @@ kbo:5985726a2732fa6ab993
 
 kbo:e248daacd2953261768b
         rdf:type          locn:Address ;
-        geosparql:asWKT   "POINT (4.0349209 50.9393489)" ;
+        geosparql:asWKT   "POINT (4.0349209 50.9393489)"^^geosparql:wktLiteral ;
         kbo:addressType   kbo:TypeOfAddress_BAET ;
         locn:fullAddress  "De Ridderstraat 41, 9300 Aalst, Belgium" ;
         locn:poBox        "None" ;
@@ -832,12 +832,12 @@ kbo:e248daacd2953261768b
         locn:postName     "Aalst" .
 
 kbo:2260505123  rdf:type  kbo:Establishment , org:Site ;
-        terms:issued  "01-10-2016" ;
+        terms:issued  "0101-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
         locn:Address  kbo:f01bbbb991e7817ea8bf .
 
 kbo:01f1214d6e4b41469ce1
         rdf:type          locn:Address ;
-        geosparql:asWKT   "None" ;
+        geosparql:asWKT   "None"^^geosparql:wktLiteral ;
         kbo:addressType   kbo:TypeOfAddress_BAET ;
         locn:fullAddress  "Cour de l'H\uFFFDtel de ville 3, 4970 Stavelot, Belgium" ;
         locn:poBox        "None" ;
@@ -846,7 +846,7 @@ kbo:01f1214d6e4b41469ce1
 
 kbo:855202a6056a939cb5c7
         rdf:type          locn:Address ;
-        geosparql:asWKT   "POINT (5.2645432 50.159043)" ;
+        geosparql:asWKT   "POINT (5.2638725 50.1603886)"^^geosparql:wktLiteral ;
         kbo:addressType   kbo:TypeOfAddress_BAET ;
         locn:fullAddress  "Rue Joseph Wauters,Jemelle S/N, 5580 Rochefort, Belgium" ;
         locn:poBox        "None" ;
@@ -854,7 +854,7 @@ kbo:855202a6056a939cb5c7
         locn:postName     "Rochefort" .
 
 kbo:2210722050  rdf:type  kbo:Establishment , org:Site ;
-        terms:issued  "26-04-2012" ;
+        terms:issued  "2601-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
         locn:Address  kbo:d27ea903e187fa6b62e8 .
 
 kbo:0202239951.2022.11
@@ -870,7 +870,7 @@ kbo:0202239951.2022.11
 
 kbo:a5d8b9e1b50072028af0
         rdf:type          locn:Address ;
-        geosparql:asWKT   "POINT (2.9187546 51.2302945)" ;
+        geosparql:asWKT   "POINT (2.9187546 51.2302945)"^^geosparql:wktLiteral ;
         kbo:addressType   kbo:TypeOfAddress_BAET ;
         locn:fullAddress  "Kapellestraat 43, 8400 Oostende, Belgium" ;
         locn:poBox        "None" ;
@@ -878,11 +878,11 @@ kbo:a5d8b9e1b50072028af0
         locn:postName     "Oostende" .
 
 kbo:2153242424  rdf:type  kbo:Establishment , org:Site ;
-        terms:issued  "28-04-2006" ;
+        terms:issued  "2801-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
         locn:Address  kbo:d73abcf443e36913607a .
 
 kbo:2102973856  rdf:type  kbo:Establishment , org:Site ;
-        terms:issued  "01-12-1997" ;
+        terms:issued  "0101-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
         locn:Address  kbo:52f3879c563d75be15c2 .
 
 kbo:2008_61100  rdf:type       kbo:Activity ;
@@ -890,12 +890,12 @@ kbo:2008_61100  rdf:type       kbo:Activity ;
         kbo:classification     kbo:Classification_MAIN .
 
 kbo:2102965839  rdf:type  kbo:Establishment , org:Site ;
-        terms:issued  "26-11-1997" ;
+        terms:issued  "2601-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
         locn:Address  kbo:d971077483127c2d883d .
 
 kbo:1acea881b5e087f97493
         rdf:type          locn:Address ;
-        geosparql:asWKT   "POINT (3.2132468 50.7442454)" ;
+        geosparql:asWKT   "POINT (3.2132468 50.7442454)"^^geosparql:wktLiteral ;
         kbo:addressType   kbo:TypeOfAddress_BAET ;
         locn:fullAddress  "Kleinestraat 2, 7700 Mouscron, Belgium" ;
         locn:poBox        "None" ;
@@ -904,7 +904,7 @@ kbo:1acea881b5e087f97493
 
 kbo:451ee50056761d157d1c
         rdf:type          locn:Address ;
-        geosparql:asWKT   "POINT (4.394317010733527 50.8797838)" ;
+        geosparql:asWKT   "POINT (4.394317010733527 50.8797838)"^^geosparql:wktLiteral ;
         kbo:addressType   kbo:TypeOfAddress_BAET ;
         locn:fullAddress  "Carlistraat 2, 1140 Evere, Belgium" ;
         locn:poBox        "None" ;
@@ -913,7 +913,7 @@ kbo:451ee50056761d157d1c
 
 kbo:a01abff33dd2138ef803
         rdf:type          locn:Address ;
-        geosparql:asWKT   "POINT (4.392866400331243 51.17040255)" ;
+        geosparql:asWKT   "POINT (4.392866400331243 51.17040255)"^^geosparql:wktLiteral ;
         kbo:addressType   kbo:TypeOfAddress_BAET ;
         locn:fullAddress  "Bist 36, 2610 Antwerpen, Belgium" ;
         locn:poBox        "None" ;
@@ -922,7 +922,7 @@ kbo:a01abff33dd2138ef803
 
 kbo:b551fa5a2ab4a6c007e4
         rdf:type          locn:Address ;
-        geosparql:asWKT   "POINT (4.343789248124903 50.81696845)" ;
+        geosparql:asWKT   "POINT (4.343789248124903 50.81696845)"^^geosparql:wktLiteral ;
         kbo:addressType   kbo:TypeOfAddress_BAET ;
         locn:fullAddress  "Rodenbachstraat 133, 1190 Vorst, Belgium" ;
         locn:poBox        "None" ;
@@ -930,16 +930,16 @@ kbo:b551fa5a2ab4a6c007e4
         locn:postName     "Vorst" .
 
 kbo:2153241731  rdf:type  kbo:Establishment , org:Site ;
-        terms:issued  "28-04-2006" ;
+        terms:issued  "2801-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
         locn:Address  kbo:d8a525cd993febcb33d1 .
 
 kbo:2102970292  rdf:type  kbo:Establishment , org:Site ;
-        terms:issued  "26-11-1997" ;
+        terms:issued  "2601-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
         locn:Address  kbo:da86e3af3f793ab6bc2c .
 
 kbo:935918f2e7f377751e3f
         rdf:type          locn:Address ;
-        geosparql:asWKT   "POINT (4.3548263 50.8428014)" ;
+        geosparql:asWKT   "POINT (4.3548263 50.8428014)"^^geosparql:wktLiteral ;
         kbo:addressType   kbo:TypeOfAddress_BAET ;
         locn:fullAddress  "Lebeaustraat 2, 1000 Brussel, Belgium" ;
         locn:poBox        "None" ;
@@ -948,7 +948,7 @@ kbo:935918f2e7f377751e3f
 
 kbo:e0aae24706fa35dcdd7d
         rdf:type          locn:Address ;
-        geosparql:asWKT   "POINT (5.5816482600869985 50.6326696)" ;
+        geosparql:asWKT   "POINT (5.5817951 50.6324999)"^^geosparql:wktLiteral ;
         kbo:addressType   kbo:TypeOfAddress_BAET ;
         locn:fullAddress  "Rue du Nord-Belge 6, 4020 Li\uFFFDge, Belgium" ;
         locn:poBox        "None" ;
@@ -961,7 +961,7 @@ kbo:e0aae24706fa35dcdd7d
 
 kbo:729b5580a2239ac582e0
         rdf:type          locn:Address ;
-        geosparql:asWKT   "None" ;
+        geosparql:asWKT   "None"^^geosparql:wktLiteral ;
         kbo:addressType   kbo:TypeOfAddress_BAET ;
         locn:fullAddress  "Place des Grands Pr\uFFFDs 1, 7000 Mons, Belgium" ;
         locn:poBox        "30" ;
@@ -970,7 +970,7 @@ kbo:729b5580a2239ac582e0
 
 kbo:c7b9a79e99100703a214
         rdf:type          locn:Address ;
-        geosparql:asWKT   "POINT (4.2859597 50.8391768)" ;
+        geosparql:asWKT   "POINT (4.287999 50.8384161)"^^geosparql:wktLiteral ;
         kbo:addressType   kbo:TypeOfAddress_BAET ;
         locn:fullAddress  "Sylvain Dupuislaan 433, 1070 Anderlecht, Belgium" ;
         locn:poBox        "None" ;
@@ -979,7 +979,7 @@ kbo:c7b9a79e99100703a214
 
 kbo:2288aca3c1fda7ba6de8
         rdf:type          locn:Address ;
-        geosparql:asWKT   "POINT (3.1320821 51.3136831)" ;
+        geosparql:asWKT   "POINT (3.2226588 51.2070578)"^^geosparql:wktLiteral ;
         kbo:addressType   kbo:TypeOfAddress_BAET ;
         locn:fullAddress  "Steenstraat 22-24, 8000 Brugge, Belgium" ;
         locn:poBox        "None" ;
@@ -987,16 +987,16 @@ kbo:2288aca3c1fda7ba6de8
         locn:postName     "Brugge" .
 
 kbo:2260502747  rdf:type  kbo:Establishment , org:Site ;
-        terms:issued  "01-10-2016" ;
+        terms:issued  "0101-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
         locn:Address  kbo:a146ded378bec9cad394 .
 
 kbo:2153246778  rdf:type  kbo:Establishment , org:Site ;
-        terms:issued  "28-04-2006" ;
+        terms:issued  "2801-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
         locn:Address  kbo:01f1214d6e4b41469ce1 .
 
 kbo:51c7232c4799168e47d5
         rdf:type          locn:Address ;
-        geosparql:asWKT   "POINT (4.6141301 50.6697734)" ;
+        geosparql:asWKT   "POINT (4.6141301 50.6697734)"^^geosparql:wktLiteral ;
         kbo:addressType   kbo:TypeOfAddress_BAET ;
         locn:fullAddress  "Rue Charlemagne 31, 1348 Ottignies-Louvain-la-Neuve, Belgium" ;
         locn:poBox        "None" ;
@@ -1005,7 +1005,7 @@ kbo:51c7232c4799168e47d5
 
 kbo:d971077483127c2d883d
         rdf:type          locn:Address ;
-        geosparql:asWKT   "POINT (4.037953022221606 50.9381889)" ;
+        geosparql:asWKT   "POINT (4.037953022221606 50.9381889)"^^geosparql:wktLiteral ;
         kbo:addressType   kbo:TypeOfAddress_BAET ;
         locn:fullAddress  "Grote Markt 25, 9300 Aalst, Belgium" ;
         locn:poBox        "None" ;
@@ -1014,7 +1014,7 @@ kbo:d971077483127c2d883d
 
 kbo:a2c9eea3f9510292c56a
         rdf:type          locn:Address ;
-        geosparql:asWKT   "POINT (4.489427100000004 51.288813149999996)" ;
+        geosparql:asWKT   "POINT (4.489427100000004 51.288813149999996)"^^geosparql:wktLiteral ;
         kbo:addressType   kbo:TypeOfAddress_BAET ;
         locn:fullAddress  "Bredabaan 319, 2930 Brasschaat, Belgium" ;
         locn:poBox        "None" ;
@@ -1023,7 +1023,7 @@ kbo:a2c9eea3f9510292c56a
 
 kbo:72277939c4841bc09a1f
         rdf:type          locn:Address ;
-        geosparql:asWKT   "POINT (6.0341083 50.6310042)" ;
+        geosparql:asWKT   "POINT (6.0341083 50.6310042)"^^geosparql:wktLiteral ;
         kbo:addressType   kbo:TypeOfAddress_BAET ;
         locn:fullAddress  "Kl\uFFFDtzerbahn 24, 4700 Eupen, Belgium" ;
         locn:poBox        "None" ;
@@ -1031,15 +1031,15 @@ kbo:72277939c4841bc09a1f
         locn:postName     "Eupen" .
 
 kbo:2102965641  rdf:type  kbo:Establishment , org:Site ;
-        terms:issued  "27-01-1998" ;
+        terms:issued  "2701-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
         locn:Address  kbo:92f5075045799adf61ab .
 
 kbo:2311167728  rdf:type  kbo:Establishment , org:Site ;
-        terms:issued  "01-01-2021" ;
+        terms:issued  "0101-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
         locn:Address  kbo:6fc7e51d2b3a71833706 .
 
 kbo:2102972668  rdf:type  kbo:Establishment , org:Site ;
-        terms:issued  "02-12-1997" ;
+        terms:issued  "0201-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
         locn:Address  kbo:6b7c9b1542b09297d8ef .
 
 kbo:2008_26300  rdf:type       kbo:Activity ;
@@ -1048,7 +1048,7 @@ kbo:2008_26300  rdf:type       kbo:Activity ;
 
 kbo:c5c76707fa8c38230006
         rdf:type          locn:Address ;
-        geosparql:asWKT   "POINT (5.808744350761206 49.68179995)" ;
+        geosparql:asWKT   "POINT (5.808744350761206 49.68179995)"^^geosparql:wktLiteral ;
         kbo:addressType   kbo:TypeOfAddress_BAET ;
         locn:fullAddress  "Avenue Jean-Baptiste-Nothomb 40, 6700 Arlon, Belgium" ;
         locn:poBox        "None" ;
@@ -1057,7 +1057,7 @@ kbo:c5c76707fa8c38230006
 
 kbo:873d4472326b12c88031
         rdf:type          locn:Address ;
-        geosparql:asWKT   "POINT (3.8341195773696684 51.0937268)" ;
+        geosparql:asWKT   "POINT (3.8341195773696684 51.0937268)"^^geosparql:wktLiteral ;
         kbo:addressType   kbo:TypeOfAddress_BAET ;
         locn:fullAddress  "Dekenijstraat 11, 9080 Lochristi, Belgium" ;
         locn:poBox        "None" ;
@@ -1066,7 +1066,7 @@ kbo:873d4472326b12c88031
 
 kbo:2618fc06ab4d7ebc17f4
         rdf:type          locn:Address ;
-        geosparql:asWKT   "POINT (6.0281175 50.4262665)" ;
+        geosparql:asWKT   "POINT (6.0281175 50.4262665)"^^geosparql:wktLiteral ;
         kbo:addressType   kbo:TypeOfAddress_BAET ;
         locn:fullAddress  "Place du Ch\uFFFDtelet 1, 4960 Malmedy, Belgium" ;
         locn:poBox        "None" ;
@@ -1075,7 +1075,7 @@ kbo:2618fc06ab4d7ebc17f4
 
 kbo:90125aadeb618654c69e
         rdf:type          locn:Address ;
-        geosparql:asWKT   "POINT (4.3377784 51.1830403)" ;
+        geosparql:asWKT   "POINT (4.3377784 51.1830403)"^^geosparql:wktLiteral ;
         kbo:addressType   kbo:TypeOfAddress_BAET ;
         locn:fullAddress  "Smallandlaan 14, 2660 Antwerpen, Belgium" ;
         locn:poBox        "None" ;
@@ -1084,7 +1084,7 @@ kbo:90125aadeb618654c69e
 
 kbo:d86df375119d04212b67
         rdf:type          locn:Address ;
-        geosparql:asWKT   "POINT (4.4906883 50.7311888)" ;
+        geosparql:asWKT   "POINT (4.4906883 50.7311888)"^^geosparql:wktLiteral ;
         kbo:addressType   kbo:TypeOfAddress_BAET ;
         locn:fullAddress  "Place Albert-Ier 3-5, 1400 Nivelles, Belgium" ;
         locn:poBox        "None" ;
@@ -1092,16 +1092,16 @@ kbo:d86df375119d04212b67
         locn:postName     "Nivelles" .
 
 kbo:2311168619  rdf:type  kbo:Establishment , org:Site ;
-        terms:issued  "01-01-2021" ;
+        terms:issued  "0101-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
         locn:Address  kbo:d45e27d446f7a7fb9f1a .
 
 kbo:2102976727  rdf:type  kbo:Establishment , org:Site ;
-        terms:issued  "24-11-1997" ;
+        terms:issued  "2401-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
         locn:Address  kbo:7c77bde35252c7f5fe11 .
 
 kbo:7918675c11a7ace68d18
         rdf:type          locn:Address ;
-        geosparql:asWKT   "POINT (3.722452015498685 51.0533977)" ;
+        geosparql:asWKT   "POINT (3.7224014 51.0533936)"^^geosparql:wktLiteral ;
         kbo:addressType   kbo:TypeOfAddress_BAET ;
         locn:fullAddress  "Veldstraat 9-11, 9000 Gent, Belgium" ;
         locn:poBox        "None" ;
@@ -1109,20 +1109,20 @@ kbo:7918675c11a7ace68d18
         locn:postName     "Gent" .
 
 kbo:2153247273  rdf:type  kbo:Establishment , org:Site ;
-        terms:issued  "28-04-2006" ;
+        terms:issued  "2801-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
         locn:Address  kbo:6590097a447c7640b8ce .
 
 kbo:2187794913  rdf:type  kbo:Establishment , org:Site ;
-        terms:issued  "01-04-2010" ;
+        terms:issued  "0101-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
         locn:Address  kbo:7b6cc040cc2cb0bb6c67 .
 
 kbo:2102971975  rdf:type  kbo:Establishment , org:Site ;
-        terms:issued  "28-11-1997" ;
+        terms:issued  "2801-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
         locn:Address  kbo:e0aae24706fa35dcdd7d .
 
 kbo:d8a525cd993febcb33d1
         rdf:type          locn:Address ;
-        geosparql:asWKT   "POINT (4.3218742 51.338809)" ;
+        geosparql:asWKT   "POINT (4.3218742 51.338809)"^^geosparql:wktLiteral ;
         kbo:addressType   kbo:TypeOfAddress_BAET ;
         locn:fullAddress  "Antwerpsebaan 105, 2040 Antwerpen, Belgium" ;
         locn:poBox        "None" ;
@@ -1131,7 +1131,7 @@ kbo:d8a525cd993febcb33d1
 
 kbo:b998ad8216bf964e99ce
         rdf:type          locn:Address ;
-        geosparql:asWKT   "POINT (4.833941656972373 51.176637)" ;
+        geosparql:asWKT   "POINT (4.833941656972373 51.176637)"^^geosparql:wktLiteral ;
         kbo:addressType   kbo:TypeOfAddress_BAET ;
         locn:fullAddress  "Zandstraat(HRT) 27, 2200 Herentals, Belgium" ;
         locn:poBox        "None" ;
@@ -1139,20 +1139,20 @@ kbo:b998ad8216bf964e99ce
         locn:postName     "Herentals" .
 
 kbo:2153244602  rdf:type  kbo:Establishment , org:Site ;
-        terms:issued  "28-04-2006" ;
+        terms:issued  "2801-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
         locn:Address  kbo:a7785e44f2fa738cc89d .
 
 kbo:2102965146  rdf:type  kbo:Establishment , org:Site ;
-        terms:issued  "27-01-1998" ;
+        terms:issued  "2701-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
         locn:Address  kbo:632b1d16e0a5f666a81c .
 
 kbo:2153246580  rdf:type  kbo:Establishment , org:Site ;
-        terms:issued  "28-04-2006" ;
+        terms:issued  "2801-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
         locn:Address  kbo:80503671d3f47c603d9c .
 
 kbo:bc0c557a586754a2beb9
         rdf:type          locn:Address ;
-        geosparql:asWKT   "POINT (4.4355353 51.1996798)" ;
+        geosparql:asWKT   "POINT (4.4355353 51.1996798)"^^geosparql:wktLiteral ;
         kbo:addressType   kbo:TypeOfAddress_BAET ;
         locn:fullAddress  "Borsbeeksebrug 24, 2600 Antwerpen, Belgium" ;
         locn:poBox        "None" ;
@@ -1160,16 +1160,16 @@ kbo:bc0c557a586754a2beb9
         locn:postName     "Antwerpen" .
 
 kbo:2160609474  rdf:type  kbo:Establishment , org:Site ;
-        terms:issued  "01-11-2006" ;
+        terms:issued  "0101-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
         locn:Address  kbo:72277939c4841bc09a1f .
 
 kbo:2102977222  rdf:type  kbo:Establishment , org:Site ;
-        terms:issued  "11-12-1997" ;
+        terms:issued  "1101-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
         locn:Address  kbo:d93a3ebbe07789822d2a .
 
 kbo:d73abcf443e36913607a
         rdf:type          locn:Address ;
-        geosparql:asWKT   "POINT (5.051353142794582 50.9891976)" ;
+        geosparql:asWKT   "POINT (5.051353142794582 50.9891976)"^^geosparql:wktLiteral ;
         kbo:addressType   kbo:TypeOfAddress_BAET ;
         locn:fullAddress  "Ferdinand Allenstraat 38, 3290 Diest, Belgium" ;
         locn:poBox        "None" ;
@@ -1178,7 +1178,7 @@ kbo:d73abcf443e36913607a
 
 kbo:877c4fedcb5aa5a4a16e
         rdf:type          locn:Address ;
-        geosparql:asWKT   "POINT (5.7200429 50.0042961)" ;
+        geosparql:asWKT   "POINT (5.7200429 50.0042961)"^^geosparql:wktLiteral ;
         kbo:addressType   kbo:TypeOfAddress_BAET ;
         locn:fullAddress  "Rue du Sablon 125-127, 6600 Bastogne, Belgium" ;
         locn:poBox        "None" ;
@@ -1187,7 +1187,7 @@ kbo:877c4fedcb5aa5a4a16e
 
 kbo:67078889f810e8634ae7
         rdf:type          locn:Address ;
-        geosparql:asWKT   "POINT (3.7318353073039425 51.053748299999995)" ;
+        geosparql:asWKT   "POINT (3.7318353073039425 51.053748299999995)"^^geosparql:wktLiteral ;
         kbo:addressType   kbo:TypeOfAddress_BAET ;
         locn:fullAddress  "Keizer Karelstraat 1, 9000 Gent, Belgium" ;
         locn:poBox        "None" ;
@@ -1195,20 +1195,20 @@ kbo:67078889f810e8634ae7
         locn:postName     "Gent" .
 
 kbo:2102972470  rdf:type  kbo:Establishment , org:Site ;
-        terms:issued  "28-11-1997" ;
+        terms:issued  "2801-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
         locn:Address  kbo:a52d869af25c0e272151 .
 
 kbo:2250632897  rdf:type  kbo:Establishment , org:Site ;
-        terms:issued  "01-01-2016" ;
+        terms:issued  "0101-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
         locn:Address  kbo:cee64edf7ab6db8dd452 .
 
 kbo:2153240048  rdf:type  kbo:Establishment , org:Site ;
-        terms:issued  "28-04-2006" ;
+        terms:issued  "2801-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
         locn:Address  kbo:29c52a86b779b0ca22e1 .
 
 kbo:77b548922614f52ca62f
         rdf:type          locn:Address ;
-        geosparql:asWKT   "POINT (4.4970474 50.4091214)" ;
+        geosparql:asWKT   "POINT (4.4970474 50.4091214)"^^geosparql:wktLiteral ;
         kbo:addressType   kbo:TypeOfAddress_BAET ;
         locn:fullAddress  "Rue du Trieu-Kaisin 71, 6200 Ch\uFFFDtelet, Belgium" ;
         locn:poBox        "None" ;
@@ -1216,24 +1216,24 @@ kbo:77b548922614f52ca62f
         locn:postName     "Ch\uFFFDtelet" .
 
 kbo:2153242919  rdf:type  kbo:Establishment , org:Site ;
-        terms:issued  "28-04-2006" ;
+        terms:issued  "2801-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
         locn:Address  kbo:4432cc41e6c3e74451f4 .
 
 kbo:2298528331  rdf:type  kbo:Establishment , org:Site ;
-        terms:issued  "01-02-2020" ;
+        terms:issued  "0101-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
         locn:Address  kbo:fd952ba9ad070dc3346c .
 
 kbo:2153244107  rdf:type  kbo:Establishment , org:Site ;
-        terms:issued  "28-04-2006" ;
+        terms:issued  "2801-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
         locn:Address  kbo:e08753f376d4b93aa998 .
 
 kbo:2102975539  rdf:type  kbo:Establishment , org:Site ;
-        terms:issued  "18-12-1997" ;
+        terms:issued  "1801-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
         locn:Address  kbo:c99162dd106fb0d99bcd .
 
 kbo:cc6545f34558fd67cd60
         rdf:type          locn:Address ;
-        geosparql:asWKT   "POINT (3.2673301088639 50.82606095)" ;
+        geosparql:asWKT   "POINT (3.2673301088639 50.82606095)"^^geosparql:wktLiteral ;
         kbo:addressType   kbo:TypeOfAddress_BAET ;
         locn:fullAddress  "Doorniksestraat(Kor) 35, 8500 Kortrijk, Belgium" ;
         locn:poBox        "None" ;
@@ -1241,24 +1241,24 @@ kbo:cc6545f34558fd67cd60
         locn:postName     "Kortrijk" .
 
 kbo:2260502054  rdf:type  kbo:Establishment , org:Site ;
-        terms:issued  "01-10-2016" ;
+        terms:issued  "0101-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
         locn:Address  kbo:5085a62ebc0913bd468c .
 
 kbo:2102969403  rdf:type  kbo:Establishment , org:Site ;
-        terms:issued  "27-11-1997" ;
+        terms:issued  "2701-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
         locn:Address  kbo:c015b59602fd617dcfe7 .
 
 kbo:2153246085  rdf:type  kbo:Establishment , org:Site ;
-        terms:issued  "28-04-2006" ;
+        terms:issued  "2801-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
         locn:Address  kbo:e7d8b977f02fc0cb6fe0 .
 
 kbo:2102970787  rdf:type  kbo:Establishment , org:Site ;
-        terms:issued  "09-12-1997" ;
+        terms:issued  "0901-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
         locn:Address  kbo:804a2276576c61678f1c .
 
 kbo:8c3c7ae29778f81c0a3c
         rdf:type          locn:Address ;
-        geosparql:asWKT   "POINT (4.727086971397716 50.84631265)" ;
+        geosparql:asWKT   "POINT (4.7278605 50.8457396)"^^geosparql:wktLiteral ;
         kbo:addressType   kbo:TypeOfAddress_BAET ;
         locn:fullAddress  "Geldenaaksebaan 335, 3001 Leuven, Belgium" ;
         locn:poBox        "None" ;
@@ -1267,7 +1267,7 @@ kbo:8c3c7ae29778f81c0a3c
 
 kbo:14f5c771709507c5faf3
         rdf:type          locn:Address ;
-        geosparql:asWKT   "POINT (6.1240165086819704 50.28384965)" ;
+        geosparql:asWKT   "POINT (6.1240165086819704 50.28384965)"^^geosparql:wktLiteral ;
         kbo:addressType   kbo:TypeOfAddress_BAET ;
         locn:fullAddress  "Malmedyer Strasse 22, 4780 Sankt Vith, Belgium" ;
         locn:poBox        "None" ;
@@ -1276,7 +1276,7 @@ kbo:14f5c771709507c5faf3
 
 kbo:26f17093888ae93541cd
         rdf:type          locn:Address ;
-        geosparql:asWKT   "POINT (5.634450893847773 50.66786465)" ;
+        geosparql:asWKT   "POINT (5.634450893847773 50.66786465)"^^geosparql:wktLiteral ;
         kbo:addressType   kbo:TypeOfAddress_BAET ;
         locn:fullAddress  "Rue P\uFFFDpin de Herstal 16, 4040 Herstal, Belgium" ;
         locn:poBox        "None" ;
@@ -1284,20 +1284,20 @@ kbo:26f17093888ae93541cd
         locn:postName     "Herstal" .
 
 kbo:2102974846  rdf:type  kbo:Establishment , org:Site ;
-        terms:issued  "10-12-1997" ;
+        terms:issued  "1001-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
         locn:Address  kbo:3aaa268254f2808f1b2c .
 
 kbo:2153245392  rdf:type  kbo:Establishment , org:Site ;
-        terms:issued  "28-04-2006" ;
+        terms:issued  "2801-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
         locn:Address  kbo:f4b632cd1508a60d77b5 .
 
 kbo:2102968710  rdf:type  kbo:Establishment , org:Site ;
-        terms:issued  "03-12-1997" ;
+        terms:issued  "0301-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
         locn:Address  kbo:07305749080602a88747 .
 
 kbo:57c197d75f51e7d4aeec
         rdf:type          locn:Address ;
-        geosparql:asWKT   "POINT (3.3919543 50.6135755)" ;
+        geosparql:asWKT   "POINT (3.3919543 50.6135755)"^^geosparql:wktLiteral ;
         kbo:addressType   kbo:TypeOfAddress_BAET ;
         locn:fullAddress  "Boulevard des Nerviens(TOU) 1, 7500 Tournai, Belgium" ;
         locn:poBox        "None" ;
@@ -1305,16 +1305,16 @@ kbo:57c197d75f51e7d4aeec
         locn:postName     "Tournai" .
 
 kbo:2133609525  rdf:type  kbo:Establishment , org:Site ;
-        terms:issued  "01-12-1999" ;
+        terms:issued  "0101-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
         locn:Address  kbo:c9ed8208d3f4116bf903 .
 
 kbo:2102976034  rdf:type  kbo:Establishment , org:Site ;
-        terms:issued  "26-11-1997" ;
+        terms:issued  "2601-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
         locn:Address  kbo:d8be74225da944fcdfe1 .
 
 kbo:404c084373f69e86503f
         rdf:type          locn:Address ;
-        geosparql:asWKT   "POINT (3.271207 50.8253334)" ;
+        geosparql:asWKT   "POINT (3.271207 50.8253334)"^^geosparql:wktLiteral ;
         kbo:addressType   kbo:TypeOfAddress_BAET ;
         locn:fullAddress  "Sint-Janslaan(Kor) 8, 8500 Kortrijk, Belgium" ;
         locn:poBox        "None" ;
@@ -1323,7 +1323,7 @@ kbo:404c084373f69e86503f
 
 kbo:c015b59602fd617dcfe7
         rdf:type          locn:Address ;
-        geosparql:asWKT   "POINT (4.934450540845658 50.266161)" ;
+        geosparql:asWKT   "POINT (4.934450540845658 50.266161)"^^geosparql:wktLiteral ;
         kbo:addressType   kbo:TypeOfAddress_BAET ;
         locn:fullAddress  "Rue Saint-Jacques 337, 5500 Dinant, Belgium" ;
         locn:poBox        "None" ;
@@ -1332,7 +1332,7 @@ kbo:c015b59602fd617dcfe7
 
 kbo:63b570ca085718ff61b3
         rdf:type          locn:Address ;
-        geosparql:asWKT   "POINT (4.6967493 50.5613678)" ;
+        geosparql:asWKT   "POINT (4.6967493 50.5613678)"^^geosparql:wktLiteral ;
         kbo:addressType   kbo:TypeOfAddress_BAET ;
         locn:fullAddress  "Grand'Rue 18, 5030 Gembloux, Belgium" ;
         locn:poBox        "None" ;
@@ -1340,44 +1340,44 @@ kbo:63b570ca085718ff61b3
         locn:postName     "Gembloux" .
 
 kbo:2133612790  rdf:type  kbo:Establishment , org:Site ;
-        terms:issued  "01-10-1998" ;
+        terms:issued  "0101-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
         locn:Address  kbo:96b8935bf70f557f9f04 .
 
 kbo:2153242721  rdf:type  kbo:Establishment , org:Site ;
-        terms:issued  "28-04-2006" ;
+        terms:issued  "2801-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
         locn:Address  kbo:4366ec280ddee0880dd9 .
 
 kbo:2268680441  rdf:type  kbo:Establishment , org:Site ;
-        terms:issued  "01-10-2017" ;
+        terms:issued  "0101-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
         locn:Address  kbo:4af6d24fb79f6d1dfdbd .
 
 kbo:2102971282  rdf:type  kbo:Establishment , org:Site ;
-        terms:issued  "26-11-1997" ;
+        terms:issued  "2601-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
         locn:Address  kbo:732b0c1a7c9239076e4a .
 
 kbo:2102975341  rdf:type  kbo:Establishment , org:Site ;
-        terms:issued  "25-11-1997" ;
+        terms:issued  "2501-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
         locn:Address  kbo:0d8aa64ca923d64cb116 .
 
 kbo:2260503737  rdf:type  kbo:Establishment , org:Site ;
-        terms:issued  "01-10-2016" ;
+        terms:issued  "0101-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
         locn:Address  kbo:fa134b565aaf59ac6374 .
 
 kbo:2102968215  rdf:type  kbo:Establishment , org:Site ;
-        terms:issued  "26-11-1997" ;
+        terms:issued  "2601-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
         locn:Address  kbo:17695fd72d9bbf0aaf28 .
 
 kbo:2210681072  rdf:type  kbo:Establishment , org:Site ;
-        terms:issued  "01-08-2011" ;
+        terms:issued  "0101-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
         locn:Address  kbo:9e5edc4ac91ef6ed9ac9 .
 
 kbo:2153247768  rdf:type  kbo:Establishment , org:Site ;
-        terms:issued  "28-04-2006" ;
+        terms:issued  "2801-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
         locn:Address  kbo:448592ced6d42cee29e2 .
 
 kbo:58043a950a54f0d075dd
         rdf:type          locn:Address ;
-        geosparql:asWKT   "POINT (4.497031823283097 51.01228205)" ;
+        geosparql:asWKT   "POINT (4.497031823283097 51.01228205)"^^geosparql:wktLiteral ;
         kbo:addressType   kbo:TypeOfAddress_BAET ;
         locn:fullAddress  "Dellingstraat 52, 2800 Mechelen, Belgium" ;
         locn:poBox        "None" ;
@@ -1386,7 +1386,7 @@ kbo:58043a950a54f0d075dd
 
 kbo:18c924ecc8fdb154bbae
         rdf:type          locn:Address ;
-        geosparql:asWKT   "POINT (4.4452956 50.4108314)" ;
+        geosparql:asWKT   "POINT (4.445487116710946 50.410709)"^^geosparql:wktLiteral ;
         kbo:addressType   kbo:TypeOfAddress_BAET ;
         locn:fullAddress  "Rue de la Science 2, 6000 Charleroi, Belgium" ;
         locn:poBox        "None" ;
@@ -1395,7 +1395,7 @@ kbo:18c924ecc8fdb154bbae
 
 kbo:7e2525def4cb3e7ef83d
         rdf:type          locn:Address ;
-        geosparql:asWKT   "POINT (4.569066753770241 51.13216285)" ;
+        geosparql:asWKT   "POINT (4.569066753770241 51.13216285)"^^geosparql:wktLiteral ;
         kbo:addressType   kbo:TypeOfAddress_BAET ;
         locn:fullAddress  "Antwerpsestraat 14, 2500 Lier, Belgium" ;
         locn:poBox        "None" ;
@@ -1403,20 +1403,20 @@ kbo:7e2525def4cb3e7ef83d
         locn:postName     "Lier" .
 
 kbo:2153242226  rdf:type  kbo:Establishment , org:Site ;
-        terms:issued  "28-04-2006" ;
+        terms:issued  "2801-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
         locn:Address  kbo:577618379a29dc857a9d .
 
 kbo:2102973658  rdf:type  kbo:Establishment , org:Site ;
-        terms:issued  "18-12-1997" ;
+        terms:issued  "1801-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
         locn:Address  kbo:28dcf605855f59f6a5f4 .
 
 kbo:2102967522  rdf:type  kbo:Establishment , org:Site ;
-        terms:issued  "12-12-1997" ;
+        terms:issued  "1201-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
         locn:Address  kbo:c5c76707fa8c38230006 .
 
 kbo:72fcd847e2d74085de5c
         rdf:type          locn:Address ;
-        geosparql:asWKT   "POINT (4.4503982 51.1740039)" ;
+        geosparql:asWKT   "POINT (4.4503982 51.1740039)"^^geosparql:wktLiteral ;
         kbo:addressType   kbo:TypeOfAddress_BAET ;
         locn:fullAddress  "Hendrik Consciencelaan 62, 2640 Mortsel, Belgium" ;
         locn:poBox        "None" ;
@@ -1425,7 +1425,7 @@ kbo:72fcd847e2d74085de5c
 
 kbo:5af40189d0555fd9e119
         rdf:type          locn:Address ;
-        geosparql:asWKT   "POINT (5.8747732 50.6386143)" ;
+        geosparql:asWKT   "POINT (5.8747732 50.6386143)"^^geosparql:wktLiteral ;
         kbo:addressType   kbo:TypeOfAddress_BAET ;
         locn:fullAddress  "Rue des Waides 12-14, 4890 Thimister-Clermont, Belgium" ;
         locn:poBox        "None" ;
@@ -1433,16 +1433,16 @@ kbo:5af40189d0555fd9e119
         locn:postName     "Thimister-Clermont" .
 
 kbo:2260504232  rdf:type  kbo:Establishment , org:Site ;
-        terms:issued  "01-10-2016" ;
+        terms:issued  "0101-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
         locn:Address  kbo:1acea881b5e087f97493 .
 
 kbo:2153248263  rdf:type  kbo:Establishment , org:Site ;
-        terms:issued  "28-04-2006" ;
+        terms:issued  "2801-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
         locn:Address  kbo:c81845c95e00a1d8d6f9 .
 
 kbo:d5509d38e41b762d46f7
         rdf:type          locn:Address ;
-        geosparql:asWKT   "POINT (4.376235453609251 50.68419455)" ;
+        geosparql:asWKT   "POINT (4.376235453609251 50.68419455)"^^geosparql:wktLiteral ;
         kbo:addressType   kbo:TypeOfAddress_BAET ;
         locn:fullAddress  "Avenue Albert 1er 117, 1420 Braine-l'Alleud, Belgium" ;
         locn:poBox        "None" ;
@@ -1451,7 +1451,7 @@ kbo:d5509d38e41b762d46f7
 
 kbo:07305749080602a88747
         rdf:type          locn:Address ;
-        geosparql:asWKT   "POINT (4.442625580168709 50.394761700000004)" ;
+        geosparql:asWKT   "POINT (4.442625580168709 50.394761700000004)"^^geosparql:wktLiteral ;
         kbo:addressType   kbo:TypeOfAddress_BAET ;
         locn:fullAddress  "Avenue Eug\uFFFDne Mascaux 223, 6001 Charleroi, Belgium" ;
         locn:poBox        "None" ;
@@ -1459,12 +1459,12 @@ kbo:07305749080602a88747
         locn:postName     "Charleroi" .
 
 kbo:2153241533  rdf:type  kbo:Establishment , org:Site ;
-        terms:issued  "28-04-2006" ;
+        terms:issued  "2801-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
         locn:Address  kbo:49a6b51ac908d8402ca0 .
 
 kbo:ff526f21cc84712c52ee
         rdf:type          locn:Address ;
-        geosparql:asWKT   "POINT (4.4417004 50.4077116)" ;
+        geosparql:asWKT   "POINT (4.4417004 50.4077116)"^^geosparql:wktLiteral ;
         kbo:addressType   kbo:TypeOfAddress_BAET ;
         locn:fullAddress  "Place Verte 20, 6000 Charleroi, Belgium" ;
         locn:poBox        "None" ;
@@ -1472,16 +1472,16 @@ kbo:ff526f21cc84712c52ee
         locn:postName     "Charleroi" .
 
 kbo:2102970094  rdf:type  kbo:Establishment , org:Site ;
-        terms:issued  "26-11-1997" ;
+        terms:issued  "2601-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
         locn:Address  kbo:aef00342ee98eb9b7143 .
 
 kbo:2102972965  rdf:type  kbo:Establishment , org:Site ;
-        terms:issued  "27-11-1997" ;
+        terms:issued  "2701-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
         locn:Address  kbo:cb44029ad40d245fa186 .
 
 kbo:86287faaa71b020a4779
         rdf:type          locn:Address ;
-        geosparql:asWKT   "POINT (4.267248539604148 50.817447)" ;
+        geosparql:asWKT   "POINT (4.267248539604148 50.817447)"^^geosparql:wktLiteral ;
         kbo:addressType   kbo:TypeOfAddress_BAET ;
         locn:fullAddress  "Researchdreef 20, 1070 Anderlecht, Belgium" ;
         locn:poBox        "None" ;
@@ -1490,7 +1490,7 @@ kbo:86287faaa71b020a4779
 
 kbo:59d6f1b4bcfa65c1390c
         rdf:type          locn:Address ;
-        geosparql:asWKT   "POINT (3.4315466 50.8869546)" ;
+        geosparql:asWKT   "POINT (3.4315466 50.8869546)"^^geosparql:wktLiteral ;
         kbo:addressType   kbo:TypeOfAddress_BAET ;
         locn:fullAddress  "Markt 21, 8790 Waregem, Belgium" ;
         locn:poBox        "None" ;
@@ -1499,7 +1499,7 @@ kbo:59d6f1b4bcfa65c1390c
 
 kbo:e2b67f95d148227f47c8
         rdf:type          locn:Address ;
-        geosparql:asWKT   "POINT (4.3566618155519485 50.85378745)" ;
+        geosparql:asWKT   "POINT (4.3566618155519485 50.85378745)"^^geosparql:wktLiteral ;
         kbo:addressType   kbo:TypeOfAddress_BAET ;
         locn:fullAddress  "Nieuwstraat 98, 1000 Brussel, Belgium" ;
         locn:poBox        "None" ;
@@ -1507,12 +1507,12 @@ kbo:e2b67f95d148227f47c8
         locn:postName     "Brussel" .
 
 kbo:2102967027  rdf:type  kbo:Establishment , org:Site ;
-        terms:issued  "25-11-1997" ;
+        terms:issued  "2501-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
         locn:Address  kbo:cada54920ea7c745852e .
 
 kbo:c26602d653d332faa008
         rdf:type          locn:Address ;
-        geosparql:asWKT   "POINT (4.153538218494281 51.15326385)" ;
+        geosparql:asWKT   "POINT (4.153538218494281 51.15326385)"^^geosparql:wktLiteral ;
         kbo:addressType   kbo:TypeOfAddress_BAET ;
         locn:fullAddress  "Kapelstraat 100, 9100 Sint-Niklaas, Belgium" ;
         locn:poBox        "None" ;
@@ -1521,7 +1521,7 @@ kbo:c26602d653d332faa008
 
 kbo:d93a3ebbe07789822d2a
         rdf:type          locn:Address ;
-        geosparql:asWKT   "POINT (6.0336933 50.6297812)" ;
+        geosparql:asWKT   "POINT (6.0336933 50.6297812)"^^geosparql:wktLiteral ;
         kbo:addressType   kbo:TypeOfAddress_BAET ;
         locn:fullAddress  "Bergstrasse 14, 4700 Eupen, Belgium" ;
         locn:poBox        "None" ;
@@ -1529,12 +1529,12 @@ kbo:d93a3ebbe07789822d2a
         locn:postName     "Eupen" .
 
 kbo:2153240840  rdf:type  kbo:Establishment , org:Site ;
-        terms:issued  "28-04-2006" ;
+        terms:issued  "2801-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
         locn:Address  kbo:e5239e22a2c967c65fe8 .
 
 kbo:41c883a3721e4e84750d
         rdf:type          locn:Address ;
-        geosparql:asWKT   "POINT (5.4324095329979425 51.22878335)" ;
+        geosparql:asWKT   "POINT (5.4324095329979425 51.22878335)"^^geosparql:wktLiteral ;
         kbo:addressType   kbo:TypeOfAddress_BAET ;
         locn:fullAddress  "Kerkstraat 22, 3910 Pelt, Belgium" ;
         locn:poBox        "None" ;
@@ -1543,7 +1543,7 @@ kbo:41c883a3721e4e84750d
 
 kbo:844882833ab540d11b28
         rdf:type          locn:Address ;
-        geosparql:asWKT   "POINT (2.8890116317831196 50.85142535)" ;
+        geosparql:asWKT   "POINT (2.8890116317831196 50.85142535)"^^geosparql:wktLiteral ;
         kbo:addressType   kbo:TypeOfAddress_BAET ;
         locn:fullAddress  "Menenstraat 14, 8900 Ieper, Belgium" ;
         locn:poBox        "None" ;
@@ -1551,16 +1551,16 @@ kbo:844882833ab540d11b28
         locn:postName     "Ieper" .
 
 kbo:2102973460  rdf:type  kbo:Establishment , org:Site ;
-        terms:issued  "13-01-1998" ;
+        terms:issued  "1301-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
         locn:Address  kbo:1412a4bbb750860d42d3 .
 
 kbo:2102965443  rdf:type  kbo:Establishment , org:Site ;
-        terms:issued  "27-01-1998" ;
+        terms:issued  "2701-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
         locn:Address  kbo:39ba9521aa89e99525e2 .
 
 kbo:38730a0ce6d0dece69f4
         rdf:type          locn:Address ;
-        geosparql:asWKT   "POINT (4.3530122 50.8486767)" ;
+        geosparql:asWKT   "POINT (4.3530122 50.8486767)"^^geosparql:wktLiteral ;
         kbo:addressType   kbo:TypeOfAddress_BAET ;
         locn:fullAddress  "Gr\uFFFDtrystraat 12, 1000 Brussel, Belgium" ;
         locn:poBox        "None" ;
@@ -1568,12 +1568,12 @@ kbo:38730a0ce6d0dece69f4
         locn:postName     "Brussel" .
 
 kbo:2153243909  rdf:type  kbo:Establishment , org:Site ;
-        terms:issued  "28-04-2006" ;
+        terms:issued  "2801-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
         locn:Address  kbo:e248daacd2953261768b .
 
 kbo:f4b632cd1508a60d77b5
         rdf:type          locn:Address ;
-        geosparql:asWKT   "POINT (2.961047156153975 51.1525805)" ;
+        geosparql:asWKT   "POINT (2.961047156153975 51.1525805)"^^geosparql:wktLiteral ;
         kbo:addressType   kbo:TypeOfAddress_BAET ;
         locn:fullAddress  "Nieuwpoortse Steenweg 15, 8470 Gistel, Belgium" ;
         locn:poBox        "None" ;
@@ -1581,16 +1581,16 @@ kbo:f4b632cd1508a60d77b5
         locn:postName     "Gistel" .
 
 kbo:2186642096  rdf:type  kbo:Establishment , org:Site ;
-        terms:issued  "01-04-2010" ;
+        terms:issued  "0101-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
         locn:Address  kbo:877c4fedcb5aa5a4a16e .
 
 kbo:2102976529  rdf:type  kbo:Establishment , org:Site ;
-        terms:issued  "24-11-1997" ;
+        terms:issued  "2401-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
         locn:Address  kbo:b998ad8216bf964e99ce .
 
 kbo:cb44029ad40d245fa186
         rdf:type          locn:Address ;
-        geosparql:asWKT   "POINT (4.480531584776946 51.01699855)" ;
+        geosparql:asWKT   "POINT (4.4806194 51.0166452)"^^geosparql:wktLiteral ;
         kbo:addressType   kbo:TypeOfAddress_BAET ;
         locn:fullAddress  "Stationsstraat 58, 2800 Mechelen, Belgium" ;
         locn:poBox        "None" ;
@@ -1605,12 +1605,12 @@ kbo:cb44029ad40d245fa186
                         ] .
 
 kbo:2102964750  rdf:type  kbo:Establishment , org:Site ;
-        terms:issued  "27-01-1998" ;
+        terms:issued  "2701-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
         locn:Address  kbo:7b8fab9debbdf69a0e21 .
 
 kbo:8d031b6b2b01b4c661b9
         rdf:type          locn:Address ;
-        geosparql:asWKT   "POINT (4.4818387 51.024052)" ;
+        geosparql:asWKT   "POINT (4.4818387 51.024052)"^^geosparql:wktLiteral ;
         kbo:addressType   kbo:TypeOfAddress_BAET ;
         locn:fullAddress  "Bruul 112, 2800 Mechelen, Belgium" ;
         locn:poBox        "None" ;
@@ -1619,7 +1619,7 @@ kbo:8d031b6b2b01b4c661b9
 
 kbo:df8f7a12598f7f6db333
         rdf:type          locn:Address ;
-        geosparql:asWKT   "POINT (5.3380414 50.9319672)" ;
+        geosparql:asWKT   "POINT (5.3380414 50.9319672)"^^geosparql:wktLiteral ;
         kbo:addressType   kbo:TypeOfAddress_BAET ;
         locn:fullAddress  "Paardsdemerstraat 8-10, 3500 Hasselt, Belgium" ;
         locn:poBox        "None" ;
@@ -1628,7 +1628,7 @@ kbo:df8f7a12598f7f6db333
 
 kbo:e08753f376d4b93aa998
         rdf:type          locn:Address ;
-        geosparql:asWKT   "None" ;
+        geosparql:asWKT   "None"^^geosparql:wktLiteral ;
         kbo:addressType   kbo:TypeOfAddress_BAET ;
         locn:fullAddress  "Ed. Schelfhoutstraat 232, 1770 Liedekerke, Belgium" ;
         locn:poBox        "None" ;
@@ -1637,7 +1637,7 @@ kbo:e08753f376d4b93aa998
 
 kbo:8e1851f87b24030464c3
         rdf:type          locn:Address ;
-        geosparql:asWKT   "POINT (5.375961466852393 49.9203127)" ;
+        geosparql:asWKT   "POINT (5.356019637252018 49.92559005)"^^geosparql:wktLiteral ;
         kbo:addressType   kbo:TypeOfAddress_BAET ;
         locn:fullAddress  "Libramont,Rue des Alli\uFFFDs 1, 6800 Libramont-Chevigny, Belgium" ;
         locn:poBox        "None" ;
@@ -1645,16 +1645,16 @@ kbo:8e1851f87b24030464c3
         locn:postName     "Libramont-Chevigny" .
 
 kbo:2102975836  rdf:type  kbo:Establishment , org:Site ;
-        terms:issued  "23-03-1999" ;
+        terms:issued  "2301-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
         locn:Address  kbo:32aaaeaa3e3e50476085 .
 
 kbo:2260502351  rdf:type  kbo:Establishment , org:Site ;
-        terms:issued  "01-10-2016" ;
+        terms:issued  "0101-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
         locn:Address  kbo:38730a0ce6d0dece69f4 .
 
 kbo:54b96717fa1681ae35f2
         rdf:type          locn:Address ;
-        geosparql:asWKT   "POINT (3.4060683 50.6033072)" ;
+        geosparql:asWKT   "POINT (3.4045078 50.6024969)"^^geosparql:wktLiteral ;
         kbo:addressType   kbo:TypeOfAddress_BAET ;
         locn:fullAddress  "Boulevard Walter de Marvis(TOU) 22, 7500 Tournai, Belgium" ;
         locn:poBox        "None" ;
@@ -1663,7 +1663,7 @@ kbo:54b96717fa1681ae35f2
 
 kbo:80503671d3f47c603d9c
         rdf:type          locn:Address ;
-        geosparql:asWKT   "POINT (4.4304785 50.4588795)" ;
+        geosparql:asWKT   "POINT (4.4304785 50.4588795)"^^geosparql:wktLiteral ;
         kbo:addressType   kbo:TypeOfAddress_BAET ;
         locn:fullAddress  "Rue du Carrosse 2, 6041 Charleroi, Belgium" ;
         locn:poBox        "None" ;
@@ -1671,12 +1671,12 @@ kbo:80503671d3f47c603d9c
         locn:postName     "Charleroi" .
 
 kbo:2102977024  rdf:type  kbo:Establishment , org:Site ;
-        terms:issued  "18-12-1997" ;
+        terms:issued  "1801-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
         locn:Address  kbo:2618fc06ab4d7ebc17f4 .
 
 kbo:39ba9521aa89e99525e2
         rdf:type          locn:Address ;
-        geosparql:asWKT   "POINT (4.3547953 50.8354363)" ;
+        geosparql:asWKT   "POINT (4.357319056330753 50.83591105)"^^geosparql:wktLiteral ;
         kbo:addressType   kbo:TypeOfAddress_BAET ;
         locn:fullAddress  "Gulden-Vlieslaan 40, 1060 Sint-Gillis (bij-Brussel), Belgium" ;
         locn:poBox        "None" ;
@@ -1685,7 +1685,7 @@ kbo:39ba9521aa89e99525e2
 
 kbo:49a6b51ac908d8402ca0
         rdf:type          locn:Address ;
-        geosparql:asWKT   "POINT (4.5547894 51.1406636)" ;
+        geosparql:asWKT   "POINT (4.5547894 51.1406636)"^^geosparql:wktLiteral ;
         kbo:addressType   kbo:TypeOfAddress_BAET ;
         locn:fullAddress  "Bollaarstraat 8A+B, 2500 Lier, Belgium" ;
         locn:poBox        "None" ;
@@ -1694,7 +1694,7 @@ kbo:49a6b51ac908d8402ca0
 
 kbo:0768710a3d42b1589157
         rdf:type          locn:Address ;
-        geosparql:asWKT   "POINT (3.246248227877948 51.2049757)" ;
+        geosparql:asWKT   "POINT (3.246248227877948 51.2049757)"^^geosparql:wktLiteral ;
         kbo:addressType   kbo:TypeOfAddress_BAET ;
         locn:fullAddress  "Matmeers 2, 8310 Brugge, Belgium" ;
         locn:poBox        "None" ;
@@ -1703,7 +1703,7 @@ kbo:0768710a3d42b1589157
 
 kbo:9e5edc4ac91ef6ed9ac9
         rdf:type          locn:Address ;
-        geosparql:asWKT   "POINT (4.3638661 50.4699671)" ;
+        geosparql:asWKT   "POINT (4.3638661 50.4699671)"^^geosparql:wktLiteral ;
         kbo:addressType   kbo:TypeOfAddress_BAET ;
         locn:fullAddress  "Rue de Li\uFFFDge(CO) 70, 6180 Courcelles, Belgium" ;
         locn:poBox        "None" ;
@@ -1716,7 +1716,7 @@ kbo:2003_64200  rdf:type       kbo:Activity ;
 
 kbo:7c85c210f87564cad0bf
         rdf:type          locn:Address ;
-        geosparql:asWKT   "POINT (3.9511542 50.4531231)" ;
+        geosparql:asWKT   "POINT (3.9511542 50.4531231)"^^geosparql:wktLiteral ;
         kbo:addressType   kbo:TypeOfAddress_BAET ;
         locn:fullAddress  "Rue de la Chauss\uFFFDe 42, 7000 Mons, Belgium" ;
         locn:poBox        "None" ;
@@ -1725,7 +1725,7 @@ kbo:7c85c210f87564cad0bf
 
 kbo:4937c20c3f10caaa5c33
         rdf:type          locn:Address ;
-        geosparql:asWKT   "POINT (4.857251431018515 50.472218749999996)" ;
+        geosparql:asWKT   "POINT (4.857251431018515 50.472218749999996)"^^geosparql:wktLiteral ;
         kbo:addressType   kbo:TypeOfAddress_BAET ;
         locn:fullAddress  "Rue Marie Henriette 60, 5000 Namur, Belgium" ;
         locn:poBox        "None" ;
@@ -1733,20 +1733,20 @@ kbo:4937c20c3f10caaa5c33
         locn:postName     "Namur" .
 
 kbo:2102972272  rdf:type  kbo:Establishment , org:Site ;
-        terms:issued  "28-11-1997" ;
+        terms:issued  "2801-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
         locn:Address  kbo:023de01935c8d30dc229 .
 
 kbo:2102964255  rdf:type  kbo:Establishment , org:Site ;
-        terms:issued  "11-01-1995" ;
+        terms:issued  "1101-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
         locn:Address  kbo:bc1be641749ab0cb440f .
 
 kbo:2273122546  rdf:type  kbo:Establishment , org:Site ;
-        terms:issued  "01-02-2018" ;
+        terms:issued  "0101-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
         locn:Address  kbo:21555b7e1302165e856a .
 
 kbo:8acb516ffd3e443a3abe
         rdf:type          locn:Address ;
-        geosparql:asWKT   "POINT (4.4187724 51.2172757)" ;
+        geosparql:asWKT   "POINT (4.4187724 51.2172757)"^^geosparql:wktLiteral ;
         kbo:addressType   kbo:TypeOfAddress_BAET ;
         locn:fullAddress  "De Keyserlei 56, 2018 Antwerpen, Belgium" ;
         locn:poBox        "None" ;
@@ -1755,7 +1755,7 @@ kbo:8acb516ffd3e443a3abe
 
 kbo:29c52a86b779b0ca22e1
         rdf:type          locn:Address ;
-        geosparql:asWKT   "POINT (4.325928980873147 50.83184765)" ;
+        geosparql:asWKT   "POINT (4.325928980873147 50.83184765)"^^geosparql:wktLiteral ;
         kbo:addressType   kbo:TypeOfAddress_BAET ;
         locn:fullAddress  "Tweestationsstraat 84, 1070 Anderlecht, Belgium" ;
         locn:poBox        "None" ;
@@ -1763,24 +1763,24 @@ kbo:29c52a86b779b0ca22e1
         locn:postName     "Anderlecht" .
 
 kbo:2102969995  rdf:type  kbo:Establishment , org:Site ;
-        terms:issued  "14-08-1998" ;
+        terms:issued  "1401-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
         locn:Address  kbo:37cc1089b3a14db35244 .
 
 kbo:2186643779  rdf:type  kbo:Establishment , org:Site ;
-        terms:issued  "01-04-2010" ;
+        terms:issued  "0101-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
         locn:Address  kbo:661426774c0e10b98826 .
 
 kbo:2260504727  rdf:type  kbo:Establishment , org:Site ;
-        terms:issued  "01-10-2016" ;
+        terms:issued  "0101-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
         locn:Address  kbo:c26602d653d332faa008 .
 
 kbo:2102969205  rdf:type  kbo:Establishment , org:Site ;
-        terms:issued  "04-12-1997" ;
+        terms:issued  "0401-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
         locn:Address  kbo:00e768b56e187eefbd8c .
 
 kbo:aaa7d08a28aff7b9f3d1
         rdf:type          locn:Address ;
-        geosparql:asWKT   "POINT (4.435926490890857 51.1929523)" ;
+        geosparql:asWKT   "POINT (4.435926490890857 51.1929523)"^^geosparql:wktLiteral ;
         kbo:addressType   kbo:TypeOfAddress_BAET ;
         locn:fullAddress  "Karel Coggestraat 2, 2600 Antwerpen, Belgium" ;
         locn:poBox        "None" ;
@@ -1788,12 +1788,12 @@ kbo:aaa7d08a28aff7b9f3d1
         locn:postName     "Antwerpen" .
 
 kbo:2153248758  rdf:type  kbo:Establishment , org:Site ;
-        terms:issued  "28-04-2006" ;
+        terms:issued  "2801-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
         locn:Address  kbo:873d4472326b12c88031 .
 
 kbo:44668221be41158a1676
         rdf:type          locn:Address ;
-        geosparql:asWKT   "POINT (3.1852832223637493 50.8532938)" ;
+        geosparql:asWKT   "POINT (3.1852832223637493 50.8532938)"^^geosparql:wktLiteral ;
         kbo:addressType   kbo:TypeOfAddress_BAET ;
         locn:fullAddress  "Oostlaan 6, 8560 Wevelgem, Belgium" ;
         locn:poBox        "None" ;
@@ -1801,24 +1801,24 @@ kbo:44668221be41158a1676
         locn:postName     "Wevelgem" .
 
 kbo:2102970589  rdf:type  kbo:Establishment , org:Site ;
-        terms:issued  "02-12-1997" ;
+        terms:issued  "0201-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
         locn:Address  kbo:844882833ab540d11b28 .
 
 kbo:2211072339  rdf:type  kbo:Establishment , org:Site ;
-        terms:issued  "01-04-2012" ;
+        terms:issued  "0101-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
         locn:Address  kbo:44668221be41158a1676 .
 
 kbo:2174823142  rdf:type  kbo:Establishment , org:Site ;
-        terms:issued  "27-07-2007" ;
+        terms:issued  "2701-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
         locn:Address  kbo:729b5580a2239ac582e0 .
 
 kbo:2102974648  rdf:type  kbo:Establishment , org:Site ;
-        terms:issued  "10-12-1997" ;
+        terms:issued  "1001-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
         locn:Address  kbo:d5509d38e41b762d46f7 .
 
 kbo:163b33a3482179f96ada
         rdf:type          locn:Address ;
-        geosparql:asWKT   "POINT (5.0509431 50.9838589)" ;
+        geosparql:asWKT   "POINT (5.0509431 50.9838589)"^^geosparql:wktLiteral ;
         kbo:addressType   kbo:TypeOfAddress_BAET ;
         locn:fullAddress  "Sint-Jan Berchmansstraat 3, 3290 Diest, Belgium" ;
         locn:poBox        "None" ;
@@ -1827,7 +1827,7 @@ kbo:163b33a3482179f96ada
 
 kbo:4432cc41e6c3e74451f4
         rdf:type          locn:Address ;
-        geosparql:asWKT   "POINT (5.5675236 50.6256864)" ;
+        geosparql:asWKT   "POINT (5.5675236 50.6256864)"^^geosparql:wktLiteral ;
         kbo:addressType   kbo:TypeOfAddress_BAET ;
         locn:fullAddress  "Impasse Jonckeu 12, 4000 Li\uFFFDge, Belgium" ;
         locn:poBox        "None" ;
@@ -1836,7 +1836,7 @@ kbo:4432cc41e6c3e74451f4
 
 kbo:7b8fab9debbdf69a0e21
         rdf:type          locn:Address ;
-        geosparql:asWKT   "POINT (4.42326069543706 50.81379015)" ;
+        geosparql:asWKT   "POINT (4.4234689 50.8132957)"^^geosparql:wktLiteral ;
         kbo:addressType   kbo:TypeOfAddress_BAET ;
         locn:fullAddress  "Vorstlaan 240, 1160 Oudergem, Belgium" ;
         locn:poBox        "None" ;
@@ -1845,7 +1845,7 @@ kbo:7b8fab9debbdf69a0e21
 
 kbo:9edd67c64cc58fbfb8a7
         rdf:type          locn:Address ;
-        geosparql:asWKT   "POINT (4.3623827 50.837177)" ;
+        geosparql:asWKT   "POINT (4.3701766 50.8292761)"^^geosparql:wktLiteral ;
         kbo:addressType   kbo:TypeOfAddress_BAET ;
         locn:fullAddress  "Elsense Steenweg 32, 1050 Elsene, Belgium" ;
         locn:poBox        "None" ;
@@ -1854,7 +1854,7 @@ kbo:9edd67c64cc58fbfb8a7
 
 kbo:e49b7cd7cf8f6179e87e
         rdf:type          locn:Address ;
-        geosparql:asWKT   "POINT (4.722616043892751 51.0758916)" ;
+        geosparql:asWKT   "POINT (4.722616043892751 51.0758916)"^^geosparql:wktLiteral ;
         kbo:addressType   kbo:TypeOfAddress_BAET ;
         locn:fullAddress  "Bergstraat 55, 2220 Heist-op-den-Berg, Belgium" ;
         locn:poBox        "None" ;
@@ -1863,7 +1863,7 @@ kbo:e49b7cd7cf8f6179e87e
 
 kbo:fce0562fb363fef569fc
         rdf:type          locn:Address ;
-        geosparql:asWKT   "POINT (3.8390559 50.4379635)" ;
+        geosparql:asWKT   "POINT (3.8390559 50.4379635)"^^geosparql:wktLiteral ;
         kbo:addressType   kbo:TypeOfAddress_BAET ;
         locn:fullAddress  "Route de Mons 163, 7390 Quaregnon, Belgium" ;
         locn:poBox        "None" ;
@@ -1872,7 +1872,7 @@ kbo:fce0562fb363fef569fc
 
 kbo:5f00ca55afaeb954d7e0
         rdf:type          locn:Address ;
-        geosparql:asWKT   "POINT (4.025678650709606 50.8359106)" ;
+        geosparql:asWKT   "POINT (4.025678650709606 50.8359106)"^^geosparql:wktLiteral ;
         kbo:addressType   kbo:TypeOfAddress_BAET ;
         locn:fullAddress  "Graanmarkt 38, 9400 Ninove, Belgium" ;
         locn:poBox        "None" ;
@@ -1880,16 +1880,16 @@ kbo:5f00ca55afaeb954d7e0
         locn:postName     "Ninove" .
 
 kbo:2153242523  rdf:type  kbo:Establishment , org:Site ;
-        terms:issued  "28-04-2006" ;
+        terms:issued  "2801-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
         locn:Address  kbo:58043a950a54f0d075dd .
 
 kbo:2102973955  rdf:type  kbo:Establishment , org:Site ;
-        terms:issued  "18-12-1997" ;
+        terms:issued  "1801-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
         locn:Address  kbo:0c4dbb37bd1830634953 .
 
 kbo:c9f96e59309e492ff286
         rdf:type          locn:Address ;
-        geosparql:asWKT   "POINT (5.180354719411971 50.81707645)" ;
+        geosparql:asWKT   "POINT (5.180354719411971 50.81707645)"^^geosparql:wktLiteral ;
         kbo:addressType   kbo:TypeOfAddress_BAET ;
         locn:fullAddress  "Rijschoolstraat 49, 3800 Sint-Truiden, Belgium" ;
         locn:poBox        "None" ;
@@ -1897,12 +1897,12 @@ kbo:c9f96e59309e492ff286
         locn:postName     "Sint-Truiden" .
 
 kbo:2102965938  rdf:type  kbo:Establishment , org:Site ;
-        terms:issued  "26-11-1997" ;
+        terms:issued  "2601-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
         locn:Address  kbo:5f00ca55afaeb954d7e0 .
 
 kbo:93847202e7b05dd19b1f
         rdf:type          locn:Address ;
-        geosparql:asWKT   "POINT (4.7067131 50.8799526)" ;
+        geosparql:asWKT   "POINT (4.7067131 50.8799526)"^^geosparql:wktLiteral ;
         kbo:addressType   kbo:TypeOfAddress_BAET ;
         locn:fullAddress  "Bondgenotenlaan 55, 3000 Leuven, Belgium" ;
         locn:poBox        "None" ;
@@ -1911,7 +1911,7 @@ kbo:93847202e7b05dd19b1f
 
 kbo:fdbdf570d1984349517b
         rdf:type          locn:Address ;
-        geosparql:asWKT   "POINT (2.881313588237209 50.84857355)" ;
+        geosparql:asWKT   "POINT (2.881313588237209 50.84857355)"^^geosparql:wktLiteral ;
         kbo:addressType   kbo:TypeOfAddress_BAET ;
         locn:fullAddress  "Vooruitgangstraat 1, 8900 Ieper, Belgium" ;
         locn:poBox        "None" ;
@@ -1920,7 +1920,7 @@ kbo:fdbdf570d1984349517b
 
 kbo:632b1d16e0a5f666a81c
         rdf:type          locn:Address ;
-        geosparql:asWKT   "POINT (4.3844922 50.8138464)" ;
+        geosparql:asWKT   "POINT (4.3844922 50.8138464)"^^geosparql:wktLiteral ;
         kbo:addressType   kbo:TypeOfAddress_BAET ;
         locn:fullAddress  "Hogeschoollaan 11-13, 1050 Elsene, Belgium" ;
         locn:poBox        "None" ;
@@ -1928,12 +1928,12 @@ kbo:632b1d16e0a5f666a81c
         locn:postName     "Elsene" .
 
 kbo:2102975143  rdf:type  kbo:Establishment , org:Site ;
-        terms:issued  "01-12-1997" ;
+        terms:issued  "0101-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
         locn:Address  kbo:d026387373ffe49192f1 .
 
 kbo:3db240b57d98f2353038
         rdf:type          locn:Address ;
-        geosparql:asWKT   "POINT (3.1999779000482946 51.186088049999995)" ;
+        geosparql:asWKT   "POINT (3.1999779000482946 51.186088049999995)"^^geosparql:wktLiteral ;
         kbo:addressType   kbo:TypeOfAddress_BAET ;
         locn:fullAddress  "Koningin Astridlaan 97, 8200 Brugge, Belgium" ;
         locn:poBox        "6" ;
@@ -1942,7 +1942,7 @@ kbo:3db240b57d98f2353038
 
 kbo:ae9e9b2d1f640ef3e60a
         rdf:type          locn:Address ;
-        geosparql:asWKT   "POINT (4.353870269076381 50.85017765)" ;
+        geosparql:asWKT   "POINT (4.353870269076381 50.85017765)"^^geosparql:wktLiteral ;
         kbo:addressType   kbo:TypeOfAddress_BAET ;
         locn:fullAddress  "Muntplein 4, 1000 Brussel, Belgium" ;
         locn:poBox        "None" ;
@@ -1950,12 +1950,12 @@ kbo:ae9e9b2d1f640ef3e60a
         locn:postName     "Brussel" .
 
 kbo:2153241830  rdf:type  kbo:Establishment , org:Site ;
-        terms:issued  "28-04-2006" ;
+        terms:issued  "2801-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
         locn:Address  kbo:72fcd847e2d74085de5c .
 
 kbo:8eafed047a173411bd0d
         rdf:type          locn:Address ;
-        geosparql:asWKT   "POINT (4.4346347 50.9278912)" ;
+        geosparql:asWKT   "POINT (4.4346347 50.9278912)"^^geosparql:wktLiteral ;
         kbo:addressType   kbo:TypeOfAddress_BAET ;
         locn:fullAddress  "Leuvensestraat 7-9, 1800 Vilvoorde, Belgium" ;
         locn:poBox        "None" ;
@@ -1964,7 +1964,7 @@ kbo:8eafed047a173411bd0d
 
 kbo:3eeddd94266503578258
         rdf:type          locn:Address ;
-        geosparql:asWKT   "POINT (5.571531834775211 50.64148165)" ;
+        geosparql:asWKT   "POINT (5.571531834775211 50.64148165)"^^geosparql:wktLiteral ;
         kbo:addressType   kbo:TypeOfAddress_BAET ;
         locn:fullAddress  "Vin\uFFFDve d'Ile 25, 4000 Li\uFFFDge, Belgium" ;
         locn:poBox        "None" ;
@@ -1973,7 +1973,7 @@ kbo:3eeddd94266503578258
 
 kbo:7266ab807dab1f1dec43
         rdf:type          locn:Address ;
-        geosparql:asWKT   "None" ;
+        geosparql:asWKT   "None"^^geosparql:wktLiteral ;
         kbo:addressType   kbo:TypeOfAddress_BAET ;
         locn:fullAddress  "Koning AlbertII laan 27, 1030 Schaarbeek, Belgium" ;
         locn:poBox        "." ;
@@ -1981,12 +1981,12 @@ kbo:7266ab807dab1f1dec43
         locn:postName     "Schaarbeek" .
 
 kbo:2160612048  rdf:type  kbo:Establishment , org:Site ;
-        terms:issued  "01-11-2006" ;
+        terms:issued  "0101-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
         locn:Address  kbo:3eeddd94266503578258 .
 
 kbo:6957c84d2010fc5e27df
         rdf:type          locn:Address ;
-        geosparql:asWKT   "POINT (3.939505105776763 50.45849145)" ;
+        geosparql:asWKT   "POINT (3.939505105776763 50.45849145)"^^geosparql:wktLiteral ;
         kbo:addressType   kbo:TypeOfAddress_BAET ;
         locn:fullAddress  "Avenue Edison 1, 7000 Mons, Belgium" ;
         locn:poBox        "None" ;
@@ -1994,16 +1994,16 @@ kbo:6957c84d2010fc5e27df
         locn:postName     "Mons" .
 
 kbo:2153246877  rdf:type  kbo:Establishment , org:Site ;
-        terms:issued  "28-04-2006" ;
+        terms:issued  "2801-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
         locn:Address  kbo:842d7d1f4041f1ebe8ff .
 
 kbo:2102965740  rdf:type  kbo:Establishment , org:Site ;
-        terms:issued  "27-01-1998" ;
+        terms:issued  "2701-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
         locn:Address  kbo:8a6b9f290c0d0e3d392a .
 
 kbo:5085a62ebc0913bd468c
         rdf:type          locn:Address ;
-        geosparql:asWKT   "POINT (4.4055695 51.2180466)" ;
+        geosparql:asWKT   "POINT (4.4055695 51.2180466)"^^geosparql:wktLiteral ;
         kbo:addressType   kbo:TypeOfAddress_BAET ;
         locn:fullAddress  "Meir 12, 2000 Antwerpen, Belgium" ;
         locn:poBox        "None" ;
@@ -2012,7 +2012,7 @@ kbo:5085a62ebc0913bd468c
 
 kbo:d7084f8c09592be4c4fc
         rdf:type          locn:Address ;
-        geosparql:asWKT   "None" ;
+        geosparql:asWKT   "None"^^geosparql:wktLiteral ;
         kbo:addressType   kbo:TypeOfAddress_BAET ;
         locn:fullAddress  "Rakestraat 27A, 8750 Wingene, Belgium" ;
         locn:poBox        "None" ;
@@ -2021,7 +2021,7 @@ kbo:d7084f8c09592be4c4fc
 
 kbo:37cc1089b3a14db35244
         rdf:type          locn:Address ;
-        geosparql:asWKT   "POINT (3.725280703055711 51.0502506)" ;
+        geosparql:asWKT   "POINT (3.725280703055711 51.0502506)"^^geosparql:wktLiteral ;
         kbo:addressType   kbo:TypeOfAddress_BAET ;
         locn:fullAddress  "Kouter 1, 9000 Gent, Belgium" ;
         locn:poBox        "None" ;
@@ -2029,19 +2029,19 @@ kbo:37cc1089b3a14db35244
         locn:postName     "Gent" .
 
 kbo:2153240642  rdf:type  kbo:Establishment , org:Site ;
-        terms:issued  "28-04-2006" ;
+        terms:issued  "2801-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
         locn:Address  kbo:451ee50056761d157d1c .
 
 kbo:2209570522  rdf:type  kbo:Establishment , org:Site ;
-        terms:issued  "01-09-2011" ;
+        terms:issued  "0101-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
         locn:Address  kbo:3db240b57d98f2353038 .
 
 kbo:2102973262  rdf:type  kbo:Establishment , org:Site ;
-        terms:issued  "13-01-1998" ;
+        terms:issued  "1301-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
         locn:Address  kbo:9e935e0acf54955517f4 .
 
 kbo:2102965245  rdf:type  kbo:Establishment , org:Site ;
-        terms:issued  "27-01-1998" ;
+        terms:issued  "2701-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
         locn:Address  kbo:bea5054aac0ce3570be7 .
 
 kbo:2003_32202  rdf:type       kbo:Activity ;
@@ -2050,7 +2050,7 @@ kbo:2003_32202  rdf:type       kbo:Activity ;
 
 kbo:a7785e44f2fa738cc89d
         rdf:type          locn:Address ;
-        geosparql:asWKT   "POINT (3.2219542 50.7423839)" ;
+        geosparql:asWKT   "POINT (3.2204512 50.7434677)"^^geosparql:wktLiteral ;
         kbo:addressType   kbo:TypeOfAddress_BAET ;
         locn:fullAddress  "Keizer Karelstraat 90, 7700 Mouscron, Belgium" ;
         locn:poBox        "None" ;
@@ -2059,7 +2059,7 @@ kbo:a7785e44f2fa738cc89d
 
 kbo:577618379a29dc857a9d
         rdf:type          locn:Address ;
-        geosparql:asWKT   "POINT (5.429621400647354 51.225958399999996)" ;
+        geosparql:asWKT   "POINT (5.429621400647354 51.225958399999996)"^^geosparql:wktLiteral ;
         kbo:addressType   kbo:TypeOfAddress_BAET ;
         locn:fullAddress  "Koning Albertlaan 1, 3900 Overpelt, Belgium" ;
         locn:poBox        "None" ;
@@ -2067,12 +2067,12 @@ kbo:577618379a29dc857a9d
         locn:postName     "Overpelt" .
 
 kbo:2153245689  rdf:type  kbo:Establishment , org:Site ;
-        terms:issued  "28-04-2006" ;
+        terms:issued  "2801-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
         locn:Address  kbo:a9b1c4f4d2791c93289f .
 
 kbo:0d8aa64ca923d64cb116
         rdf:type          locn:Address ;
-        geosparql:asWKT   "POINT (3.991331892002675 51.10375485)" ;
+        geosparql:asWKT   "POINT (3.991331892002675 51.10375485)"^^geosparql:wktLiteral ;
         kbo:addressType   kbo:TypeOfAddress_BAET ;
         locn:fullAddress  "Markt 56, 9160 Lokeren, Belgium" ;
         locn:poBox        "None" ;
@@ -2081,7 +2081,7 @@ kbo:0d8aa64ca923d64cb116
 
 kbo:52f3879c563d75be15c2
         rdf:type          locn:Address ;
-        geosparql:asWKT   "POINT (4.8765518 50.460948)" ;
+        geosparql:asWKT   "POINT (4.8765518 50.460948)"^^geosparql:wktLiteral ;
         kbo:addressType   kbo:TypeOfAddress_BAET ;
         locn:fullAddress  "Rue du Pont des Ardennes(JB) 6, 5100 Namur, Belgium" ;
         locn:poBox        "14" ;
@@ -2090,7 +2090,7 @@ kbo:52f3879c563d75be15c2
 
 kbo:7e092ec521ad7d37fbb1
         rdf:type          locn:Address ;
-        geosparql:asWKT   "POINT (4.9902509 51.1663011)" ;
+        geosparql:asWKT   "POINT (4.9902509 51.1663011)"^^geosparql:wktLiteral ;
         kbo:addressType   kbo:TypeOfAddress_BAET ;
         locn:fullAddress  "Heidebloemstraat 2, 2440 Geel, Belgium" ;
         locn:poBox        "None" ;
@@ -2098,24 +2098,24 @@ kbo:7e092ec521ad7d37fbb1
         locn:postName     "Geel" .
 
 kbo:2250632996  rdf:type  kbo:Establishment , org:Site ;
-        terms:issued  "01-01-2016" ;
+        terms:issued  "0101-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
         locn:Address  kbo:7608cc272a0b84503e07 .
 
 kbo:2153240147  rdf:type  kbo:Establishment , org:Site ;
-        terms:issued  "28-04-2006" ;
+        terms:issued  "2801-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
         locn:Address  kbo:75f75228a4581a79f5a4 .
 
 kbo:2102971579  rdf:type  kbo:Establishment , org:Site ;
-        terms:issued  "26-11-1997" ;
+        terms:issued  "2601-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
         locn:Address  kbo:93847202e7b05dd19b1f .
 
 kbo:2153244206  rdf:type  kbo:Establishment , org:Site ;
-        terms:issued  "28-04-2006" ;
+        terms:issued  "2801-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
         locn:Address  kbo:b96e512cad150f834763 .
 
 kbo:f01bbbb991e7817ea8bf
         rdf:type          locn:Address ;
-        geosparql:asWKT   "POINT (4.5000212 51.2521257)" ;
+        geosparql:asWKT   "POINT (4.5000212 51.2521257)"^^geosparql:wktLiteral ;
         kbo:addressType   kbo:TypeOfAddress_BAET ;
         locn:fullAddress  "Paalstraat 43, 2900 Schoten, Belgium" ;
         locn:poBox        "None" ;
@@ -2123,16 +2123,16 @@ kbo:f01bbbb991e7817ea8bf
         locn:postName     "Schoten" .
 
 kbo:2260502153  rdf:type  kbo:Establishment , org:Site ;
-        terms:issued  "01-10-2016" ;
+        terms:issued  "0101-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
         locn:Address  kbo:5ed764ed206f575acb6d .
 
 kbo:2102969502  rdf:type  kbo:Establishment , org:Site ;
-        terms:issued  "17-12-1997" ;
+        terms:issued  "1701-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
         locn:Address  kbo:67078889f810e8634ae7 .
 
 kbo:4366ec280ddee0880dd9
         rdf:type          locn:Address ;
-        geosparql:asWKT   "POINT (4.809980538694767 50.979401249999995)" ;
+        geosparql:asWKT   "POINT (4.809980538694767 50.979401249999995)"^^geosparql:wktLiteral ;
         kbo:addressType   kbo:TypeOfAddress_BAET ;
         locn:fullAddress  "Gaston Geenslaan 17, 3200 Aarschot, Belgium" ;
         locn:poBox        "None" ;
@@ -2141,7 +2141,7 @@ kbo:4366ec280ddee0880dd9
 
 kbo:75f75228a4581a79f5a4
         rdf:type          locn:Address ;
-        geosparql:asWKT   "POINT (4.325954049510037 50.846789599999994)" ;
+        geosparql:asWKT   "POINT (4.325954049510037 50.846789599999994)"^^geosparql:wktLiteral ;
         kbo:addressType   kbo:TypeOfAddress_BAET ;
         locn:fullAddress  "Birminghamstraat 66, 1080 Sint-Jans-Molenbeek, Belgium" ;
         locn:poBox        "None" ;
@@ -2149,20 +2149,20 @@ kbo:75f75228a4581a79f5a4
         locn:postName     "Sint-Jans-Molenbeek" .
 
 kbo:2153245491  rdf:type  kbo:Establishment , org:Site ;
-        terms:issued  "28-04-2006" ;
+        terms:issued  "2801-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
         locn:Address  kbo:2d0aeb69e416e5dec5c5 .
 
 kbo:2102974945  rdf:type  kbo:Establishment , org:Site ;
-        terms:issued  "22-03-1999" ;
+        terms:issued  "2201-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
         locn:Address  kbo:f48b03c230d347554bcd .
 
 kbo:2102966928  rdf:type  kbo:Establishment , org:Site ;
-        terms:issued  "25-11-1997" ;
+        terms:issued  "2501-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
         locn:Address  kbo:a01abff33dd2138ef803 .
 
 kbo:9e935e0acf54955517f4
         rdf:type          locn:Address ;
-        geosparql:asWKT   "POINT (4.2032744 50.4853123)" ;
+        geosparql:asWKT   "POINT (4.2032744 50.4853123)"^^geosparql:wktLiteral ;
         kbo:addressType   kbo:TypeOfAddress_BAET ;
         locn:fullAddress  "Rue de la Franco-Belge(L.L) 28, 7100 La Louvi\uFFFDre, Belgium" ;
         locn:poBox        "None" ;
@@ -2170,24 +2170,24 @@ kbo:9e935e0acf54955517f4
         locn:postName     "La Louvi\uFFFDre" .
 
 kbo:2210722149  rdf:type  kbo:Establishment , org:Site ;
-        terms:issued  "26-04-2012" ;
+        terms:issued  "2601-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
         locn:Address  kbo:7266ab807dab1f1dec43 .
 
 kbo:2102976133  rdf:type  kbo:Establishment , org:Site ;
-        terms:issued  "26-11-1997" ;
+        terms:issued  "2601-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
         locn:Address  kbo:eed71eb0f0f3d73490fa .
 
 kbo:2260504529  rdf:type  kbo:Establishment , org:Site ;
-        terms:issued  "01-10-2016" ;
+        terms:issued  "0101-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
         locn:Address  kbo:a5d8b9e1b50072028af0 .
 
 kbo:2102969797  rdf:type  kbo:Establishment , org:Site ;
-        terms:issued  "17-12-1997" ;
+        terms:issued  "1701-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
         locn:Address  kbo:cb77ea448e00292e120b .
 
 kbo:cb77ea448e00292e120b
         rdf:type          locn:Address ;
-        geosparql:asWKT   "POINT (3.5681032 51.1834681)" ;
+        geosparql:asWKT   "POINT (3.5681032 51.1834681)"^^geosparql:wktLiteral ;
         kbo:addressType   kbo:TypeOfAddress_BAET ;
         locn:fullAddress  "Stationsstraat 36, 9900 Eeklo, Belgium" ;
         locn:poBox        "None" ;
@@ -2196,7 +2196,7 @@ kbo:cb77ea448e00292e120b
 
 kbo:d27ea903e187fa6b62e8
         rdf:type          locn:Address ;
-        geosparql:asWKT   "None" ;
+        geosparql:asWKT   "None"^^geosparql:wktLiteral ;
         kbo:addressType   kbo:TypeOfAddress_BAET ;
         locn:fullAddress  "Koning AlbertII laan 27 GLV, 1030 Schaarbeek, Belgium" ;
         locn:poBox        "None" ;
@@ -2204,20 +2204,20 @@ kbo:d27ea903e187fa6b62e8
         locn:postName     "Schaarbeek" .
 
 kbo:2153242820  rdf:type  kbo:Establishment , org:Site ;
-        terms:issued  "28-04-2006" ;
+        terms:issued  "2801-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
         locn:Address  kbo:d1f39513a71f9016ca90 .
 
 kbo:2102969007  rdf:type  kbo:Establishment , org:Site ;
-        terms:issued  "03-12-1997" ;
+        terms:issued  "0301-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
         locn:Address  kbo:77b548922614f52ca62f .
 
 kbo:2102971381  rdf:type  kbo:Establishment , org:Site ;
-        terms:issued  "26-11-1997" ;
+        terms:issued  "2601-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
         locn:Address  kbo:c80c99b75e45699501d2 .
 
 kbo:256f93270d0ea84c286a
         rdf:type          locn:Address ;
-        geosparql:asWKT   "POINT (4.2794024 50.8173497)" ;
+        geosparql:asWKT   "POINT (4.2794024 50.8173497)"^^geosparql:wktLiteral ;
         kbo:addressType   kbo:TypeOfAddress_BAET ;
         locn:fullAddress  "Olympische dreef 13, 1070 Anderlecht, Belgium" ;
         locn:poBox        "None" ;
@@ -2229,12 +2229,12 @@ kbo:2008_61200  rdf:type       kbo:Activity ;
         kbo:classification     kbo:Classification_MAIN .
 
 kbo:2133613087  rdf:type  kbo:Establishment , org:Site ;
-        terms:issued  "01-12-1997" ;
+        terms:issued  "0101-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
         locn:Address  kbo:5985726a2732fa6ab993 .
 
 kbo:7b6cc040cc2cb0bb6c67
         rdf:type          locn:Address ;
-        geosparql:asWKT   "POINT (3.1377857 50.9696821)" ;
+        geosparql:asWKT   "POINT (3.1377857 50.9696821)"^^geosparql:wktLiteral ;
         kbo:addressType   kbo:TypeOfAddress_BAET ;
         locn:fullAddress  "Wijnendalestraat 160, 8800 Roeselare, Belgium" ;
         locn:poBox        "None" ;
@@ -2242,12 +2242,12 @@ kbo:7b6cc040cc2cb0bb6c67
         locn:postName     "Roeselare" .
 
 kbo:2153243018  rdf:type  kbo:Establishment , org:Site ;
-        terms:issued  "28-04-2006" ;
+        terms:issued  "2801-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
         locn:Address  kbo:26f17093888ae93541cd .
 
 kbo:842d7d1f4041f1ebe8ff
         rdf:type          locn:Address ;
-        geosparql:asWKT   "POINT (4.8237651 50.449867)" ;
+        geosparql:asWKT   "POINT (4.8237651 50.449867)"^^geosparql:wktLiteral ;
         kbo:addressType   kbo:TypeOfAddress_BAET ;
         locn:fullAddress  "Rue Tir de Ronet(FW) 5, 5020 Namur, Belgium" ;
         locn:poBox        "None" ;
@@ -2256,7 +2256,7 @@ kbo:842d7d1f4041f1ebe8ff
 
 kbo:a9b1c4f4d2791c93289f
         rdf:type          locn:Address ;
-        geosparql:asWKT   "POINT (4.1887503 50.4799028)" ;
+        geosparql:asWKT   "POINT (4.1887503 50.4799028)"^^geosparql:wktLiteral ;
         kbo:addressType   kbo:TypeOfAddress_BAET ;
         locn:fullAddress  "Rue Anatole France(L.L) 16, 7100 La Louvi\uFFFDre, Belgium" ;
         locn:poBox        "None" ;
@@ -2264,16 +2264,16 @@ kbo:a9b1c4f4d2791c93289f
         locn:postName     "La Louvi\uFFFDre" .
 
 kbo:2102968314  rdf:type  kbo:Establishment , org:Site ;
-        terms:issued  "26-11-1997" ;
+        terms:issued  "2601-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
         locn:Address  kbo:d8139d47d26d78d184bc .
 
 kbo:2260503836  rdf:type  kbo:Establishment , org:Site ;
-        terms:issued  "01-10-2016" ;
+        terms:issued  "0101-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
         locn:Address  kbo:e49b7cd7cf8f6179e87e .
 
 kbo:b2b2a0f500b9b8cbe92b
         rdf:type          locn:Address ;
-        geosparql:asWKT   "POINT (4.608039726470832 50.717702)" ;
+        geosparql:asWKT   "POINT (4.608039726470832 50.717702)"^^geosparql:wktLiteral ;
         kbo:addressType   kbo:TypeOfAddress_BAET ;
         locn:fullAddress  "Rue de la Limite 2, 1300 Wavre, Belgium" ;
         locn:poBox        "None" ;
@@ -2282,7 +2282,7 @@ kbo:b2b2a0f500b9b8cbe92b
 
 kbo:1412a4bbb750860d42d3
         rdf:type          locn:Address ;
-        geosparql:asWKT   "POINT (3.9541007 50.4554238)" ;
+        geosparql:asWKT   "POINT (3.9541007 50.4554238)"^^geosparql:wktLiteral ;
         kbo:addressType   kbo:TypeOfAddress_BAET ;
         locn:fullAddress  "Rue des Foss\uFFFDs 7, 7000 Mons, Belgium" ;
         locn:poBox        "None" ;
@@ -2291,7 +2291,7 @@ kbo:1412a4bbb750860d42d3
 
 kbo:c99162dd106fb0d99bcd
         rdf:type          locn:Address ;
-        geosparql:asWKT   "POINT (5.491112944067364 50.966834399999996)" ;
+        geosparql:asWKT   "POINT (5.490867977394636 50.96691325)"^^geosparql:wktLiteral ;
         kbo:addressType   kbo:TypeOfAddress_BAET ;
         locn:fullAddress  "Europalaan 27, 3600 Genk, Belgium" ;
         locn:poBox        "None" ;
@@ -2299,12 +2299,12 @@ kbo:c99162dd106fb0d99bcd
         locn:postName     "Genk" .
 
 kbo:2260505024  rdf:type  kbo:Establishment , org:Site ;
-        terms:issued  "01-10-2016" ;
+        terms:issued  "0101-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
         locn:Address  kbo:51c7232c4799168e47d5 .
 
 kbo:00e768b56e187eefbd8c
         rdf:type          locn:Address ;
-        geosparql:asWKT   "POINT (4.099388677580767 51.02802455)" ;
+        geosparql:asWKT   "POINT (4.099388677580767 51.02802455)"^^geosparql:wktLiteral ;
         kbo:addressType   kbo:TypeOfAddress_BAET ;
         locn:fullAddress  "Oude Vest (DEN) 5/7, 9200 Dendermonde, Belgium" ;
         locn:poBox        "None" ;
@@ -2312,12 +2312,12 @@ kbo:00e768b56e187eefbd8c
         locn:postName     "Dendermonde" .
 
 kbo:2153249055  rdf:type  kbo:Establishment , org:Site ;
-        terms:issued  "28-04-2006" ;
+        terms:issued  "2801-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
         locn:Address  kbo:80281242d950c8aef85f .
 
 kbo:8a6b9f290c0d0e3d392a
         rdf:type          locn:Address ;
-        geosparql:asWKT   "POINT (4.4372665 50.8438777)" ;
+        geosparql:asWKT   "POINT (4.4373607 50.8447584)"^^geosparql:wktLiteral ;
         kbo:addressType   kbo:TypeOfAddress_BAET ;
         locn:fullAddress  "Sint-Lambertusstraat 202, 1200 Sint-Lambrechts-Woluwe, Belgium" ;
         locn:poBox        "None" ;
@@ -2326,7 +2326,7 @@ kbo:8a6b9f290c0d0e3d392a
 
 kbo:0a2d4bc5d17d63311162
         rdf:type          locn:Address ;
-        geosparql:asWKT   "POINT (4.3969409 50.8439485)" ;
+        geosparql:asWKT   "POINT (4.3969409 50.8439485)"^^geosparql:wktLiteral ;
         kbo:addressType   kbo:TypeOfAddress_BAET ;
         locn:fullAddress  "Olmstraat 14, 1030 Schaarbeek, Belgium" ;
         locn:poBox        "None" ;
@@ -2334,24 +2334,24 @@ kbo:0a2d4bc5d17d63311162
         locn:postName     "Schaarbeek" .
 
 kbo:2181462494  rdf:type  kbo:Establishment , org:Site ;
-        terms:issued  "01-09-2009" ;
+        terms:issued  "0101-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
         locn:Address  kbo:d7084f8c09592be4c4fc .
 
 kbo:2153242325  rdf:type  kbo:Establishment , org:Site ;
-        terms:issued  "28-04-2006" ;
+        terms:issued  "2801-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
         locn:Address  kbo:c9f96e59309e492ff286 .
 
 kbo:2102973757  rdf:type  kbo:Establishment , org:Site ;
-        terms:issued  "18-12-1997" ;
+        terms:issued  "1801-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
         locn:Address  kbo:63b570ca085718ff61b3 .
 
 kbo:2102967621  rdf:type  kbo:Establishment , org:Site ;
-        terms:issued  "12-12-1997" ;
+        terms:issued  "1201-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
         locn:Address  kbo:1c2b49ca54f8166d7da5 .
 
 kbo:7608cc272a0b84503e07
         rdf:type          locn:Address ;
-        geosparql:asWKT   "POINT (6.074388180987352 50.346427)" ;
+        geosparql:asWKT   "POINT (6.074388180987352 50.346427)"^^geosparql:wktLiteral ;
         kbo:addressType   kbo:TypeOfAddress_BAET ;
         locn:fullAddress  "Blausteinstra\uFFFDe,Recht 20, 4780 Sankt Vith, Belgium" ;
         locn:poBox        "None" ;
@@ -2360,7 +2360,7 @@ kbo:7608cc272a0b84503e07
 
 kbo:023de01935c8d30dc229
         rdf:type          locn:Address ;
-        geosparql:asWKT   "POINT (5.592700205308042 50.61644865)" ;
+        geosparql:asWKT   "POINT (5.592700205308042 50.61644865)"^^geosparql:wktLiteral ;
         kbo:addressType   kbo:TypeOfAddress_BAET ;
         locn:fullAddress  "Quai des Vennes 1, 4020 Li\uFFFDge, Belgium" ;
         locn:poBox        "None" ;
@@ -2369,7 +2369,7 @@ kbo:023de01935c8d30dc229
 
 kbo:90f69d24372f5d2e06b3
         rdf:type          locn:Address ;
-        geosparql:asWKT   "POINT (4.2370427 50.7328394)" ;
+        geosparql:asWKT   "POINT (4.2370427 50.7328394)"^^geosparql:wktLiteral ;
         kbo:addressType   kbo:TypeOfAddress_BAET ;
         locn:fullAddress  "Basiliekstraat 30-32, 1500 Halle, Belgium" ;
         locn:poBox        "None" ;
@@ -2377,20 +2377,20 @@ kbo:90f69d24372f5d2e06b3
         locn:postName     "Halle" .
 
 kbo:2285962079  rdf:type  kbo:Establishment , org:Site ;
-        terms:issued  "01-01-2019" ;
+        terms:issued  "0101-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
         locn:Address  kbo:7e092ec521ad7d37fbb1 .
 
 kbo:2153241632  rdf:type  kbo:Establishment , org:Site ;
-        terms:issued  "28-04-2006" ;
+        terms:issued  "2801-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
         locn:Address  kbo:114d7ac74743645e4080 .
 
 kbo:2102970193  rdf:type  kbo:Establishment , org:Site ;
-        terms:issued  "26-11-1997" ;
+        terms:issued  "2601-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
         locn:Address  kbo:41c883a3721e4e84750d .
 
 kbo:32aaaeaa3e3e50476085
         rdf:type          locn:Address ;
-        geosparql:asWKT   "POINT (5.467752474120232 50.782659550000005)" ;
+        geosparql:asWKT   "POINT (5.467752474120232 50.782659550000005)"^^geosparql:wktLiteral ;
         kbo:addressType   kbo:TypeOfAddress_BAET ;
         locn:fullAddress  "Maastrichterstraat 94, 3700 Tongeren, Belgium" ;
         locn:poBox        "None" ;
@@ -2399,7 +2399,7 @@ kbo:32aaaeaa3e3e50476085
 
 kbo:28dcf605855f59f6a5f4
         rdf:type          locn:Address ;
-        geosparql:asWKT   "POINT (4.613453864106146 50.431942750000005)" ;
+        geosparql:asWKT   "POINT (4.613453864106146 50.431942750000005)"^^geosparql:wktLiteral ;
         kbo:addressType   kbo:TypeOfAddress_BAET ;
         locn:fullAddress  "Rue Saint Jean-Baptiste(TAM) 1, 5060 Sambreville, Belgium" ;
         locn:poBox        "None" ;
@@ -2407,16 +2407,16 @@ kbo:28dcf605855f59f6a5f4
         locn:postName     "Sambreville" .
 
 kbo:2102974252  rdf:type  kbo:Establishment , org:Site ;
-        terms:issued  "27-11-1997" ;
+        terms:issued  "2701-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
         locn:Address  kbo:8e1851f87b24030464c3 .
 
 kbo:2102966235  rdf:type  kbo:Establishment , org:Site ;
-        terms:issued  "25-11-1997" ;
+        terms:issued  "2501-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
         locn:Address  kbo:cb75e2fa9a49046396ce .
 
 kbo:6b7c9b1542b09297d8ef
         rdf:type          locn:Address ;
-        geosparql:asWKT   "POINT (5.3090833 50.2327165)" ;
+        geosparql:asWKT   "POINT (5.3090833 50.2327165)"^^geosparql:wktLiteral ;
         kbo:addressType   kbo:TypeOfAddress_BAET ;
         locn:fullAddress  "Marche, Rue de la Pirire 3, 6900 Marche-en-Famenne, Belgium" ;
         locn:poBox        "None" ;
@@ -2425,7 +2425,7 @@ kbo:6b7c9b1542b09297d8ef
 
 kbo:c2db730aee44c209bcf8
         rdf:type          locn:Address ;
-        geosparql:asWKT   "POINT (5.119002810978617 51.1890535)" ;
+        geosparql:asWKT   "POINT (5.119002810978617 51.1890535)"^^geosparql:wktLiteral ;
         kbo:addressType   kbo:TypeOfAddress_BAET ;
         locn:fullAddress  "Statiestraat 38 A, 2400 Mol, Belgium" ;
         locn:poBox        "None" ;
@@ -2434,7 +2434,7 @@ kbo:c2db730aee44c209bcf8
 
 kbo:80281242d950c8aef85f
         rdf:type          locn:Address ;
-        geosparql:asWKT   "POINT (3.8825835 51.0018903)" ;
+        geosparql:asWKT   "POINT (3.8825835 51.0018903)"^^geosparql:wktLiteral ;
         kbo:addressType   kbo:TypeOfAddress_BAET ;
         locn:fullAddress  "Stationsplein 10, 9230 Wetteren, Belgium" ;
         locn:poBox        "None" ;
@@ -2442,12 +2442,12 @@ kbo:80281242d950c8aef85f
         locn:postName     "Wetteren" .
 
 kbo:2260506707  rdf:type  kbo:Establishment , org:Site ;
-        terms:issued  "01-10-2016" ;
+        terms:issued  "0101-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
         locn:Address  kbo:9edd67c64cc58fbfb8a7 .
 
 kbo:bc1be641749ab0cb440f
         rdf:type          locn:Address ;
-        geosparql:asWKT   "None" ;
+        geosparql:asWKT   "None"^^geosparql:wktLiteral ;
         kbo:addressType   kbo:TypeOfAddress_REGO , kbo:TypeOfAddress_BAET ;
         locn:fullAddress  "Koning AlbertII laan 27, 1030 Schaarbeek, Belgium" ;
         locn:poBox        "None" ;
@@ -2455,24 +2455,24 @@ kbo:bc1be641749ab0cb440f
         locn:postName     "Schaarbeek" .
 
 kbo:2102965542  rdf:type  kbo:Establishment , org:Site ;
-        terms:issued  "27-01-1998" ;
+        terms:issued  "2701-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
         locn:Address  kbo:b551fa5a2ab4a6c007e4 .
 
 kbo:2174815917  rdf:type  kbo:Establishment , org:Site ;
-        terms:issued  "01-10-2008" ;
+        terms:issued  "0101-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
         locn:Address  kbo:8c3c7ae29778f81c0a3c .
 
 kbo:2153241137  rdf:type  kbo:Establishment , org:Site ;
-        terms:issued  "28-04-2006" ;
+        terms:issued  "2801-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
         locn:Address  kbo:935918f2e7f377751e3f .
 
 kbo:2260501955  rdf:type  kbo:Establishment , org:Site ;
-        terms:issued  "01-10-2016" ;
+        terms:issued  "0101-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
         locn:Address  kbo:8acb516ffd3e443a3abe .
 
 kbo:da86e3af3f793ab6bc2c
         rdf:type          locn:Address ;
-        geosparql:asWKT   "POINT (5.18721578487322 50.814692949999994)" ;
+        geosparql:asWKT   "POINT (5.18721578487322 50.814692949999994)"^^geosparql:wktLiteral ;
         kbo:addressType   kbo:TypeOfAddress_BAET ;
         locn:fullAddress  "Luikerstraat 23, 3800 Sint-Truiden, Belgium" ;
         locn:poBox        "None" ;
@@ -2480,12 +2480,12 @@ kbo:da86e3af3f793ab6bc2c
         locn:postName     "Sint-Truiden" .
 
 kbo:2153245986  rdf:type  kbo:Establishment , org:Site ;
-        terms:issued  "28-04-2006" ;
+        terms:issued  "2801-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
         locn:Address  kbo:d86df375119d04212b67 .
 
 kbo:fa134b565aaf59ac6374
         rdf:type          locn:Address ;
-        geosparql:asWKT   "POINT (5.579612022366074 50.63248765)" ;
+        geosparql:asWKT   "POINT (5.579612022366074 50.63248765)"^^geosparql:wktLiteral ;
         kbo:addressType   kbo:TypeOfAddress_BAET ;
         locn:fullAddress  "Boulevard Raymond-Poincar\uFFFD 7, 4020 Li\uFFFDge, Belgium" ;
         locn:poBox        "None" ;
@@ -2493,20 +2493,20 @@ kbo:fa134b565aaf59ac6374
         locn:postName     "Li\uFFFDge" .
 
 kbo:2102976628  rdf:type  kbo:Establishment , org:Site ;
-        terms:issued  "24-11-1997" ;
+        terms:issued  "2401-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
         locn:Address  kbo:c2db730aee44c209bcf8 .
 
 kbo:2260503143  rdf:type  kbo:Establishment , org:Site ;
-        terms:issued  "01-10-2016" ;
+        terms:issued  "0101-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
         locn:Address  kbo:722af252cafa0a3127ca .
 
 kbo:2153247174  rdf:type  kbo:Establishment , org:Site ;
-        terms:issued  "28-04-2006" ;
+        terms:issued  "2801-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
         locn:Address  kbo:855202a6056a939cb5c7 .
 
 kbo:e5239e22a2c967c65fe8
         rdf:type          locn:Address ;
-        geosparql:asWKT   "POINT (4.376625202132283 50.8262068)" ;
+        geosparql:asWKT   "POINT (4.376625202132283 50.8262068)"^^geosparql:wktLiteral ;
         kbo:addressType   kbo:TypeOfAddress_BAET ;
         locn:fullAddress  "Borrensstraat 16, 1050 Elsene, Belgium" ;
         locn:poBox        "None" ;
@@ -2515,7 +2515,7 @@ kbo:e5239e22a2c967c65fe8
 
 kbo:5ed764ed206f575acb6d
         rdf:type          locn:Address ;
-        geosparql:asWKT   "POINT (4.358407941071476 50.854298)" ;
+        geosparql:asWKT   "POINT (4.358407941071476 50.854298)"^^geosparql:wktLiteral ;
         kbo:addressType   kbo:TypeOfAddress_BAET ;
         locn:fullAddress  "Nieuwstraat 123, 1000 Brussel, Belgium" ;
         locn:poBox        "None" ;
@@ -2523,32 +2523,32 @@ kbo:5ed764ed206f575acb6d
         locn:postName     "Brussel" .
 
 kbo:2244500519  rdf:type  kbo:Establishment , org:Site ;
-        terms:issued  "01-08-2014" ;
+        terms:issued  "0101-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
         locn:Address  kbo:5af40189d0555fd9e119 .
 
 kbo:2102971876  rdf:type  kbo:Establishment , org:Site ;
-        terms:issued  "28-11-1997" ;
+        terms:issued  "2801-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
         locn:Address  kbo:834426c3ac0d517a599a .
 
 kbo:2102965047  rdf:type  kbo:Establishment , org:Site ;
-        terms:issued  "27-01-1998" ;
+        terms:issued  "2701-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
         locn:Address  kbo:90f69d24372f5d2e06b3 .
 
 kbo:2102975935  rdf:type  kbo:Establishment , org:Site ;
-        terms:issued  "26-11-1997" ;
+        terms:issued  "2601-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
         locn:Address  kbo:57c197d75f51e7d4aeec .
 
 kbo:2102973064  rdf:type  kbo:Establishment , org:Site ;
-        terms:issued  "23-03-1999" ;
+        terms:issued  "2301-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
         locn:Address  kbo:8d031b6b2b01b4c661b9 .
 
 kbo:2260502450  rdf:type  kbo:Establishment , org:Site ;
-        terms:issued  "01-10-2016" ;
+        terms:issued  "0101-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
         locn:Address  kbo:e2b67f95d148227f47c8 .
 
 kbo:83b86cd5bc317489e9a7
         rdf:type          locn:Address ;
-        geosparql:asWKT   "POINT (4.400996 50.8403124)" ;
+        geosparql:asWKT   "POINT (4.400996 50.8403124)"^^geosparql:wktLiteral ;
         kbo:addressType   kbo:TypeOfAddress_BAET ;
         locn:fullAddress  "Tongerenstraat 63, 1040 Etterbeek, Belgium" ;
         locn:poBox        "65" ;
@@ -2557,7 +2557,7 @@ kbo:83b86cd5bc317489e9a7
 
 kbo:2d0aeb69e416e5dec5c5
         rdf:type          locn:Address ;
-        geosparql:asWKT   "POINT (2.916336 51.2303268)" ;
+        geosparql:asWKT   "POINT (2.9167119 51.2300087)"^^geosparql:wktLiteral ;
         kbo:addressType   kbo:TypeOfAddress_BAET ;
         locn:fullAddress  "Wittenonnenstraat 44, 8400 Oostende, Belgium" ;
         locn:poBox        "None" ;
@@ -2566,7 +2566,7 @@ kbo:2d0aeb69e416e5dec5c5
 
 kbo:448592ced6d42cee29e2
         rdf:type          locn:Address ;
-        geosparql:asWKT   "POINT (5.2334052 50.5192446)" ;
+        geosparql:asWKT   "POINT (5.2334052 50.5192446)"^^geosparql:wktLiteral ;
         kbo:addressType   kbo:TypeOfAddress_BAET ;
         locn:fullAddress  "Rue du Vieux-Pont 16, 4500 Huy, Belgium" ;
         locn:poBox        "None" ;
@@ -2574,12 +2574,12 @@ kbo:448592ced6d42cee29e2
         locn:postName     "Huy" .
 
 kbo:2102977123  rdf:type  kbo:Establishment , org:Site ;
-        terms:issued  "01-12-1997" ;
+        terms:issued  "0101-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
         locn:Address  kbo:80c5d3f53fd57a0fca66 .
 
 kbo:bea5054aac0ce3570be7
         rdf:type          locn:Address ;
-        geosparql:asWKT   "POINT (3.7671095 50.98796)" ;
+        geosparql:asWKT   "POINT (3.7671095 50.98796)"^^geosparql:wktLiteral ;
         kbo:addressType   kbo:TypeOfAddress_BAET ;
         locn:fullAddress  "Industriepark 4A, 9820 Merelbeke, Belgium" ;
         locn:poBox        "None" ;
@@ -2588,7 +2588,7 @@ kbo:bea5054aac0ce3570be7
 
 kbo:46bd2a2239c33c62044f
         rdf:type          locn:Address ;
-        geosparql:asWKT   "POINT (3.7160871 51.038787)" ;
+        geosparql:asWKT   "POINT (3.7160871 51.038787)"^^geosparql:wktLiteral ;
         kbo:addressType   kbo:TypeOfAddress_BAET ;
         locn:fullAddress  "Kortrijksesteenweg 543, 9000 Gent, Belgium" ;
         locn:poBox        "None" ;
@@ -2601,7 +2601,7 @@ kbo:Status_AC  rdf:type      kbo:Code ;
 
 kbo:f48b03c230d347554bcd
         rdf:type          locn:Address ;
-        geosparql:asWKT   "POINT (4.3976758 50.719276)" ;
+        geosparql:asWKT   "POINT (4.3976639 50.7192771)"^^geosparql:wktLiteral ;
         kbo:addressType   kbo:TypeOfAddress_BAET ;
         locn:fullAddress  "Chauss\uFFFDe de Bruxelles 219A, 1410 Waterloo, Belgium" ;
         locn:poBox        "None" ;
@@ -2609,12 +2609,12 @@ kbo:f48b03c230d347554bcd
         locn:postName     "Waterloo" .
 
 kbo:2102976430  rdf:type  kbo:Establishment , org:Site ;
-        terms:issued  "24-11-1997" ;
+        terms:issued  "2401-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
         locn:Address  kbo:ddbfa1271ed17dd065b0 .
 
 kbo:96b8935bf70f557f9f04
         rdf:type          locn:Address ;
-        geosparql:asWKT   "POINT (4.2963134 50.8718658)" ;
+        geosparql:asWKT   "POINT (4.2963134 50.8718658)"^^geosparql:wktLiteral ;
         kbo:addressType   kbo:TypeOfAddress_BAET ;
         locn:fullAddress  "Keizer Karellaan 420, 1082 Sint-Agatha-Berchem, Belgium" ;
         locn:poBox        "None" ;
@@ -2623,7 +2623,7 @@ kbo:96b8935bf70f557f9f04
 
 kbo:b96e512cad150f834763
         rdf:type          locn:Address ;
-        geosparql:asWKT   "POINT (3.6037604 50.7432265)" ;
+        geosparql:asWKT   "POINT (3.6020547 50.7439024)"^^geosparql:wktLiteral ;
         kbo:addressType   kbo:TypeOfAddress_BAET ;
         locn:fullAddress  "Politiekegevangenenstraat 14, 9600 Ronse, Belgium" ;
         locn:poBox        "None" ;
@@ -2632,7 +2632,7 @@ kbo:b96e512cad150f834763
 
 kbo:c9ed8208d3f4116bf903
         rdf:type          locn:Address ;
-        geosparql:asWKT   "POINT (4.6098735 50.717099)" ;
+        geosparql:asWKT   "POINT (4.6098735 50.717099)"^^geosparql:wktLiteral ;
         kbo:addressType   kbo:TypeOfAddress_BAET ;
         locn:fullAddress  "Place Cardinal Mercier 1, 1300 Wavre, Belgium" ;
         locn:poBox        "None" ;
@@ -2641,7 +2641,7 @@ kbo:c9ed8208d3f4116bf903
 
 kbo:722af252cafa0a3127ca
         rdf:type          locn:Address ;
-        geosparql:asWKT   "POINT (5.6464453 50.6875759)" ;
+        geosparql:asWKT   "POINT (5.6477718 50.685916)"^^geosparql:wktLiteral ;
         kbo:addressType   kbo:TypeOfAddress_BAET ;
         locn:fullAddress  "Rue Basse Campagne 1, 4040 Herstal, Belgium" ;
         locn:poBox        "None" ;
@@ -2649,12 +2649,12 @@ kbo:722af252cafa0a3127ca
         locn:postName     "Herstal" .
 
 kbo:2102970688  rdf:type  kbo:Establishment , org:Site ;
-        terms:issued  "09-12-1997" ;
+        terms:issued  "0901-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
         locn:Address  kbo:cc6545f34558fd67cd60 .
 
 kbo:7c77bde35252c7f5fe11
         rdf:type          locn:Address ;
-        geosparql:asWKT   "POINT (4.945540845785081 51.3220894)" ;
+        geosparql:asWKT   "POINT (4.945540845785081 51.3220894)"^^geosparql:wktLiteral ;
         kbo:addressType   kbo:TypeOfAddress_BAET ;
         locn:fullAddress  "Gasthuisstraat 29, 2300 Turnhout, Belgium" ;
         locn:poBox        "None" ;
@@ -2663,7 +2663,7 @@ kbo:7c77bde35252c7f5fe11
 
 kbo:cada54920ea7c745852e
         rdf:type          locn:Address ;
-        geosparql:asWKT   "POINT (4.501580108016817 51.22222845)" ;
+        geosparql:asWKT   "POINT (4.501580108016817 51.22222845)"^^geosparql:wktLiteral ;
         kbo:addressType   kbo:TypeOfAddress_BAET ;
         locn:fullAddress  "Turnhoutsebaan 5, 2110 Wijnegem, Belgium" ;
         locn:poBox        "None" ;
@@ -2672,7 +2672,7 @@ kbo:cada54920ea7c745852e
 
 kbo:cee64edf7ab6db8dd452
         rdf:type          locn:Address ;
-        geosparql:asWKT   "POINT (3.7680404697220222 50.98701155)" ;
+        geosparql:asWKT   "POINT (3.7680404697220222 50.98701155)"^^geosparql:wktLiteral ;
         kbo:addressType   kbo:TypeOfAddress_BAET ;
         locn:fullAddress  "Industriepark 2, 9820 Merelbeke, Belgium" ;
         locn:poBox        "None" ;
@@ -2680,12 +2680,12 @@ kbo:cee64edf7ab6db8dd452
         locn:postName     "Merelbeke" .
 
 kbo:2153243315  rdf:type  kbo:Establishment , org:Site ;
-        terms:issued  "28-04-2006" ;
+        terms:issued  "2801-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
         locn:Address  kbo:441e3e676e5305210a35 .
 
 kbo:d441397f08a192c53fb9
         rdf:type          locn:Address ;
-        geosparql:asWKT   "POINT (5.863904432638298 50.5929516)" ;
+        geosparql:asWKT   "POINT (5.863904432638298 50.5929516)"^^geosparql:wktLiteral ;
         kbo:addressType   kbo:TypeOfAddress_BAET ;
         locn:fullAddress  "Crapaurue 126, 4800 Verviers, Belgium" ;
         locn:poBox        "None" ;
@@ -2694,7 +2694,7 @@ kbo:d441397f08a192c53fb9
 
 kbo:8638f56c538bb2b582f1
         rdf:type          locn:Address ;
-        geosparql:asWKT   "POINT (2.9143377 51.2304646)" ;
+        geosparql:asWKT   "POINT (2.9143377 51.2304646)"^^geosparql:wktLiteral ;
         kbo:addressType   kbo:TypeOfAddress_BAET ;
         locn:fullAddress  "Marie-Jos\uFFFDplein 12, 8400 Oostende, Belgium" ;
         locn:poBox        "None" ;
@@ -2702,5 +2702,5 @@ kbo:8638f56c538bb2b582f1
         locn:postName     "Oostende" .
 
 kbo:2153245293  rdf:type  kbo:Establishment , org:Site ;
-        terms:issued  "28-04-2006" ;
+        terms:issued  "2801-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
         locn:Address  kbo:fdbdf570d1984349517b .

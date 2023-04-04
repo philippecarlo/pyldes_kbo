@@ -31,7 +31,7 @@ class TestDefaultPagination(unittest.TestCase):
         graph_actual = Graph().parse(su.retrieve_specific_page(url_view=url_view_by_page).content, format='json-ld')
         self.assertTrue(graph_expected.isomorphic(graph_actual))
 
-    # Verify if the data is properly ingested and first pagination is as exepcted
+    # Verify if the data is properly ingested and first pagination is as expected
     def test_4_verify_fist_page(self):
         print("######################defaultPagination: Verify fragments....###################")
         graph_expected = Graph().parse('../expected/expected_pagination/page1.turtle', format='turtle')

@@ -1,6 +1,7 @@
 
 
 
+
 # Conformance Testing framework 
 *The current framework is made for conforming the test points regarding the [Tree Spec](https://treecg.github.io/specification/)*
 Which contains:
@@ -69,7 +70,7 @@ Which contains:
 #### *2.3.1 The tree:Relation’s tree:value SHOULD be set.*
 #### *2.3.2 The object of tree:value SHOULD be accompanied by a data type when it is a literal value.*
 - [ ] Check when tree:value is accompanied by a data type , LDES client and LDES Server works as expected
-- [ ] Check when tree:value is Not accompanied by a data type , LDES client and LDES Server works as expected
+~~- [ ] Check when tree:value is Not accompanied by a data type , LDES client and LDES Server works as expected~~
 #### *2.3.3 Every tree:Relation SHOULD have a tree:path, indicating the path from the member to the object on which the tree:Relation applies.*
 #### *2.3.4 When traversing, a client SHOULD keep a list of already visited pages, as despite this being the TREE spec, circular references and back-links are not explicitly prohibited*
 - [ ] Check the data persistency of the LDES Client.

@@ -35,7 +35,7 @@ class Support:
                 data = f.read()
                 g = rdflib.Graph()
                 g.parse(data=data, format='turtle')
-            print(file)
+            # print(file)
             print(requests.request("POST", url, headers=headers_post, data=g.serialize(format='turtle')).status_code)
 
     def stop_server(self, path_docker) -> None:

@@ -22,7 +22,7 @@ kbo:0404616494.2022.11 a legal:legalEntity,
 
 kbo:2003342780 a org:Site,
         kbo:Establishment ;
-    terms:issued "0101-01-01"^^xsd:date ;
+    terms:issued "1924-12-01"^^xsd:date ;
     vcard:email "info@avh.be" ;
     vcard:tel "03/231.87.70" ;
     vcard:url "www.avh.be" ;

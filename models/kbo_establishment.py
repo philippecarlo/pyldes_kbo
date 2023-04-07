@@ -8,6 +8,7 @@ from pyldes_kbo.models.kbo_address import KboAddress
 from pyldes_kbo.models.kbo_contact import KboContact
 from pyldes_kbo.namespace.kbo import KBO
 from pyldes_kbo.namespace.vcard import VCARD
+from datetime import datetime
 
 class KboEstablishment(KboBase):
 
@@ -25,7 +26,7 @@ class KboEstablishment(KboBase):
             establihment_ref = URIRef(f"{KBO._NS}{self.estblishment_number.replace('.', '')}")
         graph.add((establihment_ref, RDF.type, ORG.Site))
         graph.add((establihment_ref, RDF.type, KBO.Establishment))
-        graph.add((establihment_ref, TERMNAME.issued, Literal(self.start_date, datatype=XSD.date)))
+        graph.add((establihment_ref, TERMNAME.issued, Literal(datetime.strptime(self.start_date, '%d-%m-%Y').strftime('%Y-%m-%d'), datatype=XSD.date)))
         for address in self.addresses:
             addr_ref = address.to_rdf(graph, as_blank_node=as_blank_node)
             graph.add((establihment_ref, LOCN.Address, addr_ref))
@@ -41,7 +42,8 @@ class KboEstablishment(KboBase):
             establihment_ref = URIRef(f"{KBO._NS}{self.estblishment_number.replace('.', '')}")
         graph.add((establihment_ref, RDF.type, ORG.Site))
         graph.add((establihment_ref, RDF.type, KBO.Establishment))
-        graph.add((establihment_ref, TERMNAME.issued, Literal(self.start_date, datatype=XSD.date)))
+        graph.add((establihment_ref, TERMNAME.issued,
+                   Literal(datetime.strptime(self.start_date, '%d-%m-%Y').strftime('%Y-%m-%d'), datatype=XSD.date)))
         for address in self.addresses:
             addr_ref = address.to_rdf_version(graph, as_blank_node=as_blank_node)
             graph.add((establihment_ref, LOCN.Address, addr_ref))

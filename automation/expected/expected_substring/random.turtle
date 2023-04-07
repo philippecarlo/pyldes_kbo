@@ -36,7 +36,7 @@ kbo:b63391125982112d94fa
         locn:postName     "Genk" .
 
 kbo:2142567276  rdf:type  kbo:Establishment , org:Site ;
-        terms:issued  "0101-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        terms:issued  "1998-02-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
         locn:Address  kbo:6a4b10066ee5f892c094 .
 
 kbo:Status_AC  rdf:type      kbo:Code ;
@@ -78,7 +78,7 @@ kbo:2008_64200  rdf:type       kbo:Activity ;
                         ] .
 
 kbo:2005456093  rdf:type  kbo:Establishment , org:Site ;
-        terms:issued  "0101-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        terms:issued  "1970-09-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
         vcard:email   "peter.vreven@aperam.com" ;
         vcard:tel     "089 302282" ;
         locn:Address  kbo:b63391125982112d94fa .
@@ -127,7 +127,7 @@ kbo:2008_21201  rdf:type       kbo:Activity ;
         kbo:classification     kbo:Classification_SECO .
 
 kbo:2169037883  rdf:type  kbo:Establishment , org:Site ;
-        terms:issued  "0201-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        terms:issued  "2006-10-02"^^<http://www.w3.org/2001/XMLSchema#date> ;
         vcard:email   "helga.baeten@arcelormittal.com" , "helga.baeten@aperam.com" ;
         vcard:tel     "089/365623" , "089 365600" ;
         locn:Address  kbo:8bd3bcc78c6789d2322d .
@@ -137,7 +137,7 @@ kbo:2003_27310  rdf:type       kbo:Activity ;
         kbo:classification     kbo:Classification_SECO .
 
 kbo:2155832423  rdf:type  kbo:Establishment , org:Site ;
-        terms:issued  "0101-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        terms:issued  "2006-07-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
         locn:Address  kbo:9abaa753536e393cc6a2 .
 
 kbo:9abaa753536e393cc6a2

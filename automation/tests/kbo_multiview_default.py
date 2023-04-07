@@ -23,7 +23,6 @@ data_location = "../../sample/bel20/*"
 
 class TestDefaultMultiview(unittest.TestCase):
 
-
     # Pagination view
     def test_1_start_services(self):
         print("######################Multiview defaultPagination: Service starting....###################")

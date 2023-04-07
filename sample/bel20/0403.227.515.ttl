@@ -74,92 +74,92 @@ kbo:2008_70100 a kbo:Activity ;
 
 kbo:2127571769 a org:Site,
         kbo:Establishment ;
-    terms:issued "0501-01-01"^^xsd:date ;
+    terms:issued "1998-10-05"^^xsd:date ;
     locn:Address kbo:4894047789ab0f161254 .
 
 kbo:2127607601 a org:Site,
         kbo:Establishment ;
-    terms:issued "0101-01-01"^^xsd:date ;
+    terms:issued "1935-02-01"^^xsd:date ;
     locn:Address kbo:a467dbbe772f2968ca42 .
 
 kbo:2152438611 a org:Site,
         kbo:Establishment ;
-    terms:issued "2401-01-01"^^xsd:date ;
+    terms:issued "2006-03-24"^^xsd:date ;
     locn:Address kbo:ab93acb3d3bc5928d356 .
 
 kbo:2152439304 a org:Site,
         kbo:Establishment ;
-    terms:issued "2401-01-01"^^xsd:date ;
+    terms:issued "2006-03-24"^^xsd:date ;
     locn:Address kbo:cdc6fbe2282c7583bce0 .
 
 kbo:2152440787 a org:Site,
         kbo:Establishment ;
-    terms:issued "2401-01-01"^^xsd:date ;
+    terms:issued "2006-03-24"^^xsd:date ;
     locn:Address kbo:876c1f999920f7f6c460 .
 
 kbo:2152450487 a org:Site,
         kbo:Establishment ;
-    terms:issued "2401-01-01"^^xsd:date ;
+    terms:issued "2006-03-24"^^xsd:date ;
     locn:Address kbo:cbd62742dd4d7fdc0c85 .
 
 kbo:2152451081 a org:Site,
         kbo:Establishment ;
-    terms:issued "2401-01-01"^^xsd:date ;
+    terms:issued "2006-03-24"^^xsd:date ;
     locn:Address kbo:058b43a6ce024a1c7226 .
 
 kbo:2152452071 a org:Site,
         kbo:Establishment ;
-    terms:issued "2401-01-01"^^xsd:date ;
+    terms:issued "2006-03-24"^^xsd:date ;
     locn:Address kbo:0beeffde4fe17c2b8dc4 .
 
 kbo:2152452467 a org:Site,
         kbo:Establishment ;
-    terms:issued "2401-01-01"^^xsd:date ;
+    terms:issued "2006-03-24"^^xsd:date ;
     locn:Address kbo:d7680f0a2848c2a75fc5 .
 
 kbo:2152452962 a org:Site,
         kbo:Establishment ;
-    terms:issued "2401-01-01"^^xsd:date ;
+    terms:issued "2006-03-24"^^xsd:date ;
     locn:Address kbo:abff6f72501beb37dd6c .
 
 kbo:2155795702 a org:Site,
         kbo:Establishment ;
-    terms:issued "1701-01-01"^^xsd:date ;
+    terms:issued "2006-08-17"^^xsd:date ;
     locn:Address kbo:d764f3ba2da243aa7967 .
 
 kbo:2155797383 a org:Site,
         kbo:Establishment ;
-    terms:issued "1701-01-01"^^xsd:date ;
+    terms:issued "2006-08-17"^^xsd:date ;
     locn:Address kbo:957d88645b7b38444a02 .
 
 kbo:2172430905 a org:Site,
         kbo:Establishment ;
-    terms:issued "1901-01-01"^^xsd:date ;
+    terms:issued "2008-08-19"^^xsd:date ;
     locn:Address kbo:bfb37a23a23c0f08ae15 .
 
 kbo:2217795825 a org:Site,
         kbo:Establishment ;
-    terms:issued "2801-01-01"^^xsd:date ;
+    terms:issued "2013-03-28"^^xsd:date ;
     locn:Address kbo:3003a821952231707cc7 .
 
 kbo:2241912795 a org:Site,
         kbo:Establishment ;
-    terms:issued "3001-01-01"^^xsd:date ;
+    terms:issued "2015-04-30"^^xsd:date ;
     locn:Address kbo:91df141f6387713bbe08 .
 
 kbo:2277810517 a org:Site,
         kbo:Establishment ;
-    terms:issued "1801-01-01"^^xsd:date ;
+    terms:issued "2018-07-18"^^xsd:date ;
     locn:Address kbo:2730d4171a45175182b8 .
 
 kbo:2278346688 a org:Site,
         kbo:Establishment ;
-    terms:issued "0101-01-01"^^xsd:date ;
+    terms:issued "2018-04-01"^^xsd:date ;
     locn:Address kbo:7da822f315b3e993391d .
 
 kbo:2322992226 a org:Site,
         kbo:Establishment ;
-    terms:issued "0101-01-01"^^xsd:date ;
+    terms:issued "2021-01-01"^^xsd:date ;
     locn:Address kbo:defb6da6597efd6640a0 .
 
 kbo:2730d4171a45175182b8 a locn:Address ;

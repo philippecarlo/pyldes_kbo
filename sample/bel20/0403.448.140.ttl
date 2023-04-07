@@ -49,7 +49,7 @@ kbo:2008_64200 a kbo:Activity ;
 
 kbo:2144913983 a org:Site,
         kbo:Establishment ;
-    terms:issued "2701-01-01"^^xsd:date ;
+    terms:issued "2005-01-27"^^xsd:date ;
     locn:Address kbo:bb6c8ea511229875aa63 .
 
 kbo:Status_AC a kbo:Code ;

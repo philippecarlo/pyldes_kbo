@@ -36,7 +36,7 @@ kbo:2003_74131 a kbo:Activity ;
 
 kbo:2004345741 a org:Site,
         kbo:Establishment ;
-    terms:issued "0101-01-01"^^xsd:date ;
+    terms:issued "1956-12-01"^^xsd:date ;
     locn:Address kbo:d3b58e7b71c852385a38 .
 
 kbo:2008_64200 a kbo:Activity ;
@@ -49,7 +49,7 @@ kbo:2008_73200 a kbo:Activity ;
 
 kbo:2153392278 a org:Site,
         kbo:Establishment ;
-    terms:issued "2801-01-01"^^xsd:date ;
+    terms:issued "1956-12-28"^^xsd:date ;
     locn:Address kbo:95c924ee623221ff9055 .
 
 kbo:Status_AC a kbo:Code ;

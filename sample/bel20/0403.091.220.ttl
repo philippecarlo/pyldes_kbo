@@ -36,22 +36,22 @@ kbo:2008_70100 a kbo:Activity ;
 
 kbo:2102008707 a org:Site,
         kbo:Establishment ;
-    terms:issued "0101-01-01"^^xsd:date ;
+    terms:issued "1963-12-01"^^xsd:date ;
     locn:Address kbo:ad6f7c6e1a796ad7697a .
 
 kbo:2102008905 a org:Site,
         kbo:Establishment ;
-    terms:issued "0101-01-01"^^xsd:date ;
+    terms:issued "1969-09-01"^^xsd:date ;
     locn:Address kbo:b93ac46cd7d4f894eb96 .
 
 kbo:2102009301 a org:Site,
         kbo:Establishment ;
-    terms:issued "0101-01-01"^^xsd:date ;
+    terms:issued "1900-01-01"^^xsd:date ;
     locn:Address kbo:62ea9686bb800a8adab1 .
 
 kbo:2102009497 a org:Site,
         kbo:Establishment ;
-    terms:issued "0701-01-01"^^xsd:date ;
+    terms:issued "2000-12-07"^^xsd:date ;
     locn:Address kbo:c5a1618ae7e906c7c262 .
 
 kbo:62ea9686bb800a8adab1 a locn:Address ;

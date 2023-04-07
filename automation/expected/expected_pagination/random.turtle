@@ -46,7 +46,7 @@ kbo:2003_74879  rdf:type       kbo:Activity ;
         kbo:classification     kbo:Classification_MAIN .
 
 kbo:2142567276  rdf:type  kbo:Establishment , org:Site ;
-        terms:issued  "0101-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        terms:issued  "1998-02-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
         locn:Address  kbo:6a4b10066ee5f892c094 .
 
 kbo:Status_AC  rdf:type      kbo:Code ;

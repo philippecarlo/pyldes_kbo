@@ -48,7 +48,7 @@ kbo:2008_70220 a kbo:Activity ;
 
 kbo:2037846769 a org:Site,
         kbo:Establishment ;
-    terms:issued "0101-01-01"^^xsd:date ;
+    terms:issued "1984-03-01"^^xsd:date ;
     locn:Address kbo:c13abd7474627a0311ef .
 
 kbo:Status_AC a kbo:Code ;

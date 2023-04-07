@@ -69,62 +69,62 @@ kbo:2008_64200 a kbo:Activity ;
 
 kbo:2098698631 a org:Site,
         kbo:Establishment ;
-    terms:issued "2601-01-01"^^xsd:date ;
+    terms:issued "2001-12-26"^^xsd:date ;
     locn:Address kbo:ea9aa3a651fca5e1643b .
 
 kbo:2148608297 a org:Site,
         kbo:Establishment ;
-    terms:issued "2901-01-01"^^xsd:date ;
+    terms:issued "2005-08-29"^^xsd:date ;
     locn:Address kbo:55bc46ab5cb62d20f730 .
 
 kbo:2148609188 a org:Site,
         kbo:Establishment ;
-    terms:issued "2901-01-01"^^xsd:date ;
+    terms:issued "2005-08-29"^^xsd:date ;
     locn:Address kbo:50ae52e361273bd0c7ef .
 
 kbo:2148609881 a org:Site,
         kbo:Establishment ;
-    terms:issued "2901-01-01"^^xsd:date ;
+    terms:issued "2005-08-29"^^xsd:date ;
     locn:Address kbo:d2b9e40ed6dcbe0720fc .
 
 kbo:2148610178 a org:Site,
         kbo:Establishment ;
-    terms:issued "2901-01-01"^^xsd:date ;
+    terms:issued "2005-08-29"^^xsd:date ;
     locn:Address kbo:e0709405ba27db7a69ff .
 
 kbo:2148610376 a org:Site,
         kbo:Establishment ;
-    terms:issued "2901-01-01"^^xsd:date ;
+    terms:issued "2005-08-29"^^xsd:date ;
     locn:Address kbo:cba7a23662a28ea3fcfa .
 
 kbo:2148610772 a org:Site,
         kbo:Establishment ;
-    terms:issued "2901-01-01"^^xsd:date ;
+    terms:issued "2005-08-29"^^xsd:date ;
     locn:Address kbo:ae0ea5415faa7953fbc8 .
 
 kbo:2148611267 a org:Site,
         kbo:Establishment ;
-    terms:issued "2901-01-01"^^xsd:date ;
+    terms:issued "2005-08-29"^^xsd:date ;
     locn:Address kbo:1b85ea1b19af674d1f2d .
 
 kbo:2148612257 a org:Site,
         kbo:Establishment ;
-    terms:issued "2901-01-01"^^xsd:date ;
+    terms:issued "2005-08-29"^^xsd:date ;
     locn:Address kbo:16cbb0043f961fdde615 .
 
 kbo:2175537972 a org:Site,
         kbo:Establishment ;
-    terms:issued "0901-01-01"^^xsd:date ;
+    terms:issued "2009-01-09"^^xsd:date ;
     locn:Address kbo:5bb540bbc075650c8419 .
 
 kbo:2222080948 a org:Site,
         kbo:Establishment ;
-    terms:issued "3001-01-01"^^xsd:date ;
+    terms:issued "2013-09-30"^^xsd:date ;
     locn:Address kbo:386c1b2e2b7b262496c8 .
 
 kbo:2232598817 a org:Site,
         kbo:Establishment ;
-    terms:issued "2201-01-01"^^xsd:date ;
+    terms:issued "2014-06-22"^^xsd:date ;
     locn:Address kbo:13b174a12c8e25d27c01 .
 
 kbo:386c1b2e2b7b262496c8 a locn:Address ;
@@ -136,7 +136,7 @@ kbo:386c1b2e2b7b262496c8 a locn:Address ;
     locn:postName "Brussel" .
 
 kbo:50ae52e361273bd0c7ef a locn:Address ;
-    geo:asWKT "POINT (4.3755173 50.8786646)"^^geo:wktLiteral ;
+    geo:asWKT "POINT (4.3907485 50.8856667)"^^geo:wktLiteral ;
     kbo:addressType kbo:TypeOfAddress_BAET ;
     locn:fullAddress "Vilvoordselaan 126, 1000 Brussel, Belgium" ;
     locn:poBox "None" ;

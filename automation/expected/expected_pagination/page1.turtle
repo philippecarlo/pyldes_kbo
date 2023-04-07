@@ -281,7 +281,7 @@
 @prefix tree:              <https://w3id.org/tree#> .
 
 kbo:2153249352  rdf:type  kbo:Establishment , org:Site ;
-        terms:issued  "2801-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        terms:issued  "2006-04-28"^^<http://www.w3.org/2001/XMLSchema#date> ;
         locn:Address  kbo:14f5c771709507c5faf3 .
 
 kbo:834426c3ac0d517a599a
@@ -312,15 +312,15 @@ kbo:cb75e2fa9a49046396ce
         locn:postName     "Antwerpen" .
 
 kbo:2134034246  rdf:type  kbo:Establishment , org:Site ;
-        terms:issued  "1801-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        terms:issued  "2003-11-18"^^<http://www.w3.org/2001/XMLSchema#date> ;
         locn:Address  kbo:8638f56c538bb2b582f1 .
 
 kbo:2102971183  rdf:type  kbo:Establishment , org:Site ;
-        terms:issued  "0901-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        terms:issued  "1997-12-09"^^<http://www.w3.org/2001/XMLSchema#date> ;
         locn:Address  kbo:59d6f1b4bcfa65c1390c .
 
 kbo:2102975242  rdf:type  kbo:Establishment , org:Site ;
-        terms:issued  "2501-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        terms:issued  "1997-11-25"^^<http://www.w3.org/2001/XMLSchema#date> ;
         locn:Address  kbo:39d60e34478e5c3b93e4 .
 
 kbo:0c4dbb37bd1830634953
@@ -369,7 +369,7 @@ kbo:441e3e676e5305210a35
         locn:postName     "Roeselare" .
 
 kbo:2102970490  rdf:type  kbo:Establishment , org:Site ;
-        terms:issued  "2301-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        terms:issued  "1999-03-23"^^<http://www.w3.org/2001/XMLSchema#date> ;
         locn:Address  kbo:31e4f783c1609d0e22ee .
 
 kbo:d45e27d446f7a7fb9f1a
@@ -391,7 +391,7 @@ kbo:d8139d47d26d78d184bc
         locn:postName     "Tielt" .
 
 kbo:2153240939  rdf:type  kbo:Establishment , org:Site ;
-        terms:issued  "2801-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        terms:issued  "2006-04-28"^^<http://www.w3.org/2001/XMLSchema#date> ;
         locn:Address  kbo:8eafed047a173411bd0d .
 
 kbo:114d7ac74743645e4080
@@ -404,11 +404,11 @@ kbo:114d7ac74743645e4080
         locn:postName     "Brasschaat" .
 
 kbo:2102966532  rdf:type  kbo:Establishment , org:Site ;
-        terms:issued  "2501-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        terms:issued  "1997-11-25"^^<http://www.w3.org/2001/XMLSchema#date> ;
         locn:Address  kbo:6dcb86d583fefb569747 .
 
 kbo:2133612196  rdf:type  kbo:Establishment , org:Site ;
-        terms:issued  "0201-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        terms:issued  "2000-11-02"^^<http://www.w3.org/2001/XMLSchema#date> ;
         locn:Address  kbo:83b86cd5bc317489e9a7 .
 
 kbo:80c5d3f53fd57a0fca66
@@ -421,11 +421,11 @@ kbo:80c5d3f53fd57a0fca66
         locn:postName     "Veurne" .
 
 kbo:2102973559  rdf:type  kbo:Establishment , org:Site ;
-        terms:issued  "1801-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        terms:issued  "1997-12-18"^^<http://www.w3.org/2001/XMLSchema#date> ;
         locn:Address  kbo:4937c20c3f10caaa5c33 .
 
 kbo:2102967423  rdf:type  kbo:Establishment , org:Site ;
-        terms:issued  "2701-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        terms:issued  "1998-01-27"^^<http://www.w3.org/2001/XMLSchema#date> ;
         locn:Address  kbo:b5eff2a7f468e5e35033 .
 
 kbo:fd952ba9ad070dc3346c
@@ -456,27 +456,27 @@ kbo:6fc7e51d2b3a71833706
         locn:postName     "Arlon" .
 
 kbo:2177924667  rdf:type  kbo:Establishment , org:Site ;
-        terms:issued  "0101-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        terms:issued  "2009-05-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
         locn:Address  kbo:86287faaa71b020a4779 .
 
 kbo:2260504133  rdf:type  kbo:Establishment , org:Site ;
-        terms:issued  "0101-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        terms:issued  "2016-10-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
         locn:Address  kbo:fce0562fb363fef569fc .
 
 kbo:2153248164  rdf:type  kbo:Establishment , org:Site ;
-        terms:issued  "2801-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        terms:issued  "2006-04-28"^^<http://www.w3.org/2001/XMLSchema#date> ;
         locn:Address  kbo:6a43b6aff7de46b8276d .
 
 kbo:2153241434  rdf:type  kbo:Establishment , org:Site ;
-        terms:issued  "2801-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        terms:issued  "2006-04-28"^^<http://www.w3.org/2001/XMLSchema#date> ;
         locn:Address  kbo:aaa7d08a28aff7b9f3d1 .
 
 kbo:2316676239  rdf:type  kbo:Establishment , org:Site ;
-        terms:issued  "0101-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        terms:issued  "2021-05-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
         locn:Address  kbo:90125aadeb618654c69e .
 
 kbo:2102972866  rdf:type  kbo:Establishment , org:Site ;
-        terms:issued  "2701-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        terms:issued  "1997-11-27"^^<http://www.w3.org/2001/XMLSchema#date> ;
         locn:Address  kbo:7e2525def4cb3e7ef83d .
 
 kbo:ebab8e57d21b2dc9b03f
@@ -507,11 +507,11 @@ kbo:21555b7e1302165e856a
         locn:postName     "Brugge" .
 
 kbo:2102966037  rdf:type  kbo:Establishment , org:Site ;
-        terms:issued  "2501-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        terms:issued  "1997-11-25"^^<http://www.w3.org/2001/XMLSchema#date> ;
         locn:Address  kbo:bc0c557a586754a2beb9 .
 
 kbo:2102976925  rdf:type  kbo:Establishment , org:Site ;
-        terms:issued  "1801-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        terms:issued  "1997-12-18"^^<http://www.w3.org/2001/XMLSchema#date> ;
         locn:Address  kbo:d441397f08a192c53fb9 .
 
 kbo:a146ded378bec9cad394
@@ -524,15 +524,15 @@ kbo:a146ded378bec9cad394
         locn:postName     "Genk" .
 
 kbo:2153240741  rdf:type  kbo:Establishment , org:Site ;
-        terms:issued  "2801-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        terms:issued  "2006-04-28"^^<http://www.w3.org/2001/XMLSchema#date> ;
         locn:Address  kbo:fade8d83f22fefa3d641 .
 
 kbo:2133610020  rdf:type  kbo:Establishment , org:Site ;
-        terms:issued  "0101-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        terms:issued  "1998-04-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
         locn:Address  kbo:7c85c210f87564cad0bf .
 
 kbo:2331252369  rdf:type  kbo:Establishment , org:Site ;
-        terms:issued  "0101-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        terms:issued  "2022-06-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
         locn:Address  kbo:ae9e9b2d1f640ef3e60a .
 
 kbo:8e8f5087f89c2a0a5df6
@@ -545,11 +545,11 @@ kbo:8e8f5087f89c2a0a5df6
         locn:postName     "Li\uFFFDge" .
 
 kbo:2102973361  rdf:type  kbo:Establishment , org:Site ;
-        terms:issued  "1301-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        terms:issued  "1998-01-13"^^<http://www.w3.org/2001/XMLSchema#date> ;
         locn:Address  kbo:6957c84d2010fc5e27df .
 
 kbo:2102965344  rdf:type  kbo:Establishment , org:Site ;
-        terms:issued  "2701-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        terms:issued  "1998-01-27"^^<http://www.w3.org/2001/XMLSchema#date> ;
         locn:Address  kbo:0a2d4bc5d17d63311162 .
 
 kbo:e7d8b977f02fc0cb6fe0
@@ -562,7 +562,7 @@ kbo:e7d8b977f02fc0cb6fe0
         locn:postName     "Ath" .
 
 kbo:2102964651  rdf:type  kbo:Establishment , org:Site ;
-        terms:issued  "2701-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        terms:issued  "1998-01-27"^^<http://www.w3.org/2001/XMLSchema#date> ;
         locn:Address  kbo:c7b9a79e99100703a214 .
 
 kbo:804a2276576c61678f1c
@@ -584,15 +584,15 @@ kbo:d8be74225da944fcdfe1
         locn:postName     "Ath" .
 
 kbo:2153244305  rdf:type  kbo:Establishment , org:Site ;
-        terms:issued  "2801-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        terms:issued  "2006-04-28"^^<http://www.w3.org/2001/XMLSchema#date> ;
         locn:Address  kbo:404c084373f69e86503f .
 
 kbo:2260502252  rdf:type  kbo:Establishment , org:Site ;
-        terms:issued  "0101-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        terms:issued  "2016-10-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
         locn:Address  kbo:256f93270d0ea84c286a .
 
 kbo:2153246283  rdf:type  kbo:Establishment , org:Site ;
-        terms:issued  "2801-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        terms:issued  "2006-04-28"^^<http://www.w3.org/2001/XMLSchema#date> ;
         locn:Address  kbo:18c924ecc8fdb154bbae .
 
 kbo:c80c99b75e45699501d2
@@ -650,11 +650,11 @@ kbo:6dcb86d583fefb569747
         locn:postName     "Antwerpen" .
 
 kbo:2133611703  rdf:type  kbo:Establishment , org:Site ;
-        terms:issued  "0701-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        terms:issued  "2002-09-07"^^<http://www.w3.org/2001/XMLSchema#date> ;
         locn:Address  kbo:6e7ac6fba01c56737ab3 .
 
 kbo:2102970985  rdf:type  kbo:Establishment , org:Site ;
-        terms:issued  "0901-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        terms:issued  "1997-12-09"^^<http://www.w3.org/2001/XMLSchema#date> ;
         locn:Address  kbo:ebab8e57d21b2dc9b03f .
 
 kbo:d026387373ffe49192f1
@@ -676,7 +676,7 @@ kbo:661426774c0e10b98826
         locn:postName     "Libramont-Chevigny" .
 
 kbo:2102972173  rdf:type  kbo:Establishment , org:Site ;
-        terms:issued  "2801-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        terms:issued  "1997-11-28"^^<http://www.w3.org/2001/XMLSchema#date> ;
         locn:Address  kbo:8e8f5087f89c2a0a5df6 .
 
 kbo:31e4f783c1609d0e22ee
@@ -698,7 +698,7 @@ kbo:4af6d24fb79f6d1dfdbd
         locn:postName     "Hasselt" .
 
 kbo:2102976232  rdf:type  kbo:Establishment , org:Site ;
-        terms:issued  "2601-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        terms:issued  "1997-11-26"^^<http://www.w3.org/2001/XMLSchema#date> ;
         locn:Address  kbo:54b96717fa1681ae35f2 .
 
 kbo:eed71eb0f0f3d73490fa
@@ -711,7 +711,7 @@ kbo:eed71eb0f0f3d73490fa
         locn:postName     "Mouscron" .
 
 kbo:2102969896  rdf:type  kbo:Establishment , org:Site ;
-        terms:issued  "1701-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        terms:issued  "1997-12-17"^^<http://www.w3.org/2001/XMLSchema#date> ;
         locn:Address  kbo:46bd2a2239c33c62044f .
 
 kbo:17695fd72d9bbf0aaf28
@@ -724,11 +724,11 @@ kbo:17695fd72d9bbf0aaf28
         locn:postName     "Knokke-Heist" .
 
 kbo:2102971480  rdf:type  kbo:Establishment , org:Site ;
-        terms:issued  "2601-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        terms:issued  "1997-11-26"^^<http://www.w3.org/2001/XMLSchema#date> ;
         locn:Address  kbo:163b33a3482179f96ada .
 
 kbo:2153248659  rdf:type  kbo:Establishment , org:Site ;
-        terms:issued  "2801-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        terms:issued  "2006-04-28"^^<http://www.w3.org/2001/XMLSchema#date> ;
         locn:Address  kbo:478583ae1a4e9bcb679b .
 
 kbo:fade8d83f22fefa3d641
@@ -759,11 +759,11 @@ kbo:39d60e34478e5c3b93e4
         locn:postName     "Sint-Niklaas" .
 
 kbo:2153241929  rdf:type  kbo:Establishment , org:Site ;
-        terms:issued  "2801-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        terms:issued  "2006-04-28"^^<http://www.w3.org/2001/XMLSchema#date> ;
         locn:Address  kbo:df8f7a12598f7f6db333 .
 
 kbo:2133611208  rdf:type  kbo:Establishment , org:Site ;
-        terms:issued  "2901-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        terms:issued  "2002-05-29"^^<http://www.w3.org/2001/XMLSchema#date> ;
         locn:Address  kbo:7918675c11a7ace68d18 .
 
 kbo:6e7ac6fba01c56737ab3
@@ -785,23 +785,23 @@ kbo:92f5075045799adf61ab
         locn:postName     "Vilvoorde" .
 
 kbo:2250633095  rdf:type  kbo:Establishment , org:Site ;
-        terms:issued  "0101-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        terms:issued  "2016-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
         locn:Address  kbo:2288aca3c1fda7ba6de8 .
 
 kbo:2153243117  rdf:type  kbo:Establishment , org:Site ;
-        terms:issued  "2801-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        terms:issued  "2006-04-28"^^<http://www.w3.org/2001/XMLSchema#date> ;
         locn:Address  kbo:0768710a3d42b1589157 .
 
 kbo:2102974549  rdf:type  kbo:Establishment , org:Site ;
-        terms:issued  "1001-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        terms:issued  "1997-12-10"^^<http://www.w3.org/2001/XMLSchema#date> ;
         locn:Address  kbo:b2b2a0f500b9b8cbe92b .
 
 kbo:2260503935  rdf:type  kbo:Establishment , org:Site ;
-        terms:issued  "0101-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        terms:issued  "2016-10-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
         locn:Address  kbo:a2c9eea3f9510292c56a .
 
 kbo:2102968413  rdf:type  kbo:Establishment , org:Site ;
-        terms:issued  "0301-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        terms:issued  "1997-12-03"^^<http://www.w3.org/2001/XMLSchema#date> ;
         locn:Address  kbo:ff526f21cc84712c52ee .
 
 kbo:a52d869af25c0e272151
@@ -832,7 +832,7 @@ kbo:e248daacd2953261768b
         locn:postName     "Aalst" .
 
 kbo:2260505123  rdf:type  kbo:Establishment , org:Site ;
-        terms:issued  "0101-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        terms:issued  "2016-10-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
         locn:Address  kbo:f01bbbb991e7817ea8bf .
 
 kbo:01f1214d6e4b41469ce1
@@ -854,7 +854,7 @@ kbo:855202a6056a939cb5c7
         locn:postName     "Rochefort" .
 
 kbo:2210722050  rdf:type  kbo:Establishment , org:Site ;
-        terms:issued  "2601-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        terms:issued  "2012-04-26"^^<http://www.w3.org/2001/XMLSchema#date> ;
         locn:Address  kbo:d27ea903e187fa6b62e8 .
 
 kbo:0202239951.2022.11
@@ -878,11 +878,11 @@ kbo:a5d8b9e1b50072028af0
         locn:postName     "Oostende" .
 
 kbo:2153242424  rdf:type  kbo:Establishment , org:Site ;
-        terms:issued  "2801-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        terms:issued  "2006-04-28"^^<http://www.w3.org/2001/XMLSchema#date> ;
         locn:Address  kbo:d73abcf443e36913607a .
 
 kbo:2102973856  rdf:type  kbo:Establishment , org:Site ;
-        terms:issued  "0101-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        terms:issued  "1997-12-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
         locn:Address  kbo:52f3879c563d75be15c2 .
 
 kbo:2008_61100  rdf:type       kbo:Activity ;
@@ -890,7 +890,7 @@ kbo:2008_61100  rdf:type       kbo:Activity ;
         kbo:classification     kbo:Classification_MAIN .
 
 kbo:2102965839  rdf:type  kbo:Establishment , org:Site ;
-        terms:issued  "2601-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        terms:issued  "1997-11-26"^^<http://www.w3.org/2001/XMLSchema#date> ;
         locn:Address  kbo:d971077483127c2d883d .
 
 kbo:1acea881b5e087f97493
@@ -930,11 +930,11 @@ kbo:b551fa5a2ab4a6c007e4
         locn:postName     "Vorst" .
 
 kbo:2153241731  rdf:type  kbo:Establishment , org:Site ;
-        terms:issued  "2801-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        terms:issued  "2006-04-28"^^<http://www.w3.org/2001/XMLSchema#date> ;
         locn:Address  kbo:d8a525cd993febcb33d1 .
 
 kbo:2102970292  rdf:type  kbo:Establishment , org:Site ;
-        terms:issued  "2601-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        terms:issued  "1997-11-26"^^<http://www.w3.org/2001/XMLSchema#date> ;
         locn:Address  kbo:da86e3af3f793ab6bc2c .
 
 kbo:935918f2e7f377751e3f
@@ -987,11 +987,11 @@ kbo:2288aca3c1fda7ba6de8
         locn:postName     "Brugge" .
 
 kbo:2260502747  rdf:type  kbo:Establishment , org:Site ;
-        terms:issued  "0101-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        terms:issued  "2016-10-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
         locn:Address  kbo:a146ded378bec9cad394 .
 
 kbo:2153246778  rdf:type  kbo:Establishment , org:Site ;
-        terms:issued  "2801-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        terms:issued  "2006-04-28"^^<http://www.w3.org/2001/XMLSchema#date> ;
         locn:Address  kbo:01f1214d6e4b41469ce1 .
 
 kbo:51c7232c4799168e47d5
@@ -1031,15 +1031,15 @@ kbo:72277939c4841bc09a1f
         locn:postName     "Eupen" .
 
 kbo:2102965641  rdf:type  kbo:Establishment , org:Site ;
-        terms:issued  "2701-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        terms:issued  "1998-01-27"^^<http://www.w3.org/2001/XMLSchema#date> ;
         locn:Address  kbo:92f5075045799adf61ab .
 
 kbo:2311167728  rdf:type  kbo:Establishment , org:Site ;
-        terms:issued  "0101-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        terms:issued  "2021-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
         locn:Address  kbo:6fc7e51d2b3a71833706 .
 
 kbo:2102972668  rdf:type  kbo:Establishment , org:Site ;
-        terms:issued  "0201-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        terms:issued  "1997-12-02"^^<http://www.w3.org/2001/XMLSchema#date> ;
         locn:Address  kbo:6b7c9b1542b09297d8ef .
 
 kbo:2008_26300  rdf:type       kbo:Activity ;
@@ -1092,11 +1092,11 @@ kbo:d86df375119d04212b67
         locn:postName     "Nivelles" .
 
 kbo:2311168619  rdf:type  kbo:Establishment , org:Site ;
-        terms:issued  "0101-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        terms:issued  "2021-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
         locn:Address  kbo:d45e27d446f7a7fb9f1a .
 
 kbo:2102976727  rdf:type  kbo:Establishment , org:Site ;
-        terms:issued  "2401-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        terms:issued  "1997-11-24"^^<http://www.w3.org/2001/XMLSchema#date> ;
         locn:Address  kbo:7c77bde35252c7f5fe11 .
 
 kbo:7918675c11a7ace68d18
@@ -1109,15 +1109,15 @@ kbo:7918675c11a7ace68d18
         locn:postName     "Gent" .
 
 kbo:2153247273  rdf:type  kbo:Establishment , org:Site ;
-        terms:issued  "2801-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        terms:issued  "2006-04-28"^^<http://www.w3.org/2001/XMLSchema#date> ;
         locn:Address  kbo:6590097a447c7640b8ce .
 
 kbo:2187794913  rdf:type  kbo:Establishment , org:Site ;
-        terms:issued  "0101-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        terms:issued  "2010-04-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
         locn:Address  kbo:7b6cc040cc2cb0bb6c67 .
 
 kbo:2102971975  rdf:type  kbo:Establishment , org:Site ;
-        terms:issued  "2801-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        terms:issued  "1997-11-28"^^<http://www.w3.org/2001/XMLSchema#date> ;
         locn:Address  kbo:e0aae24706fa35dcdd7d .
 
 kbo:d8a525cd993febcb33d1
@@ -1139,15 +1139,15 @@ kbo:b998ad8216bf964e99ce
         locn:postName     "Herentals" .
 
 kbo:2153244602  rdf:type  kbo:Establishment , org:Site ;
-        terms:issued  "2801-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        terms:issued  "2006-04-28"^^<http://www.w3.org/2001/XMLSchema#date> ;
         locn:Address  kbo:a7785e44f2fa738cc89d .
 
 kbo:2102965146  rdf:type  kbo:Establishment , org:Site ;
-        terms:issued  "2701-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        terms:issued  "1998-01-27"^^<http://www.w3.org/2001/XMLSchema#date> ;
         locn:Address  kbo:632b1d16e0a5f666a81c .
 
 kbo:2153246580  rdf:type  kbo:Establishment , org:Site ;
-        terms:issued  "2801-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        terms:issued  "2006-04-28"^^<http://www.w3.org/2001/XMLSchema#date> ;
         locn:Address  kbo:80503671d3f47c603d9c .
 
 kbo:bc0c557a586754a2beb9
@@ -1160,11 +1160,11 @@ kbo:bc0c557a586754a2beb9
         locn:postName     "Antwerpen" .
 
 kbo:2160609474  rdf:type  kbo:Establishment , org:Site ;
-        terms:issued  "0101-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        terms:issued  "2006-11-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
         locn:Address  kbo:72277939c4841bc09a1f .
 
 kbo:2102977222  rdf:type  kbo:Establishment , org:Site ;
-        terms:issued  "1101-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        terms:issued  "1997-12-11"^^<http://www.w3.org/2001/XMLSchema#date> ;
         locn:Address  kbo:d93a3ebbe07789822d2a .
 
 kbo:d73abcf443e36913607a
@@ -1195,15 +1195,15 @@ kbo:67078889f810e8634ae7
         locn:postName     "Gent" .
 
 kbo:2102972470  rdf:type  kbo:Establishment , org:Site ;
-        terms:issued  "2801-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        terms:issued  "1997-11-28"^^<http://www.w3.org/2001/XMLSchema#date> ;
         locn:Address  kbo:a52d869af25c0e272151 .
 
 kbo:2250632897  rdf:type  kbo:Establishment , org:Site ;
-        terms:issued  "0101-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        terms:issued  "2016-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
         locn:Address  kbo:cee64edf7ab6db8dd452 .
 
 kbo:2153240048  rdf:type  kbo:Establishment , org:Site ;
-        terms:issued  "2801-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        terms:issued  "2006-04-28"^^<http://www.w3.org/2001/XMLSchema#date> ;
         locn:Address  kbo:29c52a86b779b0ca22e1 .
 
 kbo:77b548922614f52ca62f
@@ -1216,19 +1216,19 @@ kbo:77b548922614f52ca62f
         locn:postName     "Ch\uFFFDtelet" .
 
 kbo:2153242919  rdf:type  kbo:Establishment , org:Site ;
-        terms:issued  "2801-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        terms:issued  "2006-04-28"^^<http://www.w3.org/2001/XMLSchema#date> ;
         locn:Address  kbo:4432cc41e6c3e74451f4 .
 
 kbo:2298528331  rdf:type  kbo:Establishment , org:Site ;
-        terms:issued  "0101-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        terms:issued  "2020-02-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
         locn:Address  kbo:fd952ba9ad070dc3346c .
 
 kbo:2153244107  rdf:type  kbo:Establishment , org:Site ;
-        terms:issued  "2801-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        terms:issued  "2006-04-28"^^<http://www.w3.org/2001/XMLSchema#date> ;
         locn:Address  kbo:e08753f376d4b93aa998 .
 
 kbo:2102975539  rdf:type  kbo:Establishment , org:Site ;
-        terms:issued  "1801-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        terms:issued  "1997-12-18"^^<http://www.w3.org/2001/XMLSchema#date> ;
         locn:Address  kbo:c99162dd106fb0d99bcd .
 
 kbo:cc6545f34558fd67cd60
@@ -1241,19 +1241,19 @@ kbo:cc6545f34558fd67cd60
         locn:postName     "Kortrijk" .
 
 kbo:2260502054  rdf:type  kbo:Establishment , org:Site ;
-        terms:issued  "0101-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        terms:issued  "2016-10-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
         locn:Address  kbo:5085a62ebc0913bd468c .
 
 kbo:2102969403  rdf:type  kbo:Establishment , org:Site ;
-        terms:issued  "2701-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        terms:issued  "1997-11-27"^^<http://www.w3.org/2001/XMLSchema#date> ;
         locn:Address  kbo:c015b59602fd617dcfe7 .
 
 kbo:2153246085  rdf:type  kbo:Establishment , org:Site ;
-        terms:issued  "2801-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        terms:issued  "2006-04-28"^^<http://www.w3.org/2001/XMLSchema#date> ;
         locn:Address  kbo:e7d8b977f02fc0cb6fe0 .
 
 kbo:2102970787  rdf:type  kbo:Establishment , org:Site ;
-        terms:issued  "0901-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        terms:issued  "1997-12-09"^^<http://www.w3.org/2001/XMLSchema#date> ;
         locn:Address  kbo:804a2276576c61678f1c .
 
 kbo:8c3c7ae29778f81c0a3c
@@ -1284,15 +1284,15 @@ kbo:26f17093888ae93541cd
         locn:postName     "Herstal" .
 
 kbo:2102974846  rdf:type  kbo:Establishment , org:Site ;
-        terms:issued  "1001-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        terms:issued  "1997-12-10"^^<http://www.w3.org/2001/XMLSchema#date> ;
         locn:Address  kbo:3aaa268254f2808f1b2c .
 
 kbo:2153245392  rdf:type  kbo:Establishment , org:Site ;
-        terms:issued  "2801-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        terms:issued  "2006-04-28"^^<http://www.w3.org/2001/XMLSchema#date> ;
         locn:Address  kbo:f4b632cd1508a60d77b5 .
 
 kbo:2102968710  rdf:type  kbo:Establishment , org:Site ;
-        terms:issued  "0301-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        terms:issued  "1997-12-03"^^<http://www.w3.org/2001/XMLSchema#date> ;
         locn:Address  kbo:07305749080602a88747 .
 
 kbo:57c197d75f51e7d4aeec
@@ -1305,11 +1305,11 @@ kbo:57c197d75f51e7d4aeec
         locn:postName     "Tournai" .
 
 kbo:2133609525  rdf:type  kbo:Establishment , org:Site ;
-        terms:issued  "0101-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        terms:issued  "1999-12-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
         locn:Address  kbo:c9ed8208d3f4116bf903 .
 
 kbo:2102976034  rdf:type  kbo:Establishment , org:Site ;
-        terms:issued  "2601-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        terms:issued  "1997-11-26"^^<http://www.w3.org/2001/XMLSchema#date> ;
         locn:Address  kbo:d8be74225da944fcdfe1 .
 
 kbo:404c084373f69e86503f
@@ -1340,39 +1340,39 @@ kbo:63b570ca085718ff61b3
         locn:postName     "Gembloux" .
 
 kbo:2133612790  rdf:type  kbo:Establishment , org:Site ;
-        terms:issued  "0101-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        terms:issued  "1998-10-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
         locn:Address  kbo:96b8935bf70f557f9f04 .
 
 kbo:2153242721  rdf:type  kbo:Establishment , org:Site ;
-        terms:issued  "2801-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        terms:issued  "2006-04-28"^^<http://www.w3.org/2001/XMLSchema#date> ;
         locn:Address  kbo:4366ec280ddee0880dd9 .
 
 kbo:2268680441  rdf:type  kbo:Establishment , org:Site ;
-        terms:issued  "0101-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        terms:issued  "2017-10-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
         locn:Address  kbo:4af6d24fb79f6d1dfdbd .
 
 kbo:2102971282  rdf:type  kbo:Establishment , org:Site ;
-        terms:issued  "2601-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        terms:issued  "1997-11-26"^^<http://www.w3.org/2001/XMLSchema#date> ;
         locn:Address  kbo:732b0c1a7c9239076e4a .
 
 kbo:2102975341  rdf:type  kbo:Establishment , org:Site ;
-        terms:issued  "2501-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        terms:issued  "1997-11-25"^^<http://www.w3.org/2001/XMLSchema#date> ;
         locn:Address  kbo:0d8aa64ca923d64cb116 .
 
 kbo:2260503737  rdf:type  kbo:Establishment , org:Site ;
-        terms:issued  "0101-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        terms:issued  "2016-10-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
         locn:Address  kbo:fa134b565aaf59ac6374 .
 
 kbo:2102968215  rdf:type  kbo:Establishment , org:Site ;
-        terms:issued  "2601-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        terms:issued  "1997-11-26"^^<http://www.w3.org/2001/XMLSchema#date> ;
         locn:Address  kbo:17695fd72d9bbf0aaf28 .
 
 kbo:2210681072  rdf:type  kbo:Establishment , org:Site ;
-        terms:issued  "0101-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        terms:issued  "2011-08-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
         locn:Address  kbo:9e5edc4ac91ef6ed9ac9 .
 
 kbo:2153247768  rdf:type  kbo:Establishment , org:Site ;
-        terms:issued  "2801-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        terms:issued  "2006-04-28"^^<http://www.w3.org/2001/XMLSchema#date> ;
         locn:Address  kbo:448592ced6d42cee29e2 .
 
 kbo:58043a950a54f0d075dd
@@ -1403,15 +1403,15 @@ kbo:7e2525def4cb3e7ef83d
         locn:postName     "Lier" .
 
 kbo:2153242226  rdf:type  kbo:Establishment , org:Site ;
-        terms:issued  "2801-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        terms:issued  "2006-04-28"^^<http://www.w3.org/2001/XMLSchema#date> ;
         locn:Address  kbo:577618379a29dc857a9d .
 
 kbo:2102973658  rdf:type  kbo:Establishment , org:Site ;
-        terms:issued  "1801-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        terms:issued  "1997-12-18"^^<http://www.w3.org/2001/XMLSchema#date> ;
         locn:Address  kbo:28dcf605855f59f6a5f4 .
 
 kbo:2102967522  rdf:type  kbo:Establishment , org:Site ;
-        terms:issued  "1201-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        terms:issued  "1997-12-12"^^<http://www.w3.org/2001/XMLSchema#date> ;
         locn:Address  kbo:c5c76707fa8c38230006 .
 
 kbo:72fcd847e2d74085de5c
@@ -1433,11 +1433,11 @@ kbo:5af40189d0555fd9e119
         locn:postName     "Thimister-Clermont" .
 
 kbo:2260504232  rdf:type  kbo:Establishment , org:Site ;
-        terms:issued  "0101-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        terms:issued  "2016-10-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
         locn:Address  kbo:1acea881b5e087f97493 .
 
 kbo:2153248263  rdf:type  kbo:Establishment , org:Site ;
-        terms:issued  "2801-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        terms:issued  "2006-04-28"^^<http://www.w3.org/2001/XMLSchema#date> ;
         locn:Address  kbo:c81845c95e00a1d8d6f9 .
 
 kbo:d5509d38e41b762d46f7
@@ -1459,7 +1459,7 @@ kbo:07305749080602a88747
         locn:postName     "Charleroi" .
 
 kbo:2153241533  rdf:type  kbo:Establishment , org:Site ;
-        terms:issued  "2801-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        terms:issued  "2006-04-28"^^<http://www.w3.org/2001/XMLSchema#date> ;
         locn:Address  kbo:49a6b51ac908d8402ca0 .
 
 kbo:ff526f21cc84712c52ee
@@ -1472,11 +1472,11 @@ kbo:ff526f21cc84712c52ee
         locn:postName     "Charleroi" .
 
 kbo:2102970094  rdf:type  kbo:Establishment , org:Site ;
-        terms:issued  "2601-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        terms:issued  "1997-11-26"^^<http://www.w3.org/2001/XMLSchema#date> ;
         locn:Address  kbo:aef00342ee98eb9b7143 .
 
 kbo:2102972965  rdf:type  kbo:Establishment , org:Site ;
-        terms:issued  "2701-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        terms:issued  "1997-11-27"^^<http://www.w3.org/2001/XMLSchema#date> ;
         locn:Address  kbo:cb44029ad40d245fa186 .
 
 kbo:86287faaa71b020a4779
@@ -1507,7 +1507,7 @@ kbo:e2b67f95d148227f47c8
         locn:postName     "Brussel" .
 
 kbo:2102967027  rdf:type  kbo:Establishment , org:Site ;
-        terms:issued  "2501-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        terms:issued  "1997-11-25"^^<http://www.w3.org/2001/XMLSchema#date> ;
         locn:Address  kbo:cada54920ea7c745852e .
 
 kbo:c26602d653d332faa008
@@ -1529,7 +1529,7 @@ kbo:d93a3ebbe07789822d2a
         locn:postName     "Eupen" .
 
 kbo:2153240840  rdf:type  kbo:Establishment , org:Site ;
-        terms:issued  "2801-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        terms:issued  "2006-04-28"^^<http://www.w3.org/2001/XMLSchema#date> ;
         locn:Address  kbo:e5239e22a2c967c65fe8 .
 
 kbo:41c883a3721e4e84750d
@@ -1551,11 +1551,11 @@ kbo:844882833ab540d11b28
         locn:postName     "Ieper" .
 
 kbo:2102973460  rdf:type  kbo:Establishment , org:Site ;
-        terms:issued  "1301-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        terms:issued  "1998-01-13"^^<http://www.w3.org/2001/XMLSchema#date> ;
         locn:Address  kbo:1412a4bbb750860d42d3 .
 
 kbo:2102965443  rdf:type  kbo:Establishment , org:Site ;
-        terms:issued  "2701-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        terms:issued  "1998-01-27"^^<http://www.w3.org/2001/XMLSchema#date> ;
         locn:Address  kbo:39ba9521aa89e99525e2 .
 
 kbo:38730a0ce6d0dece69f4
@@ -1568,7 +1568,7 @@ kbo:38730a0ce6d0dece69f4
         locn:postName     "Brussel" .
 
 kbo:2153243909  rdf:type  kbo:Establishment , org:Site ;
-        terms:issued  "2801-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        terms:issued  "2006-04-28"^^<http://www.w3.org/2001/XMLSchema#date> ;
         locn:Address  kbo:e248daacd2953261768b .
 
 kbo:f4b632cd1508a60d77b5
@@ -1581,11 +1581,11 @@ kbo:f4b632cd1508a60d77b5
         locn:postName     "Gistel" .
 
 kbo:2186642096  rdf:type  kbo:Establishment , org:Site ;
-        terms:issued  "0101-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        terms:issued  "2010-04-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
         locn:Address  kbo:877c4fedcb5aa5a4a16e .
 
 kbo:2102976529  rdf:type  kbo:Establishment , org:Site ;
-        terms:issued  "2401-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        terms:issued  "1997-11-24"^^<http://www.w3.org/2001/XMLSchema#date> ;
         locn:Address  kbo:b998ad8216bf964e99ce .
 
 kbo:cb44029ad40d245fa186
@@ -1605,7 +1605,7 @@ kbo:cb44029ad40d245fa186
                         ] .
 
 kbo:2102964750  rdf:type  kbo:Establishment , org:Site ;
-        terms:issued  "2701-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        terms:issued  "1998-01-27"^^<http://www.w3.org/2001/XMLSchema#date> ;
         locn:Address  kbo:7b8fab9debbdf69a0e21 .
 
 kbo:8d031b6b2b01b4c661b9
@@ -1645,11 +1645,11 @@ kbo:8e1851f87b24030464c3
         locn:postName     "Libramont-Chevigny" .
 
 kbo:2102975836  rdf:type  kbo:Establishment , org:Site ;
-        terms:issued  "2301-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        terms:issued  "1999-03-23"^^<http://www.w3.org/2001/XMLSchema#date> ;
         locn:Address  kbo:32aaaeaa3e3e50476085 .
 
 kbo:2260502351  rdf:type  kbo:Establishment , org:Site ;
-        terms:issued  "0101-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        terms:issued  "2016-10-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
         locn:Address  kbo:38730a0ce6d0dece69f4 .
 
 kbo:54b96717fa1681ae35f2
@@ -1671,7 +1671,7 @@ kbo:80503671d3f47c603d9c
         locn:postName     "Charleroi" .
 
 kbo:2102977024  rdf:type  kbo:Establishment , org:Site ;
-        terms:issued  "1801-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        terms:issued  "1997-12-18"^^<http://www.w3.org/2001/XMLSchema#date> ;
         locn:Address  kbo:2618fc06ab4d7ebc17f4 .
 
 kbo:39ba9521aa89e99525e2
@@ -1733,15 +1733,15 @@ kbo:4937c20c3f10caaa5c33
         locn:postName     "Namur" .
 
 kbo:2102972272  rdf:type  kbo:Establishment , org:Site ;
-        terms:issued  "2801-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        terms:issued  "1997-11-28"^^<http://www.w3.org/2001/XMLSchema#date> ;
         locn:Address  kbo:023de01935c8d30dc229 .
 
 kbo:2102964255  rdf:type  kbo:Establishment , org:Site ;
-        terms:issued  "1101-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        terms:issued  "1995-01-11"^^<http://www.w3.org/2001/XMLSchema#date> ;
         locn:Address  kbo:bc1be641749ab0cb440f .
 
 kbo:2273122546  rdf:type  kbo:Establishment , org:Site ;
-        terms:issued  "0101-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        terms:issued  "2018-02-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
         locn:Address  kbo:21555b7e1302165e856a .
 
 kbo:8acb516ffd3e443a3abe
@@ -1763,19 +1763,19 @@ kbo:29c52a86b779b0ca22e1
         locn:postName     "Anderlecht" .
 
 kbo:2102969995  rdf:type  kbo:Establishment , org:Site ;
-        terms:issued  "1401-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        terms:issued  "1998-08-14"^^<http://www.w3.org/2001/XMLSchema#date> ;
         locn:Address  kbo:37cc1089b3a14db35244 .
 
 kbo:2186643779  rdf:type  kbo:Establishment , org:Site ;
-        terms:issued  "0101-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        terms:issued  "2010-04-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
         locn:Address  kbo:661426774c0e10b98826 .
 
 kbo:2260504727  rdf:type  kbo:Establishment , org:Site ;
-        terms:issued  "0101-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        terms:issued  "2016-10-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
         locn:Address  kbo:c26602d653d332faa008 .
 
 kbo:2102969205  rdf:type  kbo:Establishment , org:Site ;
-        terms:issued  "0401-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        terms:issued  "1997-12-04"^^<http://www.w3.org/2001/XMLSchema#date> ;
         locn:Address  kbo:00e768b56e187eefbd8c .
 
 kbo:aaa7d08a28aff7b9f3d1
@@ -1788,7 +1788,7 @@ kbo:aaa7d08a28aff7b9f3d1
         locn:postName     "Antwerpen" .
 
 kbo:2153248758  rdf:type  kbo:Establishment , org:Site ;
-        terms:issued  "2801-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        terms:issued  "2006-04-28"^^<http://www.w3.org/2001/XMLSchema#date> ;
         locn:Address  kbo:873d4472326b12c88031 .
 
 kbo:44668221be41158a1676
@@ -1801,19 +1801,19 @@ kbo:44668221be41158a1676
         locn:postName     "Wevelgem" .
 
 kbo:2102970589  rdf:type  kbo:Establishment , org:Site ;
-        terms:issued  "0201-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        terms:issued  "1997-12-02"^^<http://www.w3.org/2001/XMLSchema#date> ;
         locn:Address  kbo:844882833ab540d11b28 .
 
 kbo:2211072339  rdf:type  kbo:Establishment , org:Site ;
-        terms:issued  "0101-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        terms:issued  "2012-04-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
         locn:Address  kbo:44668221be41158a1676 .
 
 kbo:2174823142  rdf:type  kbo:Establishment , org:Site ;
-        terms:issued  "2701-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        terms:issued  "2007-07-27"^^<http://www.w3.org/2001/XMLSchema#date> ;
         locn:Address  kbo:729b5580a2239ac582e0 .
 
 kbo:2102974648  rdf:type  kbo:Establishment , org:Site ;
-        terms:issued  "1001-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        terms:issued  "1997-12-10"^^<http://www.w3.org/2001/XMLSchema#date> ;
         locn:Address  kbo:d5509d38e41b762d46f7 .
 
 kbo:163b33a3482179f96ada
@@ -1845,7 +1845,7 @@ kbo:7b8fab9debbdf69a0e21
 
 kbo:9edd67c64cc58fbfb8a7
         rdf:type          locn:Address ;
-        geosparql:asWKT   "POINT (4.3701766 50.8292761)"^^geosparql:wktLiteral ;
+        geosparql:asWKT   "POINT (4.3619507 50.8381126)"^^geosparql:wktLiteral ;
         kbo:addressType   kbo:TypeOfAddress_BAET ;
         locn:fullAddress  "Elsense Steenweg 32, 1050 Elsene, Belgium" ;
         locn:poBox        "None" ;
@@ -1880,11 +1880,11 @@ kbo:5f00ca55afaeb954d7e0
         locn:postName     "Ninove" .
 
 kbo:2153242523  rdf:type  kbo:Establishment , org:Site ;
-        terms:issued  "2801-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        terms:issued  "2006-04-28"^^<http://www.w3.org/2001/XMLSchema#date> ;
         locn:Address  kbo:58043a950a54f0d075dd .
 
 kbo:2102973955  rdf:type  kbo:Establishment , org:Site ;
-        terms:issued  "1801-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        terms:issued  "1997-12-18"^^<http://www.w3.org/2001/XMLSchema#date> ;
         locn:Address  kbo:0c4dbb37bd1830634953 .
 
 kbo:c9f96e59309e492ff286
@@ -1897,7 +1897,7 @@ kbo:c9f96e59309e492ff286
         locn:postName     "Sint-Truiden" .
 
 kbo:2102965938  rdf:type  kbo:Establishment , org:Site ;
-        terms:issued  "2601-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        terms:issued  "1997-11-26"^^<http://www.w3.org/2001/XMLSchema#date> ;
         locn:Address  kbo:5f00ca55afaeb954d7e0 .
 
 kbo:93847202e7b05dd19b1f
@@ -1928,7 +1928,7 @@ kbo:632b1d16e0a5f666a81c
         locn:postName     "Elsene" .
 
 kbo:2102975143  rdf:type  kbo:Establishment , org:Site ;
-        terms:issued  "0101-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        terms:issued  "1997-12-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
         locn:Address  kbo:d026387373ffe49192f1 .
 
 kbo:3db240b57d98f2353038
@@ -1942,7 +1942,7 @@ kbo:3db240b57d98f2353038
 
 kbo:ae9e9b2d1f640ef3e60a
         rdf:type          locn:Address ;
-        geosparql:asWKT   "POINT (4.353870269076381 50.85017765)"^^geosparql:wktLiteral ;
+        geosparql:asWKT   "POINT (4.353869432534527 50.8501786)"^^geosparql:wktLiteral ;
         kbo:addressType   kbo:TypeOfAddress_BAET ;
         locn:fullAddress  "Muntplein 4, 1000 Brussel, Belgium" ;
         locn:poBox        "None" ;
@@ -1950,7 +1950,7 @@ kbo:ae9e9b2d1f640ef3e60a
         locn:postName     "Brussel" .
 
 kbo:2153241830  rdf:type  kbo:Establishment , org:Site ;
-        terms:issued  "2801-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        terms:issued  "2006-04-28"^^<http://www.w3.org/2001/XMLSchema#date> ;
         locn:Address  kbo:72fcd847e2d74085de5c .
 
 kbo:8eafed047a173411bd0d
@@ -1981,7 +1981,7 @@ kbo:7266ab807dab1f1dec43
         locn:postName     "Schaarbeek" .
 
 kbo:2160612048  rdf:type  kbo:Establishment , org:Site ;
-        terms:issued  "0101-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        terms:issued  "2006-11-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
         locn:Address  kbo:3eeddd94266503578258 .
 
 kbo:6957c84d2010fc5e27df
@@ -1994,11 +1994,11 @@ kbo:6957c84d2010fc5e27df
         locn:postName     "Mons" .
 
 kbo:2153246877  rdf:type  kbo:Establishment , org:Site ;
-        terms:issued  "2801-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        terms:issued  "2006-04-28"^^<http://www.w3.org/2001/XMLSchema#date> ;
         locn:Address  kbo:842d7d1f4041f1ebe8ff .
 
 kbo:2102965740  rdf:type  kbo:Establishment , org:Site ;
-        terms:issued  "2701-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        terms:issued  "1998-01-27"^^<http://www.w3.org/2001/XMLSchema#date> ;
         locn:Address  kbo:8a6b9f290c0d0e3d392a .
 
 kbo:5085a62ebc0913bd468c
@@ -2029,19 +2029,19 @@ kbo:37cc1089b3a14db35244
         locn:postName     "Gent" .
 
 kbo:2153240642  rdf:type  kbo:Establishment , org:Site ;
-        terms:issued  "2801-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        terms:issued  "2006-04-28"^^<http://www.w3.org/2001/XMLSchema#date> ;
         locn:Address  kbo:451ee50056761d157d1c .
 
 kbo:2209570522  rdf:type  kbo:Establishment , org:Site ;
-        terms:issued  "0101-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        terms:issued  "2011-09-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
         locn:Address  kbo:3db240b57d98f2353038 .
 
 kbo:2102973262  rdf:type  kbo:Establishment , org:Site ;
-        terms:issued  "1301-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        terms:issued  "1998-01-13"^^<http://www.w3.org/2001/XMLSchema#date> ;
         locn:Address  kbo:9e935e0acf54955517f4 .
 
 kbo:2102965245  rdf:type  kbo:Establishment , org:Site ;
-        terms:issued  "2701-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        terms:issued  "1998-01-27"^^<http://www.w3.org/2001/XMLSchema#date> ;
         locn:Address  kbo:bea5054aac0ce3570be7 .
 
 kbo:2003_32202  rdf:type       kbo:Activity ;
@@ -2067,7 +2067,7 @@ kbo:577618379a29dc857a9d
         locn:postName     "Overpelt" .
 
 kbo:2153245689  rdf:type  kbo:Establishment , org:Site ;
-        terms:issued  "2801-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        terms:issued  "2006-04-28"^^<http://www.w3.org/2001/XMLSchema#date> ;
         locn:Address  kbo:a9b1c4f4d2791c93289f .
 
 kbo:0d8aa64ca923d64cb116
@@ -2098,19 +2098,19 @@ kbo:7e092ec521ad7d37fbb1
         locn:postName     "Geel" .
 
 kbo:2250632996  rdf:type  kbo:Establishment , org:Site ;
-        terms:issued  "0101-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        terms:issued  "2016-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
         locn:Address  kbo:7608cc272a0b84503e07 .
 
 kbo:2153240147  rdf:type  kbo:Establishment , org:Site ;
-        terms:issued  "2801-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        terms:issued  "2006-04-28"^^<http://www.w3.org/2001/XMLSchema#date> ;
         locn:Address  kbo:75f75228a4581a79f5a4 .
 
 kbo:2102971579  rdf:type  kbo:Establishment , org:Site ;
-        terms:issued  "2601-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        terms:issued  "1997-11-26"^^<http://www.w3.org/2001/XMLSchema#date> ;
         locn:Address  kbo:93847202e7b05dd19b1f .
 
 kbo:2153244206  rdf:type  kbo:Establishment , org:Site ;
-        terms:issued  "2801-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        terms:issued  "2006-04-28"^^<http://www.w3.org/2001/XMLSchema#date> ;
         locn:Address  kbo:b96e512cad150f834763 .
 
 kbo:f01bbbb991e7817ea8bf
@@ -2123,11 +2123,11 @@ kbo:f01bbbb991e7817ea8bf
         locn:postName     "Schoten" .
 
 kbo:2260502153  rdf:type  kbo:Establishment , org:Site ;
-        terms:issued  "0101-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        terms:issued  "2016-10-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
         locn:Address  kbo:5ed764ed206f575acb6d .
 
 kbo:2102969502  rdf:type  kbo:Establishment , org:Site ;
-        terms:issued  "1701-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        terms:issued  "1997-12-17"^^<http://www.w3.org/2001/XMLSchema#date> ;
         locn:Address  kbo:67078889f810e8634ae7 .
 
 kbo:4366ec280ddee0880dd9
@@ -2149,15 +2149,15 @@ kbo:75f75228a4581a79f5a4
         locn:postName     "Sint-Jans-Molenbeek" .
 
 kbo:2153245491  rdf:type  kbo:Establishment , org:Site ;
-        terms:issued  "2801-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        terms:issued  "2006-04-28"^^<http://www.w3.org/2001/XMLSchema#date> ;
         locn:Address  kbo:2d0aeb69e416e5dec5c5 .
 
 kbo:2102974945  rdf:type  kbo:Establishment , org:Site ;
-        terms:issued  "2201-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        terms:issued  "1999-03-22"^^<http://www.w3.org/2001/XMLSchema#date> ;
         locn:Address  kbo:f48b03c230d347554bcd .
 
 kbo:2102966928  rdf:type  kbo:Establishment , org:Site ;
-        terms:issued  "2501-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        terms:issued  "1997-11-25"^^<http://www.w3.org/2001/XMLSchema#date> ;
         locn:Address  kbo:a01abff33dd2138ef803 .
 
 kbo:9e935e0acf54955517f4
@@ -2170,19 +2170,19 @@ kbo:9e935e0acf54955517f4
         locn:postName     "La Louvi\uFFFDre" .
 
 kbo:2210722149  rdf:type  kbo:Establishment , org:Site ;
-        terms:issued  "2601-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        terms:issued  "2012-04-26"^^<http://www.w3.org/2001/XMLSchema#date> ;
         locn:Address  kbo:7266ab807dab1f1dec43 .
 
 kbo:2102976133  rdf:type  kbo:Establishment , org:Site ;
-        terms:issued  "2601-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        terms:issued  "1997-11-26"^^<http://www.w3.org/2001/XMLSchema#date> ;
         locn:Address  kbo:eed71eb0f0f3d73490fa .
 
 kbo:2260504529  rdf:type  kbo:Establishment , org:Site ;
-        terms:issued  "0101-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        terms:issued  "2016-10-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
         locn:Address  kbo:a5d8b9e1b50072028af0 .
 
 kbo:2102969797  rdf:type  kbo:Establishment , org:Site ;
-        terms:issued  "1701-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        terms:issued  "1997-12-17"^^<http://www.w3.org/2001/XMLSchema#date> ;
         locn:Address  kbo:cb77ea448e00292e120b .
 
 kbo:cb77ea448e00292e120b
@@ -2204,15 +2204,15 @@ kbo:d27ea903e187fa6b62e8
         locn:postName     "Schaarbeek" .
 
 kbo:2153242820  rdf:type  kbo:Establishment , org:Site ;
-        terms:issued  "2801-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        terms:issued  "2006-04-28"^^<http://www.w3.org/2001/XMLSchema#date> ;
         locn:Address  kbo:d1f39513a71f9016ca90 .
 
 kbo:2102969007  rdf:type  kbo:Establishment , org:Site ;
-        terms:issued  "0301-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        terms:issued  "1997-12-03"^^<http://www.w3.org/2001/XMLSchema#date> ;
         locn:Address  kbo:77b548922614f52ca62f .
 
 kbo:2102971381  rdf:type  kbo:Establishment , org:Site ;
-        terms:issued  "2601-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        terms:issued  "1997-11-26"^^<http://www.w3.org/2001/XMLSchema#date> ;
         locn:Address  kbo:c80c99b75e45699501d2 .
 
 kbo:256f93270d0ea84c286a
@@ -2229,7 +2229,7 @@ kbo:2008_61200  rdf:type       kbo:Activity ;
         kbo:classification     kbo:Classification_MAIN .
 
 kbo:2133613087  rdf:type  kbo:Establishment , org:Site ;
-        terms:issued  "0101-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        terms:issued  "1997-12-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
         locn:Address  kbo:5985726a2732fa6ab993 .
 
 kbo:7b6cc040cc2cb0bb6c67
@@ -2242,7 +2242,7 @@ kbo:7b6cc040cc2cb0bb6c67
         locn:postName     "Roeselare" .
 
 kbo:2153243018  rdf:type  kbo:Establishment , org:Site ;
-        terms:issued  "2801-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        terms:issued  "2006-04-28"^^<http://www.w3.org/2001/XMLSchema#date> ;
         locn:Address  kbo:26f17093888ae93541cd .
 
 kbo:842d7d1f4041f1ebe8ff
@@ -2264,11 +2264,11 @@ kbo:a9b1c4f4d2791c93289f
         locn:postName     "La Louvi\uFFFDre" .
 
 kbo:2102968314  rdf:type  kbo:Establishment , org:Site ;
-        terms:issued  "2601-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        terms:issued  "1997-11-26"^^<http://www.w3.org/2001/XMLSchema#date> ;
         locn:Address  kbo:d8139d47d26d78d184bc .
 
 kbo:2260503836  rdf:type  kbo:Establishment , org:Site ;
-        terms:issued  "0101-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        terms:issued  "2016-10-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
         locn:Address  kbo:e49b7cd7cf8f6179e87e .
 
 kbo:b2b2a0f500b9b8cbe92b
@@ -2299,7 +2299,7 @@ kbo:c99162dd106fb0d99bcd
         locn:postName     "Genk" .
 
 kbo:2260505024  rdf:type  kbo:Establishment , org:Site ;
-        terms:issued  "0101-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        terms:issued  "2016-10-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
         locn:Address  kbo:51c7232c4799168e47d5 .
 
 kbo:00e768b56e187eefbd8c
@@ -2312,7 +2312,7 @@ kbo:00e768b56e187eefbd8c
         locn:postName     "Dendermonde" .
 
 kbo:2153249055  rdf:type  kbo:Establishment , org:Site ;
-        terms:issued  "2801-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        terms:issued  "2006-04-28"^^<http://www.w3.org/2001/XMLSchema#date> ;
         locn:Address  kbo:80281242d950c8aef85f .
 
 kbo:8a6b9f290c0d0e3d392a
@@ -2334,19 +2334,19 @@ kbo:0a2d4bc5d17d63311162
         locn:postName     "Schaarbeek" .
 
 kbo:2181462494  rdf:type  kbo:Establishment , org:Site ;
-        terms:issued  "0101-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        terms:issued  "2009-09-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
         locn:Address  kbo:d7084f8c09592be4c4fc .
 
 kbo:2153242325  rdf:type  kbo:Establishment , org:Site ;
-        terms:issued  "2801-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        terms:issued  "2006-04-28"^^<http://www.w3.org/2001/XMLSchema#date> ;
         locn:Address  kbo:c9f96e59309e492ff286 .
 
 kbo:2102973757  rdf:type  kbo:Establishment , org:Site ;
-        terms:issued  "1801-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        terms:issued  "1997-12-18"^^<http://www.w3.org/2001/XMLSchema#date> ;
         locn:Address  kbo:63b570ca085718ff61b3 .
 
 kbo:2102967621  rdf:type  kbo:Establishment , org:Site ;
-        terms:issued  "1201-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        terms:issued  "1997-12-12"^^<http://www.w3.org/2001/XMLSchema#date> ;
         locn:Address  kbo:1c2b49ca54f8166d7da5 .
 
 kbo:7608cc272a0b84503e07
@@ -2377,15 +2377,15 @@ kbo:90f69d24372f5d2e06b3
         locn:postName     "Halle" .
 
 kbo:2285962079  rdf:type  kbo:Establishment , org:Site ;
-        terms:issued  "0101-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        terms:issued  "2019-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
         locn:Address  kbo:7e092ec521ad7d37fbb1 .
 
 kbo:2153241632  rdf:type  kbo:Establishment , org:Site ;
-        terms:issued  "2801-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        terms:issued  "2006-04-28"^^<http://www.w3.org/2001/XMLSchema#date> ;
         locn:Address  kbo:114d7ac74743645e4080 .
 
 kbo:2102970193  rdf:type  kbo:Establishment , org:Site ;
-        terms:issued  "2601-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        terms:issued  "1997-11-26"^^<http://www.w3.org/2001/XMLSchema#date> ;
         locn:Address  kbo:41c883a3721e4e84750d .
 
 kbo:32aaaeaa3e3e50476085
@@ -2407,11 +2407,11 @@ kbo:28dcf605855f59f6a5f4
         locn:postName     "Sambreville" .
 
 kbo:2102974252  rdf:type  kbo:Establishment , org:Site ;
-        terms:issued  "2701-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        terms:issued  "1997-11-27"^^<http://www.w3.org/2001/XMLSchema#date> ;
         locn:Address  kbo:8e1851f87b24030464c3 .
 
 kbo:2102966235  rdf:type  kbo:Establishment , org:Site ;
-        terms:issued  "2501-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        terms:issued  "1997-11-25"^^<http://www.w3.org/2001/XMLSchema#date> ;
         locn:Address  kbo:cb75e2fa9a49046396ce .
 
 kbo:6b7c9b1542b09297d8ef
@@ -2442,7 +2442,7 @@ kbo:80281242d950c8aef85f
         locn:postName     "Wetteren" .
 
 kbo:2260506707  rdf:type  kbo:Establishment , org:Site ;
-        terms:issued  "0101-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        terms:issued  "2016-10-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
         locn:Address  kbo:9edd67c64cc58fbfb8a7 .
 
 kbo:bc1be641749ab0cb440f
@@ -2455,19 +2455,19 @@ kbo:bc1be641749ab0cb440f
         locn:postName     "Schaarbeek" .
 
 kbo:2102965542  rdf:type  kbo:Establishment , org:Site ;
-        terms:issued  "2701-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        terms:issued  "1998-01-27"^^<http://www.w3.org/2001/XMLSchema#date> ;
         locn:Address  kbo:b551fa5a2ab4a6c007e4 .
 
 kbo:2174815917  rdf:type  kbo:Establishment , org:Site ;
-        terms:issued  "0101-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        terms:issued  "2008-10-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
         locn:Address  kbo:8c3c7ae29778f81c0a3c .
 
 kbo:2153241137  rdf:type  kbo:Establishment , org:Site ;
-        terms:issued  "2801-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        terms:issued  "2006-04-28"^^<http://www.w3.org/2001/XMLSchema#date> ;
         locn:Address  kbo:935918f2e7f377751e3f .
 
 kbo:2260501955  rdf:type  kbo:Establishment , org:Site ;
-        terms:issued  "0101-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        terms:issued  "2016-10-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
         locn:Address  kbo:8acb516ffd3e443a3abe .
 
 kbo:da86e3af3f793ab6bc2c
@@ -2480,7 +2480,7 @@ kbo:da86e3af3f793ab6bc2c
         locn:postName     "Sint-Truiden" .
 
 kbo:2153245986  rdf:type  kbo:Establishment , org:Site ;
-        terms:issued  "2801-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        terms:issued  "2006-04-28"^^<http://www.w3.org/2001/XMLSchema#date> ;
         locn:Address  kbo:d86df375119d04212b67 .
 
 kbo:fa134b565aaf59ac6374
@@ -2493,15 +2493,15 @@ kbo:fa134b565aaf59ac6374
         locn:postName     "Li\uFFFDge" .
 
 kbo:2102976628  rdf:type  kbo:Establishment , org:Site ;
-        terms:issued  "2401-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        terms:issued  "1997-11-24"^^<http://www.w3.org/2001/XMLSchema#date> ;
         locn:Address  kbo:c2db730aee44c209bcf8 .
 
 kbo:2260503143  rdf:type  kbo:Establishment , org:Site ;
-        terms:issued  "0101-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        terms:issued  "2016-10-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
         locn:Address  kbo:722af252cafa0a3127ca .
 
 kbo:2153247174  rdf:type  kbo:Establishment , org:Site ;
-        terms:issued  "2801-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        terms:issued  "2006-04-28"^^<http://www.w3.org/2001/XMLSchema#date> ;
         locn:Address  kbo:855202a6056a939cb5c7 .
 
 kbo:e5239e22a2c967c65fe8
@@ -2523,27 +2523,27 @@ kbo:5ed764ed206f575acb6d
         locn:postName     "Brussel" .
 
 kbo:2244500519  rdf:type  kbo:Establishment , org:Site ;
-        terms:issued  "0101-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        terms:issued  "2014-08-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
         locn:Address  kbo:5af40189d0555fd9e119 .
 
 kbo:2102971876  rdf:type  kbo:Establishment , org:Site ;
-        terms:issued  "2801-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        terms:issued  "1997-11-28"^^<http://www.w3.org/2001/XMLSchema#date> ;
         locn:Address  kbo:834426c3ac0d517a599a .
 
 kbo:2102965047  rdf:type  kbo:Establishment , org:Site ;
-        terms:issued  "2701-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        terms:issued  "1998-01-27"^^<http://www.w3.org/2001/XMLSchema#date> ;
         locn:Address  kbo:90f69d24372f5d2e06b3 .
 
 kbo:2102975935  rdf:type  kbo:Establishment , org:Site ;
-        terms:issued  "2601-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        terms:issued  "1997-11-26"^^<http://www.w3.org/2001/XMLSchema#date> ;
         locn:Address  kbo:57c197d75f51e7d4aeec .
 
 kbo:2102973064  rdf:type  kbo:Establishment , org:Site ;
-        terms:issued  "2301-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        terms:issued  "1999-03-23"^^<http://www.w3.org/2001/XMLSchema#date> ;
         locn:Address  kbo:8d031b6b2b01b4c661b9 .
 
 kbo:2260502450  rdf:type  kbo:Establishment , org:Site ;
-        terms:issued  "0101-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        terms:issued  "2016-10-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
         locn:Address  kbo:e2b67f95d148227f47c8 .
 
 kbo:83b86cd5bc317489e9a7
@@ -2574,7 +2574,7 @@ kbo:448592ced6d42cee29e2
         locn:postName     "Huy" .
 
 kbo:2102977123  rdf:type  kbo:Establishment , org:Site ;
-        terms:issued  "0101-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        terms:issued  "1997-12-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
         locn:Address  kbo:80c5d3f53fd57a0fca66 .
 
 kbo:bea5054aac0ce3570be7
@@ -2609,7 +2609,7 @@ kbo:f48b03c230d347554bcd
         locn:postName     "Waterloo" .
 
 kbo:2102976430  rdf:type  kbo:Establishment , org:Site ;
-        terms:issued  "2401-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        terms:issued  "1997-11-24"^^<http://www.w3.org/2001/XMLSchema#date> ;
         locn:Address  kbo:ddbfa1271ed17dd065b0 .
 
 kbo:96b8935bf70f557f9f04
@@ -2649,7 +2649,7 @@ kbo:722af252cafa0a3127ca
         locn:postName     "Herstal" .
 
 kbo:2102970688  rdf:type  kbo:Establishment , org:Site ;
-        terms:issued  "0901-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        terms:issued  "1997-12-09"^^<http://www.w3.org/2001/XMLSchema#date> ;
         locn:Address  kbo:cc6545f34558fd67cd60 .
 
 kbo:7c77bde35252c7f5fe11
@@ -2680,7 +2680,7 @@ kbo:cee64edf7ab6db8dd452
         locn:postName     "Merelbeke" .
 
 kbo:2153243315  rdf:type  kbo:Establishment , org:Site ;
-        terms:issued  "2801-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        terms:issued  "2006-04-28"^^<http://www.w3.org/2001/XMLSchema#date> ;
         locn:Address  kbo:441e3e676e5305210a35 .
 
 kbo:d441397f08a192c53fb9
@@ -2702,5 +2702,5 @@ kbo:8638f56c538bb2b582f1
         locn:postName     "Oostende" .
 
 kbo:2153245293  rdf:type  kbo:Establishment , org:Site ;
-        terms:issued  "2801-01-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        terms:issued  "2006-04-28"^^<http://www.w3.org/2001/XMLSchema#date> ;
         locn:Address  kbo:fdbdf570d1984349517b .

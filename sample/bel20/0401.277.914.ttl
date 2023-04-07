@@ -33,7 +33,7 @@ kbo:2003_27310 a kbo:Activity ;
 
 kbo:2005456093 a org:Site,
         kbo:Establishment ;
-    terms:issued "0101-01-01"^^xsd:date ;
+    terms:issued "1970-09-01"^^xsd:date ;
     vcard:email "peter.vreven@aperam.com" ;
     vcard:tel "089 302282" ;
     locn:Address kbo:b63391125982112d94fa .
@@ -48,12 +48,12 @@ kbo:2008_24310 a kbo:Activity ;
 
 kbo:2155832423 a org:Site,
         kbo:Establishment ;
-    terms:issued "0101-01-01"^^xsd:date ;
+    terms:issued "2006-07-01"^^xsd:date ;
     locn:Address kbo:9abaa753536e393cc6a2 .
 
 kbo:2169037883 a org:Site,
         kbo:Establishment ;
-    terms:issued "0201-01-01"^^xsd:date ;
+    terms:issued "2006-10-02"^^xsd:date ;
     vcard:email "helga.baeten@aperam.com",
         "helga.baeten@arcelormittal.com" ;
     vcard:tel "089 365600",

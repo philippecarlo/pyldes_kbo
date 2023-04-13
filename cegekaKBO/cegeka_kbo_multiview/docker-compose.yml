@@ -25,6 +25,7 @@ services:
       - VIEWS_2_FRAGMENTATIONS_0_NAME=pagination
       - VIEWS_2_FRAGMENTATIONS_0_CONFIG_MEMBERLIMIT=${VIEWS_0_FRAGMENTATIONS_0_CONFIG_MEMBERLIMIT:-5}
       - MANAGEMENT_TRACING_ENABLED=false
+      - MONGOCK_MIGRATIONSCANPACKAGE_0=be.vlaanderen.informatievlaanderen.ldes.server.infra.mongo.mongock.changeset1
     ports:
       - ${LDES_SERVER_PORT:-8080}:8080
     networks:

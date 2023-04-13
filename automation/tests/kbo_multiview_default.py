@@ -26,8 +26,9 @@ class TestDefaultMultiview(unittest.TestCase):
     # Pagination view
     def test_1_start_services(self):
         print("######################Multiview defaultPagination: Service starting....###################")
+        time.sleep(20)
         su.start_service(path_docker=docker_compose_file)
-        time.sleep(60)
+        time.sleep(100)
         self.assertEqual(su.server_ready().status_code, 200)
 
     def test_2_post_data(self):

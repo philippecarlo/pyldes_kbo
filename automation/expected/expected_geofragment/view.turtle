@@ -1,0 +1,13 @@
+@prefix kbo:  <http://localhost:8080/kbo/> .
+@prefix ldes: <https://w3id.org/ldes#> .
+@prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix tree: <https://w3id.org/tree#> .
+
+kbo:by-location  rdf:type  tree:Node ;
+        tree:relation  [ rdf:type   tree:Relation ;
+                         tree:node  <http://localhost:8080/kbo/by-location?tile=0/0/0>
+                       ] .
+
+<http://localhost:8080/kbo>
+        rdf:type   ldes:EventStream ;
+        tree:view  kbo:by-location .

@@ -4,6 +4,7 @@
 @prefix locn: <https://www.w3.org/ns/locn#> .
 @prefix org: <http://www.w3.org/ns/org#> .
 @prefix terms: <http://purl.org/dc/terms/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 kbo:0403448140.2022.11 a legal:legalEntity,
         kbo:Enterprise ;
@@ -48,7 +49,7 @@ kbo:2008_64200 a kbo:Activity ;
 
 kbo:2144913983 a org:Site,
         kbo:Establishment ;
-    terms:issued "27-01-2005" ;
+    terms:issued "2005-01-27"^^xsd:date ;
     locn:Address kbo:bb6c8ea511229875aa63 .
 
 kbo:Status_AC a kbo:Code ;
@@ -57,7 +58,7 @@ kbo:Status_AC a kbo:Code ;
     kbo:codeValue "AC" .
 
 kbo:bb6c8ea511229875aa63 a locn:Address ;
-    geo:asWKT "POINT (4.360005 50.8220867)" ;
+    geo:asWKT "POINT (4.360005 50.8220867)"^^geo:wktLiteral ;
     kbo:addressType kbo:TypeOfAddress_BAET,
         kbo:TypeOfAddress_REGO ;
     locn:fullAddress "Maliestraat 50, 1050 Elsene, Belgium" ;

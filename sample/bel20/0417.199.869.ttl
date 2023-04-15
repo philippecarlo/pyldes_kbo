@@ -4,6 +4,7 @@
 @prefix locn: <https://www.w3.org/ns/locn#> .
 @prefix org: <http://www.w3.org/ns/org#> .
 @prefix terms: <http://purl.org/dc/terms/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 kbo:0417199869.2022.11 a legal:legalEntity,
         kbo:Enterprise ;
@@ -28,7 +29,7 @@ kbo:2008_68203 a kbo:Activity ;
 
 kbo:2102213296 a org:Site,
         kbo:Establishment ;
-    terms:issued "27-05-1977" ;
+    terms:issued "1977-05-27"^^xsd:date ;
     locn:Address kbo:90bf93ec289a49764d95 .
 
 kbo:Status_AC a kbo:Code ;
@@ -37,7 +38,7 @@ kbo:Status_AC a kbo:Code ;
     kbo:codeValue "AC" .
 
 kbo:90bf93ec289a49764d95 a locn:Address ;
-    geo:asWKT "POINT (4.2824053 50.9607946)" ;
+    geo:asWKT "POINT (4.2824053 50.9607946)"^^geo:wktLiteral ;
     kbo:addressType kbo:TypeOfAddress_BAET,
         kbo:TypeOfAddress_REGO ;
     locn:fullAddress "Blakebergen 15, 1861 Meise, Belgium" ;

@@ -1,0 +1,73 @@
+@prefix geosparql:     <http://www.opengis.net/ont/geosparql#> .
+@prefix kbo:           <https://kbopub.economie.fgov.be/kbo#> .
+@prefix kbo2142567276: <https://kbopub.economie.fgov.be/kbo#2142567276> .
+@prefix kbo6:          <https://kbopub.economie.fgov.be/kbo#6> .
+@prefix ldes:          <https://w3id.org/ldes#> .
+@prefix legal:         <http://www.w3.org/ns/legal#> .
+@prefix locn:          <https://www.w3.org/ns/locn#> .
+@prefix org:           <http://www.w3.org/ns/org#> .
+@prefix rdf:           <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix terms:         <http://purl.org/dc/terms/> .
+@prefix tree:          <https://w3id.org/tree#> .
+
+kbo:2008_82990  rdf:type       kbo:Activity ;
+        legal:companyActivity  kbo:Nace2008_82990 ;
+        kbo:classification     kbo:Classification_MAIN .
+
+kbo:2003_74151  rdf:type       kbo:Activity ;
+        legal:companyActivity  kbo:Nace2003_74151 ;
+        kbo:classification     kbo:Classification_MAIN .
+
+kbo:2008_21201  rdf:type       kbo:Activity ;
+        legal:companyActivity  kbo:Nace2008_21201 ;
+        kbo:classification     kbo:Classification_SECO .
+
+<http://localhost:8080/kbo>
+        rdf:type     ldes:EventStream ;
+        tree:member  kbo:0403053608.2022.11 .
+
+kbo:2008_64200  rdf:type       kbo:Activity ;
+        legal:companyActivity  kbo:Nace2008_64200 ;
+        kbo:classification     kbo:Classification_MAIN .
+
+kbo:0403053608.2022.11
+        rdf:type                 kbo:Enterprise , legal:legalEntity ;
+        terms:isVersionOf        kbo:0403053608 ;
+        legal:companyStatus      kbo:JuridicalSituation_000 ;
+        legal:companyType        kbo:JuridicalForm_014 ;
+        legal:legalName          "U C B" ;
+        legal:registeredAddress  kbo:6a4b10066ee5f892c094 ;
+        kbo:activity             kbo:2008_64200 , kbo:2008_21201 , kbo:2008_82990 , kbo:2003_74879 , kbo:2003_74151 ;
+        kbo:establishment        kbo:2142567276 ;
+        kbo:status               kbo:Status_AC .
+
+kbo:2003_74879  rdf:type       kbo:Activity ;
+        legal:companyActivity  kbo:Nace2003_74879 ;
+        kbo:classification     kbo:Classification_MAIN .
+
+kbo:2142567276  rdf:type  kbo:Establishment , org:Site ;
+        terms:issued  "1998-02-01"^^<http://www.w3.org/2001/XMLSchema#date> ;
+        locn:Address  kbo:6a4b10066ee5f892c094 .
+
+kbo:Status_AC  rdf:type      kbo:Code ;
+        kbo:codeDescription  "Actief"@NL , "Actif"@FR ;
+        kbo:codeValue        "AC" .
+
+kbo:6a4b10066ee5f892c094
+        rdf:type          locn:Address ;
+        geosparql:asWKT   "POINT (4.275721857227438 50.8176796)"^^geosparql:wktLiteral ;
+        kbo:addressType   kbo:TypeOfAddress_REGO , kbo:TypeOfAddress_BAET ;
+        locn:fullAddress  "Researchdreef 60, 1070 Anderlecht, Belgium" ;
+        locn:poBox        "None" ;
+        locn:postCode     "1070" ;
+        locn:postName     "Anderlecht" .
+
+<http://localhost:8080/kbo/by-page?pageNumber=5>
+        rdf:type        tree:Node ;
+        terms:isPartOf  <http://localhost:8080/kbo> ;
+        tree:relation   [ rdf:type   tree:Relation ;
+                          tree:node  <http://localhost:8080/kbo/by-page?pageNumber=6>
+                        ] ;
+        tree:relation   [ rdf:type   tree:Relation ;
+                          tree:node  <http://localhost:8080/kbo/by-page?pageNumber=4>
+                        ] .

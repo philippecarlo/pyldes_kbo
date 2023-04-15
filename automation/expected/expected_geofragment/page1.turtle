@@ -1,0 +1,268 @@
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
+@prefix rdf:       <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix terms:     <http://purl.org/dc/terms/> .
+@prefix tree:      <https://w3id.org/tree#> .
+
+<http://localhost:8080/kbo/by-location?tile=0/0/0>
+        rdf:type        tree:Node ;
+        terms:isPartOf  <http://localhost:8080/kbo> ;
+        tree:relation   [ rdf:type    tree:GeospatiallyContainsRelation ;
+                          tree:node   <http://localhost:8080/kbo/by-location?tile=15/16788/10942> ;
+                          tree:path   geosparql:asWKT ;
+                          tree:value  "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POLYGON ((4.449462890625 51.19311524464586, 4.449462890625 51.186229626386826, 4.4384765625 51.186229626386826, 4.4384765625 51.19311524464586, 4.449462890625 51.19311524464586))"^^geosparql:wktLiteral
+                        ] ;
+        tree:relation   [ rdf:type    tree:GeospatiallyContainsRelation ;
+                          tree:node   <http://localhost:8080/kbo/by-location?tile=15/16711/10989> ;
+                          tree:path   geosparql:asWKT ;
+                          tree:value  "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POLYGON ((3.603515625 50.86837814203456, 3.603515625 50.86144411058924, 3.592529296875 50.86144411058924, 3.592529296875 50.86837814203456, 3.603515625 50.86837814203456))"^^geosparql:wktLiteral
+                        ] ;
+        tree:relation   [ rdf:type    tree:GeospatiallyContainsRelation ;
+                          tree:node   <http://localhost:8080/kbo/by-location?tile=15/16789/10935> ;
+                          tree:path   geosparql:asWKT ;
+                          tree:value  "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POLYGON ((4.46044921875 51.24128576954668, 4.46044921875 51.234407351634594, 4.449462890625 51.234407351634594, 4.449462890625 51.24128576954668, 4.46044921875 51.24128576954668))"^^geosparql:wktLiteral
+                        ] ;
+        tree:relation   [ rdf:type    tree:GeospatiallyContainsRelation ;
+                          tree:node   <http://localhost:8080/kbo/by-location?tile=15/16773/10975> ;
+                          tree:path   geosparql:asWKT ;
+                          tree:value  "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POLYGON ((4.28466796875 50.9653463216377, 4.28466796875 50.95842672335991, 4.273681640625 50.95842672335991, 4.273681640625 50.9653463216377, 4.28466796875 50.9653463216377))"^^geosparql:wktLiteral
+                        ] ;
+        tree:relation   [ rdf:type    tree:GeospatiallyContainsRelation ;
+                          tree:node   <http://localhost:8080/kbo/by-location?tile=15/16785/10939> ;
+                          tree:path   geosparql:asWKT ;
+                          tree:value  "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POLYGON ((4.41650390625 51.213765926935004, 4.41650390625 51.20688339486561, 4.405517578125 51.20688339486561, 4.405517578125 51.213765926935004, 4.41650390625 51.213765926935004))"^^geosparql:wktLiteral
+                        ] ;
+        tree:relation   [ rdf:type    tree:GeospatiallyContainsRelation ;
+                          tree:node   <http://localhost:8080/kbo/by-location?tile=15/16899/11116> ;
+                          tree:path   geosparql:asWKT ;
+                          tree:value  "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POLYGON ((5.6689453125 49.97948776108648, 5.6689453125 49.97242235423708, 5.657958984375 49.97242235423708, 5.657958984375 49.97948776108648, 5.6689453125 49.97948776108648))"^^geosparql:wktLiteral
+                        ] ;
+        tree:relation   [ rdf:type    tree:GeospatiallyContainsRelation ;
+                          tree:node   <http://localhost:8080/kbo/by-location?tile=15/16812/10986> ;
+                          tree:path   geosparql:asWKT ;
+                          tree:value  "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POLYGON ((4.713134765625 50.88917404890331, 4.713134765625 50.8822431111397, 4.7021484375 50.8822431111397, 4.7021484375 50.88917404890331, 4.713134765625 50.88917404890331))"^^geosparql:wktLiteral
+                        ] ;
+        tree:relation   [ rdf:type    tree:GeospatiallyContainsRelation ;
+                          tree:node   <http://localhost:8080/kbo/by-location?tile=15/16677/10986> ;
+                          tree:path   geosparql:asWKT ;
+                          tree:value  "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POLYGON ((3.22998046875 50.88917404890331, 3.22998046875 50.8822431111397, 3.218994140625 50.8822431111397, 3.218994140625 50.88917404890331, 3.22998046875 50.88917404890331))"^^geosparql:wktLiteral
+                        ] ;
+        tree:relation   [ rdf:type    tree:GeospatiallyContainsRelation ;
+                          tree:node   <http://localhost:8080/kbo/by-location?tile=15/16781/10992> ;
+                          tree:path   geosparql:asWKT ;
+                          tree:value  "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POLYGON ((4.37255859375 50.84757295365388, 4.37255859375 50.84063582806036, 4.361572265625 50.84063582806036, 4.361572265625 50.84757295365388, 4.37255859375 50.84757295365388))"^^geosparql:wktLiteral
+                        ] ;
+        tree:relation   [ rdf:type    tree:GeospatiallyContainsRelation ;
+                          tree:node   <http://localhost:8080/kbo/by-location?tile=15/16795/11054> ;
+                          tree:path   geosparql:asWKT ;
+                          tree:value  "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POLYGON ((4.5263671875 50.41551870402676, 4.5263671875 50.40851753069728, 4.515380859375 50.40851753069728, 4.515380859375 50.41551870402676, 4.5263671875 50.41551870402676))"^^geosparql:wktLiteral
+                        ] ;
+        tree:relation   [ rdf:type    tree:GeospatiallyContainsRelation ;
+                          tree:node   <http://localhost:8080/kbo/by-location?tile=15/16779/10990> ;
+                          tree:path   geosparql:asWKT ;
+                          tree:value  "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POLYGON ((4.3505859375 50.86144411058924, 4.3505859375 50.85450904781294, 4.339599609375 50.85450904781294, 4.339599609375 50.86144411058924, 4.3505859375 50.86144411058924))"^^geosparql:wktLiteral
+                        ] ;
+        tree:relation   [ rdf:type    tree:GeospatiallyContainsRelation ;
+                          tree:node   <http://localhost:8080/kbo/by-location?tile=15/16722/10968> ;
+                          tree:path   geosparql:asWKT ;
+                          tree:value  "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POLYGON ((3.724365234375 51.01375465718819, 3.724365234375 51.00684227163968, 3.71337890625 51.00684227163968, 3.71337890625 51.01375465718819, 3.724365234375 51.01375465718819))"^^geosparql:wktLiteral
+                        ] ;
+        tree:relation   [ rdf:type    tree:GeospatiallyContainsRelation ;
+                          tree:node   <http://localhost:8080/kbo/by-location?tile=15/16871/10980> ;
+                          tree:path   geosparql:asWKT ;
+                          tree:value  "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POLYGON ((5.361328125 50.930738023718185, 5.361328125 50.92381327191293, 5.350341796875 50.92381327191293, 5.350341796875 50.930738023718185, 5.361328125 50.930738023718185))"^^geosparql:wktLiteral
+                        ] ;
+        tree:relation   [ rdf:type    tree:GeospatiallyContainsRelation ;
+                          tree:node   <http://localhost:8080/kbo/by-location?tile=15/16808/11049> ;
+                          tree:path   geosparql:asWKT ;
+                          tree:value  "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POLYGON ((4.669189453125 50.45050905358659, 4.669189453125 50.44351305245805, 4.658203125 50.44351305245805, 4.658203125 50.45050905358659, 4.669189453125 50.45050905358659))"^^geosparql:wktLiteral
+                        ] ;
+        tree:relation   [ rdf:type    tree:GeospatiallyContainsRelation ;
+                          tree:node   <http://localhost:8080/kbo/by-location?tile=15/16813/10943> ;
+                          tree:path   geosparql:asWKT ;
+                          tree:value  "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POLYGON ((4.72412109375 51.186229626386826, 4.72412109375 51.17934297928927, 4.713134765625 51.17934297928927, 4.713134765625 51.186229626386826, 4.72412109375 51.186229626386826))"^^geosparql:wktLiteral
+                        ] ;
+        tree:relation   [ rdf:type    tree:GeospatiallyContainsRelation ;
+                          tree:node   <http://localhost:8080/kbo/by-location?tile=15/16780/10995> ;
+                          tree:path   geosparql:asWKT ;
+                          tree:value  "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POLYGON ((4.361572265625 50.82675848236328, 4.361572265625 50.81981826215653, 4.3505859375 50.81981826215653, 4.3505859375 50.82675848236328, 4.361572265625 50.82675848236328))"^^geosparql:wktLiteral
+                        ] ;
+        tree:relation   [ rdf:type    tree:GeospatiallyContainsRelation ;
+                          tree:node   <http://localhost:8080/kbo/by-location?tile=15/16783/10993> ;
+                          tree:path   geosparql:asWKT ;
+                          tree:value  "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POLYGON ((4.39453125 50.84063582806036, 4.39453125 50.833697670980705, 4.383544921875 50.833697670980705, 4.383544921875 50.84063582806036, 4.39453125 50.84063582806036))"^^geosparql:wktLiteral
+                        ] ;
+        tree:relation   [ rdf:type    tree:GeospatiallyContainsRelation ;
+                          tree:node   <http://localhost:8080/kbo/by-location?tile=15/16782/10987> ;
+                          tree:path   geosparql:asWKT ;
+                          tree:value  "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POLYGON ((4.383544921875 50.8822431111397, 4.383544921875 50.87531114220076, 4.37255859375 50.87531114220076, 4.37255859375 50.8822431111397, 4.383544921875 50.8822431111397))"^^geosparql:wktLiteral
+                        ] ;
+        tree:relation   [ rdf:type    tree:GeospatiallyContainsRelation ;
+                          tree:node   <http://localhost:8080/kbo/by-location?tile=15/16882/10978> ;
+                          tree:path   geosparql:asWKT ;
+                          tree:value  "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POLYGON ((5.482177734375 50.94458443495011, 5.482177734375 50.93766174471311, 5.47119140625 50.93766174471311, 5.47119140625 50.94458443495011, 5.482177734375 50.94458443495011))"^^geosparql:wktLiteral
+                        ] ;
+        tree:relation   [ rdf:type    tree:GeospatiallyContainsRelation ;
+                          tree:node   <http://localhost:8080/kbo/by-location?tile=15/16719/10966> ;
+                          tree:path   geosparql:asWKT ;
+                          tree:value  "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POLYGON ((3.69140625 51.0275763378024, 3.69140625 51.02066601255811, 3.680419921875 51.02066601255811, 3.680419921875 51.0275763378024, 3.69140625 51.0275763378024))"^^geosparql:wktLiteral
+                        ] ;
+        tree:relation   [ rdf:type    tree:GeospatiallyContainsRelation ;
+                          tree:node   <http://localhost:8080/kbo/by-location?tile=15/16776/10994> ;
+                          tree:path   geosparql:asWKT ;
+                          tree:value  "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POLYGON ((4.317626953125 50.833697670980705, 4.317626953125 50.82675848236328, 4.306640625 50.82675848236328, 4.306640625 50.833697670980705, 4.317626953125 50.833697670980705))"^^geosparql:wktLiteral
+                        ] ;
+        tree:relation   [ rdf:type    tree:GeospatiallyContainsRelation ;
+                          tree:node   <http://localhost:8080/kbo/by-location?tile=15/16813/10987> ;
+                          tree:path   geosparql:asWKT ;
+                          tree:value  "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POLYGON ((4.72412109375 50.8822431111397, 4.72412109375 50.87531114220076, 4.713134765625 50.87531114220076, 4.713134765625 50.8822431111397, 4.72412109375 50.8822431111397))"^^geosparql:wktLiteral
+                        ] ;
+        tree:relation   [ rdf:type    tree:GeospatiallyContainsRelation ;
+                          tree:node   <http://localhost:8080/kbo/by-location?tile=15/16789/10962> ;
+                          tree:path   geosparql:asWKT ;
+                          tree:value  "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POLYGON ((4.46044921875 51.05520733858495, 4.46044921875 51.04830113331225, 4.449462890625 51.04830113331225, 4.449462890625 51.05520733858495, 4.46044921875 51.05520733858495))"^^geosparql:wktLiteral
+                        ] ;
+        tree:relation   [ rdf:type    tree:GeospatiallyContainsRelation ;
+                          tree:node   <http://localhost:8080/kbo/by-location?tile=15/16885/10971> ;
+                          tree:path   geosparql:asWKT ;
+                          tree:value  "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POLYGON ((5.51513671875 50.99301440979521, 5.51513671875 50.98609893339354, 5.504150390625 50.98609893339354, 5.504150390625 50.99301440979521, 5.51513671875 50.99301440979521))"^^geosparql:wktLiteral
+                        ] ;
+        tree:relation   [ rdf:type    tree:GeospatiallyContainsRelation ;
+                          tree:node   <http://localhost:8080/kbo/by-location?tile=15/16827/10944> ;
+                          tree:path   geosparql:asWKT ;
+                          tree:value  "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POLYGON ((4.8779296875 51.17934297928927, 4.8779296875 51.17245530329899, 4.866943359375 51.17245530329899, 4.866943359375 51.17934297928927, 4.8779296875 51.17934297928927))"^^geosparql:wktLiteral
+                        ] ;
+        tree:relation   [ rdf:type    tree:GeospatiallyContainsRelation ;
+                          tree:node   <http://localhost:8080/kbo/by-location?tile=15/16809/10986> ;
+                          tree:path   geosparql:asWKT ;
+                          tree:value  "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POLYGON ((4.68017578125 50.88917404890331, 4.68017578125 50.8822431111397, 4.669189453125 50.8822431111397, 4.669189453125 50.88917404890331, 4.68017578125 50.88917404890331))"^^geosparql:wktLiteral
+                        ] ;
+        tree:relation   [ rdf:type    tree:GeospatiallyContainsRelation ;
+                          tree:node   <http://localhost:8080/kbo/by-location?tile=15/16666/10976> ;
+                          tree:path   geosparql:asWKT ;
+                          tree:value  "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POLYGON ((3.109130859375 50.95842672335991, 3.109130859375 50.951506094481566, 3.09814453125 50.951506094481566, 3.09814453125 50.95842672335991, 3.109130859375 50.95842672335991))"^^geosparql:wktLiteral
+                        ] ;
+        tree:relation   [ rdf:type    tree:GeospatiallyContainsRelation ;
+                          tree:node   <http://localhost:8080/kbo/by-location?tile=15/16787/10992> ;
+                          tree:path   geosparql:asWKT ;
+                          tree:value  "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POLYGON ((4.4384765625 50.84757295365388, 4.4384765625 50.84063582806036, 4.427490234375 50.84063582806036, 4.427490234375 50.84757295365388, 4.4384765625 50.84757295365388))"^^geosparql:wktLiteral
+                        ] ;
+        tree:relation   [ rdf:type    tree:GeospatiallyContainsRelation ;
+                          tree:node   <http://localhost:8080/kbo/by-location?tile=15/16813/11041> ;
+                          tree:path   geosparql:asWKT ;
+                          tree:value  "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POLYGON ((4.72412109375 50.5064398321055, 4.72412109375 50.499452103967734, 4.713134765625 50.499452103967734, 4.713134765625 50.5064398321055, 4.72412109375 50.5064398321055))"^^geosparql:wktLiteral
+                        ] ;
+        tree:relation   [ rdf:type    tree:GeospatiallyContainsRelation ;
+                          tree:node   <http://localhost:8080/kbo/by-location?tile=15/16786/10939> ;
+                          tree:path   geosparql:asWKT ;
+                          tree:value  "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POLYGON ((4.427490234375 51.213765926935004, 4.427490234375 51.20688339486561, 4.41650390625 51.20688339486561, 4.41650390625 51.213765926935004, 4.427490234375 51.213765926935004))"^^geosparql:wktLiteral
+                        ] ;
+        tree:relation   [ rdf:type    tree:GeospatiallyContainsRelation ;
+                          tree:node   <http://localhost:8080/kbo/by-location?tile=15/16790/10969> ;
+                          tree:path   geosparql:asWKT ;
+                          tree:value  "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POLYGON ((4.471435546875 51.00684227163968, 4.471435546875 50.99992885585966, 4.46044921875 50.99992885585966, 4.46044921875 51.00684227163968, 4.471435546875 51.00684227163968))"^^geosparql:wktLiteral
+                        ] ;
+        tree:relation   [ rdf:type    tree:GeospatiallyContainsRelation ;
+                          tree:node   <http://localhost:8080/kbo/by-location?tile=15/16899/11016> ;
+                          tree:path   geosparql:asWKT ;
+                          tree:value  "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POLYGON ((5.6689453125 50.68079714532164, 5.6689453125 50.673835249921346, 5.657958984375 50.673835249921346, 5.657958984375 50.68079714532164, 5.6689453125 50.68079714532164))"^^geosparql:wktLiteral
+                        ] ;
+        tree:relation   [ rdf:type    tree:GeospatiallyContainsRelation ;
+                          tree:node   <http://localhost:8080/kbo/by-location?tile=15/16785/10937> ;
+                          tree:path   geosparql:asWKT ;
+                          tree:value  "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POLYGON ((4.41650390625 51.22752790526499, 4.41650390625 51.2206474303833, 4.405517578125 51.2206474303833, 4.405517578125 51.22752790526499, 4.41650390625 51.22752790526499))"^^geosparql:wktLiteral
+                        ] ;
+        tree:relation   [ rdf:type    tree:GeospatiallyContainsRelation ;
+                          tree:node   <http://localhost:8080/kbo/by-location?tile=15/16773/10996> ;
+                          tree:path   geosparql:asWKT ;
+                          tree:value  "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POLYGON ((4.28466796875 50.81981826215653, 4.28466796875 50.812877010308966, 4.273681640625 50.812877010308966, 4.273681640625 50.81981826215653, 4.28466796875 50.81981826215653))"^^geosparql:wktLiteral
+                        ] ;
+        tree:relation   [ rdf:type    tree:GeospatiallyContainsRelation ;
+                          tree:node   <http://localhost:8080/kbo/by-location?tile=15/16781/10993> ;
+                          tree:path   geosparql:asWKT ;
+                          tree:value  "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POLYGON ((4.37255859375 50.84063582806036, 4.37255859375 50.833697670980705, 4.361572265625 50.833697670980705, 4.361572265625 50.84063582806036, 4.37255859375 50.84063582806036))"^^geosparql:wktLiteral
+                        ] ;
+        tree:relation   [ rdf:type    tree:GeospatiallyContainsRelation ;
+                          tree:node   <http://localhost:8080/kbo/by-location?tile=15/16784/10938> ;
+                          tree:path   geosparql:asWKT ;
+                          tree:value  "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POLYGON ((4.405517578125 51.2206474303833, 4.405517578125 51.213765926935004, 4.39453125 51.213765926935004, 4.39453125 51.2206474303833, 4.405517578125 51.2206474303833))"^^geosparql:wktLiteral
+                        ] ;
+        tree:relation   [ rdf:type    tree:GeospatiallyContainsRelation ;
+                          tree:node   <http://localhost:8080/kbo/by-location?tile=15/16783/10986> ;
+                          tree:path   geosparql:asWKT ;
+                          tree:value  "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POLYGON ((4.39453125 50.88917404890331, 4.39453125 50.8822431111397, 4.383544921875 50.8822431111397, 4.383544921875 50.88917404890331, 4.39453125 50.88917404890331))"^^geosparql:wktLiteral
+                        ] ;
+        tree:relation   [ rdf:type    tree:GeospatiallyContainsRelation ;
+                          tree:node   <http://localhost:8080/kbo/by-location?tile=15/16828/11046> ;
+                          tree:path   geosparql:asWKT ;
+                          tree:value  "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POLYGON ((4.888916015625 50.47149085139956, 4.888916015625 50.464497953008646, 4.8779296875 50.464497953008646, 4.8779296875 50.47149085139956, 4.888916015625 50.47149085139956))"^^geosparql:wktLiteral
+                        ] ;
+        tree:relation   [ rdf:type    tree:GeospatiallyContainsRelation ;
+                          tree:node   <http://localhost:8080/kbo/by-location?tile=15/16812/10987> ;
+                          tree:path   geosparql:asWKT ;
+                          tree:value  "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POLYGON ((4.713134765625 50.8822431111397, 4.713134765625 50.87531114220076, 4.7021484375 50.87531114220076, 4.7021484375 50.8822431111397, 4.713134765625 50.8822431111397))"^^geosparql:wktLiteral
+                        ] ;
+        tree:relation   [ rdf:type    tree:GeospatiallyContainsRelation ;
+                          tree:node   <http://localhost:8080/kbo/by-location?tile=15/16778/11044> ;
+                          tree:path   geosparql:asWKT ;
+                          tree:value  "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POLYGON ((4.339599609375 50.485473545785, 4.339599609375 50.47848271564206, 4.32861328125 50.47848271564206, 4.32861328125 50.485473545785, 4.339599609375 50.485473545785))"^^geosparql:wktLiteral
+                        ] ;
+        tree:relation   [ rdf:type    tree:GeospatiallyContainsRelation ;
+                          tree:node   <http://localhost:8080/kbo/by-location?tile=15/16811/10986> ;
+                          tree:path   geosparql:asWKT ;
+                          tree:value  "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POLYGON ((4.7021484375 50.88917404890331, 4.7021484375 50.8822431111397, 4.691162109375 50.8822431111397, 4.691162109375 50.88917404890331, 4.7021484375 50.88917404890331))"^^geosparql:wktLiteral
+                        ] ;
+        tree:relation   [ rdf:type    tree:GeospatiallyContainsRelation ;
+                          tree:node   <http://localhost:8080/kbo/by-location?tile=15/16784/10984> ;
+                          tree:path   geosparql:asWKT ;
+                          tree:value  "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POLYGON ((4.405517578125 50.903032831112576, 4.405517578125 50.89610395554359, 4.39453125 50.89610395554359, 4.39453125 50.903032831112576, 4.405517578125 50.903032831112576))"^^geosparql:wktLiteral
+                        ] ;
+        tree:relation   [ rdf:type    tree:GeospatiallyContainsRelation ;
+                          tree:node   <http://localhost:8080/kbo/by-location?tile=15/16829/10943> ;
+                          tree:path   geosparql:asWKT ;
+                          tree:value  "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POLYGON ((4.89990234375 51.186229626386826, 4.89990234375 51.17934297928927, 4.888916015625 51.17934297928927, 4.888916015625 51.186229626386826, 4.89990234375 51.186229626386826))"^^geosparql:wktLiteral
+                        ] ;
+        tree:relation   [ rdf:type    tree:GeospatiallyContainsRelation ;
+                          tree:node   <http://localhost:8080/kbo/by-location?tile=15/16790/10968> ;
+                          tree:path   geosparql:asWKT ;
+                          tree:value  "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POLYGON ((4.471435546875 51.01375465718819, 4.471435546875 51.00684227163968, 4.46044921875 51.00684227163968, 4.46044921875 51.01375465718819, 4.471435546875 51.01375465718819))"^^geosparql:wktLiteral
+                        ] ;
+        tree:relation   [ rdf:type    tree:GeospatiallyContainsRelation ;
+                          tree:node   <http://localhost:8080/kbo/by-location?tile=15/16895/11020> ;
+                          tree:path   geosparql:asWKT ;
+                          tree:value  "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POLYGON ((5.625 50.65294336725708, 5.625 50.64597734071359, 5.614013671875 50.64597734071359, 5.614013671875 50.65294336725708, 5.625 50.65294336725708))"^^geosparql:wktLiteral
+                        ] ;
+        tree:relation   [ rdf:type    tree:GeospatiallyContainsRelation ;
+                          tree:node   <http://localhost:8080/kbo/by-location?tile=15/16885/10978> ;
+                          tree:path   geosparql:asWKT ;
+                          tree:value  "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POLYGON ((5.51513671875 50.94458443495011, 5.51513671875 50.93766174471311, 5.504150390625 50.93766174471311, 5.504150390625 50.94458443495011, 5.51513671875 50.94458443495011))"^^geosparql:wktLiteral
+                        ] ;
+        tree:relation   [ rdf:type    tree:GeospatiallyContainsRelation ;
+                          tree:node   <http://localhost:8080/kbo/by-location?tile=15/16785/10941> ;
+                          tree:path   geosparql:asWKT ;
+                          tree:value  "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POLYGON ((4.41650390625 51.19999983412069, 4.41650390625 51.19311524464586, 4.405517578125 51.19311524464586, 4.405517578125 51.19999983412069, 4.41650390625 51.19999983412069))"^^geosparql:wktLiteral
+                        ] ;
+        tree:relation   [ rdf:type    tree:GeospatiallyContainsRelation ;
+                          tree:node   <http://localhost:8080/kbo/by-location?tile=15/16780/10991> ;
+                          tree:path   geosparql:asWKT ;
+                          tree:value  "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POLYGON ((4.361572265625 50.85450904781294, 4.361572265625 50.84757295365388, 4.3505859375 50.84757295365388, 4.3505859375 50.85450904781294, 4.361572265625 50.85450904781294))"^^geosparql:wktLiteral
+                        ] ;
+        tree:relation   [ rdf:type    tree:GeospatiallyContainsRelation ;
+                          tree:node   <http://localhost:8080/kbo/by-location?tile=15/16736/10954> ;
+                          tree:path   geosparql:asWKT ;
+                          tree:value  "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POLYGON ((3.878173828125 51.11041991029263, 3.878173828125 51.10352194240417, 3.8671875 51.10352194240417, 3.8671875 51.11041991029263, 3.878173828125 51.11041991029263))"^^geosparql:wktLiteral
+                        ] ;
+        tree:relation   [ rdf:type    tree:GeospatiallyContainsRelation ;
+                          tree:node   <http://localhost:8080/kbo/by-location?tile=15/16774/10923> ;
+                          tree:path   geosparql:asWKT ;
+                          tree:value  "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POLYGON ((4.295654296875 51.32374658474385, 4.295654296875 51.316880504045855, 4.28466796875 51.316880504045855, 4.28466796875 51.32374658474385, 4.295654296875 51.32374658474385))"^^geosparql:wktLiteral
+                        ] ;
+        tree:relation   [ rdf:type    tree:GeospatiallyContainsRelation ;
+                          tree:node   <http://localhost:8080/kbo/by-location?tile=15/16780/10992> ;
+                          tree:path   geosparql:asWKT ;
+                          tree:value  "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POLYGON ((4.361572265625 50.84757295365388, 4.361572265625 50.84063582806036, 4.3505859375 50.84063582806036, 4.3505859375 50.84757295365388, 4.361572265625 50.84757295365388))"^^geosparql:wktLiteral
+                        ] ;
+        tree:relation   [ rdf:type    tree:GeospatiallyContainsRelation ;
+                          tree:node   <http://localhost:8080/kbo/by-location?tile=15/16778/10945> ;
+                          tree:path   geosparql:asWKT ;
+                          tree:value  "<http://www.opengis.net/def/crs/OGC/1.3/CRS84> POLYGON ((4.339599609375 51.17245530329899, 4.339599609375 51.16556659836183, 4.32861328125 51.16556659836183, 4.32861328125 51.17245530329899, 4.339599609375 51.17245530329899))"^^geosparql:wktLiteral
+                        ] .

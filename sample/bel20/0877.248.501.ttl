@@ -4,6 +4,7 @@
 @prefix locn: <https://www.w3.org/ns/locn#> .
 @prefix org: <http://www.w3.org/ns/org#> .
 @prefix terms: <http://purl.org/dc/terms/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 kbo:0877248501.2022.11 a legal:legalEntity,
         kbo:Enterprise ;
@@ -20,7 +21,7 @@ kbo:0877248501.2022.11 a legal:legalEntity,
     kbo:status kbo:Status_AC .
 
 kbo:09e327511d79f1a1e594 a locn:Address ;
-    geo:asWKT "POINT (4.3835679 50.8397798)" ;
+    geo:asWKT "POINT (4.3835679 50.8397798)"^^geo:wktLiteral ;
     kbo:addressType kbo:TypeOfAddress_REGO ;
     locn:fullAddress "Belliardstraat 40, 1040 Etterbeek, Belgium" ;
     locn:poBox "11" ;
@@ -45,11 +46,11 @@ kbo:2008_68203 a kbo:Activity ;
 
 kbo:2277343234 a org:Site,
         kbo:Establishment ;
-    terms:issued "22-05-2018" ;
+    terms:issued "2018-05-22"^^xsd:date ;
     locn:Address kbo:6e3aaeedd7bd029f057b .
 
 kbo:6e3aaeedd7bd029f057b a locn:Address ;
-    geo:asWKT "POINT (4.3835679 50.8397798)" ;
+    geo:asWKT "POINT (4.3835679 50.8397798)"^^geo:wktLiteral ;
     kbo:addressType kbo:TypeOfAddress_BAET ;
     locn:fullAddress "Belliardstraat 40, 1040 Etterbeek, Belgium" ;
     locn:poBox "None" ;

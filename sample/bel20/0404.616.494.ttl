@@ -5,6 +5,7 @@
 @prefix org: <http://www.w3.org/ns/org#> .
 @prefix terms: <http://purl.org/dc/terms/> .
 @prefix vcard: <http://www.w3.org/2006/vcard/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 kbo:0404616494.2022.11 a legal:legalEntity,
         kbo:Enterprise ;
@@ -21,7 +22,7 @@ kbo:0404616494.2022.11 a legal:legalEntity,
 
 kbo:2003342780 a org:Site,
         kbo:Establishment ;
-    terms:issued "01-12-1924" ;
+    terms:issued "1924-12-01"^^xsd:date ;
     vcard:email "info@avh.be" ;
     vcard:tel "03/231.87.70" ;
     vcard:url "www.avh.be" ;
@@ -46,7 +47,7 @@ kbo:Status_AC a kbo:Code ;
     kbo:codeValue "AC" .
 
 kbo:1843c2cb3f6ac21cf789 a locn:Address ;
-    geo:asWKT "POINT (4.406393329910549 51.212274300000004)" ;
+    geo:asWKT "POINT (4.406393329910549 51.212274300000004)"^^geo:wktLiteral ;
     kbo:addressType kbo:TypeOfAddress_BAET,
         kbo:TypeOfAddress_REGO ;
     locn:fullAddress "Begijnenvest 113, 2000 Antwerpen, Belgium" ;

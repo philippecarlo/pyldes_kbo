@@ -1,6 +1,6 @@
 from hashlib import blake2s
 from datetime import datetime
-from rdflib import Graph, URIRef, Literal, BNode, RDF, ORG, FOAF, SKOS
+from rdflib import Graph, URIRef, Literal, BNode, RDF, ORG, FOAF, SKOS, Namespace
 from pyldes_kbo.namespace.kbo import KBO
 from pyldes_kbo.namespace.locn import LOCN
 from pyldes_kbo.namespace.geo import GEO
@@ -8,9 +8,8 @@ from pyldes_kbo.namespace.vcard import VCARD
 from pyldes_kbo.models.kbo_base import KboBase
 from pyldes_kbo.models.kbo_code import KboCode
 from geopy.geocoders import Nominatim
-from shapely import wkt
 from shapely.geometry import Point
-from googlemaps import client as GoogleMaps
+from shapely.wkt import dumps
 
 class KboAddress(KboBase):
 
@@ -40,7 +39,7 @@ class KboAddress(KboBase):
         graph.add((address_ref, LOCN.postName, Literal(self.municipality)))
         graph.add((address_ref, LOCN.fullAddress, Literal(self.full_address)))
         #print(self.full_address)
-        graph.add((address_ref, GEO.asWKT,Literal(self.address_to_wkt(self.full_address_no_bracket))))
+        graph.add((address_ref, GEO.asWKT,Literal(self.address_to_wkt(self.full_address_no_bracket), datatype=GEO.wktLiteral)))
         graph.add((address_ref, LOCN.poBox, Literal(self.box)))
         address_type_ref = self.type_of_address.to_rdf(graph, as_blank_node=as_blank_node)
         graph.add((address_ref, KBO.addressType, address_type_ref))
@@ -61,7 +60,7 @@ class KboAddress(KboBase):
         graph.add((address_ref, LOCN.postCode, Literal(self.zip_code)))
         graph.add((address_ref, LOCN.postName, Literal(self.municipality)))
         graph.add((address_ref, LOCN.fullAddress, Literal(self.full_address)))
-        graph.add((address_ref, GEO.asWKT,Literal(self.address_to_wkt(self.full_address_no_bracket))))
+        graph.add((address_ref, GEO.asWKT,Literal(self.address_to_wkt(self.full_address_no_bracket), datatype=GEO.wktLiteral)))
         graph.add((address_ref, LOCN.poBox, Literal(self.box)))
         address_type_ref = self.type_of_address.to_rdf_version(graph, as_blank_node=as_blank_node)
         graph.add((address_ref, KBO.addressType, address_type_ref))
@@ -75,6 +74,7 @@ class KboAddress(KboBase):
         #gmaps = GoogleMaps.Client(key='AIzaSyAXUMfY-B95u4ve5REelZM1eLVgbsDvDGc')
         #localG #= gmaps.geocode(full_address_no_bracket)
         #full_address_no_bracket = "Rakestraat 27, 8750 Wingene, Belgium"
+        wkt = Namespace("http://www.opengis.net/ont/geosparql#wktLiteral")
         locator = Nominatim(user_agent="myGeocode")
         location = locator.geocode(full_address_no_bracket)
         if location is None:

@@ -4,6 +4,7 @@
 @prefix locn: <https://www.w3.org/ns/locn#> .
 @prefix org: <http://www.w3.org/ns/org#> .
 @prefix terms: <http://purl.org/dc/terms/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 kbo:0466460429.2022.11 a legal:legalEntity,
         kbo:Enterprise ;
@@ -35,26 +36,26 @@ kbo:2008_72190 a kbo:Activity ;
 
 kbo:2091954854 a org:Site,
         kbo:Establishment ;
-    terms:issued "19-08-1999" ;
+    terms:issued "1999-08-19"^^xsd:date ;
     locn:Address kbo:37ad9aa8a825c7889443 .
 
 kbo:2273734339 a org:Site,
         kbo:Establishment ;
-    terms:issued "01-01-2018" ;
+    terms:issued "2018-01-01"^^xsd:date ;
     locn:Address kbo:8636d28730a12062a4fe .
 
 kbo:2273734735 a org:Site,
         kbo:Establishment ;
-    terms:issued "01-01-2018" ;
+    terms:issued "2018-01-01"^^xsd:date ;
     locn:Address kbo:60b40308fee9cc6e61c5 .
 
 kbo:2300081024 a org:Site,
         kbo:Establishment ;
-    terms:issued "22-01-2020" ;
+    terms:issued "2020-01-22"^^xsd:date ;
     locn:Address kbo:53a8cd9ec32aa419cf44 .
 
 kbo:37ad9aa8a825c7889443 a locn:Address ;
-    geo:asWKT "POINT (4.454342216040381 51.0549842)" ;
+    geo:asWKT "POINT (4.4527760796172355 51.054789299999996)"^^geo:wktLiteral ;
     kbo:addressType kbo:TypeOfAddress_BAET ;
     locn:fullAddress "Generaal De Wittelaan 11, 2800 Mechelen, Belgium" ;
     locn:poBox "None" ;
@@ -62,7 +63,7 @@ kbo:37ad9aa8a825c7889443 a locn:Address ;
     locn:postName "Mechelen" .
 
 kbo:53a8cd9ec32aa419cf44 a locn:Address ;
-    geo:asWKT "POINT (4.4582954 51.0559081)" ;
+    geo:asWKT "POINT (4.4589659 51.054942)"^^geo:wktLiteral ;
     kbo:addressType kbo:TypeOfAddress_BAET ;
     locn:fullAddress "Schaliënhoevedreef 20, 2800 Mechelen, Belgium" ;
     locn:poBox "F" ;
@@ -70,7 +71,7 @@ kbo:53a8cd9ec32aa419cf44 a locn:Address ;
     locn:postName "Mechelen" .
 
 kbo:60b40308fee9cc6e61c5 a locn:Address ;
-    geo:asWKT "POINT (4.453406415288631 51.05441545)" ;
+    geo:asWKT "POINT (4.453406415288631 51.05441545)"^^geo:wktLiteral ;
     kbo:addressType kbo:TypeOfAddress_BAET ;
     locn:fullAddress "Generaal De Wittelaan 21, 2800 Mechelen, Belgium" ;
     locn:poBox "None" ;
@@ -78,7 +79,7 @@ kbo:60b40308fee9cc6e61c5 a locn:Address ;
     locn:postName "Mechelen" .
 
 kbo:8636d28730a12062a4fe a locn:Address ;
-    geo:asWKT "POINT (4.4582954 51.0559081)" ;
+    geo:asWKT "POINT (4.4589659 51.054942)"^^geo:wktLiteral ;
     kbo:addressType kbo:TypeOfAddress_BAET ;
     locn:fullAddress "Schaliënhoevedreef 20, 2800 Mechelen, Belgium" ;
     locn:poBox "T" ;
@@ -91,7 +92,7 @@ kbo:Status_AC a kbo:Code ;
     kbo:codeValue "AC" .
 
 kbo:d988b612b5f7989f91cd a locn:Address ;
-    geo:asWKT "POINT (4.4567519 51.0535073)" ;
+    geo:asWKT "POINT (4.4567519 51.0535073)"^^geo:wktLiteral ;
     kbo:addressType kbo:TypeOfAddress_REGO ;
     locn:fullAddress "Generaal De Wittelaan L11, 2800 Mechelen, Belgium" ;
     locn:poBox "A3" ;

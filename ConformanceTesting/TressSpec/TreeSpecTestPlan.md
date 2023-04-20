@@ -76,7 +76,7 @@ a. [3.3.7](./TreeSpecConformancePoints.md#337-when-there-are-no-treemembers-ando
   
 ## 🌈 LDES Client Test Plan (#TODO)  
 #### Test case 1:   
-##### 2.   Launch LDES Client with the configuration to the link of a `tree:view`, the LDES collection is with `tree:path` configured. `tree:value` is accompanied by a data type.   To Verify the following points:  
+##### 1.   Launch LDES Client with the configuration to the link of a `tree:view`, the LDES collection is with `tree:path` configured. `tree:value` is accompanied by a data type.   To Verify the following points:  
 a. [1.2.2](./TreeSpecConformancePoints.md#122-every-entity-linked-from-treeview-must-be-an-entry-point-to-retrieve-all-members-of-the-collection)  
 b. [2.3.2](./TreeSpecConformancePoints.md#232-the-object-of-treevalue-should-be-accompanied-by-a-data-type-when-it-is-a-literal-value)  
 
@@ -97,13 +97,13 @@ a. [2.3.2](./TreeSpecConformancePoints.md#232-the-object-of-treevalue-should-be-
 a. [2.3.4](./TreeSpecConformancePoints.md#234-when-traversing-a-client-should-keep-a-list-of-already-visited-pages-as-despite-this-being-the-tree-spec-circular-references-and-back-links-are-not-explicitly-prohibited)  
 
 #### Test case 6:     
-##### 2.     Launch LDES Client with the configuration to the link of a `tree:view`,   the LDES collection is with`tree:path` configured. Using relations such as `tree:LessThanRelation` or `tree:GreaterThanRelation`. The `tree:path`'s value set to `xsd:date` to Verify the following points:    
+##### 6.     Launch LDES Client with the configuration to the link of a `tree:view`,   the LDES collection is with`tree:path` configured. Using relations such as `tree:LessThanRelation` or `tree:GreaterThanRelation`. The `tree:path`'s value set to `xsd:date` to Verify the following points:    
 a. [2.3.5](./TreeSpecConformancePoints.md#235-when-using-relations-such-as-treelessthanrelation-or-treegreaterthanrelation-the-time-literals-need-to-be-compared-according-to-these-3-possible-data-types-xsddate-xsddatetime-or-xsddatetimestamp)    
     
 #### Test case 7: 
-##### 3.   Launch LDES Client with the configuration to the link of a `tree:view`,   the LDES collection is with`tree:path` configured. Using relations such as `tree:LessThanRelation` or `tree:GreaterThanRelation`. The `tree:path`’s value is set to `xsd:dateTime` to Verify the following points:    
+##### 7.   Launch LDES Client with the configuration to the link of a `tree:view`,   the LDES collection is with`tree:path` configured. Using relations such as `tree:LessThanRelation` or `tree:GreaterThanRelation`. The `tree:path`’s value is set to `xsd:dateTime` to Verify the following points:    
 a. [2.3.5](./TreeSpecConformancePoints.md#235-when-using-relations-such-as-treelessthanrelation-or-treegreaterthanrelation-the-time-literals-need-to-be-compared-according-to-these-3-possible-data-types-xsddate-xsddatetime-or-xsddatetimestamp)    
     
 #### Test case 8: 
-##### 4.   Launch LDES Client with the configuration to the link of a `tree:view`,   the LDES collection is with`tree:path` configured. Using relations such as `tree:LessThanRelation` or `tree:GreaterThanRelation`.  The `tree:path`’s value is set to `xsd:dateTimeStamp` to Verify the following points:    
+##### 8.   Launch LDES Client with the configuration to the link of a `tree:view`,   the LDES collection is with`tree:path` configured. Using relations such as `tree:LessThanRelation` or `tree:GreaterThanRelation`.  The `tree:path`’s value is set to `xsd:dateTimeStamp` to Verify the following points:    
 a. [2.3.5](./TreeSpecConformancePoints.md#235-when-using-relations-such-as-treelessthanrelation-or-treegreaterthanrelation-the-time-literals-need-to-be-compared-according-to-these-3-possible-data-types-xsddate-xsddatetime-or-xsddatetimestamp)

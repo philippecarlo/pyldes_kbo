@@ -23,15 +23,15 @@ f. [1.3.6](./TreeSpecConformancePoints.md#136-when-using-treegeospatiallycontain
 g. [2.3.3](./TreeSpecConformancePoints.md#233-every-treerelation-should-have-a-treepath-indicating-the-path-from-the-member-to-the-object-on-which-the-treerelation-applies)  
   
 #### Test case 2:   
-##### 2.   Launch LDES Server with Single Fragment. The `tree:path`'s value set to `xsd:date` to Verify the following points:  
+##### 2.   Launch LDES Server with Single Fragment. The `tree:path`'s value is with `xsd:date` as datatype to Verify the following points:  
 a. [2.3.5](./TreeSpecConformancePoints.md#235-when-using-relations-such-as-treelessthanrelation-or-treegreaterthanrelation-the-time-literals-need-to-be-compared-according-to-these-3-possible-data-types-xsddate-xsddatetime-or-xsddatetimestamp)  
   
 #### Test case 3:   
-##### 3.   Launch LDES Server with Single Fragment. The tree:path’s value is set to `xsd:dateTime` to Verify the following points:  
+##### 3.   Launch LDES Server with Single Fragment. The `tree:path`’s value is with `xsd:dateTime` as datatype to Verify the following points:  
 a. [2.3.5](./TreeSpecConformancePoints.md#235-when-using-relations-such-as-treelessthanrelation-or-treegreaterthanrelation-the-time-literals-need-to-be-compared-according-to-these-3-possible-data-types-xsddate-xsddatetime-or-xsddatetimestamp)  
   
 #### Test case 4:   
-##### 4.   Launch LDES Server with Single Fragment, tree:path configured.  The tree:path’s value is set to `xsd:dateTimeStamp` to Verify the following points:  
+##### 4.   Launch LDES Server with Single Fragment, tree:path configured.  The `tree:path`’s value is with `xsd:dateTimeStamp` as datatype to Verify the following points:  
 a. [2.3.5](./TreeSpecConformancePoints.md#235-when-using-relations-such-as-treelessthanrelation-or-treegreaterthanrelation-the-time-literals-need-to-be-compared-according-to-these-3-possible-data-types-xsddate-xsddatetime-or-xsddatetimestamp)  
   
 #### Test case 5:  

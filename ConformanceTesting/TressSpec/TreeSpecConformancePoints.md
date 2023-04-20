@@ -74,7 +74,11 @@ Which contains:
 #### *2.3.4 When traversing, a client SHOULD keep a list of already visited pages, as despite this being the TREE spec, circular references and back-links are not explicitly prohibited*
 - [ ] Check the data persistency of the LDES Client.
 #### *2.3.5 When using relations such as tree:LessThanRelation or tree:GreaterThanRelation, the time literals need to be compared according to these 3 possible data types: xsd:date, xsd:dateTime or xsd:dateTimeStamp.*
-- [ ] Check LDES Server time fragment should works with the ontology with following data types:
+- [ ] Check LDES Server time fragment should work with the ontology with following data types:
+	- [ ] xsd:date
+	- [ ] xsd:dateTime
+	- [ ] xsd:dateTimeStamp.
+- - [ ] Check LDES Client could replicate the LDES collection which is with the 'tree:path' is set, and the 'tree:path' is following data types:
 	- [ ] xsd:date
 	- [ ] xsd:dateTime
 	- [ ] xsd:dateTimeStamp.

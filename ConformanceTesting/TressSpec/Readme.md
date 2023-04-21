@@ -24,3 +24,4 @@ Three different levels.
 #### Potential reference:
 
 [Linked Data Platform 1.0 Test Cases](https://dvcs.w3.org/hg/ldpwg/raw-file/tip/tests/ldp-testsuite.html#test-case-description)
+https://joinup.ec.europa.eu/collection/interoperability-test-bed-repository/solution/interoperability-test-bed

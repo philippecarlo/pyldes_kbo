@@ -15,8 +15,8 @@
 Three different levels.
 
  - [Tree Specification Test Plan](./TreeSpecTestPlan.md) specifies down to the implementation and configurations, which contains the test cases for
-	 - [LDES Server](./TreeSpecTestPlan.md#ldes-server-test-plan)
-	 - LDES Client (To Do)
+	 - [LDES Server (wip)](./TreeSpecTestPlan.md#ldes-server-test-plan)
+	 - [LDES Client (wip)](./TreeSpecTestPlan.md#ldes-client-test-plan)
 
     The test cases cover the test points documented in [Conformance Testing framework](./TreeSpecConformancePoints.md)
 

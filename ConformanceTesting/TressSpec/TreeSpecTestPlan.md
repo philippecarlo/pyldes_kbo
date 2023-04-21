@@ -74,7 +74,7 @@ a. [3.3.5](./TreeSpecConformancePoints.md#335-a-client-may-use-treeremainingitem
 ##### 15.   Launch LDES Server with Single Fragment configuration, with No `tree:member` configured. Verify the following points:  
 a. [3.3.7](./TreeSpecConformancePoints.md#337-when-there-are-no-treemembers-andor-no-treecollection-defined-then-the-treepath-refers-to-a-pattern-that-can-start-from-every-triple-in-the-page)  
   
-## 🌈 LDES Client Test Plan (#TODO)  
+## 🌈 LDES Client Test Plan 
 #### Test case 1:   
 ##### 1.   Launch LDES Client with the configuration to the link of a `tree:view`, the LDES collection is with `tree:path` configured. `tree:value` is accompanied by a data type.   To Verify the following points:  
 a. [1.2.2](./TreeSpecConformancePoints.md#122-every-entity-linked-from-treeview-must-be-an-entry-point-to-retrieve-all-members-of-the-collection)  

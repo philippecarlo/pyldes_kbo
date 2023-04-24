@@ -48,9 +48,9 @@ class TestDefaultPagination(unittest.TestCase):
     # todo
     # Define a test to verify the integrity of the dataset
 
-    # def test_6_tear_down(self):
-    #     print("######################defaultPagination: Tear down....###################")
-    #     su.stop_server(path_docker=docker_compose_file)
+    def test_6_tear_down(self):
+        print("######################defaultPagination: Tear down....###################")
+        su.stop_server(path_docker=docker_compose_file)
 
 # if __name__ == '__main__':
 #          Support().post_data(location= "../../sample/bel20/*")

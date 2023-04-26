@@ -30,6 +30,7 @@ Which contains:
 > #FIXME: client conformance included?
  - [ ] Verify that the LDES client retrieves all datasets if there is tree:viewDescription
 > #FIXME not sure if this is an actual conformance test
+> Rephrased: regardless of the startting point (a node in the middle or the root node), it should be possible to retrieve/discover all members of the dataset including the collection definition and the view description (by following the relations).
  - [ ] Verify that the LDES client retrieves all datasets if there is NO tree:viewDescription
 > #FIXME not sure if this is an actual conformance test
 
@@ -72,16 +73,16 @@ Which contains:
 
 ##	[2.3 Relations](https://treecg.github.io/specification/#relations)
 #### *2.3.1 The tree:Relation’s tree:value SHOULD be set.*
-- [ ] Check that all tree:Relation’s tree:value are set 
+- [ ] Check that all tree:Relation’s tree:value are set. 
 #### *2.3.2 The object of tree:value SHOULD be accompanied by a data type when it is a literal value.*
-- [ ] Check that every tree:Relation's tree:value is accompanied by a data type when it is a literal value
-- [ ] Check when tree:value is Not accompanied by a data type , LDES client and LDES Server works as expected
-> #FIXME Not sure where this is derived from! 
+- [ ] Check that every tree:Relation's tree:value is accompanied by a data type when it is a literal value.
+
 #### *2.3.3 Every tree:Relation SHOULD have a tree:path, indicating the path from the member to the object on which the tree:Relation applies.*
 - [ ] Check that every tree:Relation has a tree:path property set 
 #### *2.3.4 When traversing, a client SHOULD keep a list of already visited pages, as despite this being the TREE spec, circular references and back-links are not explicitly prohibited*
 - [ ] Verify behavior of the client.
 > #FIXME: client conformance included??
+
 #### *2.3.5 When using relations such as tree:LessThanRelation or tree:GreaterThanRelation, the time literals need to be compared according to these 3 possible data types: xsd:date, xsd:dateTime or xsd:dateTimeStamp.*
 - [ ] Verify that the LDES Server's supported time fragmentation works as expected with following data types:
 	- [ ] xsd:date
@@ -136,15 +137,17 @@ Which contains:
 > #FIXME: client behavior?
 ####	*3.3.6 A tree:import MAY be defined in the tree:Relation instance.*
 - [ ] Verify LDES server support for imports.
-> #fixme: no clue on how to specify imports at the ingest side.
+> #fixme: NON-TESTABLE no clue on how to specify imports at the ingest side.
 - [ ] Check when  `tree:import  ` is set. LDES Client doesn't crash for subscribed stream
 > #FIXME: client behavior?
 ####	*3.3.7 When there are no `tree:member`s and/or no `tree:Collection` defined, then the `tree:path` refers to a pattern that can start from every triple in the page.*
 - [ ] Verify support for pages with no `tree:member`s and/or no `tree:Collection` defined.
+> #fixme: NON-TESTABLE
 - [ ] Check when no `tree:member`s and/or no `tree:Collection` defined is set. LDES Client doesn't crash for subscribed stream
 > #FIXME: client behavior?
 ####	*3.3.8 When a `tree:path` is defined, mind that you also may have to check the language of the element using the property `shacl:inLanguage` More languages MAY be set. When no language is set, all strings are compared.*
 - [ ] Verify LDES server support for `shacl:inLanguage`.
+> What does that imply? If you have a langauge that you only gragment for that langauge??
 
 ####	*3.3.8 A `tree:path` MAY refer to an implicit property*
 - [ ] Check when  `tree:path` refers to an implicit property, the LDES Server doesn't crash.

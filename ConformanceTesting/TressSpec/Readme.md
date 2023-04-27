@@ -3,7 +3,7 @@
 ### The current folder contains two parts of the conformance testing.
 
  - [Conformance Testing framework](./TreeSpecConformancePoints.md)
-   contains all testing points to conform to the [Tree
+   contains all testing points for an implementation of LDES Server to conform to the [Tree
    Specification](https://treecg.github.io/specification/) 
    The test points are categorized to:
 	 - [🟥 Must](./TreeSpecConformancePoints.md#the-tree-specification-must-) 

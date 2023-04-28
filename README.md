@@ -17,6 +17,4 @@
 ***The conformace testing is UNDER creation for [TreeSpc](https://treecg.github.io/specification/#introduction) also [LDESSpec](https://semiceu.github.io/LinkedDataEventStreams/)***
 
  - [Tree Spec](./ConformanceTesting/TressSpec)
- - [Ldes Spec]()
-
 # [Auto test](./automation/tests)

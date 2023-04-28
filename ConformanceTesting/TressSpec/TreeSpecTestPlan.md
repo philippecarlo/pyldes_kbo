@@ -278,6 +278,7 @@
 
 ###  🟦 Optional - Test case 22
 >#Todo: Space hold for 27
+>#Question: What does that imply? If you have a language that you only fragment for that language?
   
 ***Scenario** :    
 ***Expected result**:  

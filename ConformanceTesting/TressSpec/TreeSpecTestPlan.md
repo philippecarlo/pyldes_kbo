@@ -327,8 +327,7 @@
   - *The evaluation based on the `tree:value` is correct.*   
  >Fulfil the Conformance Point: 29.
 
-###  🟨 Should - Test case 22
->#Todo: Space hold for 35
+###  🟨 Should - Test case 25
   
 ***Scenario** :    
  -  *1. Launch the LDES Server with `tree:view` configured to do `time fragmentation` , `tree:value` is set with ` xsd:dateTimeStamp` datatype.*
@@ -336,3 +335,4 @@
 
   ***Expected result**:  
 -  *the LDES server root lists all `tree:Collections` and `tree:Views` and that the corresponding view descriptions include a `dct:conformsTo` property with the value https://w3id.org/tree.*
+ >Fulfil the Conformance Point: 35.

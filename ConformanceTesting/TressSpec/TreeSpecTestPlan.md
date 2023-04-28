@@ -3,7 +3,8 @@
     
         
 ##  *Test Suits for LDES Server to conformance the [LDES SPEC](https://semiceu.github.io/LinkedDataEventStreams/#biblio-rfc2119) and [TREE SPEC](https://treecg.github.io/specification/)*  
-  
+> #Notice me: For the review, please start from the question page.
+
 ### Current test suits follow the scoring system as follows.      
  - 🟥 Must   (Pass - Score no change / Fail - Final score:0)      
 > When the MUST-test fails, the server is considered non-conformant. The conformance score will be zero.        
@@ -12,7 +13,7 @@
  - 🟦 Optional (Pass - Score + 5 / Fail - (Score - 10) / System Crash - Final score:0)      
 > A failing MAY-test does conformance but will result in a lower conformance score. The only strict requirement is that the server handles the test gracefully. Failure to do so will result in non-conformance.      
       
-## Test Suits 
+## Test Suits against [Conformance Points](./TreeSpecConformancePoints.md)
   
 ### 🟥 Must - Test case 1  
     
@@ -49,7 +50,7 @@
  ***Expected result**:
 
  - *All members of the collection are conform to the `SHACL` shape.* 
->Fulfil the Conformance Point: 4.*
+>Fulfil the Conformance Point: 4.
 
    
 ### 🟨 Should - Test case 4  
@@ -59,8 +60,9 @@
 
  ***Expected result**: 
 - LDES Server works correctly.* 
->Fulfil the Conformance Point: 5.
-
+> Fulfil the Conformance Point: 5.
+> The shape can be a blank node, or a named node on which you should follow your nose when it is defined at a different HTTP URL.
+> #Question: What does `named node` means here?
   
 ### 🟦 Optional - Test case 5  
   
@@ -249,7 +251,7 @@
   
 ***Scenario** :    
 
- - *1. Launch the LDES Server with `tree:view` configured to make `string-based fragmentation`, Language is set in the `tree:path`.*
+ - *1. Launch the LDES Server with `tree:view` configured to do `string-based fragmentation`, Language is set in the `tree:path`.*
  - *2. Traverse the full fragmented LDES Collection, by following `url` of the `treeNode` pointed by `treeView`.*
 
 ***Expected result**:  
@@ -260,11 +262,11 @@
 
 
 ### 🟥 Must - Test case 21 [ONLY FOR string-based fragmentation]  
->#Testble?  
+>#Question: Testable?  
   
 ***Scenario** :    
 
- - *1. Launch the LDES Server with `tree:view` configured to make `string-based fragmentation`, no language is set in the `tree:path`.* 
+ - *1. Launch the LDES Server with `tree:view` configured to do `string-based fragmentation`, no language is set in the `tree:path`.* 
  - *2. Traverse the full fragmented LDES Collection, by following `url` of the `treeNode` pointed by `treeView`.*
 
 ***Expected result**:  
@@ -321,14 +323,16 @@
  -  *1. Launch the LDES Server with `tree:view` configured to do `time fragmentation` , `tree:value` is set with ` xsd:dateTimeStamp` datatype.*
  -  *2. Traverse the full fragmented LDES  Collection, by following the `url` of the `treeNode` pointed by`treeView`.*
 
-  ***Expected result**:  
- *The evaluation based on the `tree:value` is correct.*   
+  ***Expected result**:-
+  - *The evaluation based on the `tree:value` is correct.*   
  >Fulfil the Conformance Point: 29.
 
 ###  🟦 Optional - Test case 22
 >#Todo: Space hold for 35
   
 ***Scenario** :    
-***Expected result**:  
-   
- >Fulfil the Conformance Point: 35.
+ -  *1. Launch the LDES Server with `tree:view` configured to do `time fragmentation` , `tree:value` is set with ` xsd:dateTimeStamp` datatype.*
+ -  *2. ping the root `tree:Node` of the LDES collection.*
+
+  ***Expected result**:  
+-  *the LDES server root lists all `tree:Collections` and `tree:Views` and that the corresponding view descriptions include a `dct:conformsTo` property with the value https://w3id.org/tree.*

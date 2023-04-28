@@ -327,7 +327,7 @@
   - *The evaluation based on the `tree:value` is correct.*   
  >Fulfil the Conformance Point: 29.
 
-###  🟦 Optional - Test case 22
+###  🟨 Should - Test case 22
 >#Todo: Space hold for 35
   
 ***Scenario** :    

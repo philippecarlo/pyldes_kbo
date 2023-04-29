@@ -115,7 +115,7 @@
 
 > Fulfil the Conformance Point: 9.  
   
-### 🟦 Optional - Must - Test case 9  
+### 🟦 Optional - Test case 9  
   
 ***Scenario** :    
 

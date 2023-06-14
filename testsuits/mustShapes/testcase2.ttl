@@ -1,0 +1,19 @@
+@prefix po:  <http://itb.ec.europa.eu/sample/po#> .
+@prefix sh:  <http://www.w3.org/ns/shacl#> .
+@prefix ldes: <https://w3id.org/ldes#> .
+@prefix tree: <https://w3id.org/tree#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+#
+# SPEC for Tree Spec
+# Test case - 1
+# Each tree:Node in the LDES Collection has a link between current page to tree:Collection.
+#
+
+po:TreeShape
+	a sh:NodeShape ;
+	sh:targetClass tree:Node;
+    sh:property [
+      sh:path  terms:isPartOf;
+      sh:minCount 1 ;
+#     sh:datatype tree:Node;
+    ] .

@@ -1,0 +1,21 @@
+@prefix po:  <http://itb.ec.europa.eu/sample/po#> .
+@prefix sh:  <http://www.w3.org/ns/shacl#> .
+@prefix ldes: <https://w3id.org/ldes#> .
+@prefix tree: <https://w3id.org/tree#> .
+
+#
+# SPEC for Tree Spec
+# Test case - 1
+# LDES Server does the fragment
+# provides at least one tree:view in the output LDES collection.
+# the tree:View type needs to be a tree:Node
+#
+
+po:TreeShape
+	a sh:NodeShape ;
+	sh:targetClass ldes:EventStream;
+  sh:property [
+      sh:path  tree:view;
+      sh:minCount 1 ;
+#      sh:datatype tree:Node;
+    ] .

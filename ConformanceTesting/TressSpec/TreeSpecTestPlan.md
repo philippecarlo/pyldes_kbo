@@ -10,7 +10,7 @@
 > When the MUST-test fails, the server is considered non-conformant. The conformance score will be zero.        
  - 🟨 Should (Pass - Score + 10/ Fail - (Score - 10) / System Crash - Final score: 0)      
 > When the SHOULD tests fail, the tested LDES server can still conform to the recommendation. However, the conformance score will be impacted and the maintainer of the LDES server needs to consider alignment. The only strict requirement is that the server handles the test gracefully. Failure to do so will result in non-conformance.        
- - 🟦 Optional (Pass - Score + 5 / Fail - (Score - 10) / System Crash - Final score: 0)      
+ - 🟦 Optional (Pass - Score + 5 / Fail - (Score - 5) / System Crash - Final score: 0)      
 > A failing MAY-test does conformance but will result in a lower conformance score. The only strict requirement is that the server handles the test gracefully. Failure to do so will result in non-conformance.      
       
 ## Test Suits against [Conformance Points](./TreeSpecConformancePoints.md)
@@ -115,7 +115,7 @@
 
 > Fulfil the Conformance Point: 9.  
   
-### 🟦 Optional - Must - Test case 9  
+### 🟦 Optional - Test case 9  
   
 ***Scenario** :    
 

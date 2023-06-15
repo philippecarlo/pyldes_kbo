@@ -8,8 +8,9 @@
 #
 # SPEC for Tree Spec
 # Must test case - 3
-#
-#
+# SPEC Conform:
+# Every entity linked from tree:view MUST be an entry point to retrieve all members of the collection.
+# Verify:
 # The amount of the LDES members = The Input LDES members (20, in the context of BEL20, KBO data).
 #
 po:TreeShape

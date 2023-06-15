@@ -3,13 +3,15 @@
 @prefix ldes: <https://w3id.org/ldes#> .
 @prefix tree: <https://w3id.org/tree#> .
 
+
 #
 # SPEC for Tree Spec
 # Must test case - 1
-#
-# "LDES Server does the fragment
-# Provides at least one tree:view in the output LDES collection.
-# The tree:View type needs to be a tree:Node"
+# SPEC Conform:
+# A node from which all members of a collection can be discovered,
+# can be found through a triple stating ex:C1 tree:view ex:N1 with ex:C1 being a tree:Collection and ex:N1 being a tree:Node.
+# Verify:
+# LDES Server does the fragment and provides a tree:view in the output LDES collection.
 #
 
 po:TreeShape

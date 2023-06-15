@@ -8,7 +8,7 @@
 #
 # SPEC for Tree Spec
 # Must test case - 4
-# Conform:
+# SPEC Conform:
 # A tree:Relation MUST have one tree:node object of the type tree:Node.
 # Verify:
 # Each tree:Relation has one tree:node object of the type tree:Node.

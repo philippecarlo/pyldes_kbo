@@ -2,19 +2,18 @@
 @prefix sh:  <http://www.w3.org/ns/shacl#> .
 @prefix ldes: <https://w3id.org/ldes#> .
 @prefix tree: <https://w3id.org/tree#> .
-@prefix terms: <http://purl.org/dc/terms/> .
+
 #
 # SPEC for Tree Spec
-# Must test case - 2
+# should test case - 1
 #
-#
-# Each tree:Node in the LDES Collection has a link between current page to tree:Collection.
+# Each tree:Relation has one tree:value set.
 #
 
 po:TreeShape
 	a sh:NodeShape ;
-	sh:targetClass tree:Node;
+    sh:targetClass tree:relation ;
     sh:property [
-      sh:path  terms:isPartOf;
-      sh:minCount 1 ;
+        sh:path tree:value ;
+        sh:minCount 1 ;
     ] .

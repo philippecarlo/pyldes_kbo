@@ -15,8 +15,8 @@
 po:TreeShape
 	a sh:NodeShape ;
 	sh:targetClass ldes:EventStream;
-  sh:property [
-      sh:path  tree:view;
-      sh:minCount 1 ;
-#      sh:datatype tree:Node;
+    sh:property [
+          sh:path  tree:view;
+          sh:minCount 1 ;
+    #      sh:datatype tree:Node;
     ] .

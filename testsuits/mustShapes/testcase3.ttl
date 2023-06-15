@@ -5,7 +5,7 @@
 @prefix terms: <http://purl.org/dc/terms/> .
 #
 # SPEC for Tree Spec
-# Must test case - 2
+# Must test case - 3
 #
 #
 # Each tree:Node in the LDES Collection has a link between current page to tree:Collection.

@@ -5,10 +5,11 @@
 
 #
 # SPEC for Tree Spec
-# Test case - 1
-# LDES Server does the fragment
-# provides at least one tree:view in the output LDES collection.
-# the tree:View type needs to be a tree:Node
+# Must test case - 1
+#
+# "LDES Server does the fragment
+# Provides at least one tree:view in the output LDES collection.
+# The tree:View type needs to be a tree:Node"
 #
 
 po:TreeShape

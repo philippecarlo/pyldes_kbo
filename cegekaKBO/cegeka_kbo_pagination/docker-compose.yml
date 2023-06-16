@@ -5,8 +5,8 @@ services:
     image: ${DOCKER_REPO:-ghcr.io/informatievlaanderen}/ldes-server:${LDES_SERVER_TAG:-20230314T0913}
     environment:
       - SIS_DATA=/tmp
-      - SPRING_DATA_MONGODB_DATABASE=${SPRING_DATA_MONGODB_DATABASE:-kbo}
-      - LDES_COLLECTIONNAME=${LDES_COLLECTIONNAME:-kbo}
+      - SPRING_DATA_MONGODB_DATABASE=${SPRING_DATA_MONGODB_DATABASE:-kbolaunch}
+      - LDES_COLLECTIONNAME=${LDES_COLLECTIONNAME:-kbolaunch}
       - LDES_MEMBERTYPE=${LDES_MEMBERTYPE:-http://www.w3.org/ns/legal#legalEntity}
       - SPRING_DATA_MONGODB_HOST=ldes-mongodb
       - SPRING_DATA_MONGODB_PORT=27017
@@ -39,4 +39,4 @@ services:
       - ldes
 networks:
   ldes:
-    name: ${USECASE_NAME:-kbo}_network
+    name: ${USECASE_NAME:-kbolaunch}_network

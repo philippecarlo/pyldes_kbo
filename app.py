@@ -17,7 +17,7 @@ example: https://geocode.maps.co/search?q=Ter+Voortlaan+26+2650+edegem+belgium
 """
 #Uses relative path
 VERSION = "KboOpenData_2022_11"
-DB_LOCATION = "data/kbo.db"
+DB_LOCATION = "data/kbolaunch.db"
 BASE_PATH='data'
 BEL_20=["0417.497.106",
         "0404.616.494",
@@ -99,7 +99,7 @@ if __name__ == '__main__':
         for enterprise in enterprises.generate():
             current_rec = current_rec + 1
             graph = Graph()
-            graph.bind("kbo", KBO)
+            graph.bind("kbolaunch", KBO)
             graph.bind("org", ORG)
             graph.bind("foaf", FOAF)
             graph.bind("vcard", VCARD)
@@ -121,7 +121,7 @@ if __name__ == '__main__':
             exit()
         else:
             graph = Graph()
-            graph.bind("kbo", KBO)
+            graph.bind("kbolaunch", KBO)
             graph.bind("org", ORG)
             graph.bind("foaf", FOAF)
             graph.bind("vcard", VCARD)
@@ -140,8 +140,8 @@ if __name__ == '__main__':
         enterprise = KboGenerator(BASE_PATH, DB_LOCATION).one(enterprise_nr)
         graph = Graph()
 
-        # bind kbo, org, foaf, vard prefix.
-        graph.bind("kbo", KBO)
+        # bind kbolaunch, org, foaf, vard prefix.
+        graph.bind("kbolaunch", KBO)
         graph.bind("org", ORG)
         graph.bind("foaf", FOAF)
         graph.bind("vcard", VCARD)
@@ -164,7 +164,7 @@ if __name__ == '__main__':
         for enterprise in enterprises.generate():
             current_rec = current_rec + 1
             graph = Graph()
-            graph.bind("kbo", KBO)
+            graph.bind("kbolaunch", KBO)
             graph.bind("org", ORG)
             graph.bind("foaf", FOAF)
             graph.bind("vcard", VCARD)
@@ -187,8 +187,8 @@ if __name__ == '__main__':
              enterprise = KboGenerator(BASE_PATH, DB_LOCATION).one(enterprise)
              graph = Graph()
 
-             # bind kbo, org, foaf, vard prefix.
-             graph.bind("kbo", KBO)
+             # bind kbolaunch, org, foaf, vard prefix.
+             graph.bind("kbolaunch", KBO)
              graph.bind("org", ORG)
              graph.bind("foaf", FOAF)
              graph.bind("vcard", VCARD)

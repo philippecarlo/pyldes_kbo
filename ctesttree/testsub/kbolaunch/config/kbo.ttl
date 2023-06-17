@@ -8,6 +8,7 @@
 @prefix legal:   <http://www.w3.org/ns/legal#> .
 @prefix terms:    <http://purl.org/dc/terms/> .
 @prefix collection: </kbo/> .
+@prefix example: <http://example.org/> .
 
 </kbo> a ldes:EventStream ;
 	   ldes:timestampPath terms:issued ;
@@ -20,8 +21,9 @@
        ] .
 
 collection:time-based tree:viewDescription [
-       ldes:retentionPolicy [
-                     a ldes:DurationAgoPolicy  ;
-                     tree:value "PT2M"^^xsd:duration ;
+      example:fragmentationStrategy [
+                     a example:Fragmentation ;
+                     example:name "timebased" ;
+                     example:memberLimit "20" ;
                  ] ;
 										   ] .

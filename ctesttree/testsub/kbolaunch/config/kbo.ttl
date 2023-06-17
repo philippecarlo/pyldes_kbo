@@ -7,12 +7,21 @@
 @prefix sh:      <http://www.w3.org/ns/shacl#> .
 @prefix legal:   <http://www.w3.org/ns/legal#> .
 @prefix terms:    <http://purl.org/dc/terms/> .
-
-@base <http://localhost:8080> .
+@prefix collection: </kbo/> .
 
 </kbo> a ldes:EventStream ;
-	tree:shape [ a sh:NodeShape ] ;
-	ldes:timestampPath terms:issued  ;
-	ldes:versionOfPath terms:isVersionOf ;
-	server:memberType legal:legalEntity ;
-	server:hasDefaultView "true"^^xsd:boolean .
+	   ldes:timestampPath terms:issued ;
+	   ldes:versionOfPath terms:isVersionOf;
+	   server:memberType legal:legalEntity ;
+	   server:hasDefaultView "true"^^xsd:boolean;
+       ldes:view collection:time-based ;
+	   tree:shape [
+                    a sh:NodeShape ;
+       ] .
+
+collection:time-based tree:viewDescription [
+       ldes:retentionPolicy [
+                     a ldes:DurationAgoPolicy  ;
+                     tree:value "PT2M"^^xsd:duration ;
+                 ] ;
+										   ] .

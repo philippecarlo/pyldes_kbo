@@ -15,9 +15,9 @@
 #
 po:TreeShape
 	a sh:NodeShape ;
-    sh:targetClass tree:Node ;
+#    sh:targetClass tree:Node ;
     sh:property [
         sh:path legal:legalEntity ;
-        sh:minCount 1 ;
-        sh:maxCount 1;
+        sh:minCount 20 ;
+        sh:maxCount 20;
     ] .

@@ -20,13 +20,12 @@ url_view = 'http://localhost:8080/kbo'
 class MustTestCase3:
     def get_result(self):
         shapes_graph = Graph().parse("../mustShapes/testcase3.ttl", format="ttl")
-        data_graph = Graph().parse(requests.request("GET", url_view, headers=headers_get).content, format="ttl")
-        #data_graph = Graph().parse("../../../../automation/expected/expected_timebase/random.turtle", format="ttl")
+        data_graph = Graph().parse("../../../../sdk/ldes-test-client/items.rdf", format="ntriples")
         results = pyshacl.validate(
             data_graph,
             shacl_graph=shapes_graph,
-            data_graph_format="json-ld",
-            shacl_graph_format="rdfs",
+            data_graph_format="ntriples",
+            shacl_graph_format="ttl",
             inference="rdfs",
             debug=True,
             serialize_report_graph="ttl",

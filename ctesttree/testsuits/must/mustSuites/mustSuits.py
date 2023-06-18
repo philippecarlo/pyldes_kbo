@@ -33,8 +33,8 @@ report += "- Conformance result:" + str(MustTestCase3().get_result()) + "<br/><b
 
 report += "- Validating against MUST conformance request:<br/>"
 report += "A tree:Relation MUST have one tree:node object of the type tree:Node.<br/>"
-result.append(MustTestCase3().get_result())
-report += "- Conformance result:" + str(MustTestCase3().get_result()) + "<br/><br/>"
+result.append(MustTestCase4().get_result())
+report += "- Conformance result:" + str(MustTestCase4().get_result()) + "<br/><br/>"
 
 # Calculate the final score
 report += "The conform score of current implementation to the TREE SPEC is: " + str(

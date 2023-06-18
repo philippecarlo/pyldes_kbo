@@ -29,7 +29,7 @@ class MustTestCase1:
             data_graph,
             shacl_graph=shapes_graph,
             data_graph_format="json-ld",
-            shacl_graph_format="rdfs",
+            shacl_graph_format="ttl",
             inference="rdfs",
             debug=True,
             serialize_report_graph="ttl",

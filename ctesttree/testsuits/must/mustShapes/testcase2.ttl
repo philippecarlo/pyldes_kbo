@@ -13,7 +13,18 @@
 # "Each tree:Node in the LDES Collection has a link between current page to tree:Collection."
 #
 
-po:TreeShape
+tree:NotEmpty a sh:NodeShape ;
+   sh:targetNode [
+      sh:SPARQL """
+         SELECT ?node WHERE {
+            ?node ?p ?o .
+         }
+         LIMIT 1
+      """
+   ] ;
+   sh:message "The graph must not be empty." .
+
+tree:OneLinkToCollection
 	a sh:NodeShape ;
 	sh:targetClass tree:Node;
     sh:property [

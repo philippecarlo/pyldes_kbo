@@ -3,7 +3,7 @@
 docker compose up -d
 
 #Wait the system starts
-sleep 2m
+#sleep 30s
 
 
 container_name="basic_ldes-server"
@@ -24,6 +24,19 @@ if [ $? != 0 ]
     then exit $?
 fi
 
+#Check if endpoints are up
+url="http://localhost:8080/kbo"
+
+content=$(curl -sSL "$url")
+
+if [[ -n $content ]]; then
+    echo "http://localhost:8080/kbo is reachable"
+else
+    echo "http://localhost:8080/kbo isn not reachable"
+    echo "The implementation doesn't support the minimum SPEC, Stopping the program..."
+    exit 0
+fi
+
 #Post dataset
 for f in ../../../../sample/bel20/*; do curl -i -X POST "http://localhost:8080/kbo" -H "Content-Type: application/turtle" -d "@$f";done
 
@@ -39,6 +52,16 @@ if [ -d "$folder_path" ]; then
     echo "Folder .scrapy removed successfully."
 else
     echo "Folder .scrapy does not exist."
+fi
+
+#Remove previous output
+file="items.rdf"
+
+if [ -f "$file" ]; then
+    rm "$file"
+    echo "File $file removed."
+else
+    echo "File $file does not exist."
 fi
 
 # generate the whole graph of the output
@@ -60,6 +83,6 @@ python3 optionalSuits.py
 
 
 #stop docker containers
-cd  /mnt/c/VSDS/pyldes_kbo/ctesttree/testsub/kbolaunch
-docker compose down
-echo "Test Finish."
+#cd  /mnt/c/VSDS/pyldes_kbo/ctesttree/testsub/kbolaunch
+#docker compose down
+#echo "Test Finish."

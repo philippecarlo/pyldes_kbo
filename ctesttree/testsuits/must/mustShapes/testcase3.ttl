@@ -21,6 +21,6 @@ po:TreeShape
 #    sh:targetClass tree:Node ;
     sh:property [
         sh:path legal:legalEntity ;
-        sh:minCount 20 ;
-        sh:maxCount 20;
+        sh:minCount 0 ;
+        sh:maxCount 0;
     ] .

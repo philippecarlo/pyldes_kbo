@@ -23,7 +23,7 @@ class ShouldTestCase5:
     def get_result(self):
         shapes_graph = Graph().parse("../shouldShapes/testcase5.ttl", format="ttl")
         # data_graph = Graph().parse(requests.request("GET", url_view, headers=headers_get_json).content, format="json-ld")
-        data_graph = Graph().parse("../../../../automation/expected/expected_timebase/view.turtle", format="ttl")
+        data_graph = Graph().parse("../../../sdk/ldes-test-client/crawldf/items.rdf", format="ntriples")
 
         results = pyshacl.validate(
             data_graph,

@@ -1,24 +1,31 @@
-@prefix po:  <http://itb.ec.europa.eu/sample/po#> .
-@prefix sh:  <http://www.w3.org/ns/shacl#> .
-@prefix ldes: <https://w3id.org/ldes#> .
-@prefix tree: <https://w3id.org/tree#> .
-
-
 #
-# SPEC for Tree Spec
-# Must test case - 1
+# SPEC for Tree Spec Must test case - 1
 # SPEC Conform:
-# A node from which all members of a collection can be discovered,
-# can be found through a triple stating ex:C1 tree:view ex:N1 with ex:C1 being a tree:Collection and ex:N1 being a tree:Node.
-# Verify:
-# LDES Server does the fragment and provides a tree:view in the output LDES collection.
+# A node from which all members of a collection can be
+# discovered, can be found through a triple stating ex:C1 tree:view ex:N1 with ex:C1 being a tree:Collection and
+# ex:N1 being a tree:Node.
+#
+# Verify: LDES Server does the fragment and provides a tree:view in the output LDES collection.
 #
 
-po:TreeShape
+@prefix po:  <http://itb.ec.europa.eu/sample/po#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix tree: <https://w3id.org/tree#> .
+@prefix ldes: <https://w3id.org/ldes#> .
+
+tree:AtLeastOneLDES a sh:NodeShape ;
+   sh:targetNode <http://localhost:8080/kbo> ;
+   sh:property [
+      sh:path rdf:type;
+      sh:hasValue ldes:EventStream ;
+   ] .
+
+
+tree:AtLeatOneTreeView
 	a sh:NodeShape ;
 	sh:targetClass ldes:EventStream;
     sh:property [
-          sh:path  tree:view;
-          sh:minCount 1 ;
-    #      sh:datatype tree:Node;
+      sh:path  tree:view;
+      sh:minCount 1 ;
     ] .

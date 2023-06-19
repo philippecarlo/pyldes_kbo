@@ -62,7 +62,6 @@
 - LDES Server works correctly.* 
 > Fulfil the Conformance Point: 5.
 > The shape can be a blank node, or a named node on which you should follow your nose when it is defined at a different HTTP URL.
-> #Question: What does `named node` means here?
   
 ### 🟦 Optional - Test case 5  
   

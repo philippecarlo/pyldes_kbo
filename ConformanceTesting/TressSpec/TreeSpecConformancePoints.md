@@ -58,7 +58,9 @@ The Testing framework follows:
 #### Conformance point 14 *🟨 Should - The tree:Relation’s tree:value SHOULD be set.*  
 - [ ] Check that all `tree:Relation`’s `tree:value` are set.  
 #### Conformance point 15 *🟨 Should - The object of tree:value SHOULD be accompanied by a data type when it is a literal value.*  
-- [ ] Check that every `tree:Relation`’s tree:value is accompanied by a data type when it is a literal value.  
+- [ ] Check that every `tree:Relation`’s tree:value is accompanied by a data type when it is a literal value.
+#Question: #How can the LDES Server knows it is a literal if the ingestion data is not accompanied with a datatype?
+
 #### Conformance point 16 *🟨 Should - Every tree:Relation SHOULD have a tree:path, indicating the path from the member to the object on which the tree:Relation applies.*  
 - [ ] Check that every `tree:Relation` has a tree:path property set  
 #### Conformance point 17 *🟦 Optional - All possible combinations of e.g., `shacl:alternativePath`, `shacl:inversePath` or `shacl:inLanguage` in the SHACL spec can be used.*  

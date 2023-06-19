@@ -1,4 +1,5 @@
 #Todo
+
 @prefix po:  <http://itb.ec.europa.eu/sample/po#> .
 @prefix sh:  <http://www.w3.org/ns/shacl#> .
 @prefix ldes: <https://w3id.org/ldes#> .
@@ -6,11 +7,12 @@
 @prefix terms: <http://purl.org/dc/terms/> .
 @prefix legal: <http://www.w3.org/ns/legal#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
-#
+
+
 # SPEC for Tree Spec
-# Must test case - 16
+# Must test case - 22
 # SPEC Conform:
-# The result of the evaluation of the tree:path, is the value that MUST be compared to the tree:value.
+# When using tree:GeospatiallyContainsRelation, the tree:path MUST refer to a literal containing a WKT string, such as geosparql:asWKT.
 # Verify:
-# The evaluation based on the tree:value of the tree:path is correct.
+# The tree:path of each tree:Relation refers to a literal containing a WKT string, such as geosparql:asWKT.
 

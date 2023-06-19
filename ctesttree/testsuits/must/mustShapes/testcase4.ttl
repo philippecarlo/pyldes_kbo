@@ -7,7 +7,7 @@
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 #
 # SPEC for Tree Spec
-# Must test case - 4
+# Must test case - 10
 # SPEC Conform:
 # A tree:Relation MUST have one tree:node object of the type tree:Node.
 # Verify:

@@ -1,0 +1,17 @@
+@prefix po:  <http://itb.ec.europa.eu/sample/po#> .
+@prefix sh:  <http://www.w3.org/ns/shacl#> .
+@prefix ldes: <https://w3id.org/ldes#> .
+@prefix tree: <https://w3id.org/tree#> .
+
+# TODO:
+
+# SPEC for Tree Spec
+# SHOULD test case - 13
+# SPEC Conform:
+# The object of tree:value SHOULD be accompanied by a data type when it is a literal value.
+#
+# Verify:
+# Each tree:Relation's tree:value is accompanied by a data type when it is a literal value.
+#
+
+# How can the LDES Server knows it is a literal if the ingestion data is not accompanied with a datatype?

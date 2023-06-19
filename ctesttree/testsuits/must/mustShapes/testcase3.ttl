@@ -16,11 +16,13 @@
 # Verify:
 # The amount of the LDES members = The Input LDES members (20, in the context of BEL20, KBO data).
 #
-po:TreeShape
-	a sh:NodeShape ;
-#    sh:targetClass tree:Node ;
-    sh:property [
-        sh:path legal:legalEntity ;
-        sh:minCount 0 ;
-        sh:maxCount 0;
-    ] .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+
+tree:InputOutputEqual a sh:NodeShape ;
+   sh:targetClass ldes:EventStream ;
+   sh:property [
+      sh:path rdf:type ;
+      sh:datatype legal:legalEntity;
+      sh:maxCount 19 ;
+   ] .

@@ -3,7 +3,7 @@
 docker compose up -d
 
 #Wait the system starts
-#sleep 30s
+sleep 30s
 
 
 container_name="basic_ldes-server"

@@ -13,11 +13,13 @@
 # Verify:
 # Each tree:Relation has one tree:node object of the type tree:Node.
 #
-po:TreeShape
+tree:RelationHasANode
 	a sh:NodeShape ;
-    sh:targetClass tree:relation ;
+    sh:targetClass tree:Relation ;
     sh:property [
         sh:path tree:node ;
-        sh:minCount 1 ;
         sh:datatype tree:Node;
+        sh:minCount  1 ;
     ] .
+
+#Question: does the datatype needs to be marked here?

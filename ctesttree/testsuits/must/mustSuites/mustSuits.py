@@ -39,12 +39,12 @@ report += "- Validating against MUST conformance request:<br/>"
 report += "Every entity linked from tree:view MUST be an entry point to retrieve all members of the collection.<br/>"
 result.append(MustTestCase3().get_result())
 report += "- Conformance result:" + str(MustTestCase3().get_result()) + "<br/><br/>"
-
+#
 # report += "- Validating against MUST conformance request:<br/>"
 # report += "A tree:Relation MUST have one tree:node object of the type tree:Node.<br/>"
 # result.append(MustTestCase4().get_result())
 # report += "- Conformance result:" + str(MustTestCase4().get_result()) + "<br/><br/>"
-#
+# #
 # report += "- Validating against MUST conformance request:<br/>"
 # report += "The result of the evaluation of the tree:path, is the value that MUST be compared to the tree:value.<br/>"
 # result.append(MustTestCase5().get_result())

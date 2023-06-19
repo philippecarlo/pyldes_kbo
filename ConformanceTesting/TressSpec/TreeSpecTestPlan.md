@@ -236,7 +236,7 @@
  - *The evaluation based on the `tree:value` of the `tree:path` is correct.*   
  >Fulfil the Conformance Point: 24.  
   
-### 🟥 Must - Test case 19
+### 🟦 Optional - Test case 19
 ***Scenario** :    
 
  -  *1. Launch the LDES Server with `tree:view` configured, and `tree:path` refers to an implicit property.*  

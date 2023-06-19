@@ -59,7 +59,7 @@ The Testing framework follows:
 - [ ] Check that all `tree:Relation`’s `tree:value` are set.  
 #### Conformance point 15 *🟨 Should - The object of tree:value SHOULD be accompanied by a data type when it is a literal value.*  
 - [ ] Check that every `tree:Relation`’s tree:value is accompanied by a data type when it is a literal value.
-#Question: #How can the LDES Server knows it is a literal if the ingestion data is not accompanied with a datatype?
+- [ ] #Question: #How can the LDES Server knows it is a literal if the ingestion data is not accompanied with a datatype?
 
 #### Conformance point 16 *🟨 Should - Every tree:Relation SHOULD have a tree:path, indicating the path from the member to the object on which the tree:Relation applies.*  
 - [ ] Check that every `tree:Relation` has a tree:path property set  

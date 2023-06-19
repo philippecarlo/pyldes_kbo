@@ -32,7 +32,6 @@ The Testing framework follows:
   
 #### Conformance point 5 *🟨 Should - Note: the shape can be a blank node, or a named node on which you should follow your nose when it is defined at a different HTTP URL.*  
 - [ ] Check when LDES stream is set with a blank node or named node and the shape can be resolved, all members conform to the shape  
-> #What does named node mean here?
 #### Conformance point 6 *🟦 Optional - 3.2.3 Note: For compatibility with the Solid specifications, a ShEx shape may also be given (see the chapter on compatibility bellow).*  
 - [ ] Check that when an LDES collection is annotated with a  `ShEx shape `, the LDES server works as expected  
   
@@ -59,7 +58,9 @@ The Testing framework follows:
 #### Conformance point 14 *🟨 Should - The tree:Relation’s tree:value SHOULD be set.*  
 - [ ] Check that all `tree:Relation`’s `tree:value` are set.  
 #### Conformance point 15 *🟨 Should - The object of tree:value SHOULD be accompanied by a data type when it is a literal value.*  
-- [ ] Check that every `tree:Relation`’s tree:value is accompanied by a data type when it is a literal value.  
+- [ ] Check that every `tree:Relation`’s tree:value is accompanied by a data type when it is a literal value.
+- [ ] #Question: #How can the LDES Server knows it is a literal if the ingestion data is not accompanied with a datatype?
+
 #### Conformance point 16 *🟨 Should - Every tree:Relation SHOULD have a tree:path, indicating the path from the member to the object on which the tree:Relation applies.*  
 - [ ] Check that every `tree:Relation` has a tree:path property set  
 #### Conformance point 17 *🟦 Optional - All possible combinations of e.g., `shacl:alternativePath`, `shacl:inversePath` or `shacl:inLanguage` in the SHACL spec can be used.*  
@@ -88,9 +89,7 @@ The Testing framework follows:
 > #NOTE: Client conformance is not part of the scope.  
 ### [3.3.1  Comparing strings](https://treecg.github.io/specification/#relationsubclasses)  
 #### Conformance point 26  *🟥 Must - The strings MUST then be compared according to case-sensitive unicode ordering.*  
-- [ ] Verify that string-based fragmentation use case-sensitive unicode ordering.  
-- [ ] Verify that when no language is set in the `tree:path`, strings of all languages are used for comparison.  
-
+- [ ] Verify that string-based fragmentation use case-sensitive unicode ordering.
 #### Conformance point 27 *🟦 Optional - When a `tree:path` is defined, mind that you also may have to check the language of the element using the property `shacl:inLanguage` More languages MAY be set. When no language is set, all strings are compared.*  
 - [ ] Verify that LDES server supports `shacl:inLanguage`.  
 > #Question: What does that imply? If you have a language that you only fragment for that language?  

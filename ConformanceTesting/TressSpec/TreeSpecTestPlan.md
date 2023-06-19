@@ -62,7 +62,6 @@
 - LDES Server works correctly.* 
 > Fulfil the Conformance Point: 5.
 > The shape can be a blank node, or a named node on which you should follow your nose when it is defined at a different HTTP URL.
-> #Question: What does `named node` means here?
   
 ### 🟦 Optional - Test case 5  
   
@@ -152,7 +151,7 @@
  >Fulfil the Conformance Point: 14.  
   
   
-### 🟨 Should - Test case 12  
+### 🟨 Should - Test case 12  (DUPLICATED with TEST CASE 11)
   
 ***Scenario** :    
 
@@ -236,7 +235,7 @@
  - *The evaluation based on the `tree:value` of the `tree:path` is correct.*   
  >Fulfil the Conformance Point: 24.  
   
-### 🟥 Must - Test case 19
+### 🟦 Optional - Test case 19  (DUPLICATED with TEST CASE 18)
 ***Scenario** :    
 
  -  *1. Launch the LDES Server with `tree:view` configured, and `tree:path` refers to an implicit property.*  
@@ -261,22 +260,7 @@
  >Fulfil the Conformance Point: 26.     
 
 
-### 🟥 Must - Test case 21 [ONLY FOR string-based fragmentation]  
->#Question: Testable?  
-  
-***Scenario** :    
-
- - *1. Launch the LDES Server with `tree:view` configured to do `string-based fragmentation`, no language is set in the `tree:path`.* 
- - *2. Traverse the full fragmented LDES Collection, by following `url` of the `treeNode` pointed by `treeView`.*
-
-***Expected result**:  
-
- - *Strings of all languages are used in evaluation for creating the relation between the pages*
-
- >Fulfil the Conformance Point: 26.
-
-
-###  🟦 Optional - Test case 22
+###  🟦 Optional - Test case 21
 >#Todo: Space hold for 27
 >#Question: What does that imply? If you have a language that you only fragment for that language?
   
@@ -285,7 +269,7 @@
    
  >Fulfil the Conformance Point: 27.
 
-### 🟥 Must - Test case 23 [ONLY FOR geospatial fragmentation]  
+### 🟥 Must - Test case 22 [ONLY FOR geospatial fragmentation]  
   
 ***Scenario** :    
 
@@ -296,7 +280,7 @@
  - *The tree:path of each `tree:Relation` refers to a literal containing a WKT string, such as geosparql:asWKT.*   
  >Fulfil the Conformance Point: 28.
 
-### 🟥 Must - Test case 24 [ONLY FOR time fragmentation]  
+### 🟥 Must - Test case 23 [ONLY FOR time fragmentation]  
   
 ***Scenario** :    
  - *1. Launch the LDES Server with `tree:view` configured to do `time fragmentation` , `tree:value` is set with `xsd:date` datatype.*
@@ -307,7 +291,7 @@
  >Fulfil the Conformance Point: 29.
 
  
-### 🟥 Must - Test case 25 [ONLY FOR time fragmentation]  
+### 🟥 Must - Test case 24 [ONLY FOR time fragmentation]  
   
 ***Scenario** :    
  -  *1. Launch the LDES Server with `tree:view` configured to do `time fragmentation` , `tree:value` is set with `xsd:dateTime` datatype.*
@@ -318,7 +302,7 @@
  >Fulfil the Conformance Point: 29.
 
  
-### 🟥 Must - Test case 24 [ONLY FOR time fragmentation]  
+### 🟥 Must - Test case 25 [ONLY FOR time fragmentation]  
   
 ***Scenario** :    
  -  *1. Launch the LDES Server with `tree:view` configured to do `time fragmentation` , `tree:value` is set with ` xsd:dateTimeStamp` datatype.*
@@ -328,7 +312,7 @@
   - *The evaluation based on the `tree:value` is correct.*   
  >Fulfil the Conformance Point: 29.
 
-###  🟨 Should - Test case 25
+###  🟨 Should - Test case 26
   
 ***Scenario** :    
  -  *1. Launch the LDES Server with `tree:view` configured to do `time fragmentation` , `tree:value` is set with ` xsd:dateTimeStamp` datatype.*

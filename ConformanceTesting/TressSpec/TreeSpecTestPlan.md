@@ -151,7 +151,7 @@
  >Fulfil the Conformance Point: 14.  
   
   
-### 🟨 Should - Test case 12  
+### 🟨 Should - Test case 12  (DUPLICATED WITH Test case 11)
   
 ***Scenario** :    
 

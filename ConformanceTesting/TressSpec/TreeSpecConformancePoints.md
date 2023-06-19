@@ -88,9 +88,7 @@ The Testing framework follows:
 > #NOTE: Client conformance is not part of the scope.  
 ### [3.3.1  Comparing strings](https://treecg.github.io/specification/#relationsubclasses)  
 #### Conformance point 26  *🟥 Must - The strings MUST then be compared according to case-sensitive unicode ordering.*  
-- [ ] Verify that string-based fragmentation use case-sensitive unicode ordering.  
-- [ ] Verify that when no language is set in the `tree:path`, strings of all languages are used for comparison.  
-
+- [ ] Verify that string-based fragmentation use case-sensitive unicode ordering.
 #### Conformance point 27 *🟦 Optional - When a `tree:path` is defined, mind that you also may have to check the language of the element using the property `shacl:inLanguage` More languages MAY be set. When no language is set, all strings are compared.*  
 - [ ] Verify that LDES server supports `shacl:inLanguage`.  
 > #Question: What does that imply? If you have a language that you only fragment for that language?  

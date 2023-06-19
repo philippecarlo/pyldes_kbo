@@ -32,7 +32,6 @@ The Testing framework follows:
   
 #### Conformance point 5 *🟨 Should - Note: the shape can be a blank node, or a named node on which you should follow your nose when it is defined at a different HTTP URL.*  
 - [ ] Check when LDES stream is set with a blank node or named node and the shape can be resolved, all members conform to the shape  
-> #What does named node mean here?
 #### Conformance point 6 *🟦 Optional - 3.2.3 Note: For compatibility with the Solid specifications, a ShEx shape may also be given (see the chapter on compatibility bellow).*  
 - [ ] Check that when an LDES collection is annotated with a  `ShEx shape `, the LDES server works as expected  
   

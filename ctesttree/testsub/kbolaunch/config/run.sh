@@ -1,0 +1,65 @@
+#!/bin/sh
+#Start docker containers
+docker compose up -d
+
+#Wait the system starts
+sleep 2m
+
+
+container_name="basic_ldes-server"
+
+# Check if the container is running
+if docker ps --format "{{.Names}}" | grep -q "$container_name"; then
+    echo "Container $container_name is running."
+else
+    echo "Container $container_name is not running."
+    echo "The implementation doesn't support the minimum SPEC, Stopping the program..."
+    exit 0
+fi
+
+
+#Post the stream/view configuration
+curl -X PUT 'http://localhost:8080/admin/api/v1/eventstreams' -H 'Content-Type: text/turtle' -d '@./kbo.ttl'
+if [ $? != 0 ]
+    then exit $?
+fi
+
+#Post dataset
+for f in ../../../../sample/bel20/*; do curl -i -X POST "http://localhost:8080/kbo" -H "Content-Type: application/turtle" -d "@$f";done
+
+
+#Remove previous cached output
+cd /mnt/c/VSDS/pyldes_kbo/sdk/ldes-test-client
+folder_path=".scrapy"  # Replace with the actual folder path
+
+# Check if the folder exists
+if [ -d "$folder_path" ]; then
+    # Remove the folder and its contents recursively
+    rm -r "$folder_path"
+    echo "Folder .scrapy removed successfully."
+else
+    echo "Folder .scrapy does not exist."
+fi
+
+# generate the whole graph of the output
+cd crawldf
+python3 run.py
+
+echo "Creating MUST SPEC report."
+# shellcheck disable=SC2103
+cd /mnt/c/VSDS/pyldes_kbo/ctesttree/testsuits/must/mustSuites
+python3 mustSuits.py
+
+echo "Creating SHOULD SPEC report."
+cd /mnt/c/VSDS/pyldes_kbo/ctesttree/testsuits/should/shouldSuites
+python3 shouldSuits.py
+
+echo "Creating OPTIONAL report."
+cd /mnt/c/VSDS/pyldes_kbo/ctesttree/testsuits/optional/optionalSuites
+python3 optionalSuits.py
+
+
+#stop docker containers
+cd  /mnt/c/VSDS/pyldes_kbo/ctesttree/testsub/kbolaunch
+docker compose down
+echo "Test Finish."

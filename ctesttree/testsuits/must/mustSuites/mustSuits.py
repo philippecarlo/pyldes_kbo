@@ -1,4 +1,6 @@
-from testcase1 import MustTestCase1
+# from testcase1 import MustTestCase1
+from datetime import datetime
+
 from testcase2 import MustTestCase2
 from testcase3 import MustTestCase3
 from testcase4 import MustTestCase4
@@ -13,17 +15,19 @@ from reportlab.lib.styles import getSampleStyleSheet
 from reportlab.platypus import SimpleDocTemplate, Paragraph
 
 # Create a new PDF file
-pdf_file = "Report_must.pdf"
-doc = SimpleDocTemplate(pdf_file, pagesize=letter)
+output_directory = "../../../reports"
+output_file = "report_must_spec.pdf"
+output_path = f"{output_directory}/{output_file}"
+doc = SimpleDocTemplate(output_path, pagesize=letter)
 
 result = []
-report = "<b>Conformance Test report against MUST SPECS</b><br/><br/><br/>"
-# Append all result to a lis
-report += "- Validating against MUST conformance request:<br/>"
-report += "A node from which all members of a collection can be discovered,can be found through a triple stating " \
-          "ex:C1 tree:view ex:N1 with ex:C1 being a tree:Collection and ex:N1 being a tree:Node.<br/>"
-report += "- Conformance result:" + str(MustTestCase1().get_result()) + "<br/><br/>"
-result.append(MustTestCase1().get_result())
+report = "<b>Conformance Test report against MUST SPECS at: "+str(datetime.now())+"</b><br/><br/><br/>"
+# # Append all result to a lis
+# report += "- Validating against MUST conformance request:<br/>"
+# report += "A node from which all members of a collection can be discovered,can be found through a triple stating " \
+#           "ex:C1 tree:view ex:N1 with ex:C1 being a tree:Collection and ex:N1 being a tree:Node.<br/>"
+# report += "- Conformance result:" + str(MustTestCase1().get_result()) + "<br/><br/>"
+# result.append(MustTestCase1().get_result())
 
 report += "- Validating against MUST conformance request:<br/>"
 report += "When the current page is a tree:Node, there MUST be a property linking the current page URL to the URI of " \

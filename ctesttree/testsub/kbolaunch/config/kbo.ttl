@@ -16,6 +16,7 @@
 	   server:memberType legal:legalEntity ;
 	   server:hasDefaultView "true"^^xsd:boolean;
        ldes:view collection:time-based ;
+       ldes:view collection:geo-based
 	   tree:shape [
                     a sh:NodeShape ;
        ] .
@@ -24,6 +25,6 @@ collection:time-based tree:viewDescription [
       example:fragmentationStrategy [
                      a example:Fragmentation ;
                      example:name "timebased" ;
-                     example:memberLimit "20" ;
+                     example:memberLimit "2" ;
                  ] ;
 										   ] .

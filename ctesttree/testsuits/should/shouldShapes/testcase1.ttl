@@ -1,9 +1,4 @@
 #Todo
-@prefix po:  <http://itb.ec.europa.eu/sample/po#> .
-@prefix sh:  <http://www.w3.org/ns/shacl#> .
-@prefix ldes: <https://w3id.org/ldes#> .
-@prefix tree: <https://w3id.org/tree#> .
-
 # SPEC for Tree Spec
 # SHOULD test case - 3
 # SPEC Conform:

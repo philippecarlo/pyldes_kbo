@@ -13,8 +13,7 @@
 # Each tree:Relation has one tree:value set.
 #
 
-po:TreeShape
-	a sh:NodeShape ;
+[]  a sh:NodeShape ;
     sh:targetClass tree:relation ;
     sh:property [
         sh:path tree:value ;

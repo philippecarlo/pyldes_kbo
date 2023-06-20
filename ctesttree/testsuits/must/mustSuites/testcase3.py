@@ -19,17 +19,21 @@ url_view = 'http://localhost:8080/kbo'
 
 class MustTestCase3:
     def get_result(self):
-        shapes_graph = Graph().parse("../mustShapes/testcase3.ttl", format="ttl")
-        data_graph = Graph().parse("../../../sdk/ldes-test-client/crawldf/items.rdf", format="ntriples")
-        results = pyshacl.validate(
-            data_graph,
-            shacl_graph=shapes_graph,
-            data_graph_format="ntriples",
-            shacl_graph_format="ttl",
-            inference="rdfs",
-            debug=True,
-            serialize_report_graph="ttl",
-        )
+        from rdflib import Graph
 
-        conforms, report_graph, report_text = results
-        return conforms
+        # Create a graph and load data
+        graph = Graph()
+        graph.parse("../../../sdk/ldes-test-client/crawldf/items.rdf", format="ntriples")
+
+        # Execute SPARQL query
+        query = """
+            PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+            PREFIX legal: <http://www.w3.org/ns/legal#> 
+            select ?thing where {
+                  ?thing rdf:type legal:legalEntity .}
+        """
+        results = graph.query(query)
+
+        # Process the query results
+        print(len(results))
+        return len(results) == 20

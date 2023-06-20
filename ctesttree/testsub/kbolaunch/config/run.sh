@@ -82,7 +82,7 @@ cd /mnt/c/VSDS/pyldes_kbo/ctesttree/testsuits/optional/optionalSuites
 python3 optionalSuits.py
 
 
-#stop docker containers
-#cd  /mnt/c/VSDS/pyldes_kbo/ctesttree/testsub/kbolaunch
-#docker compose down
-#echo "Test Finish."
+stop docker containers
+cd  /mnt/c/VSDS/pyldes_kbo/ctesttree/testsub/kbolaunch
+docker compose down
+echo "Test Finish."

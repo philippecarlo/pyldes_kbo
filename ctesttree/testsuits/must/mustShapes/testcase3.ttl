@@ -1,10 +1,6 @@
-@prefix po:  <http://itb.ec.europa.eu/sample/po#> .
-@prefix sh:  <http://www.w3.org/ns/shacl#> .
-@prefix ldes: <https://w3id.org/ldes#> .
-@prefix tree: <https://w3id.org/tree#> .
-@prefix terms: <http://purl.org/dc/terms/> .
-@prefix legal: <http://www.w3.org/ns/legal#> .
-@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+# todo
+#Current is build in sparql
+
 #
 # SPEC for Tree Spec
 # Must test case - 6 AND 8
@@ -14,15 +10,6 @@
 # A TREE client MUST traverse all relations from the tree:Nodes linked to this particular collection.
 # A client MUST thus check for ViewDescriptions on both the current node without the tree:viewDescription qualification,
 # Verify:
+# Replicate the data using ldes client by the end point of the tree view
 # The amount of the LDES members = The Input LDES members (20, in the context of BEL20, KBO data).
 #
-@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
-@prefix sh: <http://www.w3.org/ns/shacl#> .
-
-tree:InputOutputEqual a sh:NodeShape ;
-   sh:targetClass ldes:EventStream ;
-   sh:property [
-      sh:path rdf:type ;
-      sh:datatype legal:legalEntity;
-      sh:maxCount 19 ;
-   ] .

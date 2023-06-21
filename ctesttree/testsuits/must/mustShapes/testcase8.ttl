@@ -1,13 +1,5 @@
-#Todo
-
-@prefix po:  <http://itb.ec.europa.eu/sample/po#> .
-@prefix sh:  <http://www.w3.org/ns/shacl#> .
-@prefix ldes: <https://w3id.org/ldes#> .
-@prefix tree: <https://w3id.org/tree#> .
-@prefix terms: <http://purl.org/dc/terms/> .
-@prefix legal: <http://www.w3.org/ns/legal#> .
-@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
-
+#todo
+#Current is build in sparql
 
 # SPEC for Tree Spec
 # Must test case - 22

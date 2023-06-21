@@ -1,14 +1,50 @@
 # TODO
+import re
+
+from rdflib import Graph
+from shapely import wkt
+from shapely.errors import WKTReadingError
 
 
 # SPEC for Tree Spec
 # Must test case - 22
 # SPEC Conform:
-# When using tree:GeospatiallyContainsRelation, the tree:path MUST refer to a literal containing a WKT string, such as geosparql:asWKT.
+# When using tree:GeospatiallyContainsRelation, the tree:path MUST refer to a literal containing a WKT string,
+# such as geosparql:asWKT.
 # Verify:
 # The tree:path of each tree:Relation refers to a literal containing a WKT string, such as geosparql:asWKT.
 
 class MustTestCase8:
+    def contains_wkt_string(self, input_string):
+        pattern = r'\bPOINT\s*\(|\bLINESTRING\s*\(|\bPOLYGON\s*\(|\bMULTIPOINT\s*\(|\bMULTILINESTRING\s*\(' \
+                  r'|\bMULTIPOLYGON\s*\('
+        match = re.search(pattern, input_string)
+        return match is not None
 
     def get_result(self):
-        return "UNDEFINED"
+        conforms = True
+        # Select all the relation is a tree:GeospatiallyContainsRelation
+        graph = Graph()
+        graph.parse("../../../automation/expected/expected_geofragment/page1.turtle", format="ttl")
+
+        # Execute SPARQL query
+        query = """
+                PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+                PREFIX legal: <http://www.w3.org/ns/legal#> 
+                PREFIX tree: <https://w3id.org/tree#>
+                SELECT ?treevalue WHERE {
+                      ?subject rdf:type tree:GeospatiallyContainsRelation.
+                      ?subject tree:value ?treevalue .}
+            """
+        results = graph.query(query)
+
+        # Process the query results
+        if len(results) == 0:
+            return " NOT Geospatial Fragment - TEST DOESN'T APPLY"
+        else:
+            for result in results:
+                # Check if the return string contain a wkt string inside
+                treevalue = str(result.asdict()['treevalue'].toPython())
+                if not self.contains_wkt_string(treevalue):
+                    conforms = False
+            return conforms

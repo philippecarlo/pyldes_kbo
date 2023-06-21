@@ -31,7 +31,7 @@ class ShouldTestCase5:
             data_graph_format="json-ld",
             shacl_graph_format="rdfs",
             inference="rdfs",
-            debug=True,
+            # debug=True,
             serialize_report_graph="ttl",
         )
 

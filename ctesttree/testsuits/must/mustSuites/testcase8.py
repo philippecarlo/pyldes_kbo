@@ -2,9 +2,6 @@
 import re
 
 from rdflib import Graph
-from shapely import wkt
-from shapely.errors import WKTReadingError
-
 
 # SPEC for Tree Spec
 # Must test case - 22

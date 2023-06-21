@@ -5,19 +5,17 @@
 @prefix sh:   <http://www.w3.org/ns/shacl#> .
 @prefix server: <http://localhost:8080/> .
 @prefix xsd:  <http://www.w3.org/2001/XMLSchema#> .
-@prefix kbo: <http://localhost:8080/kbo/> .
+@prefix server: <http://localhost:8080/kbo/> .
 @prefix legal: <http://www.w3.org/ns/legal#> .
 @base <http://localhost:8080> .
 
-server:kbo a ldes:EventStream ;
-	ldes:timestampPath dcterms:issued;
-	ldes:versionOfPath dcterms:isVersionOf ;
-	custom:memberType legal:legalEntity;
-	tree:shape kbo:shape .
 
-kbo:shape a sh:NodeShape ;
-	sh:nodeShape [
-		sh:closed true ;
-		sh:propertyShape []
-		] ;
-	sh:deactivated true .
+</kbo/by-location> a tree:Node ;
+  tree:viewDescription [ a tree:ViewDescription ;
+    tree:fragmentationStrategy ([
+		a tree:GeospatialFragmentation ;
+		tree:maxZoom "15"^^xsd:integer ;
+		tree:fragmentationPath <http://www.opengis.net/ont/geosparql#asWKT> ;
+		tree:memberLimit "2"^^xsd:integer ;
+	]) ;
+].

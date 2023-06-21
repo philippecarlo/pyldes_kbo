@@ -1,7 +1,7 @@
 #!/bin/sh
 #Start docker containers
 docker compose up -d
-
+echo "Program launching..."
 #Wait the system starts
 sleep 30s
 
@@ -17,9 +17,9 @@ else
     exit 0
 fi
 
-
-#Post the stream/view configuration
-curl -X PUT 'http://localhost:8080/admin/api/v1/eventstreams' -H 'Content-Type: text/turtle' -d '@./kbo.ttl'
+echo "Post kbo stream.."
+#Post the stream configuration
+curl -X POST 'http://localhost:8080/admin/api/v1/eventstreams' -H 'Content-Type: text/turtle' -d '@./kbo.ttl'
 if [ $? != 0 ]
     then exit $?
 fi
@@ -37,6 +37,35 @@ else
     exit 0
 fi
 
+echo "Post pagination view.."
+#Post the page based view configuration
+curl -X POST 'http://localhost:8080/admin/api/v1/eventstreams/kbo/views' -H 'Content-Type: text/turtle' -d '@./kbo.by-page.ttl'
+if [ $? != 0 ]
+    then exit $?
+fi
+
+echo "Post time based view.."
+#Post the time based view configuration
+curl -X POST 'http://localhost:8080/admin/api/v1/eventstreams/kbo/views' -H 'Content-Type: text/turtle' -d '@./kbo.by-time.ttl'
+if [ $? != 0 ]
+    then exit $?
+fi
+
+echo "Post location based view.."
+#Post the geo based view configuration
+curl -X POST 'http://localhost:8080/admin/api/v1/eventstreams/kbo/views' -H 'Content-Type: text/turtle' -d '@./kbo.by-location.ttl'
+if [ $? != 0 ]
+    then exit $?
+fi
+
+echo "Post name based view.."
+#Post the substring view configuration
+curl -X POST 'http://localhost:8080/admin/api/v1/eventstreams/kbo/views' -H 'Content-Type: text/turtle' -d '@./kbo.by-name.ttl'
+if [ $? != 0 ]
+    then exit $?
+fi
+
+echo "Post dataset"
 #Post dataset
 for f in ../../../../sample/bel20/*; do curl -i -X POST "http://localhost:8080/kbo" -H "Content-Type: application/turtle" -d "@$f";done
 
@@ -82,7 +111,7 @@ cd /mnt/c/VSDS/pyldes_kbo/ctesttree/testsuits/optional/optionalSuites
 python3 optionalSuits.py
 
 
-stop docker containers
+#stop docker containers
 cd  /mnt/c/VSDS/pyldes_kbo/ctesttree/testsub/kbolaunch
 docker compose down
 echo "Test Finish."

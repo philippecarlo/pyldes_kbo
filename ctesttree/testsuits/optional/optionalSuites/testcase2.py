@@ -26,7 +26,7 @@ class OptionalTestCase2:
             data_graph_format="ntriples",
             shacl_graph_format="rdfs",
             inference="rdfs",
-            debug=True,
+            # debug=True,
             serialize_report_graph="ttl",
         )
 

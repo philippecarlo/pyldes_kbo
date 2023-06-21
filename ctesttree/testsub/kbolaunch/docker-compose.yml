@@ -2,13 +2,13 @@ version: '3.3'
 services:
       ldes-server:
           container_name: basic_ldes-server
-          image: ldes/ldes-server:1.0.0-SNAPSHOT
+          image: ldes/ldes-server:1.1.0-SNAPSHOT
           environment:
           - SPRING_CONFIG_LOCATION=/config/
           volumes:
           - ./ldes-server.yml:/config/application.yml:ro
           ports:
-          - 8080:8080
+          - 8082:8082
           networks:
           - ldes
           depends_on:

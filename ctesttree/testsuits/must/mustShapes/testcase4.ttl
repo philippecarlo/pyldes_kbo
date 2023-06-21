@@ -13,8 +13,8 @@
 # Verify:
 # Each tree:Relation has one tree:node object of the type tree:Node.
 #
-[]
-	a sh:NodeShape ;
+
+tree:RelationHasOneNode	a sh:NodeShape ;
     sh:targetClass tree:Relation ;
     sh:property [
         sh:path tree:node ;

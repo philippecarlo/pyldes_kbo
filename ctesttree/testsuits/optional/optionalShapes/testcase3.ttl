@@ -1,4 +1,3 @@
-@prefix po:  <http://itb.ec.europa.eu/sample/po#> .
 @prefix sh:  <http://www.w3.org/ns/shacl#> .
 @prefix ldes: <https://w3id.org/ldes#> .
 @prefix tree: <https://w3id.org/tree#> .
@@ -12,7 +11,7 @@
 # Check that if LDES Server supports multiple relations (e.g., by using geospatial or substring fragmentation).
 
 
-po:TreeShape
+tree:SupportMultiRelation
 	a sh:NodeShape ;
     sh:targetClass tree:relation ;
     sh:property [

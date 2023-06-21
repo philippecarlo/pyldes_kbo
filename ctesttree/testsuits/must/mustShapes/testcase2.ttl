@@ -13,6 +13,8 @@
 # "Each tree:Node in the LDES Collection has a link between current page to tree:Collection."
 #
 
+#pyshacl NOT support SPARQL
+
 #[] a sh:NodeShape ;
 #   sh:targetNode [
 #      sh:SPARQL """
@@ -24,8 +26,7 @@
 #   ] ;
 #   sh:message "The graph must not be empty." .
 
-[]
-	a sh:NodeShape ;
+tree:NodeHasOneLinkToCollection	a sh:NodeShape ;
 	sh:targetClass tree:Node;
     sh:property [
       sh:path  terms:isPartOf;

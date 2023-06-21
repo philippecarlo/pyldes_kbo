@@ -1,21 +1,11 @@
 #Todo
 
-@prefix po:  <http://itb.ec.europa.eu/sample/po#> .
-@prefix sh:  <http://www.w3.org/ns/shacl#> .
-@prefix ldes: <https://w3id.org/ldes#> .
-@prefix tree: <https://w3id.org/tree#> .
-@prefix terms: <http://purl.org/dc/terms/> .
-@prefix legal: <http://www.w3.org/ns/legal#> .
-@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
-
-
-# SPEC for Tree Spec
-# Must test case - 23 AND 24 AND 25
-# SPEC Conform:
-# When using relations such as tree:LessThanRelation or tree:GreaterThanRelation, the time literals need to be compared according to these 3 possible data types: xsd:date, xsd:dateTime or xsd:dateTimeStamp.
+# SPEC for Tree Spec Must test case - 23 AND 24 AND 25 SPEC Conform: When using relations such as
+# tree:LessThanRelation or tree:GreaterThanRelation, the time literals need to be compared according to these 3
+# possible data types: xsd:date, xsd:dateTime or xsd:dateTimeStamp.
+#
 # Verify:
 # Verify that the LDES Server supports time fragmentation with evaluation on following data types:
 # xsd:date
 # xsd:dateTime
 # xsd:dateTimeStamp.
-

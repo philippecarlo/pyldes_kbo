@@ -14,7 +14,7 @@
 @prefix tree: <https://w3id.org/tree#> .
 @prefix ldes: <https://w3id.org/ldes#> .
 
-[] a sh:NodeShape ;
+tree:CollectionIsALDES a sh:NodeShape ;
    sh:targetNode <http://localhost:8080/kbo> ;
    sh:property [
       sh:path rdf:type;
@@ -22,7 +22,7 @@
    ] .
 
 
-[]
+tree:CollectionHasView
 	a sh:NodeShape ;
 	sh:targetClass ldes:EventStream;
     sh:property [

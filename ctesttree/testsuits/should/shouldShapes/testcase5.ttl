@@ -14,7 +14,7 @@
 # Each tree:Relation has one tree:path set.
 #
 
-po:TreeShape
+tree:EachRelationHasOneTreePath
 	a sh:NodeShape ;
     sh:targetClass tree:relation ;
     sh:property [

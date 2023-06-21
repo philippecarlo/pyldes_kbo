@@ -1,5 +1,3 @@
-#Todo
-@prefix po:  <http://itb.ec.europa.eu/sample/po#> .
 @prefix sh:  <http://www.w3.org/ns/shacl#> .
 @prefix ldes: <https://w3id.org/ldes#> .
 @prefix tree: <https://w3id.org/tree#> .
@@ -13,7 +11,7 @@
 # Check that LDES Server supports multiple view links per collection
 #
 
-po:TreeShape
+tree:SupportMultiView
 	a sh:NodeShape ;
     sh:targetClass ldes:EventStream ;
     sh:property [

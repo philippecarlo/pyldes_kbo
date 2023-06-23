@@ -9,7 +9,7 @@
 @prefix legal: <http://www.w3.org/ns/legal#> .
 @base <http://localhost:8080> .
 
-</kbo/by-page> a tree:Node ;
+</kbo/by-pages> a tree:Node ;
   tree:viewDescription [ a tree:ViewDescription ;
     tree:fragmentationStrategy ([
 		a tree:PaginationFragmentation ;

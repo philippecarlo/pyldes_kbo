@@ -24,16 +24,21 @@ class MustTestCase1:
     def get_result(self):
         shapes_graph = Graph().parse("../mustShapes/testcase1.ttl", format="ttl")
         data_graph = Graph().parse(requests.request("GET", url_view, headers=headers_get).content, format="ttl")
-        results = pyshacl.validate(
-            data_graph,
-            shacl_graph=shapes_graph,
-            data_graph_format="ttl",
-            shacl_graph_format="ttl",
-            inference="rdfs",
-            # debug=True,
-            serialize_report_graph="ttl",
-        )
+        is_empty = len(data_graph) == 0
+        if is_empty:
+            print("Empty graph, NOT Conform")
+            return False
+        else:
+            results = pyshacl.validate(
+                data_graph,
+                shacl_graph=shapes_graph,
+                data_graph_format="ttl",
+                shacl_graph_format="ttl",
+                inference="rdfs",
+                # debug=True,
+                serialize_report_graph="ttl",
+            )
 
-        conforms, report_graph, report_text = results
+            conforms, report_graph, report_text = results
 
-        return conforms
+            return conforms

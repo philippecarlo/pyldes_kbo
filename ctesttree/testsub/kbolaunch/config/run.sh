@@ -17,6 +17,7 @@ else
     exit 0
 fi
 
+sleep 5s
 echo "Post kbo stream.."
 #Post the stream configuration
 curl -X POST 'http://localhost:8080/admin/api/v1/eventstreams' -H 'Content-Type: text/turtle' -d '@./kbo.ttl'
@@ -24,6 +25,7 @@ if [ $? != 0 ]
     then exit $?
 fi
 
+sleep 5s
 #Check if endpoints are up
 url="http://localhost:8080/kbo"
 
@@ -37,6 +39,8 @@ else
     exit 0
 fi
 
+
+sleep 5s
 echo "Post pagination view.."
 #Post the page based view configuration
 curl -X POST 'http://localhost:8080/admin/api/v1/eventstreams/kbo/views' -H 'Content-Type: text/turtle' -d '@./kbo.by-page.ttl'
@@ -44,6 +48,7 @@ if [ $? != 0 ]
     then exit $?
 fi
 
+sleep 5s
 echo "Post time based view.."
 #Post the time based view configuration
 curl -X POST 'http://localhost:8080/admin/api/v1/eventstreams/kbo/views' -H 'Content-Type: text/turtle' -d '@./kbo.by-time.ttl'
@@ -51,6 +56,7 @@ if [ $? != 0 ]
     then exit $?
 fi
 
+sleep 5s
 echo "Post location based view.."
 #Post the geo based view configuration
 curl -X POST 'http://localhost:8080/admin/api/v1/eventstreams/kbo/views' -H 'Content-Type: text/turtle' -d '@./kbo.by-location.ttl'
@@ -58,6 +64,7 @@ if [ $? != 0 ]
     then exit $?
 fi
 
+sleep 5s
 echo "Post name based view.."
 #Post the substring view configuration
 curl -X POST 'http://localhost:8080/admin/api/v1/eventstreams/kbo/views' -H 'Content-Type: text/turtle' -d '@./kbo.by-name.ttl'
@@ -65,6 +72,7 @@ if [ $? != 0 ]
     then exit $?
 fi
 
+sleep 5s
 echo "Post dataset"
 #Post dataset
 for f in ../../../../sample/bel20/*; do curl -i -X POST "http://localhost:8080/kbo" -H "Content-Type: application/turtle" -d "@$f";done
@@ -110,8 +118,8 @@ echo "Creating OPTIONAL report."
 cd /mnt/c/VSDS/pyldes_kbo/ctesttree/testsuits/optional/optionalSuites
 python3 optionalSuits.py
 
-
-#stop docker containers
-cd  /mnt/c/VSDS/pyldes_kbo/ctesttree/testsub/kbolaunch
-docker compose down
-echo "Test Finish."
+#
+##stop docker containers
+#cd  /mnt/c/VSDS/pyldes_kbo/ctesttree/testsub/kbolaunch
+#docker compose down
+#echo "Test Finish."

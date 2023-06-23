@@ -8,6 +8,7 @@
 @prefix server: <http://localhost:8080/kbo/> .
 @prefix legal: <http://www.w3.org/ns/legal#> .
 @base <http://localhost:8080> .
+
 </kbo/by-time> a tree:Node ;
   tree:viewDescription [ a tree:ViewDescription ;
     tree:fragmentationStrategy ([

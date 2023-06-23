@@ -18,6 +18,9 @@ url_view = 'http://localhost:8080/kbo'
 #
 
 class MustTestCase3:
+    def dict_to_tuple(self,dictionary):
+        return tuple(sorted(dictionary.items()))
+
     def get_result(self):
         from rdflib import Graph
 
@@ -33,7 +36,6 @@ class MustTestCase3:
                   ?thing rdf:type legal:legalEntity .}
         """
         results = graph.query(query)
-
         # Process the query results
         print(len(results))
         return len(results) == 20

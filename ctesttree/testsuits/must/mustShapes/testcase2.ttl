@@ -32,3 +32,11 @@ tree:NodeHasOneLinkToCollection	a sh:NodeShape ;
       sh:path  terms:isPartOf;
       sh:minCount 1 ;
     ] .
+
+tree:NodeHasOneLinkToCollection	a sh:NodeShape ;
+	sh:targetClass tree:Node;
+    sh:property [
+      sh:path  terms:isPartOf;
+      sh:datatype tree:Collection;
+      sh:minCount 1 ;
+    ] .

@@ -69,7 +69,7 @@ After object embedding this becomes:
   - start_urls  
     - e.g. start_urls = ["https://private-api.gipod.beta-vlaanderen.be/api/v1/ldes/mobility-hindrances"]  
 - Under the directory `./crawldf/`, run `scrapy crawl [name]`, e.g.`scrapy crawl gipod`.  
-or create a [main.py](crawldf/run.py) under the directory `./crawldf/` with follow content, please modify accordingly:
+or create a [run.py](crawldf/run.py) under the directory `./crawldf/` with follow content, please modify accordingly:
 
 ```
     from scrapy.cmdline import execute  

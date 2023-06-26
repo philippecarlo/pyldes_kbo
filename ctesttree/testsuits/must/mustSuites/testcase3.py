@@ -18,8 +18,6 @@ url_view = 'http://localhost:8080/kbo'
 #
 
 class MustTestCase3:
-    def dict_to_tuple(self,dictionary):
-        return tuple(sorted(dictionary.items()))
 
     def get_result(self):
         from rdflib import Graph
@@ -32,10 +30,15 @@ class MustTestCase3:
         query = """
             PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
             PREFIX legal: <http://www.w3.org/ns/legal#> 
-            select ?thing where {
-                  ?thing rdf:type legal:legalEntity .}
+            select ?VersionNumber where {
+                  ?Company rdf:type legal:legalEntity .
+                  ?Company rdf:subject ?VersionNumber.
+                  }
         """
-        results = graph.query(query)
         # Process the query results
-        print(len(results))
-        return len(results) == 20
+        results = graph.query(query)
+        # clean the duplicated members
+        unique_list = []
+        for row in results:
+            unique_list.append(row.asdict()['VersionNumber'].toPython())
+        return len(sorted(list(set(unique_list)))) == 20

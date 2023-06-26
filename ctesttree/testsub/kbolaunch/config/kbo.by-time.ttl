@@ -14,6 +14,13 @@
     tree:fragmentationStrategy ([
 		a tree:TimebasedFragmentation ;
 		tree:memberLimit "2"^^xsd:integer ;
-		tree:fragmentationPath dcterms:issued  ;
+		tree:fragmentationPath dcterms:created ;  ;
 	]) ;
 ] .
+
+#</kbo/by-time> tree:viewDescription [
+#    ldes:retentionPolicy [
+#        a ldes:DurationAgoPolicy  ;
+#        tree:value "PT2M"^^xsd:duration ;
+#    ] ;
+#					   ] .

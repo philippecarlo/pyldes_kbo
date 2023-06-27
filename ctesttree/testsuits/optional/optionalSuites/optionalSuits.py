@@ -1,15 +1,15 @@
 from datetime import datetime
 
+from reportlab.lib.pagesizes import letter
+from reportlab.lib.styles import getSampleStyleSheet
+from reportlab.platypus import SimpleDocTemplate, Paragraph
+
 from testcase1 import OptionalTestCase1
 from testcase2 import OptionalTestCase2
 from testcase3 import OptionalTestCase3
 from testcase4 import OptionalTestCase4
 from testcase5 import OptionalTestCase5
 from testcase6 import OptionalTestCase6
-
-from reportlab.lib.pagesizes import letter
-from reportlab.lib.styles import getSampleStyleSheet
-from reportlab.platypus import SimpleDocTemplate, Paragraph
 
 # Create a new PDF file
 # Create a new PDF file
@@ -18,9 +18,8 @@ output_file = "report_optinal_spec.pdf"
 output_path = f"{output_directory}/{output_file}"
 doc = SimpleDocTemplate(output_path, pagesize=letter)
 
-
 result = []
-report = "<b>Conformance Test report against Optional SPECS at: "+str(datetime.now())+"</b><br/><br/><br/>"
+report = "<b>Conformance Test report against Optional SPECS at: " + str(datetime.now()) + "</b><br/><br/><br/>"
 # Append all result to a lis
 report += "- Validating against Optional conformance request:<br/>"
 report += "Note: For compatibility with the Solid specifications, a ShEx shape may also be given (see the chapter on " \

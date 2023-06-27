@@ -1,9 +1,7 @@
-@prefix po:  <http://itb.ec.europa.eu/sample/po#> .
 @prefix sh:  <http://www.w3.org/ns/shacl#> .
 @prefix ldes: <https://w3id.org/ldes#> .
 @prefix tree: <https://w3id.org/tree#> .
-
-# TODO:
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
 
 # SPEC for Tree Spec
 # SHOULD test case - 13
@@ -14,4 +12,18 @@
 # Each tree:Relation's tree:value is accompanied by a data type when it is a literal value.
 #
 
-# How can the LDES Server knows it is a literal if the ingestion data is not accompanied with a datatype?
+tree:ShapeRelation
+  a sh:NodeShape ;
+  sh:targetClass tree:Relation ;
+  sh:property [
+    sh:path tree:value ;
+    sh:or (
+      [
+        sh:datatype xsd:string ;
+        sh:minCount 1 ;
+      ]
+      [
+        sh:nodeKind sh:IRI ;
+      ]
+    )
+  ] .

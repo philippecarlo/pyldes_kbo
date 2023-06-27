@@ -1,4 +1,3 @@
-
 #
 # SPEC for Tree Spec Must test case - 2
 # SPEC Conform:
@@ -9,9 +8,8 @@
 # a link between current page to tree:Collection."
 #
 
-from rdflib import Graph
 import pyshacl
-import requests
+from rdflib import Graph
 
 headers_get = {
     'accept': 'application/turtle'

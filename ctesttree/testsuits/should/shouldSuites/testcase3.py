@@ -8,13 +8,8 @@
 # Each tree:Relation has one tree:value set.
 #
 
-from rdflib import Graph
 import pyshacl
-import requests
-
-headers_get_json = {
-    'accept': 'application/ld+json'
-}
+from rdflib import Graph
 
 
 class ShouldTestCase3:

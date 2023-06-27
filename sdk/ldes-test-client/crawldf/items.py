@@ -5,11 +5,12 @@
 
 import scrapy
 
+
 class RDFPage(scrapy.Item):
     pass
+
 
 class CrawledRDFPage(RDFPage):
     graph = scrapy.Field()
     url = scrapy.Field()
     headers = scrapy.Field()
-    

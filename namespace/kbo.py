@@ -1,8 +1,8 @@
 from rdflib.namespace import DefinedNamespace, Namespace
 from rdflib.term import URIRef
 
-class KBO(DefinedNamespace):
 
+class KBO(DefinedNamespace):
     # classes
     Activity: URIRef
     Code: URIRef

@@ -1,11 +1,8 @@
-from rdflib import Graph
-import pyshacl
-import requests
-
 headers_get = {
     'accept': 'application/turtle'
 }
 url_view = 'http://localhost:8080/kbo'
+
 
 #
 # SPEC for Tree Spec

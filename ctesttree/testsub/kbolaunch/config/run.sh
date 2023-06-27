@@ -74,7 +74,7 @@ fi
 
 sleep 5s
 echo "Post dataset"
-#Post dataset
+Post dataset
 for f in ../../../../sample/bel20/*; do curl -i -X POST "http://localhost:8080/kbo" -H "Content-Type: application/turtle" -d "@$f";done
 
 

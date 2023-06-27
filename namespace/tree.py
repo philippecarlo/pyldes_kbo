@@ -1,11 +1,11 @@
 from rdflib.namespace import DefinedNamespace, Namespace
 from rdflib.term import URIRef
 
+
 ###
 # created from https://github.com/TREEcg/specification/blob/master/tree.ttl
 ##
 class TREE(DefinedNamespace):
-    
     # classes
     Collection: URIRef
     ViewDescription: URIRef
@@ -37,7 +37,7 @@ class TREE(DefinedNamespace):
     shape: URIRef
     _import: URIRef
     conditionalImport: URIRef
-     
+
     ###### Properties for the Tiles ontology
     zoom: URIRef
     longitudeTile: URIRef

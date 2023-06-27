@@ -1,6 +1,5 @@
-import scrapy
-
 from crawldf.spiders.tree import TreeSpider
+
 
 class GipodSpider(TreeSpider):
     name = "kbo"

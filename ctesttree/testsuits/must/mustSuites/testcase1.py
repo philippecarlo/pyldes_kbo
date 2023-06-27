@@ -9,9 +9,9 @@
 #
 
 
-from rdflib import Graph
 import pyshacl
 import requests
+from rdflib import Graph
 
 headers_get = {
     'accept': 'application/turtle'

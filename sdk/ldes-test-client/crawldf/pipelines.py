@@ -4,13 +4,11 @@
 # See: https://docs.scrapy.org/en/latest/topics/item-pipeline.html
 
 
+from crawldf.items import RDFPage
 # useful for handling different item types with a single interface
-import pprint
 from itemadapter import ItemAdapter
 from rdflib import RDF, BNode, Graph, Literal, URIRef
-from scrapy.exceptions import DropItem
 
-from crawldf.items import RDFPage
 
 # Nests the retrieved triples as blanknodes inside a page object with metadata about the request.
 class RDFGraphToPageObjectPipeline:
@@ -59,6 +57,7 @@ class RDFGraphToPageObjectPipeline:
 
         item['graph'] = out_graph
         return item
+
 
 # Write the RDF 'page objects' to disk
 class RDFWriterPipeline:

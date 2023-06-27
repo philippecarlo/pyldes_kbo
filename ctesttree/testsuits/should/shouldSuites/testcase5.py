@@ -8,9 +8,9 @@
 # Each tree:Relation has one tree:path set.
 #
 
-from rdflib import Graph
 import pyshacl
-import requests
+from rdflib import Graph
+
 
 # headers_get_json = {
 #     'accept': 'application/ld+json'

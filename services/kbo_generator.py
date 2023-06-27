@@ -1,6 +1,7 @@
-from typing import List
 import sqlite3
 from sqlite3 import Connection
+from typing import List
+
 from pyldes_kbo.models.kbo_enterprise import \
     KboEnterprise, \
     KboCode, \
@@ -11,9 +12,9 @@ from pyldes_kbo.models.kbo_enterprise import \
     KboEstablishment
 
 
-class KboGenerator ():
+class KboGenerator():
 
-    def __init__(self, base_path: str, db_location:str):
+    def __init__(self, base_path: str, db_location: str):
         self.base_path = base_path
         self.db_location = db_location
 
@@ -42,7 +43,7 @@ class KboGenerator ():
         # Close the connection
         conn.close()
 
-    def one(self, enterprise_nr:str) -> KboEnterprise:
+    def one(self, enterprise_nr: str) -> KboEnterprise:
         conn = sqlite3.connect(self.db_location)
         cursor = conn.cursor()
         cursor.execute(f"SELECT * FROM enterprise WHERE EnterpriseNumber=?", (enterprise_nr,))
@@ -61,7 +62,7 @@ class KboGenerator ():
         enterprise.juridical_form = self.get_code(conn, "JuridicalForm", f"{int(enterprise_record[5]):03d}")
         enterprise.start_date = enterprise_record[7]
         enterprise.activities = self.get_activities(conn, enterprise.enterprise_number)
-        enterprise.contacts = self.get_contacts(conn, enterprise.enterprise_number)  
+        enterprise.contacts = self.get_contacts(conn, enterprise.enterprise_number)
         enterprise.addresses = self.get_addresses(conn, enterprise.enterprise_number)
         enterprise.denominations = self.get_denominations(conn, enterprise.enterprise_number)
         enterprise.establishments = self.get_establishments(conn, enterprise.enterprise_number)
@@ -69,6 +70,7 @@ class KboGenerator ():
         return enterprise
 
     code_cache = {}
+
     def get_code(self, conn: Connection, catgeory: str, code: str) -> KboCode:
         cache_key = f"{catgeory}-{code}"
         if cache_key in KboGenerator.code_cache:
@@ -90,7 +92,7 @@ class KboGenerator ():
     def get_activities(self, conn: Connection, entity_nr: str) -> List[KboActivity]:
         activities = []
         cursor = conn.cursor()
-        cursor.execute("SELECT * FROM activities WHERE EntityNumber=?", (entity_nr, ))
+        cursor.execute("SELECT * FROM activities WHERE EntityNumber=?", (entity_nr,))
         activity_rows = cursor.fetchall()
         for activity_row in activity_rows:
             activity = KboActivity()
@@ -100,11 +102,11 @@ class KboGenerator ():
             activity.classification = self.get_code(conn, 'Classification', activity_row[5])
             activities.append(activity)
         return activities
-    
+
     def get_addresses(self, conn: Connection, entity_nr: str) -> List[KboAddress]:
         addresses = []
         cursor = conn.cursor()
-        cursor.execute("SELECT * FROM address WHERE EntityNumber=?", (entity_nr, ))
+        cursor.execute("SELECT * FROM address WHERE EntityNumber=?", (entity_nr,))
         address_rows = cursor.fetchall()
         for address_row in address_rows:
             address = KboAddress()
@@ -115,15 +117,18 @@ class KboGenerator ():
             address.house_number = address_row[10]
             address.box = address_row[11]
             address.extra_info = address_row[12]
-            address.full_address = address_row[8]+" "+address_row[10]+", "+address_row[5]+" "+address_row[6]+", "+"Belgium"
-            address.full_address_no_bracket = ((address_row[8].partition('(')[0]).replace("Bld ", "Boulevard " )).partition(',')[0]+" "+address_row[10]+", "+address_row[5]+" "+address_row[6].partition('(')[0]+", "+"Belgium"
+            address.full_address = address_row[8] + " " + address_row[10] + ", " + address_row[5] + " " + address_row[
+                6] + ", " + "Belgium"
+            address.full_address_no_bracket = \
+            ((address_row[8].partition('(')[0]).replace("Bld ", "Boulevard ")).partition(',')[0] + " " + address_row[
+                10] + ", " + address_row[5] + " " + address_row[6].partition('(')[0] + ", " + "Belgium"
             addresses.append(address)
         return addresses
-    
+
     def get_denominations(self, conn: Connection, entity_nr: str) -> List[KboDenomination]:
         denominations = []
         cursor = conn.cursor()
-        cursor.execute("SELECT * FROM denomination WHERE EntityNumber=?", (entity_nr, ))
+        cursor.execute("SELECT * FROM denomination WHERE EntityNumber=?", (entity_nr,))
         denom_rows = cursor.fetchall()
         for denom_row in denom_rows:
             denom = KboDenomination()
@@ -136,7 +141,7 @@ class KboGenerator ():
     def get_establishments(self, conn: Connection, enterprise_nr: str) -> List[KboEstablishment]:
         establishments = []
         cursor = conn.cursor()
-        cursor.execute("SELECT * FROM establishment WHERE EnterpriseNumber=?", (enterprise_nr, ))
+        cursor.execute("SELECT * FROM establishment WHERE EnterpriseNumber=?", (enterprise_nr,))
         est_rows = cursor.fetchall()
         for est_row in est_rows:
             establishment = KboEstablishment()
@@ -151,7 +156,7 @@ class KboGenerator ():
     def get_contacts(self, conn: Connection, entity_nr: str) -> List[KboContact]:
         contacts = []
         cursor = conn.cursor()
-        cursor.execute("SELECT * FROM contact WHERE EntityNumber=?", (entity_nr, ))
+        cursor.execute("SELECT * FROM contact WHERE EntityNumber=?", (entity_nr,))
         contact_rows = cursor.fetchall()
         for contact_row in contact_rows:
             contact = KboContact()

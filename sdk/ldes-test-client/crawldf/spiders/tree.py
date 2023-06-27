@@ -1,9 +1,9 @@
-import scrapy
-from rdflib import RDF, Graph, URIRef, BNode
-import pprint
 import re
 
+import scrapy
 from crawldf.items import CrawledRDFPage
+from rdflib import Graph
+
 
 class TreeSpider(scrapy.Spider):
     custom_settings = {
@@ -15,9 +15,9 @@ class TreeSpider(scrapy.Spider):
 
     def parse(self, response):
         content_type = re.search(r"^([^;]*)", str(response.headers["Content-Type"].decode())).group(0)
-        
+
         graph = Graph()
-        graph.parse( data=response.body, format=content_type, publicID=response.url)
+        graph.parse(data=response.body, format=content_type, publicID=response.url)
         # Follow tree:relations
         relations_query = """
             PREFIX tree: <https://w3id.org/tree#>

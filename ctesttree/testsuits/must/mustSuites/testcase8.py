@@ -3,6 +3,7 @@ import re
 
 from rdflib import Graph
 
+
 # SPEC for Tree Spec
 # Must test case - 22
 # SPEC Conform:

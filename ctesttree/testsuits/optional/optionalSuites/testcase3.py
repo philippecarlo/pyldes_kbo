@@ -6,8 +6,9 @@
 # Verify:
 # Check that if LDES Server supports multiple relations (e.g., by using geospatial or substring fragmentation).
 
-from rdflib import Graph
 import pyshacl
+from rdflib import Graph
+
 
 class OptionalTestCase3:
 

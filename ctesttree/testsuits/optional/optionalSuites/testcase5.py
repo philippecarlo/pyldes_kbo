@@ -6,9 +6,7 @@
 # Verify:
 # Check that LDES Server supports tree:path refers to an implicit property.
 
-from rdflib import Graph
-import pyshacl
+
 class OptionalTestCase5:
     def get_result(self):
-
         return "UNDEFINED"

@@ -1,7 +1,8 @@
-from rdflib import Graph, URIRef, Literal, BNode, RDF, ORG, FOAF, SKOS
-from pyldes_kbo.namespace.vcard import VCARD
 from pyldes_kbo.models.kbo_base import KboBase
 from pyldes_kbo.models.kbo_code import KboCode
+from pyldes_kbo.namespace.vcard import VCARD
+from rdflib import Graph, URIRef, Literal
+
 
 class KboContact(KboBase):
 

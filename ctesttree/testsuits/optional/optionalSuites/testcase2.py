@@ -6,14 +6,15 @@
 #
 # Verify:
 # Check that LDES Server supports multiple view links per collection
-from rdflib import Graph
 import pyshacl
 import requests
+from rdflib import Graph
 
 headers_get = {
     'accept': 'application/turtle'
 }
 url_view = 'http://localhost:8080/kbo'
+
 
 class OptionalTestCase2:
 

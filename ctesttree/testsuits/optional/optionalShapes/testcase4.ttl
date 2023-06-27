@@ -1,5 +1,3 @@
-# TODO:
-
 # SPEC for Tree Spec
 # OPTIONAL test case - 15
 # SPEC Conform:
@@ -10,3 +8,5 @@
 # Verify:
 # Check that LDES Server supports SHACL property paths in tree:Relations.
 #
+
+# Post a SHACL FILE TO THE SERVER?

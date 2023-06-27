@@ -38,4 +38,5 @@ class MustTestCase3:
         unique_list = []
         for row in results:
             unique_list.append(row.asdict()['VersionNumber'].toPython())
+        print(len(sorted(list(set(unique_list)))))
         return len(sorted(list(set(unique_list)))) == 20

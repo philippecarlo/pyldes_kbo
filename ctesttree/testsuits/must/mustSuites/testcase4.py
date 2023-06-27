@@ -28,7 +28,7 @@ class MustTestCase4:
             data_graph_format="ntriples",
             shacl_graph_format="ttl",
             inference="rdfs",
-            debug=True,
+            # debug=True,
             serialize_report_graph="ttl",
         )
 

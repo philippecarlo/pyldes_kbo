@@ -23,7 +23,7 @@ class MustTestCase8:
         conforms = True
         # Select all the relation is a tree:GeospatiallyContainsRelation
         graph = Graph()
-        graph.parse("../../../ITB/SampleGraphs/items_geospatial.rdf", format="ttl")
+        graph.parse("../../../sdk/ldes-test-client/crawldf/items.rdf", format="ntriples")
 
         # Execute SPARQL query
         query = """

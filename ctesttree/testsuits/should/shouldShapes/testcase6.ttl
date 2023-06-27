@@ -12,3 +12,17 @@
 # include a dct:conformsTo property with the value https://w3id.org/tree.
 
 
+@prefix po:  <http://itb.ec.europa.eu/sample/po#> .
+@prefix sh:  <http://www.w3.org/ns/shacl#> .
+@prefix ldes: <https://w3id.org/ldes#> .
+@prefix tree: <https://w3id.org/tree#> .
+@prefix dcat: <http://www.w3.org/ns/dcat#>.
+
+
+tree:DCATConformToTree a sh:NodeShape ;
+   sh:targetNode <http://localhost:8080/kbo> ;
+   sh:property [
+      sh:path dcat:conform;
+      sh:hasValue <https://w3id.org/tree>;
+      sh:minCount 1;
+   ] .

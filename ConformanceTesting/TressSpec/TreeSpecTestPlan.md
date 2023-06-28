@@ -44,12 +44,12 @@
   
 ***Scenario** :    
 
- - *1. Launch the LDES Server with `SHACL shape` configured.* 
+ - *1. Launch the LDES Server.* 
  - *2. Traverse all the linked `LDES members` in the output collection.*
 
  ***Expected result**:
 
- - *All members of the collection are conform to the `SHACL` shape.* 
+ - *There is a tree:shape annotation in the whole graph*
 >Fulfil the Conformance Point: 4.
 
    

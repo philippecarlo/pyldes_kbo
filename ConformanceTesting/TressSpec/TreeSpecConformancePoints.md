@@ -28,7 +28,7 @@ The Testing framework follows:
 - [ ]  Check that after processing by the LDES Server, each `tree:Node` has a link between current page to `tree:Collection`  
   
 #### Conformance point 4 *🟨 Should - Therefore a data publisher SHOULD annotate a `tree:Collection ` instance with a SHACL shape. The `tree:shape` points to a SHACL description of the shape (sh:NodeShape).*  
-- [ ] Check that when the LDES collection is annotated with a SHACL shape, all members of the collection are validated against the SHACL shape  
+- [ ] check that LDES collection is annotated with a SHACL shape.
   
 #### Conformance point 5 *🟨 Should - Note: the shape can be a blank node, or a named node on which you should follow your nose when it is defined at a different HTTP URL.*  
 - [ ] Check when LDES stream is set with a blank node or named node and the shape can be resolved, all members conform to the shape  

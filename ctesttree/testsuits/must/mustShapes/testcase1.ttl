@@ -8,19 +8,10 @@
 # Verify: LDES Server does the fragment and provides a tree:view in the output LDES collection.
 #
 
-@prefix po:  <http://itb.ec.europa.eu/sample/po#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix sh: <http://www.w3.org/ns/shacl#> .
 @prefix tree: <https://w3id.org/tree#> .
 @prefix ldes: <https://w3id.org/ldes#> .
-
-tree:CollectionIsALDES a sh:NodeShape ;
-   sh:targetNode <http://localhost:8080/kbo> ;
-   sh:property [
-      sh:path rdf:type;
-      sh:hasValue ldes:EventStream ;
-   ] .
-
 
 tree:CollectionHasView
 	a sh:NodeShape ;

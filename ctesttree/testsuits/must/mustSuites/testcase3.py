@@ -1,7 +1,4 @@
-headers_get = {
-    'accept': 'application/turtle'
-}
-url_view = 'http://localhost:8080/kbo'
+from ctesttree.testsuits.testconfig import data_graph
 
 
 #
@@ -15,14 +12,8 @@ url_view = 'http://localhost:8080/kbo'
 #
 
 class MustTestCase3:
-
-    def get_result(self):
-        from rdflib import Graph
-
-        # Create a graph and load data
-        graph = Graph()
-        graph.parse("../../../sdk/ldes-test-client/crawldf/items.rdf", format="ntriples")
-
+    @staticmethod
+    def get_result() -> bool:
         # Execute SPARQL query
         query = """
             PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
@@ -33,7 +24,7 @@ class MustTestCase3:
                   }
         """
         # Process the query results
-        results = graph.query(query)
+        results = data_graph.query(query)
         # clean the duplicated members
         unique_list = []
         for row in results:

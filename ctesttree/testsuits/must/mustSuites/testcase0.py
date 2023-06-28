@@ -12,15 +12,32 @@
 import sys
 
 import pyshacl
-from rdflib import Graph
+from rdflib import Graph, Namespace, URIRef
 
-from ctesttree.testsuits.testconfig import data_graph_view
+from ctesttree.testsuits.testconfig import data_graph_view, url_view
 
 
-class MustTestCase1:
+class MustTestCase0:
+
     @staticmethod
     def get_result() -> bool:
-        shapes_graph = Graph().parse("../mustShapes/testcase1.ttl", format="ttl")
+        shapes_graph = Graph().parse("../mustShapes/testcase0.ttl", format="ttl")
+        tree = Namespace("https://w3id.org/tree#")
+        sh = Namespace("http://www.w3.org/ns/shacl#")
+        viewURL = URIRef(url_view)
+        shapes_graph.add((tree.CollectionIsALDES, sh.targetNode, viewURL))
+
+        tree = Namespace("https://w3id.org/tree#")
+        sh = Namespace("http://www.w3.org/ns/shacl#")
+        local = URIRef(url_view)
+        shapes_graph.add((tree.CollectionIsATree, sh.targetNode, local))
+        #
+        # for s, p, o in shapes_graph:
+        #     print(f"Subject: {s}")
+        #     print(f"Predicate: {p}")
+        #     print(f"Object: {o}")
+        #     print()
+
         if len(data_graph_view) == 0:
             print("Empty graph, NOT Conform")
             sys.exit()

@@ -1,5 +1,3 @@
-# TODO
-#
 # SPEC for Tree Spec
 # SHOULD test case - 26
 # SPEC Conform:
@@ -12,28 +10,21 @@
 # include a dct:conformsTo property with the value https://w3id.org/tree.
 #
 import pyshacl
-import requests
 from rdflib import Graph
 
-headers_get = {
-    'accept': 'application/turtle'
-}
-url_view = 'http://localhost:8080/kbo'
-
+from ctesttree.testsuits.testconfig import data_graph_view
 
 
 class ShouldTestCase6:
 
     def get_result(self):
         shapes_graph = Graph().parse("../shouldShapes/testcase6.ttl", format="ttl")
-        data_graph = Graph().parse(requests.request("GET", url_view, headers=headers_get).content, format="ttl")
-        is_empty = len(data_graph) == 0
-        if is_empty:
+        if len(data_graph_view) == 0:
             print("Empty graph, NOT Conform")
             return False
         else:
             results = pyshacl.validate(
-                data_graph,
+                data_graph_view,
                 shacl_graph=shapes_graph,
                 data_graph_format="ttl",
                 shacl_graph_format="ttl",

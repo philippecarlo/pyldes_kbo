@@ -1,0 +1,23 @@
+#Make sure the current provided endpoint contains a LDES Stream also a Tree Collectoin
+
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix tree: <https://w3id.org/tree#> .
+@prefix ldes: <https://w3id.org/ldes#> .
+
+#End point should be a LDES Event Stream
+tree:CollectionIsALDES a sh:NodeShape ;
+   sh:property [
+      sh:path rdf:type;
+      sh:hasValue ldes:EventStream ;
+      sh:minCount 1;
+   ] .
+
+
+#End point should be a tree Collection
+tree:CollectionIsATree a sh:NodeShape ;
+   sh:property [
+      sh:path rdf:type;
+      sh:hasValue tree:Collection;
+      sh:minCount 1;
+   ] .

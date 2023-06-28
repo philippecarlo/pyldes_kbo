@@ -1,7 +1,6 @@
-# TODO
 import re
 
-from rdflib import Graph
+from ctesttree.testsuits.testconfig import data_graph
 
 
 # SPEC for Tree Spec
@@ -13,7 +12,8 @@ from rdflib import Graph
 # The tree:path of each tree:Relation refers to a literal containing a WKT string, such as geosparql:asWKT.
 
 class MustTestCase8:
-    def contains_wkt_string(self, input_string):
+    @staticmethod
+    def contains_wkt_string(input_string):
         pattern = r'\bPOINT\s*\(|\bLINESTRING\s*\(|\bPOLYGON\s*\(|\bMULTIPOINT\s*\(|\bMULTILINESTRING\s*\(' \
                   r'|\bMULTIPOLYGON\s*\('
         match = re.search(pattern, input_string)
@@ -21,10 +21,6 @@ class MustTestCase8:
 
     def get_result(self):
         conforms = True
-        # Select all the relation is a tree:GeospatiallyContainsRelation
-        graph = Graph()
-        graph.parse("../../../sdk/ldes-test-client/crawldf/items.rdf", format="ntriples")
-
         # Execute SPARQL query
         query = """
                 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
@@ -34,7 +30,7 @@ class MustTestCase8:
                       ?subject rdf:type tree:GeospatiallyContainsRelation.
                       ?subject tree:value ?treevalue .}
             """
-        results = graph.query(query)
+        results = data_graph.query(query)
 
         # Process the query results
         if len(results) == 0:

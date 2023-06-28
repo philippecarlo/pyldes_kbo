@@ -11,8 +11,6 @@
 # Verify: the LDES server root lists all tree:Collections and tree:Views and that the corresponding view descriptions
 # include a dct:conformsTo property with the value https://w3id.org/tree.
 
-
-@prefix po:  <http://itb.ec.europa.eu/sample/po#> .
 @prefix sh:  <http://www.w3.org/ns/shacl#> .
 @prefix ldes: <https://w3id.org/ldes#> .
 @prefix tree: <https://w3id.org/tree#> .

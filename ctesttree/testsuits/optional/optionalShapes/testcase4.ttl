@@ -6,7 +6,6 @@
 # can be used.
 #
 # Verify:
-# Check that LDES Server supports SHACL property paths in tree:Relations.
+# Check that LDES Server supports all SHACL property paths
 #
 
-# Post a SHACL FILE TO THE SERVER?

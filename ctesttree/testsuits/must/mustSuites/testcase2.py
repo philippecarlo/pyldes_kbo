@@ -11,17 +11,13 @@
 import pyshacl
 from rdflib import Graph
 
-headers_get = {
-    'accept': 'application/turtle'
-}
-
-url_view = 'http://localhost:8080/kbo'
+from ctesttree.testsuits.testconfig import data_graph
 
 
 class MustTestCase2:
-    def get_result(self):
+    @staticmethod
+    def get_result() -> bool:
         shapes_graph = Graph().parse("../mustShapes/testcase2.ttl", format="ttl")
-        data_graph = Graph().parse("../../../sdk/ldes-test-client/crawldf/items.rdf", format="ntriples")
         results = pyshacl.validate(
             data_graph,
             shacl_graph=shapes_graph,

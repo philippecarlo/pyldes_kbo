@@ -10,7 +10,7 @@
 import pyshacl
 from rdflib import Graph
 
-from ctesttree.testsuits.testconfig import data_graph
+from ctesttree.testsuits.testconfig.testconfig import data_graph
 
 
 class ShouldTestCase4:

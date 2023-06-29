@@ -1,6 +1,6 @@
 import re
 
-from ctesttree.testsuits.testconfig import data_graph
+from ctesttree.testsuits.testconfig.testconfig import data_graph
 
 
 # SPEC for Tree Spec

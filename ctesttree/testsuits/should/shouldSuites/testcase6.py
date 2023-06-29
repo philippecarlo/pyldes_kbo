@@ -12,7 +12,7 @@
 import pyshacl
 from rdflib import Graph
 
-from ctesttree.testsuits.testconfig import data_graph_view
+from ctesttree.testsuits.testconfig.testconfig import data_graph_view
 
 
 class ShouldTestCase6:

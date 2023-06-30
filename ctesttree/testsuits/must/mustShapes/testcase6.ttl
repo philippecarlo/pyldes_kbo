@@ -1,4 +1,3 @@
-#Todo
 # SPEC for Tree Spec
 # Must test case - 17
 # SPEC Conform:
@@ -13,3 +12,24 @@
 # for comparison.
 #
 # Question posed to tress spec:Is it possible ingest only tree:value not tree:path ?
+
+@prefix tree: <http://example.com/tree#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix tree: <https://w3id.org/tree#> .
+@prefix example: <http://example.org/> .
+
+tree:NoTreePathButTreeValue
+  a sh:NodeShape ;
+  sh:targetClass tree:Relation ;
+  sh:property [
+    sh:path tree:path;
+    sh:maxCount 0;
+                   ];
+   sh:property [
+    sh:path tree:value;
+    sh:minCount 1;
+                   ].
+
+

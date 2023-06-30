@@ -1,12 +1,9 @@
 #
 # SPEC for Tree Spec Must test case - 1
 # SPEC Conform:
-# A node from which all members of a collection can be
-# discovered, can be found through a triple stating ex:C1 tree:view ex:N1 with ex:C1 being a tree:Collection and
-# ex:N1 being a tree:Node.
-#
-# Verify: LDES Server does the fragment and provides a tree:view in the output tree collection.
-#
+# To Verify if the Generated Output stream conforms the Tree SPEC or LDES SPEC.
+# The output should be a TREE Collection and an LDES Collection.
+# The current test is a very first case for validating the current conformance.
 
 
 import sys
@@ -53,5 +50,5 @@ class MustTestCase0:
 
             conforms, report_graph, report_text = results
 
-            # return conforms
-            return True
+            return conforms
+            # return True

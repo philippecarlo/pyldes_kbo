@@ -71,7 +71,7 @@ else:
               "on every triple in the page). When due to rdfs:range incompatibility," \
               "the object cannot be compared, the object will not be considered for comparison.<br/>"
     result.append(MustTestCase6().get_result())
-    report += "- Conformance result:" + str(MustTestCase6().get_result()) + "<br/><br/>"
+    report += "- Conformance result:" + str(result[-1]) + "<br/><br/>"
 
     report += "- Validating against MUST conformance request:<br/>"
     report += "The strings MUST then be compared according to case-sensitive unicode ordering.<br/>"

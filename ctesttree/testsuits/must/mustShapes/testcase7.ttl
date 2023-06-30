@@ -16,6 +16,7 @@
 @prefix sh: <http://www.w3.org/ns/shacl#> .
 @prefix tree: <https://w3id.org/tree#> .
 @prefix example: <http://example.org/> .
+@prefix xsd:<http://www.w3.org/2001/XMLSchema#>.
 
 tree:SubstringRelation
   a sh:NodeShape ;
@@ -25,8 +26,8 @@ tree:SubstringRelation
     sh:in (tree:GreaterThanRelation tree:GreaterThanOrEqualToRelation tree:LessThanRelation tree:LessThanOrEqualToRelation tree:EqualToRelation);
     sh:minCount 1;
   ] ;
-  sh:PropertyShape [
+  sh:property [
     sh:path tree:value;
-    sh:datatype rdfs:Litera;
+    sh:datatype xsd:string;
     sh:minCount 1;
                    ].

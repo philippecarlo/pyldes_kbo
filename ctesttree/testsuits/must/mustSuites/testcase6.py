@@ -1,4 +1,10 @@
 # TODO
+import sys
+
+import pyshacl
+from rdflib import Graph
+
+from ctesttree.testsuits.testconfig.testconfig import data_graph
 
 
 # SPEC for Tree Spec
@@ -17,5 +23,27 @@
 # Question posed to tress spec:Is it possible ingest only tree:value not tree:path ?
 class MustTestCase6:
 
-    def get_result(self):
-        return "UNDEFINED"
+    @staticmethod
+    def get_result():
+        shapes_graph = Graph().parse("../mustShapes/testcase6.ttl", format="ttl")
+        if len(data_graph) == 0:
+            print("Empty graph, NOT Conform")
+            sys.exit()
+        else:
+            results = pyshacl.validate(
+                data_graph,
+                shacl_graph=shapes_graph,
+                data_graph_format="ttl",
+                shacl_graph_format="ttl",
+                inference="rdfs",
+                # debug=True,
+                serialize_report_graph="ttl",
+            )
+
+            conforms, report_graph, report_text = results
+
+            if conforms:
+                # TODO
+                return "TODO"
+            else:
+                return "Prerequisites: ""When no tree:path is defined"" doesn't apply. - TEST DOESN'T APPLY"

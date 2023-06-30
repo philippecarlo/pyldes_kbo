@@ -33,8 +33,8 @@ class MustTestCase7:
 
             conforms, report_graph, report_text = results
 
-            if conforms == True:
+            if conforms:
                 # TODO
-                return True
+                return "TODO"
             else:
                 return "NOT substring fragmentation uses Greater/Less/Equal comparison - TEST DOESN'T APPLY"

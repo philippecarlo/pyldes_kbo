@@ -23,11 +23,11 @@ class MustTestCase0:
         viewurl = URIRef(url_view)
         shapes_graph.add((tree.CollectionIsALDES, sh.targetNode, viewurl))
 
-        tree = Namespace("https://w3id.org/tree#")
-        sh = Namespace("http://www.w3.org/ns/shacl#")
-        local = URIRef(url_view)
-        shapes_graph.add((tree.CollectionIsATree, sh.targetNode, local))
-        #
+        # tree = Namespace("https://w3id.org/tree#")
+        # sh = Namespace("http://www.w3.org/ns/shacl#")
+        # local = URIRef(url_view)
+        # shapes_graph.add((tree.CollectionIsATree, sh.targetNode, local))
+        # #
         # for s, p, o in shapes_graph:
         #     print(f"Subject: {s}")
         #     print(f"Predicate: {p}")

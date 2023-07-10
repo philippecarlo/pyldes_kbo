@@ -95,7 +95,7 @@
             ns2:postCode "6180" ;
             ns2:postName "Courcelles" ],
         [ a ns2:Address ;
-            geo:asWKT "None"^^geo:wktLiteral ;
+            geo:asWKT "POINT (5.6477718 50.685916)"^^geo:wktLiteral ;
             rdf:subject ns3:e08753f376d4b93aa998 ;
             ns3:addressType ns3:TypeOfAddress_BAET ;
             ns2:fullAddress "Ed. Schelfhoutstraat 232, 1770 Liedekerke, Belgium" ;
@@ -2741,7 +2741,7 @@
             rdf:subject ns3:2102971975 ;
             ns2:Address ns3:e0aae24706fa35dcdd7d ],
         [ a ns2:Address ;
-            geo:asWKT "None"^^geo:wktLiteral ;
+            geo:asWKT "POINT (5.6477718 50.685916)"^^geo:wktLiteral ;
             rdf:subject ns3:3aaa268254f2808f1b2c ;
             ns3:addressType ns3:TypeOfAddress_BAET ;
             ns2:fullAddress "Rue de la Technique 11, 1400 Nivelles, Belgium" ;
@@ -2966,7 +2966,7 @@
             rdf:subject ns3:2127733305 ;
             ns2:Address ns3:66533b1944f5a7865caa ],
         [ a ns2:Address ;
-            geo:asWKT "None"^^geo:wktLiteral ;
+            geo:asWKT "POINT (5.6477718 50.685916)"^^geo:wktLiteral ;
             rdf:subject ns3:729b5580a2239ac582e0 ;
             ns3:addressType ns3:TypeOfAddress_BAET ;
             ns2:fullAddress "Place des Grands Pr�s 1, 7000 Mons, Belgium" ;
@@ -3487,7 +3487,7 @@
             rdf:subject ns3:2102976430 ;
             ns2:Address ns3:ddbfa1271ed17dd065b0 ],
         [ a ns2:Address ;
-            geo:asWKT "None"^^geo:wktLiteral ;
+            geo:asWKT "POINT (5.6477718 50.685916)"^^geo:wktLiteral ;
             rdf:subject ns3:1d34cf80d72f91401409 ;
             ns3:addressType ns3:TypeOfAddress_BAET ;
             ns2:fullAddress "Route de Li�ge 145, 4720 Kelmis, Belgium" ;
@@ -3649,7 +3649,7 @@
             rdf:subject ns3:2151739419 ;
             ns2:Address ns3:afa116463df2a07f3637 ],
         [ a ns2:Address ;
-            geo:asWKT "None"^^geo:wktLiteral ;
+            geo:asWKT "POINT (5.6477718 50.685916)"^^geo:wktLiteral ;
             rdf:subject ns3:eed71eb0f0f3d73490fa ;
             ns3:addressType ns3:TypeOfAddress_BAET ;
             ns2:fullAddress "Pater Damiaanstraat 8, 7700 Mouscron, Belgium" ;
@@ -3974,7 +3974,7 @@
             rdf:subject ns3:2102969896 ;
             ns2:Address ns3:46bd2a2239c33c62044f ],
         [ a ns2:Address ;
-            geo:asWKT "None"^^geo:wktLiteral ;
+            geo:asWKT "POINT (5.6477718 50.685916)"^^geo:wktLiteral ;
             rdf:subject ns3:849cc4478a858a359561 ;
             ns3:addressType ns3:TypeOfAddress_BAET ;
             ns2:fullAddress "Albert Degandtplein(D) 18, 7711 Mouscron, Belgium" ;
@@ -4183,7 +4183,7 @@
             rdf:subject ns3:2102970589 ;
             ns2:Address ns3:844882833ab540d11b28 ],
         [ a ns2:Address ;
-            geo:asWKT "None"^^geo:wktLiteral ;
+            geo:asWKT "POINT (5.6477718 50.685916)"^^geo:wktLiteral ;
             rdf:subject ns3:01f1214d6e4b41469ce1 ;
             ns3:addressType ns3:TypeOfAddress_BAET ;
             ns2:fullAddress "Cour de l'H�tel de ville 3, 4970 Stavelot, Belgium" ;
@@ -4507,7 +4507,7 @@
             ns2:postCode "8800" ;
             ns2:postName "Roeselare" ],
         [ a ns2:Address ;
-            geo:asWKT "None"^^geo:wktLiteral ;
+            geo:asWKT "POINT (5.6477718 50.685916)"^^geo:wktLiteral ;
             rdf:subject ns3:bc1be641749ab0cb440f ;
             ns3:addressType ns3:TypeOfAddress_BAET,
                 ns3:TypeOfAddress_REGO ;
@@ -4699,7 +4699,7 @@
             ns2:postCode "5650" ;
             ns2:postName "Walcourt" ],
         [ a ns2:Address ;
-            geo:asWKT "None"^^geo:wktLiteral ;
+            geo:asWKT "POINT (5.6477718 50.685916)"^^geo:wktLiteral ;
             rdf:subject ns3:d4a1c3fbe853f3637cb1 ;
             ns3:addressType ns3:TypeOfAddress_BAET ;
             ns2:fullAddress "Maurice De Moorplein 7, 1020 Brussel, Belgium" ;
@@ -4754,7 +4754,7 @@
             ns2:postCode "1080" ;
             ns2:postName "Sint-Jans-Molenbeek" ],
         [ a ns2:Address ;
-            geo:asWKT "None"^^geo:wktLiteral ;
+            geo:asWKT "POINT (5.6477718 50.685916)"^^geo:wktLiteral ;
             rdf:subject ns3:7c2545c7abf3fb9bce71 ;
             ns3:addressType ns3:TypeOfAddress_BAET ;
             ns2:fullAddress "Rue de la Verte Louche 1, 7866 Lessines, Belgium" ;
@@ -5365,7 +5365,7 @@
             ns2:postCode "7322" ;
             ns2:postName "Bernissart" ],
         [ a ns2:Address ;
-            geo:asWKT "None"^^geo:wktLiteral ;
+            geo:asWKT "POINT (5.6477718 50.685916)"^^geo:wktLiteral ;
             rdf:subject ns3:8dd66db75e0894332267 ;
             ns3:addressType ns3:TypeOfAddress_BAET ;
             ns2:fullAddress "Rue Albert Ier 121, 5640 Mettet, Belgium" ;
@@ -5625,7 +5625,7 @@
             ns2:postCode "3680" ;
             ns2:postName "Maaseik" ],
         [ a ns2:Address ;
-            geo:asWKT "None"^^geo:wktLiteral ;
+            geo:asWKT "POINT (5.6477718 50.685916)"^^geo:wktLiteral ;
             rdf:subject ns3:d27ea903e187fa6b62e8 ;
             ns3:addressType ns3:TypeOfAddress_BAET ;
             ns2:fullAddress "Koning AlbertII laan 27 GLV, 1030 Schaarbeek, Belgium" ;
@@ -5845,7 +5845,7 @@
             ns2:postCode "6600" ;
             ns2:postName "Bastogne" ],
         [ a ns2:Address ;
-            geo:asWKT "None"^^geo:wktLiteral ;
+            geo:asWKT "POINT (5.6477718 50.685916)"^^geo:wktLiteral ;
             rdf:subject ns3:d7084f8c09592be4c4fc ;
             ns3:addressType ns3:TypeOfAddress_BAET ;
             ns2:fullAddress "Rakestraat 27A, 8750 Wingene, Belgium" ;
@@ -5993,7 +5993,7 @@
             rdf:subject ns3:2102966235 ;
             ns2:Address ns3:cb75e2fa9a49046396ce ],
         [ a ns2:Address ;
-            geo:asWKT "None"^^geo:wktLiteral ;
+            geo:asWKT "POINT (5.6477718 50.685916)"^^geo:wktLiteral ;
             rdf:subject ns3:b9cb93c3c50896b509b8 ;
             ns3:addressType ns3:TypeOfAddress_BAET ;
             ns2:fullAddress "Hovesstraat(E) 122, 7850 Enghien, Belgium" ;
@@ -6177,7 +6177,7 @@
             rdf:subject ns3:2331701737 ;
             ns2:Address ns3:bef5df5c3e364ecbb86e ],
         [ a ns2:Address ;
-            geo:asWKT "None"^^geo:wktLiteral ;
+            geo:asWKT "POINT (5.6477718 50.685916)"^^geo:wktLiteral ;
             rdf:subject ns3:7266ab807dab1f1dec43 ;
             ns3:addressType ns3:TypeOfAddress_BAET ;
             ns2:fullAddress "Koning AlbertII laan 27, 1030 Schaarbeek, Belgium" ;

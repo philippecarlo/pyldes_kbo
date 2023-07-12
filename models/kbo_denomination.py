@@ -1,8 +1,7 @@
-from hashlib import blake2s
-from rdflib import URIRef, BNode, Literal, Graph, SKOS, RDF, FOAF
-from pyldes_kbo.namespace.kbo import KBO
 from pyldes_kbo.models.kbo_base import KboBase
 from pyldes_kbo.models.kbo_code import KboCode
+from rdflib import URIRef, Literal, Graph, FOAF
+
 
 class KboDenomination(KboBase):
 
@@ -14,8 +13,7 @@ class KboDenomination(KboBase):
     def load_denomination(self, graph: Graph, entity: URIRef):
         lang = self.get_lang()
         graph.add((entity, FOAF.name, Literal(self.denomination, lang=lang)))
-        
-    
+
     def get_lang(self) -> str:
         if self.language.code == "1":
             return "FR"
@@ -27,4 +25,3 @@ class KboDenomination(KboBase):
             return "EN"
         else:
             return None
-        

@@ -1,0 +1,25 @@
+version: '3.3'
+services:
+      ldes-server:
+          container_name: basic_ldes-server
+          image: ldes/ldes-server:1.2.0-SNAPSHOT
+          environment:
+          - SPRING_CONFIG_LOCATION=/config/
+          volumes:
+          - ./ldes-server.yml:/config/application.yml:ro
+          ports:
+          - 8080:8080
+          networks:
+          - ldes
+          depends_on:
+          - ldes-mongodb
+      ldes-mongodb:
+          container_name: conformance_test_ldes-mongodb
+          image: mongo:6.0.4
+          ports:
+          - 27017:27017
+          networks:
+          - ldes
+networks:
+      ldes:
+          name: conformance_test_network

@@ -1,12 +1,13 @@
 from typing import List
 
+
 class KboBase:
 
     def to_dict(self):
         result = {}
         for key in self.__dict__:
             item = self.__dict__[key]
-            if isinstance(item,  List):
+            if isinstance(item, List):
                 mapped_list = []
                 for list_item in item:
                     if issubclass(type(list_item), KboBase):

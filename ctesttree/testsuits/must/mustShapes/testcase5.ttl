@@ -1,0 +1,15 @@
+#Todo
+@prefix sh:  <http://www.w3.org/ns/shacl#> .
+@prefix ldes: <https://w3id.org/ldes#> .
+@prefix tree: <https://w3id.org/tree#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix legal: <http://www.w3.org/ns/legal#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+#
+# SPEC for Tree Spec
+# Must test case - 16
+# SPEC Conform:
+# The result of the evaluation of the tree:path, is the value that MUST be compared to the tree:value.
+# Verify:
+# The evaluation based on the tree:value of the tree:path is correct.
+

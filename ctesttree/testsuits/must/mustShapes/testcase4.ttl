@@ -1,0 +1,25 @@
+#
+# SPEC for Tree Spec
+# Must test case - 4
+# SPEC Conform:
+# A tree:Relation MUST have one tree:node object of the type tree:Node.
+#
+# Verify:
+# Each tree:Relation has one tree:node object of the type tree:Node.
+#
+
+@prefix tree: <http://example.com/tree#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix tree: <https://w3id.org/tree#> .
+@prefix example: <http://example.org/> .
+
+tree:RelationHasOneTreeNodePath
+  a sh:NodeShape ;
+  sh:targetClass tree:Relation ;
+  sh:property [
+    sh:path tree:node ;
+    sh:nodeKind sh:BlankNodeOrIRI;
+    sh:minCount 1;
+  ] .

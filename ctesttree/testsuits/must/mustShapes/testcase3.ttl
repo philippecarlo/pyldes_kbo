@@ -1,0 +1,15 @@
+#todo
+#Current is build in sparql
+
+#
+# SPEC for Tree Spec
+# Must test case - 6 AND 8
+# SPEC Conform:
+# Every entity linked from tree:view MUST be an entry point to retrieve all members of the collection.
+# AND
+# A TREE client MUST traverse all relations from the tree:Nodes linked to this particular collection.
+# A client MUST thus check for ViewDescriptions on both the current node without the tree:viewDescription qualification,
+# Verify:
+# Replicate the data using ldes client by the end point of the tree view
+# The amount of the LDES members = The Input LDES members (20, in the context of BEL20, KBO data).
+#

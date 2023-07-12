@@ -8,7 +8,7 @@ from rdflib.term import URIRef
 class GEO(DefinedNamespace):
     # classes
     # properties
-    asWKT:URIRef
-    wktLiteral:URIRef
+    asWKT: URIRef
+    wktLiteral: URIRef
 
     _NS = Namespace("http://www.opengis.net/ont/geosparql#")

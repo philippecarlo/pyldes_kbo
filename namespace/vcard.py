@@ -1,13 +1,13 @@
 from rdflib.namespace import DefinedNamespace, Namespace
 from rdflib.term import URIRef
 
+
 ###
 # created from https://github.com/TREEcg/specification/blob/master/tree.ttl
 ##
 class VCARD(DefinedNamespace):
-
     _NS = Namespace("http://www.w3.org/2006/vcard/")
-    
+
     Address: URIRef
     BBS: URIRef
     Car: URIRef
@@ -42,7 +42,7 @@ class VCARD(DefinedNamespace):
     agent: URIRef
     bday: URIRef
     category: URIRef
-    class_ : URIRef = URIRef(f"{_NS}class")
+    class_: URIRef = URIRef(f"{_NS}class")
     countryName: URIRef = URIRef(f"{_NS}country-name")
     email: URIRef
     extendedAddress: URIRef = URIRef(f"{_NS}extended-address")
@@ -80,4 +80,3 @@ class VCARD(DefinedNamespace):
     tz: URIRef
     uid: URIRef
     url: URIRef
-

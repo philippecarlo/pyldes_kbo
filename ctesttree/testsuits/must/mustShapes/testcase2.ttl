@@ -1,0 +1,42 @@
+@prefix po:  <http://itb.ec.europa.eu/sample/po#> .
+@prefix sh:  <http://www.w3.org/ns/shacl#> .
+@prefix ldes: <https://w3id.org/ldes#> .
+@prefix tree: <https://w3id.org/tree#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+
+#
+# SPEC for Tree Spec
+# Must test case - 2
+# SPEC Conform:
+# When the current page is a tree:Node, there MUST be a property linking the current page URL to the URI of the tree:Collection.
+# Verify:
+# "Each tree:Node in the LDES Collection has a link between current page to tree:Collection."
+#
+
+#pyshacl NOT support SPARQL
+
+#[] a sh:NodeShape ;
+#   sh:targetNode [
+#      sh:SPARQL """
+#         SELECT ?node WHERE {
+#            ?node ?p ?o .
+#         }
+#         LIMIT 1
+#      """
+#   ] ;
+#   sh:message "The graph must not be empty." .
+
+tree:NodeHasOneLinkToCollection	a sh:NodeShape ;
+	sh:targetClass tree:Node;
+    sh:property [
+      sh:path  terms:isPartOf;
+      sh:minCount 1 ;
+    ] .
+
+#tree:NodeHasOneLinkToCollection	a sh:NodeShape ;
+#	sh:targetClass tree:Node;
+#    sh:property [
+#      sh:path  terms:isPartOf;
+#      sh:datatype ldes:EventStream;
+#      sh:minCount 1 ;
+#    ] .

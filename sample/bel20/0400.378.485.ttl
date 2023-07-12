@@ -383,15 +383,15 @@ kbo:0697ebbde82c377fe85c a locn:Address ;
 kbo:06cd7dd6b05fcb07c652 a locn:Address ;
     geo:asWKT "POINT (5.612058951807727 50.606982200000004)"^^geo:wktLiteral ;
     kbo:addressType kbo:TypeOfAddress_BAET ;
-    locn:fullAddress "Rue de Beaufraipont 16, 4032 Liège, Belgium" ;
+    locn:fullAddress "Rue de Beaufraipont 16, 4032 Liï¿½ge, Belgium" ;
     locn:poBox "None" ;
     locn:postCode "4032" ;
-    locn:postName "Liège" .
+    locn:postName "Liï¿½ge" .
 
 kbo:072bc0310c676458bbe8 a locn:Address ;
     geo:asWKT "POINT (4.4588178 51.0540044)"^^geo:wktLiteral ;
     kbo:addressType kbo:TypeOfAddress_BAET ;
-    locn:fullAddress "Schaliënhoevedreef 5, 2800 Mechelen, Belgium" ;
+    locn:fullAddress "Schaliï¿½nhoevedreef 5, 2800 Mechelen, Belgium" ;
     locn:poBox "None" ;
     locn:postCode "2800" ;
     locn:postName "Mechelen" .
@@ -447,7 +447,7 @@ kbo:0ee94381d6e51e518bf7 a locn:Address ;
 kbo:0efc9bd9596ae9269273 a locn:Address ;
     geo:asWKT "POINT (4.402199813481323 50.694602700000004)"^^geo:wktLiteral ;
     kbo:addressType kbo:TypeOfAddress_BAET ;
-    locn:fullAddress "Chaussée de Bruxelles 684, 1410 Waterloo, Belgium" ;
+    locn:fullAddress "Chaussï¿½e de Bruxelles 684, 1410 Waterloo, Belgium" ;
     locn:poBox "None" ;
     locn:postCode "1410" ;
     locn:postName "Waterloo" .
@@ -455,7 +455,7 @@ kbo:0efc9bd9596ae9269273 a locn:Address ;
 kbo:0efdd782b944ca284809 a locn:Address ;
     geo:asWKT "POINT (5.5185628563037685 49.56675335)"^^geo:wktLiteral ;
     kbo:addressType kbo:TypeOfAddress_BAET ;
-    locn:fullAddress "Rue de Montmédy 14, 6760 Virton, Belgium" ;
+    locn:fullAddress "Rue de Montmï¿½dy 14, 6760 Virton, Belgium" ;
     locn:poBox "None" ;
     locn:postCode "6760" ;
     locn:postName "Virton" .
@@ -463,7 +463,7 @@ kbo:0efdd782b944ca284809 a locn:Address ;
 kbo:10d816a8e253a4538b88 a locn:Address ;
     geo:asWKT "POINT (4.1713827 50.4216132)"^^geo:wktLiteral ;
     kbo:addressType kbo:TypeOfAddress_BAET ;
-    locn:fullAddress "Rue Zéphirin Fontaine(BIN) 160, 7130 Binche, Belgium" ;
+    locn:fullAddress "Rue Zï¿½phirin Fontaine(BIN) 160, 7130 Binche, Belgium" ;
     locn:poBox "None" ;
     locn:postCode "7130" ;
     locn:postName "Binche" .
@@ -559,7 +559,7 @@ kbo:181ae7bfd76edcc6a1a1 a locn:Address ;
 kbo:182d07088feb6fe65729 a locn:Address ;
     geo:asWKT "POINT (4.189429610523203 50.91663535)"^^geo:wktLiteral ;
     kbo:addressType kbo:TypeOfAddress_BAET ;
-    locn:fullAddress "Nerviërsstraat 49, 1730 Asse, Belgium" ;
+    locn:fullAddress "Nerviï¿½rsstraat 49, 1730 Asse, Belgium" ;
     locn:poBox "None" ;
     locn:postCode "1730" ;
     locn:postName "Asse" .
@@ -567,7 +567,7 @@ kbo:182d07088feb6fe65729 a locn:Address ;
 kbo:19fb7aa6db6f4f38ba21 a locn:Address ;
     geo:asWKT "POINT (4.27264329407501 50.47514725)"^^geo:wktLiteral ;
     kbo:addressType kbo:TypeOfAddress_BAET ;
-    locn:fullAddress "Clos du Chêne au Bois 13, 7160 Chapelle-lez-Herlaimont, Belgium" ;
+    locn:fullAddress "Clos du Chï¿½ne au Bois 13, 7160 Chapelle-lez-Herlaimont, Belgium" ;
     locn:poBox "None" ;
     locn:postCode "7160" ;
     locn:postName "Chapelle-lez-Herlaimont" .
@@ -597,9 +597,9 @@ kbo:1c8896c2d0b0cf0fe0a1 a locn:Address ;
     locn:postName "Antwerpen" .
 
 kbo:1d34cf80d72f91401409 a locn:Address ;
-    geo:asWKT "None"^^geo:wktLiteral ;
+    geo:asWKT "POINT (5.6477718 50.685916)"^^geo:wktLiteral ;
     kbo:addressType kbo:TypeOfAddress_BAET ;
-    locn:fullAddress "Route de Liège 145, 4720 Kelmis, Belgium" ;
+    locn:fullAddress "Route de Liï¿½ge 145, 4720 Kelmis, Belgium" ;
     locn:poBox "None" ;
     locn:postCode "4720" ;
     locn:postName "Kelmis" .
@@ -2218,7 +2218,7 @@ kbo:27cfecbea547880cfb5f a locn:Address ;
 kbo:2976596e99a61625643c a locn:Address ;
     geo:asWKT "POINT (4.3917879 50.4086828)"^^geo:wktLiteral ;
     kbo:addressType kbo:TypeOfAddress_BAET ;
-    locn:fullAddress "Rue Lieutenant Général Gillain 43, 6030 Charleroi, Belgium" ;
+    locn:fullAddress "Rue Lieutenant Gï¿½nï¿½ral Gillain 43, 6030 Charleroi, Belgium" ;
     locn:poBox "None" ;
     locn:postCode "6030" ;
     locn:postName "Charleroi" .
@@ -2258,7 +2258,7 @@ kbo:2d485b357f1dd96c65a8 a locn:Address ;
 kbo:2dd9b34d3ab43a61dbe1 a locn:Address ;
     geo:asWKT "POINT (3.6191794 50.5960952)"^^geo:wktLiteral ;
     kbo:addressType kbo:TypeOfAddress_BAET ;
-    locn:fullAddress "Rue de Condé(L) 56, 7900 Leuze-en-Hainaut, Belgium" ;
+    locn:fullAddress "Rue de Condï¿½(L) 56, 7900 Leuze-en-Hainaut, Belgium" ;
     locn:poBox "None" ;
     locn:postCode "7900" ;
     locn:postName "Leuze-en-Hainaut" .
@@ -2330,7 +2330,7 @@ kbo:38c88812497357eb2705 a locn:Address ;
 kbo:3a42cc5ff8ee061b0a4f a locn:Address ;
     geo:asWKT "POINT (3.2861438 51.3395579)"^^geo:wktLiteral ;
     kbo:addressType kbo:TypeOfAddress_BAET ;
-    locn:fullAddress "Natiënlaan 191, 8300 Knokke-Heist, Belgium" ;
+    locn:fullAddress "Natiï¿½nlaan 191, 8300 Knokke-Heist, Belgium" ;
     locn:poBox "None" ;
     locn:postCode "8300" ;
     locn:postName "Knokke-Heist" .
@@ -2442,10 +2442,10 @@ kbo:4723105373b6346ef876 a locn:Address ;
 kbo:4826aad3144a043c711b a locn:Address ;
     geo:asWKT "POINT (5.586787925097275 50.6280563)"^^geo:wktLiteral ;
     kbo:addressType kbo:TypeOfAddress_BAET ;
-    locn:fullAddress "Bld Frankignoul 6, 4020 Liège, Belgium" ;
+    locn:fullAddress "Bld Frankignoul 6, 4020 Liï¿½ge, Belgium" ;
     locn:poBox "None" ;
     locn:postCode "4020" ;
-    locn:postName "Liège" .
+    locn:postName "Liï¿½ge" .
 
 kbo:494d8b5c49154cd34a10 a locn:Address ;
     geo:asWKT "POINT (4.5672048 50.6631521)"^^geo:wktLiteral ;
@@ -2490,10 +2490,10 @@ kbo:4b6aac45deb7e52e203f a locn:Address ;
 kbo:4be6a0a8abb44d2edd8f a locn:Address ;
     geo:asWKT "POINT (3.600342956314206 50.52558535)"^^geo:wktLiteral ;
     kbo:addressType kbo:TypeOfAddress_BAET ;
-    locn:fullAddress "Rue Neuve Chaussée(PER) 157, 7600 Péruwelz, Belgium" ;
+    locn:fullAddress "Rue Neuve Chaussï¿½e(PER) 157, 7600 Pï¿½ruwelz, Belgium" ;
     locn:poBox "None" ;
     locn:postCode "7600" ;
-    locn:postName "Péruwelz" .
+    locn:postName "Pï¿½ruwelz" .
 
 kbo:4d092c72b257fea833f5 a locn:Address ;
     geo:asWKT "POINT (2.71083 50.8562321)"^^geo:wktLiteral ;
@@ -2530,7 +2530,7 @@ kbo:5007b9a44d805aba072f a locn:Address ;
 kbo:5122919151b4484b7fae a locn:Address ;
     geo:asWKT "POINT (4.6784465 50.7435401)"^^geo:wktLiteral ;
     kbo:addressType kbo:TypeOfAddress_BAET ;
-    locn:fullAddress "Chaussée de Wavre 328, 1390 Grez-Doiceau, Belgium" ;
+    locn:fullAddress "Chaussï¿½e de Wavre 328, 1390 Grez-Doiceau, Belgium" ;
     locn:poBox "None" ;
     locn:postCode "1390" ;
     locn:postName "Grez-Doiceau" .
@@ -2650,7 +2650,7 @@ kbo:5c901d0da093324b9713 a locn:Address ;
 kbo:5c91a68e2b73c1170e72 a locn:Address ;
     geo:asWKT "POINT (4.337011905155277 50.61012624999999)"^^geo:wktLiteral ;
     kbo:addressType kbo:TypeOfAddress_BAET ;
-    locn:fullAddress "Chaussée de Bruxelles 170, 1400 Nivelles, Belgium" ;
+    locn:fullAddress "Chaussï¿½e de Bruxelles 170, 1400 Nivelles, Belgium" ;
     locn:poBox "None" ;
     locn:postCode "1400" ;
     locn:postName "Nivelles" .
@@ -2682,7 +2682,7 @@ kbo:5dfd0cbbaa53c46d0456 a locn:Address ;
 kbo:5ef0665da13694be9cc5 a locn:Address ;
     geo:asWKT "POINT (4.6590217 50.4603501)"^^geo:wktLiteral ;
     kbo:addressType kbo:TypeOfAddress_BAET ;
-    locn:fullAddress "Chaussée de Charleroi 4, 5190 Jemeppe-sur-Sambre, Belgium" ;
+    locn:fullAddress "Chaussï¿½e de Charleroi 4, 5190 Jemeppe-sur-Sambre, Belgium" ;
     locn:poBox "None" ;
     locn:postCode "5190" ;
     locn:postName "Jemeppe-sur-Sambre" .
@@ -2722,7 +2722,7 @@ kbo:62e42ceb2a9079c9033f a locn:Address ;
 kbo:631b95c12f7b0805afe0 a locn:Address ;
     geo:asWKT "POINT (3.7899452 50.6335614)"^^geo:wktLiteral ;
     kbo:addressType kbo:TypeOfAddress_BAET ;
-    locn:fullAddress "Chaussée de Bruxelles 116, 7800 Ath, Belgium" ;
+    locn:fullAddress "Chaussï¿½e de Bruxelles 116, 7800 Ath, Belgium" ;
     locn:poBox "None" ;
     locn:postCode "7800" ;
     locn:postName "Ath" .
@@ -2738,10 +2738,10 @@ kbo:63cdcf59522a36da3276 a locn:Address ;
 kbo:6436c9eeb15f5c5aff47 a locn:Address ;
     geo:asWKT "POINT (4.2075764410544645 50.46362635)"^^geo:wktLiteral ;
     kbo:addressType kbo:TypeOfAddress_BAET ;
-    locn:fullAddress "Rue de Baume-Marpent(PIE) 30, 7100 La Louvière, Belgium" ;
+    locn:fullAddress "Rue de Baume-Marpent(PIE) 30, 7100 La Louviï¿½re, Belgium" ;
     locn:poBox "None" ;
     locn:postCode "7100" ;
-    locn:postName "La Louvière" .
+    locn:postName "La Louviï¿½re" .
 
 kbo:6441346e0b3a9cc41787 a locn:Address ;
     geo:asWKT "POINT (3.681539 50.7326574)"^^geo:wktLiteral ;
@@ -2770,10 +2770,10 @@ kbo:65579d201887b83778f5 a locn:Address ;
 kbo:65cf38c3ceda9f6b5b23 a locn:Address ;
     geo:asWKT "POINT (5.4655461 50.644227)"^^geo:wktLiteral ;
     kbo:addressType kbo:TypeOfAddress_BAET ;
-    locn:fullAddress "Rue de l'Aéroport 14, 4460 Grâce-Hollogne, Belgium" ;
+    locn:fullAddress "Rue de l'Aï¿½roport 14, 4460 Grï¿½ce-Hollogne, Belgium" ;
     locn:poBox "None" ;
     locn:postCode "4460" ;
-    locn:postName "Grâce-Hollogne" .
+    locn:postName "Grï¿½ce-Hollogne" .
 
 kbo:66533b1944f5a7865caa a locn:Address ;
     geo:asWKT "POINT (4.4143152 50.8610743)"^^geo:wktLiteral ;
@@ -2834,7 +2834,7 @@ kbo:69455ec3a06e221e7b1e a locn:Address ;
 kbo:69706bb9cb9e7a722240 a locn:Address ;
     geo:asWKT "POINT (3.4084480548319425 50.61396445)"^^geo:wktLiteral ;
     kbo:addressType kbo:TypeOfAddress_BAET ;
-    locn:fullAddress "Chaussée de Renaix(TOU) 113, 7500 Tournai, Belgium" ;
+    locn:fullAddress "Chaussï¿½e de Renaix(TOU) 113, 7500 Tournai, Belgium" ;
     locn:poBox "None" ;
     locn:postCode "7500" ;
     locn:postName "Tournai" .
@@ -2962,10 +2962,10 @@ kbo:73b1e2fd1c0e470dea46 a locn:Address ;
 kbo:7528f0067088130a5507 a locn:Address ;
     geo:asWKT "POINT (4.2640827742746605 50.6815888)"^^geo:wktLiteral ;
     kbo:addressType kbo:TypeOfAddress_BAET ;
-    locn:fullAddress "Rue de Tubize 6, 1440 Braine-le-Château, Belgium" ;
+    locn:fullAddress "Rue de Tubize 6, 1440 Braine-le-Chï¿½teau, Belgium" ;
     locn:poBox "None" ;
     locn:postCode "1440" ;
-    locn:postName "Braine-le-Château" .
+    locn:postName "Braine-le-Chï¿½teau" .
 
 kbo:771419c383470b338b4c a locn:Address ;
     geo:asWKT "POINT (3.1885020735134555 51.19786755)"^^geo:wktLiteral ;
@@ -2992,7 +2992,7 @@ kbo:7a067805378a2540c037 a locn:Address ;
     locn:postName "Braine-l'Alleud" .
 
 kbo:7c2545c7abf3fb9bce71 a locn:Address ;
-    geo:asWKT "None"^^geo:wktLiteral ;
+    geo:asWKT "POINT (5.6477718 50.685916)"^^geo:wktLiteral ;
     kbo:addressType kbo:TypeOfAddress_BAET ;
     locn:fullAddress "Rue de la Verte Louche 1, 7866 Lessines, Belgium" ;
     locn:poBox "None" ;
@@ -3018,7 +3018,7 @@ kbo:7df59912915e722822a4 a locn:Address ;
 kbo:802488b33a345619a817 a locn:Address ;
     geo:asWKT "POINT (5.218515145611175 50.52247545)"^^geo:wktLiteral ;
     kbo:addressType kbo:TypeOfAddress_BAET ;
-    locn:fullAddress "Chaussée de Dinant 5, 4500 Huy, Belgium" ;
+    locn:fullAddress "Chaussï¿½e de Dinant 5, 4500 Huy, Belgium" ;
     locn:poBox "None" ;
     locn:postCode "4500" ;
     locn:postName "Huy" .
@@ -3056,7 +3056,7 @@ kbo:83ea5e4c6eed194c0b2f a locn:Address ;
     locn:postName "Ath" .
 
 kbo:849cc4478a858a359561 a locn:Address ;
-    geo:asWKT "None"^^geo:wktLiteral ;
+    geo:asWKT "POINT (5.6477718 50.685916)"^^geo:wktLiteral ;
     kbo:addressType kbo:TypeOfAddress_BAET ;
     locn:fullAddress "Albert Degandtplein(D) 18, 7711 Mouscron, Belgium" ;
     locn:poBox "None" ;
@@ -3090,7 +3090,7 @@ kbo:867cba6220e3defe990a a locn:Address ;
 kbo:87500f95d75d0349d948 a locn:Address ;
     geo:asWKT "POINT (4.3096027 50.3395905)"^^geo:wktLiteral ;
     kbo:addressType kbo:TypeOfAddress_BAET ;
-    locn:fullAddress "Drève des Alliés(THN) 108, 6530 Thuin, Belgium" ;
+    locn:fullAddress "Drï¿½ve des Alliï¿½s(THN) 108, 6530 Thuin, Belgium" ;
     locn:poBox "None" ;
     locn:postCode "6530" ;
     locn:postName "Thuin" .
@@ -3098,7 +3098,7 @@ kbo:87500f95d75d0349d948 a locn:Address ;
 kbo:879dbde8420a87d20ec9 a locn:Address ;
     geo:asWKT "POINT (4.8437627 50.4632386)"^^geo:wktLiteral ;
     kbo:addressType kbo:TypeOfAddress_BAET ;
-    locn:fullAddress "Chaussée de Charleroi 16, 5000 Namur, Belgium" ;
+    locn:fullAddress "Chaussï¿½e de Charleroi 16, 5000 Namur, Belgium" ;
     locn:poBox "None" ;
     locn:postCode "5000" ;
     locn:postName "Namur" .
@@ -3122,7 +3122,7 @@ kbo:8962fe8b9411fc5a3de8 a locn:Address ;
 kbo:8976207badbd1a1b85f6 a locn:Address ;
     geo:asWKT "POINT (5.5334401 50.6586929)"^^geo:wktLiteral ;
     kbo:addressType kbo:TypeOfAddress_BAET ;
-    locn:fullAddress "Rue des Français 88, 4430 Ans, Belgium" ;
+    locn:fullAddress "Rue des Franï¿½ais 88, 4430 Ans, Belgium" ;
     locn:poBox "None" ;
     locn:postCode "4430" ;
     locn:postName "Ans" .
@@ -3138,7 +3138,7 @@ kbo:89ded3a46432546d6015 a locn:Address ;
 kbo:8ae153b9a018a076335d a locn:Address ;
     geo:asWKT "POINT (4.2343913 50.4567374)"^^geo:wktLiteral ;
     kbo:addressType kbo:TypeOfAddress_BAET ;
-    locn:fullAddress "Chaussée de Mariemont(MLZ) 36, 7140 Morlanwelz, Belgium" ;
+    locn:fullAddress "Chaussï¿½e de Mariemont(MLZ) 36, 7140 Morlanwelz, Belgium" ;
     locn:poBox "None" ;
     locn:postCode "7140" ;
     locn:postName "Morlanwelz" .
@@ -3168,7 +3168,7 @@ kbo:8c27b8c983d5c2785d37 a locn:Address ;
     locn:postName "Gent" .
 
 kbo:8dd66db75e0894332267 a locn:Address ;
-    geo:asWKT "None"^^geo:wktLiteral ;
+    geo:asWKT "POINT (5.6477718 50.685916)"^^geo:wktLiteral ;
     kbo:addressType kbo:TypeOfAddress_BAET ;
     locn:fullAddress "Rue Albert Ier 121, 5640 Mettet, Belgium" ;
     locn:poBox "None" ;
@@ -3202,7 +3202,7 @@ kbo:9116d6148edc893c83e4 a locn:Address ;
 kbo:916aee42879dcee5b04d a locn:Address ;
     geo:asWKT "POINT (4.4734575 50.3427675)"^^geo:wktLiteral ;
     kbo:addressType kbo:TypeOfAddress_BAET ;
-    locn:fullAddress "Chaussée de Philippeville(GER) 271, 6280 Gerpinnes, Belgium" ;
+    locn:fullAddress "Chaussï¿½e de Philippeville(GER) 271, 6280 Gerpinnes, Belgium" ;
     locn:poBox "None" ;
     locn:postCode "6280" ;
     locn:postName "Gerpinnes" .
@@ -3218,7 +3218,7 @@ kbo:91ecfc5f8d27859fb09c a locn:Address ;
 kbo:91fd42ce27ceff0615e9 a locn:Address ;
     geo:asWKT "POINT (4.4313257 50.8361498)"^^geo:wktLiteral ;
     kbo:addressType kbo:TypeOfAddress_BAET ;
-    locn:fullAddress "René Declercqstraat 20, 1150 Sint-Pieters-Woluwe, Belgium" ;
+    locn:fullAddress "Renï¿½ Declercqstraat 20, 1150 Sint-Pieters-Woluwe, Belgium" ;
     locn:poBox "None" ;
     locn:postCode "1150" ;
     locn:postName "Sint-Pieters-Woluwe" .
@@ -3226,7 +3226,7 @@ kbo:91fd42ce27ceff0615e9 a locn:Address ;
 kbo:92c8d5b6130139273f19 a locn:Address ;
     geo:asWKT "POINT (5.845869119977143 50.591610849999995)"^^geo:wktLiteral ;
     kbo:addressType kbo:TypeOfAddress_BAET ;
-    locn:fullAddress "Boulevard des Gérardchamps 60, 4800 Verviers, Belgium" ;
+    locn:fullAddress "Boulevard des Gï¿½rardchamps 60, 4800 Verviers, Belgium" ;
     locn:poBox "None" ;
     locn:postCode "4800" ;
     locn:postName "Verviers" .
@@ -3298,7 +3298,7 @@ kbo:970d9d2d7c2447e614a0 a locn:Address ;
 kbo:97720ff95984f7501de5 a locn:Address ;
     geo:asWKT "POINT (4.8966506 50.4650461)"^^geo:wktLiteral ;
     kbo:addressType kbo:TypeOfAddress_BAET ;
-    locn:fullAddress "Chaussée de Liège(JB) 477, 5100 Namur, Belgium" ;
+    locn:fullAddress "Chaussï¿½e de Liï¿½ge(JB) 477, 5100 Namur, Belgium" ;
     locn:poBox "None" ;
     locn:postCode "5100" ;
     locn:postName "Namur" .
@@ -3346,7 +3346,7 @@ kbo:9b2e62396cc6e33b4acd a locn:Address ;
 kbo:9f250375019517516275 a locn:Address ;
     geo:asWKT "POINT (5.629534584758149 50.6597596)"^^geo:wktLiteral ;
     kbo:addressType kbo:TypeOfAddress_BAET ;
-    locn:fullAddress "Boulevard Zénobe Gramme 17, 4040 Herstal, Belgium" ;
+    locn:fullAddress "Boulevard Zï¿½nobe Gramme 17, 4040 Herstal, Belgium" ;
     locn:poBox "None" ;
     locn:postCode "4040" ;
     locn:postName "Herstal" .
@@ -3471,7 +3471,7 @@ kbo:a9f523122dd7642ce42c a locn:Address ;
 kbo:aab934ad6b6fd6a2c690 a locn:Address ;
     geo:asWKT "POINT (4.876591970404297 50.7255666)"^^geo:wktLiteral ;
     kbo:addressType kbo:TypeOfAddress_BAET ;
-    locn:fullAddress "Rue de Piétrain(Jod.) 36, 1370 Jodoigne, Belgium" ;
+    locn:fullAddress "Rue de Piï¿½train(Jod.) 36, 1370 Jodoigne, Belgium" ;
     locn:poBox "E" ;
     locn:postCode "1370" ;
     locn:postName "Jodoigne" .
@@ -3511,7 +3511,7 @@ kbo:ae5a07c9833657d52dc9 a locn:Address ;
 kbo:ae8e87bfe50594ee442e a locn:Address ;
     geo:asWKT "POINT (4.8805605 50.411861)"^^geo:wktLiteral ;
     kbo:addressType kbo:TypeOfAddress_BAET ;
-    locn:fullAddress "Chaussée de Dinant(WP) 1320, 5100 Namur, Belgium" ;
+    locn:fullAddress "Chaussï¿½e de Dinant(WP) 1320, 5100 Namur, Belgium" ;
     locn:poBox "None" ;
     locn:postCode "5100" ;
     locn:postName "Namur" .
@@ -3551,7 +3551,7 @@ kbo:b3bf2bac746d446f8b79 a locn:Address ;
 kbo:b3e8ee3b8d27f4011625 a locn:Address ;
     geo:asWKT "POINT (4.547859751325511 50.5356223)"^^geo:wktLiteral ;
     kbo:addressType kbo:TypeOfAddress_BAET ;
-    locn:fullAddress "Chaussée de Namur 264, 1495 Villers-la-Ville, Belgium" ;
+    locn:fullAddress "Chaussï¿½e de Namur 264, 1495 Villers-la-Ville, Belgium" ;
     locn:poBox "None" ;
     locn:postCode "1495" ;
     locn:postName "Villers-la-Ville" .
@@ -3559,10 +3559,10 @@ kbo:b3e8ee3b8d27f4011625 a locn:Address ;
 kbo:b407ed3f3d2050272f5b a locn:Address ;
     geo:asWKT "POINT (4.521213 50.4055099)"^^geo:wktLiteral ;
     kbo:addressType kbo:TypeOfAddress_BAET ;
-    locn:fullAddress "Place du Marché 11, 6200 Châtelet, Belgium" ;
+    locn:fullAddress "Place du Marchï¿½ 11, 6200 Chï¿½telet, Belgium" ;
     locn:poBox "None" ;
     locn:postCode "6200" ;
-    locn:postName "Châtelet" .
+    locn:postName "Chï¿½telet" .
 
 kbo:b63739612acd9c5f3236 a locn:Address ;
     geo:asWKT "POINT (3.8037595 51.032889)"^^geo:wktLiteral ;
@@ -3589,7 +3589,7 @@ kbo:b820eb9106f16f9f5bf2 a locn:Address ;
     locn:postName "Temse" .
 
 kbo:b9cb93c3c50896b509b8 a locn:Address ;
-    geo:asWKT "None"^^geo:wktLiteral ;
+    geo:asWKT "POINT (5.6477718 50.685916)"^^geo:wktLiteral ;
     kbo:addressType kbo:TypeOfAddress_BAET ;
     locn:fullAddress "Hovesstraat(E) 122, 7850 Enghien, Belgium" ;
     locn:poBox "None" ;
@@ -3599,10 +3599,10 @@ kbo:b9cb93c3c50896b509b8 a locn:Address ;
 kbo:bb26a16cd9bd2c7fe0d3 a locn:Address ;
     geo:asWKT "POINT (5.672800200626338 50.616559949999996)"^^geo:wktLiteral ;
     kbo:addressType kbo:TypeOfAddress_BAET ;
-    locn:fullAddress "Avenue des Martyrs 45, 4620 Fléron, Belgium" ;
+    locn:fullAddress "Avenue des Martyrs 45, 4620 Flï¿½ron, Belgium" ;
     locn:poBox "None" ;
     locn:postCode "4620" ;
-    locn:postName "Fléron" .
+    locn:postName "Flï¿½ron" .
 
 kbo:bb412a7d3e735b4b3276 a locn:Address ;
     geo:asWKT "POINT (3.6485039 51.0141827)"^^geo:wktLiteral ;
@@ -3671,7 +3671,7 @@ kbo:bf481081e3eead77f1dc a locn:Address ;
 kbo:c2700d4330400e02e842 a locn:Address ;
     geo:asWKT "POINT (3.9771573875456907 50.4528303)"^^geo:wktLiteral ;
     kbo:addressType kbo:TypeOfAddress_BAET ;
-    locn:fullAddress "Chaussée de Binche 123, 7000 Mons, Belgium" ;
+    locn:fullAddress "Chaussï¿½e de Binche 123, 7000 Mons, Belgium" ;
     locn:poBox "None" ;
     locn:postCode "7000" ;
     locn:postName "Mons" .
@@ -3727,7 +3727,7 @@ kbo:c57cca1b8740a56402b2 a locn:Address ;
 kbo:c6cbea29cafb82d7236b a locn:Address ;
     geo:asWKT "POINT (4.4583556 50.6030813)"^^geo:wktLiteral ;
     kbo:addressType kbo:TypeOfAddress_BAET ;
-    locn:fullAddress "Chaussée de Bruxelles 13, 1470 Genappe, Belgium" ;
+    locn:fullAddress "Chaussï¿½e de Bruxelles 13, 1470 Genappe, Belgium" ;
     locn:poBox "None" ;
     locn:postCode "1470" ;
     locn:postName "Genappe" .
@@ -3735,7 +3735,7 @@ kbo:c6cbea29cafb82d7236b a locn:Address ;
 kbo:c7e39136728d7ef21b6c a locn:Address ;
     geo:asWKT "POINT (4.4385029 50.4166909)"^^geo:wktLiteral ;
     kbo:addressType kbo:TypeOfAddress_BAET ;
-    locn:fullAddress "Chaussée de Bruxelles 233, 6020 Charleroi, Belgium" ;
+    locn:fullAddress "Chaussï¿½e de Bruxelles 233, 6020 Charleroi, Belgium" ;
     locn:poBox "None" ;
     locn:postCode "6020" ;
     locn:postName "Charleroi" .
@@ -3815,13 +3815,13 @@ kbo:d234e1c5fdf57c9a0854 a locn:Address ;
 kbo:d47e9b714a2c7684c82d a locn:Address ;
     geo:asWKT "POINT (5.3045488629655395 50.5567702)"^^geo:wktLiteral ;
     kbo:addressType kbo:TypeOfAddress_BAET ;
-    locn:fullAddress "Chaussée de Tongres(AMA) 247, 4540 Amay, Belgium" ;
+    locn:fullAddress "Chaussï¿½e de Tongres(AMA) 247, 4540 Amay, Belgium" ;
     locn:poBox "None" ;
     locn:postCode "4540" ;
     locn:postName "Amay" .
 
 kbo:d4a1c3fbe853f3637cb1 a locn:Address ;
-    geo:asWKT "None"^^geo:wktLiteral ;
+    geo:asWKT "POINT (5.6477718 50.685916)"^^geo:wktLiteral ;
     kbo:addressType kbo:TypeOfAddress_BAET ;
     locn:fullAddress "Maurice De Moorplein 7, 1020 Brussel, Belgium" ;
     locn:poBox "None" ;
@@ -3839,7 +3839,7 @@ kbo:d63c68c872d6f704204b a locn:Address ;
 kbo:d6471b44182ab91babaf a locn:Address ;
     geo:asWKT "POINT (5.0696904 49.7932318)"^^geo:wktLiteral ;
     kbo:addressType kbo:TypeOfAddress_BAET ;
-    locn:fullAddress "Rue du Collège 32, 6830 Bouillon, Belgium" ;
+    locn:fullAddress "Rue du Collï¿½ge 32, 6830 Bouillon, Belgium" ;
     locn:poBox "None" ;
     locn:postCode "6830" ;
     locn:postName "Bouillon" .
@@ -3967,7 +3967,7 @@ kbo:e17e07e8ae07729b6872 a locn:Address ;
 kbo:e1b330e16b27801b07c5 a locn:Address ;
     geo:asWKT "POINT (5.723948 50.0135565)"^^geo:wktLiteral ;
     kbo:addressType kbo:TypeOfAddress_BAET ;
-    locn:fullAddress "Chaussée de Houffalize 22, 6600 Bastogne, Belgium" ;
+    locn:fullAddress "Chaussï¿½e de Houffalize 22, 6600 Bastogne, Belgium" ;
     locn:poBox "None" ;
     locn:postCode "6600" ;
     locn:postName "Bastogne" .
@@ -3983,10 +3983,10 @@ kbo:e1e48803b83d5672c9e0 a locn:Address ;
 kbo:e2bd60bd0f7b04918dcb a locn:Address ;
     geo:asWKT "POINT (5.587441783926444 50.63100175)"^^geo:wktLiteral ;
     kbo:addressType kbo:TypeOfAddress_BAET ;
-    locn:fullAddress "Rue Grétry 235, 4020 Liège, Belgium" ;
+    locn:fullAddress "Rue Grï¿½try 235, 4020 Liï¿½ge, Belgium" ;
     locn:poBox "None" ;
     locn:postCode "4020" ;
-    locn:postName "Liège" .
+    locn:postName "Liï¿½ge" .
 
 kbo:e39c4a9f080d58b05352 a locn:Address ;
     geo:asWKT "POINT (4.9544257 51.1459854)"^^geo:wktLiteral ;
@@ -4055,7 +4055,7 @@ kbo:ebf5b2f5b08f5e052d67 a locn:Address ;
 kbo:ecae1d55d243a77773a9 a locn:Address ;
     geo:asWKT "POINT (5.3090833 50.2327165)"^^geo:wktLiteral ;
     kbo:addressType kbo:TypeOfAddress_BAET ;
-    locn:fullAddress "Marche, Vieille Route de Liège 10, 6900 Marche-en-Famenne, Belgium" ;
+    locn:fullAddress "Marche, Vieille Route de Liï¿½ge 10, 6900 Marche-en-Famenne, Belgium" ;
     locn:poBox "None" ;
     locn:postCode "6900" ;
     locn:postName "Marche-en-Famenne" .
@@ -4103,10 +4103,10 @@ kbo:edc33d06ceacf5ac1918 a locn:Address ;
 kbo:f1790152468899308464 a locn:Address ;
     geo:asWKT "POINT (5.584801886553502 50.6425311)"^^geo:wktLiteral ;
     kbo:addressType kbo:TypeOfAddress_BAET ;
-    locn:fullAddress "Bld de la Constitution 32, 4020 Liège, Belgium" ;
+    locn:fullAddress "Bld de la Constitution 32, 4020 Liï¿½ge, Belgium" ;
     locn:poBox "None" ;
     locn:postCode "4020" ;
-    locn:postName "Liège" .
+    locn:postName "Liï¿½ge" .
 
 kbo:f22d8cbabeef80a92982 a locn:Address ;
     geo:asWKT "POINT (4.2554376 50.8432334)"^^geo:wktLiteral ;
@@ -4151,7 +4151,7 @@ kbo:f503c3d60911917d0889 a locn:Address ;
 kbo:f54a873642ac51d70fdd a locn:Address ;
     geo:asWKT "POINT (4.4779289837022755 50.421327649999995)"^^geo:wktLiteral ;
     kbo:addressType kbo:TypeOfAddress_BAET ;
-    locn:fullAddress "Chaussée Impériale 61, 6060 Charleroi, Belgium" ;
+    locn:fullAddress "Chaussï¿½e Impï¿½riale 61, 6060 Charleroi, Belgium" ;
     locn:poBox "None" ;
     locn:postCode "6060" ;
     locn:postName "Charleroi" .
@@ -4167,15 +4167,15 @@ kbo:f5cece64f3c880ec2239 a locn:Address ;
 kbo:f5f82bd58b85e2473d92 a locn:Address ;
     geo:asWKT "POINT (4.181767715031317 50.475511499999996)"^^geo:wktLiteral ;
     kbo:addressType kbo:TypeOfAddress_BAET ;
-    locn:fullAddress "Rue du Gazomètre(L.L) 21, 7100 La Louvière, Belgium" ;
+    locn:fullAddress "Rue du Gazomï¿½tre(L.L) 21, 7100 La Louviï¿½re, Belgium" ;
     locn:poBox "None" ;
     locn:postCode "7100" ;
-    locn:postName "La Louvière" .
+    locn:postName "La Louviï¿½re" .
 
 kbo:f637c74852af1fc59211 a locn:Address ;
     geo:asWKT "POINT (4.8330195 51.1808007)"^^geo:wktLiteral ;
     kbo:addressType kbo:TypeOfAddress_BAET ;
-    locn:fullAddress "Belgiëlaan(HRT) 42, 2200 Herentals, Belgium" ;
+    locn:fullAddress "Belgiï¿½laan(HRT) 42, 2200 Herentals, Belgium" ;
     locn:poBox "None" ;
     locn:postCode "2200" ;
     locn:postName "Herentals" .
@@ -4199,7 +4199,7 @@ kbo:f82d53f7019f77c0b691 a locn:Address ;
 kbo:f8e5269f80278534df5f a locn:Address ;
     geo:asWKT "POINT (6.0228575 50.4256838)"^^geo:wktLiteral ;
     kbo:addressType kbo:TypeOfAddress_BAET ;
-    locn:fullAddress "Avenue des Alliés 2, 4960 Malmedy, Belgium" ;
+    locn:fullAddress "Avenue des Alliï¿½s 2, 4960 Malmedy, Belgium" ;
     locn:poBox "None" ;
     locn:postCode "4960" ;
     locn:postName "Malmedy" .

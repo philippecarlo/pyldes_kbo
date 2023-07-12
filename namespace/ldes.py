@@ -1,11 +1,11 @@
 from rdflib.namespace import DefinedNamespace, Namespace
 from rdflib.term import URIRef
 
+
 ##
 # Created from https://github.com/SEMICeu/LinkedDataEventStreams/blob/master/vocabulary.ttl
 ##
 class LDES(DefinedNamespace):
-    
     # classes
     Vocabulary: URIRef
     EventStream: URIRef

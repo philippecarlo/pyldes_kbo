@@ -212,7 +212,7 @@ kbo:00e768b56e187eefbd8c a locn:Address ;
     locn:postName "Dendermonde" .
 
 kbo:01f1214d6e4b41469ce1 a locn:Address ;
-    geo:asWKT "None"^^geo:wktLiteral ;
+    geo:asWKT "POINT (5.6477718 50.685916)"^^geo:wktLiteral ;
     kbo:addressType kbo:TypeOfAddress_BAET ;
     locn:fullAddress "Cour de l'Hôtel de ville 3, 4970 Stavelot, Belgium" ;
     locn:poBox "None" ;
@@ -1379,7 +1379,7 @@ kbo:39d60e34478e5c3b93e4 a locn:Address ;
     locn:postName "Sint-Niklaas" .
 
 kbo:3aaa268254f2808f1b2c a locn:Address ;
-    geo:asWKT "None"^^geo:wktLiteral ;
+    geo:asWKT "POINT (5.6477718 50.685916)"^^geo:wktLiteral ;
     kbo:addressType kbo:TypeOfAddress_BAET ;
     locn:fullAddress "Rue de la Technique 11, 1400 Nivelles, Belgium" ;
     locn:poBox "None" ;
@@ -1707,7 +1707,7 @@ kbo:722af252cafa0a3127ca a locn:Address ;
     locn:postName "Herstal" .
 
 kbo:7266ab807dab1f1dec43 a locn:Address ;
-    geo:asWKT "None"^^geo:wktLiteral ;
+    geo:asWKT "POINT (5.6477718 50.685916)"^^geo:wktLiteral ;
     kbo:addressType kbo:TypeOfAddress_BAET ;
     locn:fullAddress "Koning AlbertII laan 27, 1030 Schaarbeek, Belgium" ;
     locn:poBox "." ;
@@ -1715,7 +1715,7 @@ kbo:7266ab807dab1f1dec43 a locn:Address ;
     locn:postName "Schaarbeek" .
 
 kbo:729b5580a2239ac582e0 a locn:Address ;
-    geo:asWKT "None"^^geo:wktLiteral ;
+    geo:asWKT "POINT (5.6477718 50.685916)"^^geo:wktLiteral ;
     kbo:addressType kbo:TypeOfAddress_BAET ;
     locn:fullAddress "Place des Grands Prés 1, 7000 Mons, Belgium" ;
     locn:poBox "30" ;
@@ -2336,7 +2336,7 @@ kbo:d1f39513a71f9016ca90 a locn:Address ;
     locn:postName "Leuven" .
 
 kbo:d27ea903e187fa6b62e8 a locn:Address ;
-    geo:asWKT "None"^^geo:wktLiteral ;
+    geo:asWKT "POINT (5.6477718 50.685916)"^^geo:wktLiteral ;
     kbo:addressType kbo:TypeOfAddress_BAET ;
     locn:fullAddress "Koning AlbertII laan 27 GLV, 1030 Schaarbeek, Belgium" ;
     locn:poBox "None" ;
@@ -2368,7 +2368,7 @@ kbo:d5509d38e41b762d46f7 a locn:Address ;
     locn:postName "Braine-l'Alleud" .
 
 kbo:d7084f8c09592be4c4fc a locn:Address ;
-    geo:asWKT "None"^^geo:wktLiteral ;
+    geo:asWKT "POINT (5.6477718 50.685916)"^^geo:wktLiteral ;
     kbo:addressType kbo:TypeOfAddress_BAET ;
     locn:fullAddress "Rakestraat 27A, 8750 Wingene, Belgium" ;
     locn:poBox "None" ;
@@ -2456,7 +2456,7 @@ kbo:df8f7a12598f7f6db333 a locn:Address ;
     locn:postName "Hasselt" .
 
 kbo:e08753f376d4b93aa998 a locn:Address ;
-    geo:asWKT "None"^^geo:wktLiteral ;
+    geo:asWKT "POINT (5.6477718 50.685916)"^^geo:wktLiteral ;
     kbo:addressType kbo:TypeOfAddress_BAET ;
     locn:fullAddress "Ed. Schelfhoutstraat 232, 1770 Liedekerke, Belgium" ;
     locn:poBox "None" ;
@@ -2520,7 +2520,7 @@ kbo:ebab8e57d21b2dc9b03f a locn:Address ;
     locn:postName "Kortrijk" .
 
 kbo:eed71eb0f0f3d73490fa a locn:Address ;
-    geo:asWKT "None"^^geo:wktLiteral ;
+    geo:asWKT "POINT (5.6477718 50.685916)"^^geo:wktLiteral ;
     kbo:addressType kbo:TypeOfAddress_BAET ;
     locn:fullAddress "Pater Damiaanstraat 8, 7700 Mouscron, Belgium" ;
     locn:poBox "3" ;
@@ -2600,7 +2600,7 @@ kbo:ff526f21cc84712c52ee a locn:Address ;
     locn:postName "Charleroi" .
 
 kbo:bc1be641749ab0cb440f a locn:Address ;
-    geo:asWKT "None"^^geo:wktLiteral ;
+    geo:asWKT "POINT (5.6477718 50.685916)"^^geo:wktLiteral ;
     kbo:addressType kbo:TypeOfAddress_BAET,
         kbo:TypeOfAddress_REGO ;
     locn:fullAddress "Koning AlbertII laan 27, 1030 Schaarbeek, Belgium" ;

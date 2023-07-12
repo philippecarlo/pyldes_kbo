@@ -1,7 +1,9 @@
 from typing import Dict
-from rdflib import Graph, URIRef, RDF, Literal, BNode
-from pyldes_kbo.namespace.kbo import KBO
+
 from pyldes_kbo.models.kbo_base import KboBase
+from pyldes_kbo.namespace.kbo import KBO
+from rdflib import Graph, URIRef, RDF, Literal, BNode
+
 
 class KboCode(KboBase):
 
@@ -22,8 +24,8 @@ class KboCode(KboBase):
             graph.add((code_ref, KBO.codeDescription, lang_literal))
         return code_ref
 
-    #Filter out the KBO code details
-    #Only keep the reference to the Code
+    # Filter out the KBO code details
+    # Only keep the reference to the Code
     def to_rdf_version(self, graph: Graph, as_blank_node: bool = False) -> URIRef:
         if as_blank_node:
             code_ref = BNode()
